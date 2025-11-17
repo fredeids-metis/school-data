@@ -43,6 +43,28 @@ function ensureDir(dir) {
   }
 }
 
+// Extract plain text from markdown section
+function extractOmFaget(markdown) {
+  const lines = markdown.split('\n');
+  let inOmFaget = false;
+  const omFagetLines = [];
+
+  for (const line of lines) {
+    if (line.startsWith('## Om faget')) {
+      inOmFaget = true;
+      continue;
+    }
+    if (inOmFaget && line.startsWith('##')) {
+      break; // Next section
+    }
+    if (inOmFaget && line.trim()) {
+      omFagetLines.push(line.trim());
+    }
+  }
+
+  return omFagetLines.join(' ');
+}
+
 // Read all programfag markdown files
 function loadCurriculumData() {
   console.log('📚 Loading curriculum data...');
@@ -60,8 +82,30 @@ function loadCurriculumData() {
       lareplan: frontmatter.lareplan,
       beskrivelse: markdown.trim(),
       beskrivelseHTML: marked(markdown.trim()),
+      omFaget: extractOmFaget(markdown),
       generert: frontmatter.generert
     };
+  });
+
+  // Build læreplan mapping for related subjects
+  const lareplanMapping = new Map();
+  programfag.forEach(fag => {
+    if (fag.lareplan) {
+      if (!lareplanMapping.has(fag.lareplan)) {
+        lareplanMapping.set(fag.lareplan, []);
+      }
+      lareplanMapping.get(fag.lareplan).push(fag.title);
+    }
+  });
+
+  // Add related subjects
+  programfag.forEach(fag => {
+    if (fag.lareplan && lareplanMapping.has(fag.lareplan)) {
+      fag.related = lareplanMapping.get(fag.lareplan)
+        .filter(title => title !== fag.title);
+    } else {
+      fag.related = [];
+    }
   });
 
   console.log(`  ✅ Loaded ${programfag.length} programfag\n`);
