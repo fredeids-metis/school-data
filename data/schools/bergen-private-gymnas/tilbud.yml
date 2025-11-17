@@ -1,0 +1,188 @@
+# Bergen Private Gymnas - Fagtilbud
+# Sist oppdatert: 2025-11-17
+
+school: bergen-private-gymnas
+
+# Programfag som tilbys
+# MERK: Dette er alle 33 fag fra curriculum/programfag/
+# Hvis BPG ikke tilbyr alle, fjern de som ikke tilbys
+programfag:
+  # Realfag
+  - fagId: biologi-1
+    vimeo: ""
+    bilde: "bilder/biologi1.jpg"
+    kategori: "realfag"
+
+  - fagId: biologi-2
+    vimeo: ""
+    bilde: "bilder/biologi2.jpg"
+    kategori: "realfag"
+
+  - fagId: fysikk-1
+    vimeo: ""
+    bilde: "bilder/fysikk1.jpg"
+    kategori: "realfag"
+
+  - fagId: fysikk-2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: geofag-1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: geofag-2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: informasjonsteknologi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: informasjonsteknologi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: kjemi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: kjemi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: matematikk-r1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: matematikk-r2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: matematikk-s1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: matematikk-s2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: teknologi-og-forskningslære-1
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  - fagId: teknologi-og-forskningslære-2
+    vimeo: ""
+    bilde: ""
+    kategori: "realfag"
+
+  # Språk
+  - fagId: engelsk-1
+    vimeo: ""
+    bilde: "bilder/engelsk1.jpg"
+    kategori: "språk"
+
+  - fagId: engelsk-2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: engelsk-sprak-litteratur-og-kultur
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: fremmedsprak-niva-i
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: fremmedsprak-niva-ii
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: fremmedsprak-niva-iii
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  # Samfunnsfag
+  - fagId: geografi
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: historie-og-filosofi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: historie-og-filosofi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: medie-og-informasjonskunnskap-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: medie-og-informasjonskunnskap-2
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: politikk-og-menneskerettigheter
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: psykologi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: psykologi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: rett-og-samfunn
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: religion-og-etikk
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: sosiologi-og-sosialantropologi
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  # Økonomi
+  - fagId: okonomi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "økonomi"
+
+# Metadata
+metadata:
+  antallFag: 33
+  sistOppdatert: "2025-11-17"
+  kommentar: "Alle 33 programfag fra LK20 er inkludert. Fjern fag som BPG ikke tilbyr."

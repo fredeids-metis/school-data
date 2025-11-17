@@ -1,0 +1,18 @@
+{
+  "name": "school-data",
+  "version": "1.0.0",
+  "description": "Multi-school curriculum data API for Norwegian VGS schools",
+  "main": "scripts/build-api.js",
+  "scripts": {
+    "build": "node scripts/build-api.js",
+    "fetch": "bash scripts/fetch-curriculum.sh"
+  },
+  "keywords": ["education", "curriculum", "vgs", "norway", "api"],
+  "author": "Fredrik",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "marked": "^11.0.0"
+  }
+}

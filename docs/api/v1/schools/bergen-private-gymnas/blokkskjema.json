@@ -1,0 +1,39 @@
+{
+  "school": "bergen-private-gymnas",
+  "struktur": {
+    "antallBlokker": 4,
+    "navnBlokker": [
+      "Blokk 1",
+      "Blokk 2",
+      "Blokk 3",
+      "Blokk 4"
+    ]
+  },
+  "blokker": {
+    "blokk1": {
+      "navn": "Blokk 1",
+      "fag": []
+    },
+    "blokk2": {
+      "navn": "Blokk 2",
+      "fag": []
+    },
+    "blokk3": {
+      "navn": "Blokk 3",
+      "fag": []
+    },
+    "blokk4": {
+      "navn": "Blokk 4",
+      "fag": []
+    }
+  },
+  "regler": {
+    "forutsetninger": [],
+    "eksklusjoner": []
+  },
+  "metadata": {
+    "skoleaar": "2025-2026",
+    "sistOppdatert": "2025-11-17",
+    "kommentar": "Blokkstruktur er klar, men fagfordeling må fylles inn."
+  }
+}

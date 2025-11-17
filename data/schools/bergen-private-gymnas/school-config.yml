@@ -1,0 +1,43 @@
+# Bergen Private Gymnas - Skolekonfigurasjon
+# Sist oppdatert: 2025-11-17
+
+school:
+  id: bergen-private-gymnas
+  name: "Bergen Private Gymnas"
+  shortName: "BPG"
+
+  # Kontaktinformasjon
+  contact:
+    address: "Nygårdsgaten 112"
+    postalCode: "5008"
+    city: "Bergen"
+    phone: "+47 55 30 87 00"
+    email: "post@bergenprivategymnas.no"
+    website: "https://bergenprivategymnas.no"
+
+  # Visuelle elementer
+  branding:
+    primaryColor: "#003366"      # Mørkeblå (antagelse - kan endres)
+    secondaryColor: "#FFD700"    # Gull (antagelse - kan endres)
+    logo: "assets/logo.png"      # TODO: Legg til logo
+
+  # Sosiale medier
+  social:
+    facebook: ""
+    instagram: ""
+    linkedin: ""
+
+  # Skoletype
+  schoolType: "Privat videregående skole"
+
+  # Studieprogrammer som tilbys
+  programs:
+    - id: "studiespesialisering"
+      name: "Studiespesialisering"
+      active: true
+
+  # Metadata
+  metadata:
+    established: 1966
+    studentCount: ~300    # Estimat
+    description: "Bergen Private Gymnas er en privat videregående skole i Bergen sentrum."

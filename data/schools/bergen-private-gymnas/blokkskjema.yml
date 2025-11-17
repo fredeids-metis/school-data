@@ -1,0 +1,54 @@
+# Bergen Private Gymnas - Blokkskjema
+# Sist oppdatert: 2025-11-17
+
+school: bergen-private-gymnas
+
+# Blokkstruktur
+struktur:
+  antallBlokker: 4
+  navnBlokker:
+    - "Blokk 1"
+    - "Blokk 2"
+    - "Blokk 3"
+    - "Blokk 4"
+
+# Blokkfordeling
+# TODO: Fyll inn når fagfordeling er avklart
+blokker:
+  blokk1:
+    navn: "Blokk 1"
+    fag: []
+    # Eksempel:
+    # - biologi-1
+    # - fysikk-1
+    # - kjemi-1
+
+  blokk2:
+    navn: "Blokk 2"
+    fag: []
+
+  blokk3:
+    navn: "Blokk 3"
+    fag: []
+
+  blokk4:
+    navn: "Blokk 4"
+    fag: []
+
+# Regler og forutsetninger
+regler:
+  # Eksempel på forutsetninger
+  forutsetninger: []
+    # - fag: "matematikk-r2"
+    #   krever: ["matematikk-r1"]
+
+  # Eksempel på eksklusjoner (fag som ikke kan velges samtidig)
+  eksklusjoner: []
+    # - gruppe: ["matematikk-r1", "matematikk-s1"]
+    #   beskrivelse: "Kan ikke velge både R-matte og S-matte"
+
+# Metadata
+metadata:
+  skoleaar: "2025-2026"
+  sistOppdatert: "2025-11-17"
+  kommentar: "Blokkstruktur er klar, men fagfordeling må fylles inn."
