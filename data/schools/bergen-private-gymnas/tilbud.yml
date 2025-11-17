@@ -4,123 +4,117 @@
 school: bergen-private-gymnas
 
 # Programfag som tilbys
-# MERK: Dette er alle 33 fag fra curriculum/programfag/
-# Hvis BPG ikke tilbyr alle, fjern de som ikke tilbys
+# Alle 33 fag fra programfag_lk20.txt
 programfag:
-  # Realfag
-  - fagId: biologi-1
-    vimeo: ""
-    bilde: "bilder/biologi1.jpg"
-    kategori: "realfag"
-
-  - fagId: biologi-2
-    vimeo: ""
-    bilde: "bilder/biologi2.jpg"
-    kategori: "realfag"
-
-  - fagId: fysikk-1
-    vimeo: ""
-    bilde: "bilder/fysikk1.jpg"
-    kategori: "realfag"
-
-  - fagId: fysikk-2
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: geofag-1
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: geofag-2
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: informasjonsteknologi-1
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: informasjonsteknologi-2
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: kjemi-1
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
-  - fagId: kjemi-2
-    vimeo: ""
-    bilde: ""
-    kategori: "realfag"
-
+  # Matematikk
   - fagId: matematikk-r1
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "matematikk"
 
   - fagId: matematikk-r2
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "matematikk"
 
-  - fagId: matematikk-s1
+  - fagId: matematikk-2p
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "matematikk"
 
-  - fagId: matematikk-s2
+  # Naturfag - Biologi
+  - fagId: biologi-1
+    vimeo: ""
+    bilde: "bilder/biologi1.jpg"
+    kategori: "naturfag"
+
+  - fagId: biologi-2
+    vimeo: ""
+    bilde: "bilder/biologi2.jpg"
+    kategori: "naturfag"
+
+  # Naturfag - Fysikk
+  - fagId: fysikk-1
+    vimeo: ""
+    bilde: "bilder/fysikk1.jpg"
+    kategori: "naturfag"
+
+  - fagId: fysikk-2
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "naturfag"
 
-  - fagId: teknologi-og-forskningslære-1
+  # Naturfag - Kjemi
+  - fagId: kjemi-1
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "naturfag"
 
-  - fagId: teknologi-og-forskningslære-2
+  - fagId: kjemi-2
     vimeo: ""
     bilde: ""
-    kategori: "realfag"
+    kategori: "naturfag"
 
-  # Språk
-  - fagId: engelsk-1
-    vimeo: ""
-    bilde: "bilder/engelsk1.jpg"
-    kategori: "språk"
-
-  - fagId: engelsk-2
+  # Informasjonsteknologi
+  - fagId: informasjonsteknologi-1
     vimeo: ""
     bilde: ""
-    kategori: "språk"
+    kategori: "teknologi"
 
-  - fagId: engelsk-sprak-litteratur-og-kultur
+  # Økonomi
+  - fagId: okonomistyring
     vimeo: ""
     bilde: ""
-    kategori: "språk"
+    kategori: "økonomi"
 
-  - fagId: fremmedsprak-niva-i
+  - fagId: okonomi-og-ledelse
     vimeo: ""
     bilde: ""
-    kategori: "språk"
+    kategori: "økonomi"
 
-  - fagId: fremmedsprak-niva-ii
+  - fagId: samfunnsokonomi-1
     vimeo: ""
     bilde: ""
-    kategori: "språk"
+    kategori: "økonomi"
 
-  - fagId: fremmedsprak-niva-iii
+  - fagId: samfunnsokonomi-2
     vimeo: ""
     bilde: ""
-    kategori: "språk"
+    kategori: "økonomi"
+
+  # Bedriftsledelse
+  - fagId: entreprenorskap-og-bedriftsutvikling-1
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: entreprenorskap-og-bedriftsutvikling-2
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: markedsforing-og-ledelse-1
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: markedsforing-og-ledelse-2
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
 
   # Samfunnsfag
-  - fagId: geografi
+  - fagId: sosiologi-og-sosialantropologi
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: sosialkunnskap
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: politikk-og-menneskerettigheter
     vimeo: ""
     bilde: ""
     kategori: "samfunnsfag"
@@ -135,17 +129,12 @@ programfag:
     bilde: ""
     kategori: "samfunnsfag"
 
-  - fagId: medie-og-informasjonskunnskap-1
+  - fagId: rettslaere-1
     vimeo: ""
     bilde: ""
     kategori: "samfunnsfag"
 
-  - fagId: medie-og-informasjonskunnskap-2
-    vimeo: ""
-    bilde: ""
-    kategori: "samfunnsfag"
-
-  - fagId: politikk-og-menneskerettigheter
+  - fagId: rettslaere-2
     vimeo: ""
     bilde: ""
     kategori: "samfunnsfag"
@@ -160,29 +149,41 @@ programfag:
     bilde: ""
     kategori: "samfunnsfag"
 
-  - fagId: rett-og-samfunn
+  # Språk
+  - fagId: engelsk-1
     vimeo: ""
-    bilde: ""
-    kategori: "samfunnsfag"
+    bilde: "bilder/engelsk1.jpg"
+    kategori: "språk"
 
-  - fagId: religion-og-etikk
+  - fagId: engelsk-2
     vimeo: ""
     bilde: ""
-    kategori: "samfunnsfag"
+    kategori: "språk"
 
-  - fagId: sosiologi-og-sosialantropologi
+  # Musikk
+  - fagId: musikk-fordypning-1
     vimeo: ""
     bilde: ""
-    kategori: "samfunnsfag"
+    kategori: "musikk"
 
-  # Økonomi
-  - fagId: okonomi-1
+  - fagId: musikk-fordypning-2
     vimeo: ""
     bilde: ""
-    kategori: "økonomi"
+    kategori: "musikk"
+
+  # Kunst og design
+  - fagId: bilde
+    vimeo: ""
+    bilde: "bilder/bilde.jpg"
+    kategori: "kunst"
+
+  - fagId: grafisk-design
+    vimeo: ""
+    bilde: ""
+    kategori: "kunst"
 
 # Metadata
 metadata:
   antallFag: 33
   sistOppdatert: "2025-11-17"
-  kommentar: "Alle 33 programfag fra LK20 er inkludert. Fjern fag som BPG ikke tilbyr."
+  kommentar: "Alle 33 programfag fra programfag_lk20.txt er inkludert."
