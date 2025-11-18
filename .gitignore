@@ -5,5 +5,9 @@ node_modules/
 .vscode/
 .idea/
 
+# Development tools
+cors-server.py
+test-*.html
+
 # Keep docs/ (used for GitHub Pages)
 # !docs/
