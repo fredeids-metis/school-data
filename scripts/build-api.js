@@ -6,11 +6,16 @@
  * Output structure:
  * docs/api/v1/
  * ├── curriculum/
- * │   └── all-programfag.json
+ * │   ├── all-programfag.json (DEPRECATED - flat structure)
+ * │   ├── valgfrie-programfag.json
+ * │   ├── obligatoriske-programfag.json
+ * │   ├── fellesfag.json
+ * │   └── all.json (v2 - nested structure)
  * └── schools/
  *     └── {school-id}/
  *         ├── config.json
- *         ├── programfag.json
+ *         ├── programfag.json (DEPRECATED)
+ *         ├── curriculum.json (v2 - all categories)
  *         ├── blokkskjema.json
  *         ├── full.json
  *         └── assets/ (copied from data/)
@@ -24,8 +29,10 @@ const { marked } = require('marked');
 
 // Paths
 const DATA_DIR = path.join(__dirname, '../data');
-const CURRICULUM_PROGRAMFAG_DIR = path.join(DATA_DIR, 'curriculum/programfag');
-const CURRICULUM_FELLESFAG_DIR = path.join(DATA_DIR, 'curriculum/fellesfag');
+const CURRICULUM_DIR = path.join(DATA_DIR, 'curriculum');
+const VALGFRIE_PROGRAMFAG_DIR = path.join(CURRICULUM_DIR, 'valgfrie-programfag');
+const OBLIGATORISKE_PROGRAMFAG_DIR = path.join(CURRICULUM_DIR, 'obligatoriske-programfag');
+const FELLESFAG_DIR = path.join(CURRICULUM_DIR, 'fellesfag');
 const SCHOOLS_DIR = path.join(DATA_DIR, 'schools');
 const OUTPUT_DIR = path.join(__dirname, '../docs/api/v1');
 
@@ -34,7 +41,7 @@ const GITHUB_USER = 'fredeids-metis';
 const REPO_NAME = 'school-data';
 const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/api/v1`;
 
-console.log('🚀 Building API...\n');
+console.log('🚀 Building API (v2 with new structure)...\n');
 
 // Create output directories
 function ensureDir(dir) {
@@ -66,7 +73,7 @@ function extractOmFaget(markdown) {
 }
 
 // Read markdown files from a directory
-function loadMarkdownFiles(directory, type = 'fag') {
+function loadMarkdownFiles(directory, defaultType = 'programfag') {
   if (!fs.existsSync(directory)) {
     console.log(`  ⚠️  Directory ${directory} does not exist, skipping...`);
     return [];
@@ -84,33 +91,39 @@ function loadMarkdownFiles(directory, type = 'fag') {
       title: frontmatter.title,
       fagkode: frontmatter.fagkode,
       lareplan: frontmatter.lareplan,
+      type: frontmatter.type || defaultType, // Use frontmatter type if available
+      program: frontmatter.program || null, // For obligatoriske programfag
+      obligatorisk: frontmatter.obligatorisk || false,
+      erstatbar: frontmatter.erstatbar || false,
+      trinn: frontmatter.trinn || null,
       beskrivelse: markdown.trim(),
       beskrivelseHTML: marked(markdown.trim()),
       omFaget: extractOmFaget(markdown),
-      generert: frontmatter.generert,
-      type: type // 'programfag' or 'fellesfag'
+      generert: frontmatter.generert
     };
   });
 }
 
-// Read all curriculum markdown files (both programfag and fellesfag)
+// Read all curriculum markdown files
 function loadCurriculumData() {
   console.log('📚 Loading curriculum data...');
 
-  // Load programfag
-  const programfag = loadMarkdownFiles(CURRICULUM_PROGRAMFAG_DIR, 'programfag');
-  console.log(`  ✅ Loaded ${programfag.length} programfag`);
+  // Load valgfrie programfag
+  const valgfrieProgramfag = loadMarkdownFiles(VALGFRIE_PROGRAMFAG_DIR, 'programfag');
+  console.log(`  ✅ Loaded ${valgfrieProgramfag.length} valgfrie programfag`);
+
+  // Load obligatoriske programfag
+  const obligatoriskeProgramfag = loadMarkdownFiles(OBLIGATORISKE_PROGRAMFAG_DIR, 'obligatorisk-programfag');
+  console.log(`  ✅ Loaded ${obligatoriskeProgramfag.length} obligatoriske programfag`);
 
   // Load fellesfag
-  const fellesfag = loadMarkdownFiles(CURRICULUM_FELLESFAG_DIR, 'fellesfag');
-  if (fellesfag.length > 0) {
-    console.log(`  ✅ Loaded ${fellesfag.length} fellesfag`);
-  }
+  const fellesfag = loadMarkdownFiles(FELLESFAG_DIR, 'fellesfag');
+  console.log(`  ✅ Loaded ${fellesfag.length} fellesfag`);
 
   // Combine all curriculum data for processing
-  const allFag = [...programfag, ...fellesfag];
+  const allFag = [...valgfrieProgramfag, ...obligatoriskeProgramfag, ...fellesfag];
 
-  // Build læreplan mapping for related subjects (across both types)
+  // Build læreplan mapping for related subjects (across all types)
   const lareplanMapping = new Map();
   allFag.forEach(fag => {
     if (fag.lareplan) {
@@ -132,7 +145,12 @@ function loadCurriculumData() {
     }
   });
 
-  return allFag;
+  return {
+    valgfrieProgramfag,
+    obligatoriskeProgramfag,
+    fellesfag,
+    allFag
+  };
 }
 
 // Load YAML config file
@@ -166,31 +184,102 @@ function copyDir(src, dest) {
 }
 
 // Build curriculum API (shared by all schools)
-function buildCurriculumAPI(programfag) {
+function buildCurriculumAPI(curriculumData) {
   console.log('🏗️  Building curriculum API...');
   const outputDir = path.join(OUTPUT_DIR, 'curriculum');
   ensureDir(outputDir);
 
-  const output = {
+  const { valgfrieProgramfag, obligatoriskeProgramfag, fellesfag, allFag } = curriculumData;
+
+  // v2 API - Nested structure (RECOMMENDED)
+  const v2Output = {
     metadata: {
       generatedAt: new Date().toISOString(),
-      count: programfag.length,
-      version: 'v1'
+      version: 'v2',
+      counts: {
+        valgfrieProgramfag: valgfrieProgramfag.length,
+        obligatoriskeProgramfag: obligatoriskeProgramfag.length,
+        fellesfag: fellesfag.length,
+        total: allFag.length
+      }
     },
-    programfag
+    curriculum: {
+      valgfrieProgramfag,
+      obligatoriskeProgramfag,
+      fellesfag
+    }
+  };
+
+  fs.writeFileSync(
+    path.join(outputDir, 'all.json'),
+    JSON.stringify(v2Output, null, 2)
+  );
+  console.log(`  ✅ Created curriculum/all.json (v2 - nested)`);
+
+  // Individual category files
+  fs.writeFileSync(
+    path.join(outputDir, 'valgfrie-programfag.json'),
+    JSON.stringify({
+      metadata: {
+        generatedAt: new Date().toISOString(),
+        count: valgfrieProgramfag.length,
+        version: 'v2'
+      },
+      valgfrieProgramfag
+    }, null, 2)
+  );
+  console.log(`  ✅ Created curriculum/valgfrie-programfag.json`);
+
+  fs.writeFileSync(
+    path.join(outputDir, 'obligatoriske-programfag.json'),
+    JSON.stringify({
+      metadata: {
+        generatedAt: new Date().toISOString(),
+        count: obligatoriskeProgramfag.length,
+        version: 'v2'
+      },
+      obligatoriskeProgramfag
+    }, null, 2)
+  );
+  console.log(`  ✅ Created curriculum/obligatoriske-programfag.json`);
+
+  fs.writeFileSync(
+    path.join(outputDir, 'fellesfag.json'),
+    JSON.stringify({
+      metadata: {
+        generatedAt: new Date().toISOString(),
+        count: fellesfag.length,
+        version: 'v2'
+      },
+      fellesfag
+    }, null, 2)
+  );
+  console.log(`  ✅ Created curriculum/fellesfag.json`);
+
+  // v1 API - Flat structure (DEPRECATED but kept for backwards compatibility)
+  const v1Output = {
+    metadata: {
+      generatedAt: new Date().toISOString(),
+      count: allFag.length,
+      version: 'v1',
+      deprecated: true,
+      message: 'Use curriculum/all.json (v2) for new implementations'
+    },
+    programfag: allFag // All fag in one flat array
   };
 
   fs.writeFileSync(
     path.join(outputDir, 'all-programfag.json'),
-    JSON.stringify(output, null, 2)
+    JSON.stringify(v1Output, null, 2)
   );
-
-  console.log(`  ✅ Created curriculum/all-programfag.json\n`);
+  console.log(`  ⚠️  Created curriculum/all-programfag.json (v1 - DEPRECATED)\n`);
 }
 
 // Build school-specific API
-function buildSchoolAPI(schoolId, programfag) {
+function buildSchoolAPI(schoolId, curriculumData) {
   console.log(`🏫 Building API for school: ${schoolId}...`);
+
+  const { valgfrieProgramfag, obligatoriskeProgramfag, fellesfag, allFag } = curriculumData;
 
   const schoolDataDir = path.join(SCHOOLS_DIR, schoolId);
   const schoolOutputDir = path.join(OUTPUT_DIR, 'schools', schoolId);
@@ -214,8 +303,8 @@ function buildSchoolAPI(schoolId, programfag) {
   console.log(`  ✅ Created config.json`);
 
   // Helper function to enrich fag data
-  const enrichFag = (fagTilbud, fagType = 'programfag') => {
-    const curriculumData = programfag.find(f => f.id === fagTilbud.fagId);
+  const enrichFag = (fagTilbud, sourceArray, fagType) => {
+    const curriculumData = sourceArray.find(f => f.id === fagTilbud.fagId);
 
     if (!curriculumData) {
       console.log(`  ⚠️  Warning: ${fagType} '${fagTilbud.fagId}' not found in curriculum data`);
@@ -233,73 +322,102 @@ function buildSchoolAPI(schoolId, programfag) {
     };
   };
 
-  // 2. Programfag (enrich with school-specific data)
-  if (tilbud && tilbud.programfag) {
-    const enrichedProgramfag = tilbud.programfag
-      .map(fag => enrichFag(fag, 'programfag'))
+  // 2. v2 API - Nested curriculum (RECOMMENDED)
+  const v2CurriculumOutput = {
+    metadata: {
+      school: schoolId,
+      generatedAt: new Date().toISOString(),
+      version: 'v2'
+    },
+    curriculum: {
+      valgfrieProgramfag: [],
+      obligatoriskeProgramfag: [],
+      fellesfag: []
+    }
+  };
+
+  // Enrich valgfrie programfag
+  if (tilbud && tilbud.valgfrieProgramfag) {
+    v2CurriculumOutput.curriculum.valgfrieProgramfag = tilbud.valgfrieProgramfag
+      .map(fag => enrichFag(fag, valgfrieProgramfag, 'valgfri programfag'))
+      .filter(Boolean);
+  } else if (tilbud && tilbud.programfag) {
+    // Backwards compatibility - old structure
+    v2CurriculumOutput.curriculum.valgfrieProgramfag = tilbud.programfag
+      .map(fag => enrichFag(fag, valgfrieProgramfag, 'programfag'))
+      .filter(Boolean);
+  }
+
+  // Enrich obligatoriske programfag
+  if (tilbud && tilbud.obligatoriskeProgramfag) {
+    v2CurriculumOutput.curriculum.obligatoriskeProgramfag = tilbud.obligatoriskeProgramfag
+      .map(fag => enrichFag(fag, obligatoriskeProgramfag, 'obligatorisk programfag'))
+      .filter(Boolean);
+  }
+
+  // Enrich fellesfag
+  if (tilbud && tilbud.fellesfag) {
+    v2CurriculumOutput.curriculum.fellesfag = tilbud.fellesfag
+      .map(fag => enrichFag(fag, fellesfag, 'fellesfag'))
+      .filter(Boolean);
+  }
+
+  // Add counts to metadata
+  v2CurriculumOutput.metadata.counts = {
+    valgfrieProgramfag: v2CurriculumOutput.curriculum.valgfrieProgramfag.length,
+    obligatoriskeProgramfag: v2CurriculumOutput.curriculum.obligatoriskeProgramfag.length,
+    fellesfag: v2CurriculumOutput.curriculum.fellesfag.length,
+    total: v2CurriculumOutput.curriculum.valgfrieProgramfag.length +
+           v2CurriculumOutput.curriculum.obligatoriskeProgramfag.length +
+           v2CurriculumOutput.curriculum.fellesfag.length
+  };
+
+  fs.writeFileSync(
+    path.join(schoolOutputDir, 'curriculum.json'),
+    JSON.stringify(v2CurriculumOutput, null, 2)
+  );
+  console.log(`  ✅ Created curriculum.json (v2 - nested, ${v2CurriculumOutput.metadata.counts.total} fag)`);
+
+  // 3. v1 API - Flat programfag (DEPRECATED)
+  if (tilbud && (tilbud.programfag || tilbud.valgfrieProgramfag)) {
+    const fagList = tilbud.valgfrieProgramfag || tilbud.programfag;
+    const enrichedProgramfag = fagList
+      .map(fag => enrichFag(fag, allFag, 'programfag'))
       .filter(Boolean);
 
-    const programfagOutput = {
+    const v1ProgramfagOutput = {
       metadata: {
         school: schoolId,
         generatedAt: new Date().toISOString(),
         count: enrichedProgramfag.length,
-        version: 'v1'
+        version: 'v1',
+        deprecated: true,
+        message: 'Use curriculum.json (v2) for new implementations'
       },
       programfag: enrichedProgramfag
     };
 
     fs.writeFileSync(
       path.join(schoolOutputDir, 'programfag.json'),
-      JSON.stringify(programfagOutput, null, 2)
+      JSON.stringify(v1ProgramfagOutput, null, 2)
     );
-    console.log(`  ✅ Created programfag.json (${enrichedProgramfag.length} fag)`);
+    console.log(`  ⚠️  Created programfag.json (v1 - DEPRECATED)`);
   }
 
-  // 2b. Fellesfag (enrich with school-specific data)
-  if (tilbud && tilbud.fellesfag && tilbud.fellesfag.length > 0) {
-    const enrichedFellesfag = tilbud.fellesfag
-      .map(fag => enrichFag(fag, 'fellesfag'))
-      .filter(Boolean);
-
-    const fellesfagOutput = {
-      metadata: {
-        school: schoolId,
-        generatedAt: new Date().toISOString(),
-        count: enrichedFellesfag.length,
-        version: 'v1'
-      },
-      fellesfag: enrichedFellesfag
-    };
-
-    fs.writeFileSync(
-      path.join(schoolOutputDir, 'fellesfag.json'),
-      JSON.stringify(fellesfagOutput, null, 2)
-    );
-    console.log(`  ✅ Created fellesfag.json (${enrichedFellesfag.length} fag)`);
-  }
-
-  // 3. Blokkskjema (enrich with kategori from tilbud)
+  // 4. Blokkskjema (enrich with kategori from tilbud)
   if (blokkskjema) {
-    // Create a lookup map for kategori (from both programfag and fellesfag)
+    // Create a lookup map for kategori (from all categories)
     const kategoriMap = new Map();
     if (tilbud) {
-      // Add programfag categories
-      if (tilbud.programfag) {
-        tilbud.programfag.forEach(fag => {
-          if (fag.kategori) {
-            kategoriMap.set(fag.fagId, fag.kategori);
-          }
-        });
-      }
-      // Add fellesfag categories
-      if (tilbud.fellesfag) {
-        tilbud.fellesfag.forEach(fag => {
-          if (fag.kategori) {
-            kategoriMap.set(fag.fagId, fag.kategori);
-          }
-        });
-      }
+      ['valgfrieProgramfag', 'programfag', 'obligatoriskeProgramfag', 'fellesfag'].forEach(key => {
+        if (tilbud[key]) {
+          tilbud[key].forEach(fag => {
+            if (fag.kategori) {
+              kategoriMap.set(fag.fagId, fag.kategori);
+            }
+          });
+        }
+      });
     }
 
     // Enrich blokkskjema with kategori
@@ -323,12 +441,13 @@ function buildSchoolAPI(schoolId, programfag) {
     console.log(`  ✅ Created blokkskjema.json`);
   }
 
-  // 4. Full combined data
+  // 5. Full combined data
   const fullOutput = {
     school: schoolConfig,
     tilbud: tilbud ? {
-      programfag: tilbud.programfag ? tilbud.programfag.map(t => t.fagId) : [],
-      fellesfag: tilbud.fellesfag ? tilbud.fellesfag.map(t => t.fagId) : [],
+      valgfrieProgramfag: (tilbud.valgfrieProgramfag || tilbud.programfag || []).map(t => t.fagId),
+      obligatoriskeProgramfag: (tilbud.obligatoriskeProgramfag || []).map(t => t.fagId),
+      fellesfag: (tilbud.fellesfag || []).map(t => t.fagId),
       metadata: tilbud.metadata
     } : null,
     blokkskjema
@@ -353,11 +472,11 @@ function buildSchoolAPI(schoolId, programfag) {
 
 // Main build process
 function build() {
-  // Load curriculum data (both programfag and fellesfag)
-  const allCurriculumFag = loadCurriculumData();
+  // Load curriculum data (all three categories)
+  const curriculumData = loadCurriculumData();
 
   // Build curriculum API
-  buildCurriculumAPI(allCurriculumFag);
+  buildCurriculumAPI(curriculumData);
 
   // Build school-specific APIs
   const schools = fs.readdirSync(SCHOOLS_DIR).filter(f => {
@@ -365,14 +484,15 @@ function build() {
   });
 
   schools.forEach(schoolId => {
-    buildSchoolAPI(schoolId, allCurriculumFag);
+    buildSchoolAPI(schoolId, curriculumData);
   });
 
   console.log('✨ Build complete!\n');
   console.log(`📍 API available at: ${BASE_URL}/`);
-  console.log(`   - Curriculum: ${BASE_URL}/curriculum/all-programfag.json`);
+  console.log(`   - Curriculum (v2): ${BASE_URL}/curriculum/all.json`);
+  console.log(`   - Curriculum (v1 DEPRECATED): ${BASE_URL}/curriculum/all-programfag.json`);
   schools.forEach(schoolId => {
-    console.log(`   - ${schoolId}: ${BASE_URL}/schools/${schoolId}/programfag.json`);
+    console.log(`   - ${schoolId} (v2): ${BASE_URL}/schools/${schoolId}/curriculum.json`);
   });
 }
 

@@ -1,11 +1,15 @@
 # Bergen Private Gymnas - Fagtilbud
-# Sist oppdatert: 2025-11-17
+# Sist oppdatert: 2025-11-20
+# Struktur: v2 - Nested categories (valgfrieProgramfag, obligatoriskeProgramfag, fellesfag)
 
 school: bergen-private-gymnas
 
-# Programfag som tilbys
-# Alle 33 fag fra programfag_lk20.txt
-programfag:
+# ========================================
+# VALGFRIE PROGRAMFAG
+# ========================================
+# Programfag som elever kan velge innenfor studiespesialisering
+
+valgfrieProgramfag:
   # Matematikk
   - fagId: matematikk-r1
     vimeo: ""
@@ -160,7 +164,7 @@ programfag:
     bilde: ""
     kategori: "språk"
 
-  # Musikk
+  # Musikk fordypning (valgfri)
   - fagId: musikk-fordypning-1
     vimeo: ""
     bilde: ""
@@ -182,31 +186,134 @@ programfag:
     bilde: ""
     kategori: "kunst"
 
-  # Fellesfag (obligatoriske)
-  - fagId: historie
+# ========================================
+# OBLIGATORISKE PROGRAMFAG
+# ========================================
+# Felles programfag som er obligatoriske for elever i spesifikke programmer
+
+obligatoriskeProgramfag:
+  # Medier og kommunikasjon (6 fag)
+  - fagId: mediesamfunnet-1
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  - fagId: medieuttrykk-1
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  - fagId: mediesamfunnet-2
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  - fagId: medieuttrykk-2
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  - fagId: mediesamfunnet-3
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  - fagId: medieuttrykk-3
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+    program: "medier-kommunikasjon"
+
+  # Musikk, dans og drama (10 fag)
+  - fagId: musikk-dans-og-drama
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: ergonomi-og-bevegelse-1
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: instrument-kor-samspill-1
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: musikk-i-perspektiv-1
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: lytting
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: ergonomi-og-bevegelse-2
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: instruksjon-og-ledelse
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: instrument-kor-samspill-2
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: musikk-i-perspektiv-2
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+  - fagId: musikk
+    vimeo: ""
+    bilde: ""
+    kategori: "musikk"
+    program: "musikk-dans-drama"
+
+# ========================================
+# FELLESFAG
+# ========================================
+# Obligatoriske fag for alle elever uavhengig av programområde
+
+fellesfag:
+  # Historie (VG3) - Obligatorisk fellesfag
+  - fagId: historie-vg3
     vimeo: ""
     bilde: ""
     kategori: "fellesfag"
 
-  - fagId: spansk-1-2
+  # Spansk I+II (VG3) - Betinget obligatorisk (for elever uten fremmedspråk i grunnskolen)
+  - fagId: spansk-i-ii-vg3
     vimeo: ""
     bilde: ""
     kategori: "språk"
 
-# Fellesfag (obligatoriske fag)
-# Disse fagene er påkrevd for alle elever uavhengig av programområde
-fellesfag:
-  # Tom foreløpig - kan fylles med norsk, matematikk, historie, etc.
-  # Eksempel struktur:
-  # - fagId: norsk
-  #   vimeo: ""
-  #   bilde: ""
-  #   kategori: "språk"
-
 # Metadata
 metadata:
-  antallProgramfag: 33
-  antallFellesfag: 0
-  totaltAntallFag: 33
+  antallValgfrieProgramfag: 33
+  antallObligatoriskeProgramfag: 16
+  antallFellesfag: 2
+  totaltAntallFag: 51
   sistOppdatert: "2025-11-20"
-  kommentar: "Fellesfag-kategori lagt til, men tom foreløpig. Historie er flyttet til programfag."
+  versjon: "v2"
+  kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama"

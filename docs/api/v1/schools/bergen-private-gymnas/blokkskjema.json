@@ -71,7 +71,7 @@
         {
           "id": "historie",
           "vg3Only": true,
-          "kategori": "fellesfag"
+          "kategori": null
         }
       ]
     },
@@ -136,7 +136,7 @@
         {
           "id": "historie",
           "vg3Only": true,
-          "kategori": "fellesfag"
+          "kategori": null
         }
       ]
     },
@@ -201,7 +201,7 @@
         {
           "id": "historie",
           "vg3Only": true,
-          "kategori": "fellesfag"
+          "kategori": null
         }
       ]
     },
@@ -256,12 +256,12 @@
         {
           "id": "historie",
           "vg3Only": true,
-          "kategori": "fellesfag"
+          "kategori": null
         },
         {
           "id": "spansk-1-2",
           "vg3Only": true,
-          "kategori": "språk"
+          "kategori": null
         }
       ]
     }

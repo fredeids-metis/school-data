@@ -3,6 +3,10 @@ id: matematikk-2p
 title: Matematikk 2P
 fagkode: MAT1023
 lareplan: MAT05-04
+type: ["fellesfag", "programfag"]
+obligatorisk: true
+erstatbar: true
+trinn: vg2
 vimeo: ""
 generert: 2025-11-14
 ---

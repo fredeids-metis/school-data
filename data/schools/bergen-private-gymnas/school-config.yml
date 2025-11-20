@@ -34,6 +34,17 @@ school:
   programs:
     - id: "studiespesialisering"
       name: "Studiespesialisering"
+      programomrade: "realfag"
+      active: true
+
+    - id: "medier-kommunikasjon"
+      name: "Medier og kommunikasjon"
+      programomrade: "medier-kommunikasjon"
+      active: true
+
+    - id: "musikk-dans-drama"
+      name: "Musikk, dans og drama"
+      programomrade: "musikk"
       active: true
 
   # Metadata

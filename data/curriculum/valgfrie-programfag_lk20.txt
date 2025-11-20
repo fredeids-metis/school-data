@@ -75,5 +75,10 @@ Bilde;MOK3008;MOK04‑02
 Grafisk design;MOK3010;MOK06-02
 
 # ========================================
-# TOTALT: 32 PROGRAMFAG
+# INFORMASJONSTEKNOLOGI (1 fag)
+# ========================================
+Informasjonsteknologi 1;REA3048;INF01‑03
+
+# ========================================
+# TOTALT: 33 VALGFRIE PROGRAMFAG
 # ========================================

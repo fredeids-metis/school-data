@@ -27,6 +27,19 @@
         {
           "id": "studiespesialisering",
           "name": "Studiespesialisering",
+          "programomrade": "realfag",
+          "active": true
+        },
+        {
+          "id": "medier-kommunikasjon",
+          "name": "Medier og kommunikasjon",
+          "programomrade": "medier-kommunikasjon",
+          "active": true
+        },
+        {
+          "id": "musikk-dans-drama",
+          "name": "Musikk, dans og drama",
+          "programomrade": "musikk",
           "active": true
         }
       ],
@@ -38,7 +51,7 @@
     }
   },
   "tilbud": {
-    "programfag": [
+    "valgfrieProgramfag": [
       "matematikk-r1",
       "matematikk-r2",
       "matematikk-2p",
@@ -71,17 +84,38 @@
       "musikk-fordypning-1",
       "musikk-fordypning-2",
       "bilde",
-      "grafisk-design",
-      "historie",
-      "spansk-1-2"
+      "grafisk-design"
     ],
-    "fellesfag": [],
+    "obligatoriskeProgramfag": [
+      "mediesamfunnet-1",
+      "medieuttrykk-1",
+      "mediesamfunnet-2",
+      "medieuttrykk-2",
+      "mediesamfunnet-3",
+      "medieuttrykk-3",
+      "musikk-dans-og-drama",
+      "ergonomi-og-bevegelse-1",
+      "instrument-kor-samspill-1",
+      "musikk-i-perspektiv-1",
+      "lytting",
+      "ergonomi-og-bevegelse-2",
+      "instruksjon-og-ledelse",
+      "instrument-kor-samspill-2",
+      "musikk-i-perspektiv-2",
+      "musikk"
+    ],
+    "fellesfag": [
+      "historie-vg3",
+      "spansk-i-ii-vg3"
+    ],
     "metadata": {
-      "antallProgramfag": 33,
-      "antallFellesfag": 0,
-      "totaltAntallFag": 33,
+      "antallValgfrieProgramfag": 33,
+      "antallObligatoriskeProgramfag": 16,
+      "antallFellesfag": 2,
+      "totaltAntallFag": 51,
       "sistOppdatert": "2025-11-20",
-      "kommentar": "Fellesfag-kategori lagt til, men tom foreløpig. Historie er flyttet til programfag."
+      "versjon": "v2",
+      "kommentar": "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama"
     }
   },
   "blokkskjema": {
