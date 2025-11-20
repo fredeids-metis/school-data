@@ -24,7 +24,8 @@ const { marked } = require('marked');
 
 // Paths
 const DATA_DIR = path.join(__dirname, '../data');
-const CURRICULUM_DIR = path.join(DATA_DIR, 'curriculum/programfag');
+const CURRICULUM_PROGRAMFAG_DIR = path.join(DATA_DIR, 'curriculum/programfag');
+const CURRICULUM_FELLESFAG_DIR = path.join(DATA_DIR, 'curriculum/fellesfag');
 const SCHOOLS_DIR = path.join(DATA_DIR, 'schools');
 const OUTPUT_DIR = path.join(__dirname, '../docs/api/v1');
 
@@ -64,13 +65,17 @@ function extractOmFaget(markdown) {
   return omFagetLines.join(' ');
 }
 
-// Read all programfag markdown files
-function loadCurriculumData() {
-  console.log('📚 Loading curriculum data...');
-  const files = fs.readdirSync(CURRICULUM_DIR).filter(f => f.endsWith('.md'));
+// Read markdown files from a directory
+function loadMarkdownFiles(directory, type = 'fag') {
+  if (!fs.existsSync(directory)) {
+    console.log(`  ⚠️  Directory ${directory} does not exist, skipping...`);
+    return [];
+  }
 
-  const programfag = files.map(file => {
-    const filePath = path.join(CURRICULUM_DIR, file);
+  const files = fs.readdirSync(directory).filter(f => f.endsWith('.md'));
+
+  return files.map(file => {
+    const filePath = path.join(directory, file);
     const content = fs.readFileSync(filePath, 'utf8');
     const { data: frontmatter, content: markdown } = matter(content);
 
@@ -82,13 +87,32 @@ function loadCurriculumData() {
       beskrivelse: markdown.trim(),
       beskrivelseHTML: marked(markdown.trim()),
       omFaget: extractOmFaget(markdown),
-      generert: frontmatter.generert
+      generert: frontmatter.generert,
+      type: type // 'programfag' or 'fellesfag'
     };
   });
+}
 
-  // Build læreplan mapping for related subjects
+// Read all curriculum markdown files (both programfag and fellesfag)
+function loadCurriculumData() {
+  console.log('📚 Loading curriculum data...');
+
+  // Load programfag
+  const programfag = loadMarkdownFiles(CURRICULUM_PROGRAMFAG_DIR, 'programfag');
+  console.log(`  ✅ Loaded ${programfag.length} programfag`);
+
+  // Load fellesfag
+  const fellesfag = loadMarkdownFiles(CURRICULUM_FELLESFAG_DIR, 'fellesfag');
+  if (fellesfag.length > 0) {
+    console.log(`  ✅ Loaded ${fellesfag.length} fellesfag`);
+  }
+
+  // Combine all curriculum data for processing
+  const allFag = [...programfag, ...fellesfag];
+
+  // Build læreplan mapping for related subjects (across both types)
   const lareplanMapping = new Map();
-  programfag.forEach(fag => {
+  allFag.forEach(fag => {
     if (fag.lareplan) {
       if (!lareplanMapping.has(fag.lareplan)) {
         lareplanMapping.set(fag.lareplan, []);
@@ -97,18 +121,18 @@ function loadCurriculumData() {
     }
   });
 
-  // Add related subjects
-  programfag.forEach(fag => {
+  // Add related subjects to all fag
+  allFag.forEach(fag => {
     if (fag.lareplan && lareplanMapping.has(fag.lareplan)) {
-      fag.related = lareplanMapping.get(fag.lareplan)
+      const related = lareplanMapping.get(fag.lareplan)
         .filter(title => title !== fag.title);
+      fag.related = related.length > 0 ? related : [];
     } else {
       fag.related = [];
     }
   });
 
-  console.log(`  ✅ Loaded ${programfag.length} programfag\n`);
-  return programfag;
+  return allFag;
 }
 
 // Load YAML config file
@@ -329,11 +353,11 @@ function buildSchoolAPI(schoolId, programfag) {
 
 // Main build process
 function build() {
-  // Load curriculum data
-  const programfag = loadCurriculumData();
+  // Load curriculum data (both programfag and fellesfag)
+  const allCurriculumFag = loadCurriculumData();
 
   // Build curriculum API
-  buildCurriculumAPI(programfag);
+  buildCurriculumAPI(allCurriculumFag);
 
   // Build school-specific APIs
   const schools = fs.readdirSync(SCHOOLS_DIR).filter(f => {
@@ -341,7 +365,7 @@ function build() {
   });
 
   schools.forEach(schoolId => {
-    buildSchoolAPI(schoolId, programfag);
+    buildSchoolAPI(schoolId, allCurriculumFag);
   });
 
   console.log('✨ Build complete!\n');
