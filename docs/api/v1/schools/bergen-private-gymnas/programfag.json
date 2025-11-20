@@ -1,8 +1,8 @@
 {
   "metadata": {
     "school": "bergen-private-gymnas",
-    "generatedAt": "2025-11-17T14:43:03.472Z",
-    "count": 33,
+    "generatedAt": "2025-11-20T09:55:39.814Z",
+    "count": 35,
     "version": "v1"
   },
   "programfag": [
@@ -519,6 +519,34 @@
       "vimeo": null,
       "bilde": null,
       "kategori": "kunst"
+    },
+    {
+      "id": "historie",
+      "title": "Historie",
+      "fagkode": "HIS01-03",
+      "lareplan": "HIS01-03",
+      "beskrivelse": "## Om faget\n\nHistorie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.\n\n## Kompetansemål\n\n*Dette er et obligatorisk fellesfag. Kompetansemål er definert i læreplanen for Historie (HIS01-03).*\n\n## Kjerneelementer\n\n*Dette er et obligatorisk fellesfag. Kjerneelementer er definert i læreplanen for Historie (HIS01-03).*\n\n## Ressurser\n\n- [Læreplan Historie VG3](https://www.udir.no/lk20/his01-03)",
+      "beskrivelseHTML": "<h2>Om faget</h2>\n<p>Historie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.</p>\n<h2>Kompetansemål</h2>\n<p><em>Dette er et obligatorisk fellesfag. Kompetansemål er definert i læreplanen for Historie (HIS01-03).</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Dette er et obligatorisk fellesfag. Kjerneelementer er definert i læreplanen for Historie (HIS01-03).</em></p>\n<h2>Ressurser</h2>\n<ul>\n<li><a href=\"https://www.udir.no/lk20/his01-03\">Læreplan Historie VG3</a></li>\n</ul>\n",
+      "omFaget": "Historie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.",
+      "generert": "2025-11-17T00:00:00.000Z",
+      "related": [],
+      "vimeo": null,
+      "bilde": null,
+      "kategori": "fellesfag"
+    },
+    {
+      "id": "spansk-1-2",
+      "title": "Spansk I+II",
+      "fagkode": "FSP1-01",
+      "lareplan": "FSP1-01",
+      "beskrivelse": "## Om faget\n\nSpansk I+II er et programfag som er obligatorisk for elever som ikke har hatt fremmedspråk på ungdomsskolen. Faget erstatter ett av de tre valgfrie programfagene i VG3 studiespesialisering.\n\nElever med Spansk I+II skal ha:\n- Historie (obligatorisk fellesfag)\n- Spansk I+II (obligatorisk programfag)\n- 2 andre valgfrie programfag\n= Totalt 4 fag\n\n## Kompetansemål\n\n*Dette er et obligatorisk programfag for elever uten fremmedspråk fra ungdomsskolen. Kompetansemål er definert i læreplanen for fremmedspråk nivå I+II (FSP1-01).*\n\n## Kjerneelementer\n\n*Kjerneelementer er definert i læreplanen for fremmedspråk nivå I+II (FSP1-01).*\n\n## Ressurser\n\n- [Læreplan Fremmedspråk nivå I+II](https://www.udir.no/lk20/fsp1-01)\n\n## Viktig informasjon\n\n- Obligatorisk kun for elever uten fremmedspråk fra ungdomsskolen\n- Teller som ett av tre programfag i VG3\n- Elever med fremmedspråk fra ungdomsskolen kan velge fremmedspråk nivå I, II eller III som valgfritt programfag",
+      "beskrivelseHTML": "<h2>Om faget</h2>\n<p>Spansk I+II er et programfag som er obligatorisk for elever som ikke har hatt fremmedspråk på ungdomsskolen. Faget erstatter ett av de tre valgfrie programfagene i VG3 studiespesialisering.</p>\n<p>Elever med Spansk I+II skal ha:</p>\n<ul>\n<li>Historie (obligatorisk fellesfag)</li>\n<li>Spansk I+II (obligatorisk programfag)</li>\n<li>2 andre valgfrie programfag\n= Totalt 4 fag</li>\n</ul>\n<h2>Kompetansemål</h2>\n<p><em>Dette er et obligatorisk programfag for elever uten fremmedspråk fra ungdomsskolen. Kompetansemål er definert i læreplanen for fremmedspråk nivå I+II (FSP1-01).</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Kjerneelementer er definert i læreplanen for fremmedspråk nivå I+II (FSP1-01).</em></p>\n<h2>Ressurser</h2>\n<ul>\n<li><a href=\"https://www.udir.no/lk20/fsp1-01\">Læreplan Fremmedspråk nivå I+II</a></li>\n</ul>\n<h2>Viktig informasjon</h2>\n<ul>\n<li>Obligatorisk kun for elever uten fremmedspråk fra ungdomsskolen</li>\n<li>Teller som ett av tre programfag i VG3</li>\n<li>Elever med fremmedspråk fra ungdomsskolen kan velge fremmedspråk nivå I, II eller III som valgfritt programfag</li>\n</ul>\n",
+      "omFaget": "Spansk I+II er et programfag som er obligatorisk for elever som ikke har hatt fremmedspråk på ungdomsskolen. Faget erstatter ett av de tre valgfrie programfagene i VG3 studiespesialisering. Elever med Spansk I+II skal ha: - Historie (obligatorisk fellesfag) - Spansk I+II (obligatorisk programfag) - 2 andre valgfrie programfag = Totalt 4 fag",
+      "generert": "2025-11-17T00:00:00.000Z",
+      "related": [],
+      "vimeo": null,
+      "bilde": null,
+      "kategori": "språk"
     }
   ]
 }

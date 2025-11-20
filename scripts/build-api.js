@@ -12,7 +12,6 @@
  *         ├── config.json
  *         ├── programfag.json
  *         ├── blokkskjema.json
- *         ├── programomraader.json
  *         ├── full.json
  *         └── assets/ (copied from data/)
  */
@@ -177,7 +176,6 @@ function buildSchoolAPI(schoolId, programfag) {
   const schoolConfig = loadYAML(path.join(schoolDataDir, 'school-config.yml'));
   const tilbud = loadYAML(path.join(schoolDataDir, 'tilbud.yml'));
   const blokkskjema = loadYAML(path.join(schoolDataDir, 'blokkskjema.yml'));
-  const programomraader = loadYAML(path.join(schoolDataDir, 'programomraader.yml'));
 
   if (!schoolConfig) {
     console.log(`  ⚠️  No school-config.yml found for ${schoolId}, skipping...\n`);
@@ -191,26 +189,31 @@ function buildSchoolAPI(schoolId, programfag) {
   );
   console.log(`  ✅ Created config.json`);
 
+  // Helper function to enrich fag data
+  const enrichFag = (fagTilbud, fagType = 'programfag') => {
+    const curriculumData = programfag.find(f => f.id === fagTilbud.fagId);
+
+    if (!curriculumData) {
+      console.log(`  ⚠️  Warning: ${fagType} '${fagTilbud.fagId}' not found in curriculum data`);
+      return null;
+    }
+
+    // Build asset URLs
+    const assetBaseUrl = `${BASE_URL}/schools/${schoolId}/assets`;
+
+    return {
+      ...curriculumData,
+      vimeo: fagTilbud.vimeo || null,
+      bilde: fagTilbud.bilde ? `${assetBaseUrl}/${fagTilbud.bilde}` : null,
+      kategori: fagTilbud.kategori || null
+    };
+  };
+
   // 2. Programfag (enrich with school-specific data)
   if (tilbud && tilbud.programfag) {
-    const enrichedProgramfag = tilbud.programfag.map(fagTilbud => {
-      const curriculumData = programfag.find(f => f.id === fagTilbud.fagId);
-
-      if (!curriculumData) {
-        console.log(`  ⚠️  Warning: Fag '${fagTilbud.fagId}' not found in curriculum data`);
-        return null;
-      }
-
-      // Build asset URLs
-      const assetBaseUrl = `${BASE_URL}/schools/${schoolId}/assets`;
-
-      return {
-        ...curriculumData,
-        vimeo: fagTilbud.vimeo || null,
-        bilde: fagTilbud.bilde ? `${assetBaseUrl}/${fagTilbud.bilde}` : null,
-        kategori: fagTilbud.kategori || null
-      };
-    }).filter(Boolean); // Remove null entries
+    const enrichedProgramfag = tilbud.programfag
+      .map(fag => enrichFag(fag, 'programfag'))
+      .filter(Boolean);
 
     const programfagOutput = {
       metadata: {
@@ -229,33 +232,82 @@ function buildSchoolAPI(schoolId, programfag) {
     console.log(`  ✅ Created programfag.json (${enrichedProgramfag.length} fag)`);
   }
 
-  // 3. Blokkskjema
+  // 2b. Fellesfag (enrich with school-specific data)
+  if (tilbud && tilbud.fellesfag && tilbud.fellesfag.length > 0) {
+    const enrichedFellesfag = tilbud.fellesfag
+      .map(fag => enrichFag(fag, 'fellesfag'))
+      .filter(Boolean);
+
+    const fellesfagOutput = {
+      metadata: {
+        school: schoolId,
+        generatedAt: new Date().toISOString(),
+        count: enrichedFellesfag.length,
+        version: 'v1'
+      },
+      fellesfag: enrichedFellesfag
+    };
+
+    fs.writeFileSync(
+      path.join(schoolOutputDir, 'fellesfag.json'),
+      JSON.stringify(fellesfagOutput, null, 2)
+    );
+    console.log(`  ✅ Created fellesfag.json (${enrichedFellesfag.length} fag)`);
+  }
+
+  // 3. Blokkskjema (enrich with kategori from tilbud)
   if (blokkskjema) {
+    // Create a lookup map for kategori (from both programfag and fellesfag)
+    const kategoriMap = new Map();
+    if (tilbud) {
+      // Add programfag categories
+      if (tilbud.programfag) {
+        tilbud.programfag.forEach(fag => {
+          if (fag.kategori) {
+            kategoriMap.set(fag.fagId, fag.kategori);
+          }
+        });
+      }
+      // Add fellesfag categories
+      if (tilbud.fellesfag) {
+        tilbud.fellesfag.forEach(fag => {
+          if (fag.kategori) {
+            kategoriMap.set(fag.fagId, fag.kategori);
+          }
+        });
+      }
+    }
+
+    // Enrich blokkskjema with kategori
+    const enrichedBlokkskjema = JSON.parse(JSON.stringify(blokkskjema));
+    if (enrichedBlokkskjema.blokker) {
+      Object.keys(enrichedBlokkskjema.blokker).forEach(blokkKey => {
+        const blokk = enrichedBlokkskjema.blokker[blokkKey];
+        if (blokk.fag && Array.isArray(blokk.fag)) {
+          blokk.fag = blokk.fag.map(fag => ({
+            ...fag,
+            kategori: kategoriMap.get(fag.id) || null
+          }));
+        }
+      });
+    }
+
     fs.writeFileSync(
       path.join(schoolOutputDir, 'blokkskjema.json'),
-      JSON.stringify(blokkskjema, null, 2)
+      JSON.stringify(enrichedBlokkskjema, null, 2)
     );
     console.log(`  ✅ Created blokkskjema.json`);
   }
 
-  // 4. Programområder
-  if (programomraader) {
-    fs.writeFileSync(
-      path.join(schoolOutputDir, 'programomraader.json'),
-      JSON.stringify(programomraader, null, 2)
-    );
-    console.log(`  ✅ Created programomraader.json`);
-  }
-
-  // 5. Full combined data
+  // 4. Full combined data
   const fullOutput = {
     school: schoolConfig,
     tilbud: tilbud ? {
-      programfag: tilbud.programfag.map(t => t.fagId),
+      programfag: tilbud.programfag ? tilbud.programfag.map(t => t.fagId) : [],
+      fellesfag: tilbud.fellesfag ? tilbud.fellesfag.map(t => t.fagId) : [],
       metadata: tilbud.metadata
     } : null,
-    blokkskjema,
-    programomraader
+    blokkskjema
   };
 
   fs.writeFileSync(

@@ -182,8 +182,31 @@ programfag:
     bilde: ""
     kategori: "kunst"
 
+  # Fellesfag (obligatoriske)
+  - fagId: historie
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  - fagId: spansk-1-2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+# Fellesfag (obligatoriske fag)
+# Disse fagene er påkrevd for alle elever uavhengig av programområde
+fellesfag:
+  # Tom foreløpig - kan fylles med norsk, matematikk, historie, etc.
+  # Eksempel struktur:
+  # - fagId: norsk
+  #   vimeo: ""
+  #   bilde: ""
+  #   kategori: "språk"
+
 # Metadata
 metadata:
-  antallFag: 33
-  sistOppdatert: "2025-11-17"
-  kommentar: "Alle 33 programfag fra programfag_lk20.txt er inkludert."
+  antallProgramfag: 33
+  antallFellesfag: 0
+  totaltAntallFag: 33
+  sistOppdatert: "2025-11-20"
+  kommentar: "Fellesfag-kategori lagt til, men tom foreløpig. Historie er flyttet til programfag."
