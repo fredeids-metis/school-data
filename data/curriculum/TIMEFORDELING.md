@@ -13,25 +13,25 @@ Studiespesialisering omfatter realfag (matematikk, naturfag, etc.), språk, samf
 ### 1.1 VG1 Studiespesialisering
 
 **Fellesfag: 842 timer totalt**
-- 140 timer: Engelsk
-- 113 timer: Fremmedspråk, vg1
-- 56 timer: Geografi
-- 56 timer: Kroppsøving
-- 140 timer: Matematikk (1P/1T)
-- 140 timer: Naturfag
-- 113 timer: Norsk
-- 84 timer: Samfunnskunnskap
+- 140 timer: Engelsk (ENG1007)
+- 113 timer: Fremmedspråk, vg1 (FSP6218/FSP6221/FSP6224/FSP6241/FSP6151)
+- 56 timer: Geografi (GEO1003)
+- 56 timer: Kroppsøving (KRO1017)
+- 140 timer: Matematikk (1P/1T) (MAT1019/MAT1021)
+- 140 timer: Naturfag (NAT1007)
+- 113 timer: Norsk (NOR1260)
+- 84 timer: Samfunnskunnskap (SAK1001)
 
 **Totalt VG1**: 842 timer
 
 ### 1.2 VG2 Studiespesialisering
 
 **Fellesfag: 420 timer totalt**
-- 112 timer: Fremmedspråk, vg2
-- 56 timer: Historie
-- 56 timer: Kroppsøving
-- 84 timer: Matematikk 2P (praktisk)*
-- 112 timer: Norsk
+- 112 timer: Fremmedspråk, vg2 (FSP6219/FSP6222/FSP6225/FSP6242/FSP6152)
+- 56 timer: Historie (HIS1009)
+- 56 timer: Kroppsøving (KRO1018)
+- 84 timer: Matematikk 2P (praktisk)* (MAT1023)
+- 112 timer: Norsk (NOR1264)
 
 *Må erstattes dersom du velger matematikk R1/S1 som programfag
 
@@ -52,10 +52,10 @@ Du kan velge enda et programfag fra realfag eller programfag fra andre programom
 ### 1.3 VG3 Studiespesialisering
 
 **Fellesfag: 421 timer totalt**
-- 113 timer: Historie
-- 56 timer: Kroppsøving
-- 168 timer: Norsk
-- 84 timer: Religion og etikk
+- 113 timer: Historie (HIS1010)
+- 56 timer: Kroppsøving (KRO1019)
+- 168 timer: Norsk (NOR1267)
+- 84 timer: Religion og etikk (REL1003)
 
 **Programfag: 420 timer totalt**
 - **280 timer**: Skal brukes til å videreføre to av programfagene fra realfag som du valgte på Vg2
@@ -78,11 +78,11 @@ Du kan velge enda et programfag fra realfag eller programfag fra andre programom
 ### 2.1 VG1 Musikk
 
 **Fellesfag: 646 timer totalt**
-- 140 timer: Engelsk
-- 113 timer: Fremmedspråk, vg1
-- 140 timer: Matematikk (1P/1T)
-- 140 timer: Naturfag
-- 113 timer: Norsk, vg1
+- 140 timer: Engelsk (ENG1007)
+- 113 timer: Fremmedspråk, vg1 (FSP6218/FSP6221/FSP6224/FSP6241/FSP6151)
+- 140 timer: Matematikk (1P/1T) (MAT1019/MAT1021)
+- 140 timer: Naturfag (NAT1007)
+- 113 timer: Norsk, vg1 (NOR1260)
 
 **Felles programfag: 140 timer**
 - 140 timer: Musikk, dans og drama
@@ -99,12 +99,12 @@ Du kan velge enda et programfag fra realfag eller programfag fra andre programom
 ### 2.2 VG2 Musikk
 
 **Fellesfag: 504 timer totalt**
-- 112 timer: Fremmedspråk, vg2
-- 56 timer: Geografi
-- 56 timer: Historie, vg2
-- 84 timer: Matematikk 2P (praktisk)*
-- 112 timer: Norsk, vg2
-- 84 timer: Samfunnskunnskap
+- 112 timer: Fremmedspråk, vg2 (FSP6219/FSP6222/FSP6225/FSP6242/FSP6152)
+- 56 timer: Geografi (GEO1003)
+- 56 timer: Historie, vg2 (HIS1009)
+- 84 timer: Matematikk 2P (praktisk)* (MAT1023)
+- 112 timer: Norsk, vg2 (NOR1264)
+- 84 timer: Samfunnskunnskap (SAK1001)
 
 *Må erstattes dersom du velger matematikk R1/S1 som valgfritt programfag
 
@@ -123,9 +123,9 @@ Timene brukes enten til videre spesialisering i musikk eller til programfag fra 
 ### 2.3 VG3 Musikk
 
 **Fellesfag: 365 timer totalt**
-- 113 timer: Historie, vg3
-- 168 timer: Norsk, vg3
-- 84 timer: Religion og etikk
+- 113 timer: Historie, vg3 (HIS1010)
+- 168 timer: Norsk, vg3 (NOR1267)
+- 84 timer: Religion og etikk (REL1003)
 
 **Felles programfag: 476 timer**
 Timene brukes til programfagene nedenfor. Hvordan fagene fordeles over Vg2 og Vg3, bestemmes av skolen.
@@ -150,12 +150,12 @@ Timene brukes enten til videre spesialisering i musikk eller til programfag fra 
 ### 3.1 VG1 Medier og kommunikasjon
 
 **Fellesfag: 702 timer totalt**
-- 140 timer: Engelsk
-- 113 timer: Fremmedspråk, vg1
-- 56 timer: Kroppsøving
-- 140 timer: Matematikk (1P/1T)
-- 140 timer: Naturfag
-- 113 timer: Norsk
+- 140 timer: Engelsk (ENG1007)
+- 113 timer: Fremmedspråk, vg1 (FSP6218/FSP6221/FSP6224/FSP6241/FSP6151)
+- 56 timer: Kroppsøving (KRO1017)
+- 140 timer: Matematikk (1P/1T) (MAT1019/MAT1021)
+- 140 timer: Naturfag (NAT1007)
+- 113 timer: Norsk (NOR1260)
 
 **Felles programfag: 280 timer**
 - 140 timer: Mediesamfunnet 1
@@ -166,13 +166,13 @@ Timene brukes enten til videre spesialisering i musikk eller til programfag fra 
 ### 3.2 VG2 Medier og kommunikasjon
 
 **Fellesfag: 504 timer totalt**
-- 112 timer: Fremmedspråk, vg2
-- 56 timer: Geografi
-- 56 timer: Historie
-- 56 timer: Kroppsøving
-- 84 timer: Matematikk 2P (praktisk)*
-- 112 timer: Norsk
-- 84 timer: Samfunnskunnskap
+- 112 timer: Fremmedspråk, vg2 (FSP6219/FSP6222/FSP6225/FSP6242/FSP6152)
+- 56 timer: Geografi (GEO1003)
+- 56 timer: Historie (HIS1009)
+- 56 timer: Kroppsøving (KRO1018)
+- 84 timer: Matematikk 2P (praktisk)* (MAT1023)
+- 112 timer: Norsk (NOR1264)
+- 84 timer: Samfunnskunnskap (SAK1001)
 
 *Må erstattes dersom du velger matematikk R1/S1 som valgfritt programfag
 
@@ -189,10 +189,10 @@ Timene brukes enten til videre spesialisering i medier og kommunikasjon eller ti
 ### 3.3 VG3 Medier og kommunikasjon
 
 **Fellesfag: 421 timer totalt**
-- 113 timer: Historie
-- 56 timer: Kroppsøving
-- 168 timer: Norsk
-- 84 timer: Religion og etikk
+- 113 timer: Historie (HIS1010)
+- 56 timer: Kroppsøving (KRO1019)
+- 168 timer: Norsk (NOR1267)
+- 84 timer: Religion og etikk (REL1003)
 
 **Felles programfag: 280 timer**
 - 140 timer: Mediesamfunnet 3
@@ -275,11 +275,11 @@ Elever i yrkesfaglige utdanningsprogram kan etter vg1 og vg2 ta vg3 påbygging t
 ### 5.1 Fagfordeling VG3 Påbygging
 
 **Fellesfag: 701 timer (ordinært)**
-- 281 timer: Norsk
-- 140 timer: Matematikk
-- 84 timer: Naturfag
-- 140 timer: Historie
-- 56 timer: Kroppsøving
+- 281 timer: Norsk (NOR1267)
+- 140 timer: Matematikk (MAT1023)
+- 84 timer: Naturfag (NAT1007)
+- 140 timer: Historie (HIS1010)
+- 56 timer: Kroppsøving (KRO1019)
 
 **Programfag: 140 timer**
 - Programfag fra studieforberedende utdanningsprogram

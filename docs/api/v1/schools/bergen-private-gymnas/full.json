@@ -105,17 +105,44 @@
       "musikk"
     ],
     "fellesfag": [
+      "engelsk",
+      "geografi",
+      "kroppsoving-vg1",
+      "matematikk-1p",
+      "matematikk-1t",
+      "naturfag",
+      "norsk-vg1",
+      "samfunnskunnskap",
+      "spansk-i-vg1",
+      "spansk-ii-vg1",
+      "spansk-iii-vg1",
+      "tysk-ii-vg1",
+      "fransk-ii-vg1",
+      "geografi",
+      "historie-vg2",
+      "kroppsoving-vg2",
+      "matematikk-2p",
+      "norsk-vg2",
+      "samfunnskunnskap",
+      "spansk-i-vg2",
+      "spansk-ii-vg2",
+      "spansk-iii-vg2",
+      "tysk-ii-vg2",
+      "fransk-ii-vg2",
       "historie-vg3",
+      "kroppsoving-vg3",
+      "norsk-vg3",
+      "religion-og-etikk",
       "spansk-i-ii-vg3"
     ],
     "metadata": {
       "antallValgfrieProgramfag": 33,
       "antallObligatoriskeProgramfag": 16,
-      "antallFellesfag": 2,
-      "totaltAntallFag": 51,
+      "antallFellesfag": 29,
+      "totaltAntallFag": 78,
       "sistOppdatert": "2025-11-20",
       "versjon": "v2",
-      "kommentar": "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama"
+      "kommentar": "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama. Alle fellesfag basert på TIMEFORDELING.md. Fellesfag har program-felt for program-spesifikke fag (geografi, kroppsøving, samfunnskunnskap)"
     }
   },
   "blokkskjema": {

@@ -296,13 +296,178 @@ obligatoriskeProgramfag:
 # Obligatoriske fag for alle elever uavhengig av programområde
 
 fellesfag:
-  # Historie (VG3) - Obligatorisk fellesfag
+  # ===== VG1 FELLESFAG =====
+  # Engelsk (VG1) - Obligatorisk for alle programmer
+  - fagId: engelsk
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Geografi (VG1) - Kun for Studiespesialisering på VG1
+  - fagId: geografi
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "studiespesialisering"
+
+  # Kroppsøving VG1 - Obligatorisk for Studiespesialisering og Medier
+  - fagId: kroppsoving-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "studiespesialisering,medier-kommunikasjon"
+
+  # Matematikk 1P (VG1) - Obligatorisk for alle programmer
+  - fagId: matematikk-1p
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Matematikk 1T (VG1) - Obligatorisk for alle programmer (alternativ til 1P)
+  - fagId: matematikk-1t
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Naturfag (VG1) - Obligatorisk for alle programmer
+  - fagId: naturfag
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Norsk VG1 - Obligatorisk for alle programmer
+  - fagId: norsk-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Samfunnskunnskap (VG1) - Kun for Studiespesialisering på VG1
+  - fagId: samfunnskunnskap
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "studiespesialisering"
+
+  # Fremmedspråk VG1 - Obligatorisk for alle programmer
+  - fagId: spansk-i-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: spansk-ii-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: spansk-iii-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: tysk-ii-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: fransk-ii-vg1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  # ===== VG2 FELLESFAG =====
+  # Note: Geografi og Samfunnskunnskap tilbys på VG1 for Studiespesialisering, men på VG2 for Musikk og Medier (se TIMEFORDELING.md)
+
+  # Geografi (VG2) - Kun for Musikk og Medier på VG2
+  - fagId: geografi
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "musikk-dans-drama,medier-kommunikasjon"
+
+  # Historie VG2 - Obligatorisk for alle programmer
+  - fagId: historie-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Kroppsøving VG2 - Obligatorisk for Studiespesialisering og Medier
+  - fagId: kroppsoving-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "studiespesialisering,medier-kommunikasjon"
+
+  # Matematikk 2P (VG2) - Obligatorisk for alle programmer
+  - fagId: matematikk-2p
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Norsk VG2 - Obligatorisk for alle programmer
+  - fagId: norsk-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Samfunnskunnskap (VG2) - Kun for Musikk og Medier på VG2
+  - fagId: samfunnskunnskap
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+    program: "musikk-dans-drama,medier-kommunikasjon"
+
+  # Fremmedspråk VG2 - Obligatorisk for alle programmer
+  - fagId: spansk-i-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: spansk-ii-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: spansk-iii-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: tysk-ii-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: fransk-ii-vg2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  # ===== VG3 FELLESFAG =====
+  # Historie VG3 - Obligatorisk for alle programmer
   - fagId: historie-vg3
     vimeo: ""
     bilde: ""
     kategori: "fellesfag"
 
-  # Spansk I+II (VG3) - Betinget obligatorisk (for elever uten fremmedspråk i grunnskolen)
+  # Kroppsøving VG3 - Obligatorisk for alle programmer
+  - fagId: kroppsoving-vg3
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Norsk VG3 - Obligatorisk for alle programmer
+  - fagId: norsk-vg3
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Religion og etikk (VG3) - Obligatorisk for alle programmer
+  - fagId: religion-og-etikk
+    vimeo: ""
+    bilde: ""
+    kategori: "fellesfag"
+
+  # Fremmedspråk VG3 - Betinget obligatorisk (for elever uten fremmedspråk i grunnskolen)
   - fagId: spansk-i-ii-vg3
     vimeo: ""
     bilde: ""
@@ -312,8 +477,8 @@ fellesfag:
 metadata:
   antallValgfrieProgramfag: 33
   antallObligatoriskeProgramfag: 16
-  antallFellesfag: 2
-  totaltAntallFag: 51
+  antallFellesfag: 29
+  totaltAntallFag: 78
   sistOppdatert: "2025-11-20"
   versjon: "v2"
-  kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama"
+  kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama. Alle fellesfag basert på TIMEFORDELING.md. Fellesfag har program-felt for program-spesifikke fag (geografi, kroppsøving, samfunnskunnskap)"

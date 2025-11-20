@@ -318,7 +318,8 @@ function buildSchoolAPI(schoolId, curriculumData) {
       ...curriculumData,
       vimeo: fagTilbud.vimeo || null,
       bilde: fagTilbud.bilde ? `${assetBaseUrl}/${fagTilbud.bilde}` : null,
-      kategori: fagTilbud.kategori || null
+      kategori: fagTilbud.kategori || null,
+      program: fagTilbud.program || curriculumData.program || null  // Include program from tilbud.yml or curriculumData
     };
   };
 
