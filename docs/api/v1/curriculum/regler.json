@@ -4,29 +4,35 @@
     {
       "id": "math-s-r-conflict",
       "type": "blocking",
-      "gruppe": [
-        "matematikk-s1",
-        "matematikk-s2",
-        "matematikk-r1",
-        "matematikk-r2"
+      "konfliktGrupper": [
+        [
+          "matematikk-s1",
+          "matematikk-s2"
+        ],
+        [
+          "matematikk-r1",
+          "matematikk-r2"
+        ]
       ],
-      "regel": "s OG r kan ikke kombineres",
       "beskrivelse": "Matematikk S-linja og R-linja kan ikke føres på samme vitnemål",
       "feilmelding": "Du kan ikke kombinere Matematikk S og R på samme vitnemål",
       "forslag": "Velg enten S-linja (S1/S2) eller R-linja (R1/R2)"
     },
     {
-      "id": "math-r-2p-conflict",
+      "id": "math-programfag-2p-conflict",
       "type": "blocking",
-      "gruppe": [
-        "matematikk-r1",
-        "matematikk-r2",
-        "matematikk-2p"
+      "konfliktGrupper": [
+        [
+          "matematikk-r1",
+          "matematikk-s1"
+        ],
+        [
+          "matematikk-2p"
+        ]
       ],
-      "regel": "r OG 2p kan ikke kombineres",
-      "beskrivelse": "R-matematikk erstatter 2P og kan ikke kombineres",
-      "feilmelding": "R-matematikk og 2P-matematikk kan ikke kombineres",
-      "forslag": "Matematikk R1 erstatter 2P automatisk"
+      "beskrivelse": "Matematikk R1 eller S1 erstatter fellesfaget 2P",
+      "feilmelding": "Du kan ikke kombinere R1/S1 med 2P - programfaget erstatter fellesfaget",
+      "forslag": "Matematikk R1 eller S1 erstatter 2P automatisk"
     },
     {
       "id": "geofag-x-1-conflict",
