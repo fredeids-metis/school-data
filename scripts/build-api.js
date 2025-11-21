@@ -183,6 +183,61 @@ function copyDir(src, dest) {
   }
 }
 
+// Build validation rules from regler.yml
+function buildReglerAPI() {
+  console.log('⚖️  Building validation rules API...');
+  const outputDir = path.join(OUTPUT_DIR, 'curriculum');
+  ensureDir(outputDir);
+
+  const reglerPath = path.join(CURRICULUM_DIR, 'regler.yml');
+
+  if (!fs.existsSync(reglerPath)) {
+    console.log('  ⚠️  No regler.yml found, skipping validation rules...\n');
+    return null;
+  }
+
+  const regler = loadYAML(reglerPath);
+
+  if (!regler) {
+    console.log('  ⚠️  Could not parse regler.yml, skipping...\n');
+    return null;
+  }
+
+  // Add metadata
+  const reglerOutput = {
+    metadata: {
+      generatedAt: new Date().toISOString(),
+      version: regler.metadata?.versjon || '1.0.0',
+      source: 'regler.yml'
+    },
+    ...regler
+  };
+
+  // Remove the nested metadata from regler (we moved it to top level)
+  delete reglerOutput.metadata.versjon;
+  delete reglerOutput.metadata.sistOppdatert;
+  delete reglerOutput.metadata.kilde;
+  delete reglerOutput.metadata.beskrivelse;
+
+  // Write regler.json
+  fs.writeFileSync(
+    path.join(outputDir, 'regler.json'),
+    JSON.stringify(reglerOutput, null, 2)
+  );
+  console.log(`  ✅ Created curriculum/regler.json`);
+
+  // Also create a v2 version in the v2 directory
+  const v2OutputDir = path.join(__dirname, '../docs/api/v2/curriculum');
+  ensureDir(v2OutputDir);
+  fs.writeFileSync(
+    path.join(v2OutputDir, 'regler.json'),
+    JSON.stringify(reglerOutput, null, 2)
+  );
+  console.log(`  ✅ Created v2/curriculum/regler.json\n`);
+
+  return regler;
+}
+
 // Build curriculum API (shared by all schools)
 function buildCurriculumAPI(curriculumData) {
   console.log('🏗️  Building curriculum API...');
@@ -489,6 +544,9 @@ function build() {
   // Load curriculum data (all three categories)
   const curriculumData = loadCurriculumData();
 
+  // Build validation rules API (regler.yml → regler.json)
+  buildReglerAPI();
+
   // Build curriculum API
   buildCurriculumAPI(curriculumData);
 
@@ -504,6 +562,7 @@ function build() {
   console.log('✨ Build complete!\n');
   console.log(`📍 API available at: ${BASE_URL}/`);
   console.log(`   - Curriculum (v2): ${BASE_URL}/curriculum/all.json`);
+  console.log(`   - Validation Rules: ${BASE_URL}/curriculum/regler.json`);
   console.log(`   - Curriculum (v1 DEPRECATED): ${BASE_URL}/curriculum/all-programfag.json`);
   schools.forEach(schoolId => {
     console.log(`   - ${schoolId} (v2): ${BASE_URL}/schools/${schoolId}/curriculum.json`);
