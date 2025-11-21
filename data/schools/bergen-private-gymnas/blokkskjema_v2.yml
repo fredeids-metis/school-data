@@ -810,10 +810,26 @@ regler:
       beskrivelse: "Markedsføring og ledelse 2 krever Markedsføring og ledelse 1"
       feilmelding: "For å velge Markedsføring og ledelse 2 må du ha hatt Markedsføring og ledelse 1 i VG2"
 
+    - fag: "matematikk-s2"
+      krever: ["matematikk-s1"]
+      beskrivelse: "Matematikk S2 krever S1 fra VG2"
+      feilmelding: "For å velge Matematikk S2 må du ha hatt Matematikk S1 i VG2"
+
   eksklusjoner:
+    # R-matte vs 2P
     - gruppe: ["matematikk-r1", "matematikk-r2", "matematikk-2p"]
       beskrivelse: "Kan ikke kombinere R-matte og 2P-matte"
       feilmelding: "Du kan ikke kombinere R-matematikk (R1/R2) med 2P-matematikk"
+
+    # R-matte vs S-matte (kan ikke blande realfag og samfunnsfag matematikk)
+    - gruppe: ["matematikk-r1", "matematikk-r2", "matematikk-s1", "matematikk-s2"]
+      beskrivelse: "Kan ikke kombinere R-matte og S-matte"
+      feilmelding: "Du kan ikke kombinere R-matematikk (realfag) med S-matematikk (samfunnsfag)"
+
+    # S-matte vs 2P
+    - gruppe: ["matematikk-s1", "matematikk-s2", "matematikk-2p"]
+      beskrivelse: "Kan ikke kombinere S-matte og 2P-matte"
+      feilmelding: "Du kan ikke kombinere S-matematikk (S1/S2) med 2P-matematikk"
 
   erstatter:
     - fag: "matematikk-r1"
