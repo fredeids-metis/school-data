@@ -426,36 +426,48 @@ valgregler:
   # =====================================
   studiespesialisering:
     vg2:
-      beskrivelse: "VG2 Studiespesialisering: Velg 3 programfag (420 timer totalt)"
+      beskrivelse: "VG2 Studiespesialisering: Velg 3 programfag + matematikk"
 
       tilgjengeligeBlokker: ["blokk1", "blokk2", "blokk3", "blokk4"]
 
+      # VIKTIG: minAntallFag/maxAntallFag gjelder programfag UTEN matematikk
+      # Matematikk (2P eller R1) telles SEPARAT
       minAntallFag: 3
       maxAntallFag: 3
 
       krav:
-        - type: "minimum-timer"
+        - type: "minimum-timer-uten-matte"
           timer: 420
-          beskrivelse: "Totalt 420 timer programfag"
+          beskrivelse: "Totalt 420 timer programfag (ikke medregnet matematikk)"
+          feilmelding: "Du må velge 3 programfag (420 timer) i tillegg til matematikk"
 
-        - type: "matematikk-valg"
-          beskrivelse: "Enten Matematikk 2P (84t) ELLER Matematikk R1 (140t)"
-          feilmelding: "Du må velge enten Matematikk 2P eller Matematikk R1"
+        - type: "matematikk-obligatorisk"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P (84t fellesfag) ELLER Matematikk R1 (140t programfag)"
+          feilmelding: "Du må velge matematikk: enten 2P eller R1"
           valg:
             - id: "matematikk-2p"
               timer: 84
+              type: "fellesfag"
+              beskrivelse: "Teller som fellesfag (84 timer)"
             - id: "matematikk-r1"
               timer: 140
+              type: "programfag"
               erstatter: "matematikk-2p"
+              beskrivelse: "Teller som programfag, erstatter 2P fellesfag"
 
         - type: "fordypning-anbefaling"
           beskrivelse: "Du bør velge to fag fra samme fagområde for å få fordypning i VG3"
           anbefaling: true
 
       infomeldinger:
-        - "Velg 3 programfag totalt (420 timer)"
-        - "Hvis du velger Matematikk R1, erstatter dette Matematikk 2P fellesfag"
+        - "Velg 3 programfag (420 timer) + matematikk"
+        - "Matematikk: Velg enten 2P (fellesfag, 84t) eller R1 (programfag, 140t)"
+        - "Med R1 får du totalt 560 timer programfag (420t + 140t R1)"
         - "Du bør planlegge for fordypning (to fag fra samme fagområde)"
+
+      # Timer-beregning:
+      # - Med 2P: Fellesfag 420t, Programfag 420t = 840t totalt
+      # - Med R1: Fellesfag 336t, Programfag 560t = 896t totalt
 
     vg3:
       beskrivelse: "VG3 Studiespesialisering: Velg 3 programfag (420 timer totalt)"
@@ -497,27 +509,42 @@ valgregler:
   # =====================================
   musikk-dans-drama:
     vg2:
-      beskrivelse: "VG2 Musikk: Velg 1 valgfritt programfag (140 timer)"
+      beskrivelse: "VG2 Musikk: Velg 1 valgfritt programfag + matematikk"
 
       tilgjengeligeBlokker: ["blokk1", "blokk3"]
 
+      # VIKTIG: minAntallFag/maxAntallFag gjelder programfag UTEN matematikk
+      # Matematikk (2P eller R1) telles SEPARAT
       minAntallFag: 1
       maxAntallFag: 1
 
       krav:
-        - type: "minimum-timer"
+        - type: "minimum-timer-uten-matte"
           timer: 140
-          beskrivelse: "Totalt 140 timer valgfritt programfag"
+          beskrivelse: "Totalt 140 timer valgfritt programfag (ikke medregnet matematikk)"
+          feilmelding: "Du må velge 1 valgfritt programfag (140 timer) i tillegg til matematikk"
 
-        - type: "matematikk-anbefaling"
-          beskrivelse: "En av blokkene bør være matematikk"
-          anbefaling: true
-          fagIder: ["matematikk-2p", "matematikk-r1"]
+        - type: "matematikk-obligatorisk"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P (84t fellesfag) ELLER Matematikk R1 (140t programfag)"
+          feilmelding: "Du må velge matematikk: enten 2P eller R1"
+          valg:
+            - id: "matematikk-2p"
+              timer: 84
+              type: "fellesfag"
+            - id: "matematikk-r1"
+              timer: 140
+              type: "programfag"
+              erstatter: "matematikk-2p"
 
       infomeldinger:
-        - "Velg 1 valgfritt programfag (140 timer)"
-        - "En av blokkene bør være matematikk (Blokk 1 eller Blokk 3)"
+        - "Velg 1 valgfritt programfag (140 timer) + matematikk"
+        - "Matematikk: Velg enten 2P (fellesfag, 84t) eller R1 (programfag, 140t)"
+        - "Med R1 får du totalt 280 timer valgfrie programfag (140t + 140t R1)"
         - "Du har i tillegg 336 timer felles programfag (fordelt over VG2/VG3)"
+
+      # Timer-beregning:
+      # - Med 2P: Fellesfag 504t, Valgfrie prog. 140t = 980t totalt
+      # - Med R1: Fellesfag 420t, Valgfrie prog. 280t = 1036t totalt
 
     vg3:
       beskrivelse: "VG3 Musikk: Velg 2 programfag (140 timer valgfritt + 113 timer historie)"
@@ -553,27 +580,42 @@ valgregler:
   # =====================================
   medier-kommunikasjon:
     vg2:
-      beskrivelse: "VG2 Medier: Velg 1 valgfritt programfag (140 timer)"
+      beskrivelse: "VG2 Medier: Velg 1 valgfritt programfag + matematikk"
 
       tilgjengeligeBlokker: ["blokk1", "blokk3"]
 
+      # VIKTIG: minAntallFag/maxAntallFag gjelder programfag UTEN matematikk
+      # Matematikk (2P eller R1) telles SEPARAT
       minAntallFag: 1
       maxAntallFag: 1
 
       krav:
-        - type: "minimum-timer"
+        - type: "minimum-timer-uten-matte"
           timer: 140
-          beskrivelse: "Totalt 140 timer valgfritt programfag"
+          beskrivelse: "Totalt 140 timer valgfritt programfag (ikke medregnet matematikk)"
+          feilmelding: "Du må velge 1 valgfritt programfag (140 timer) i tillegg til matematikk"
 
-        - type: "matematikk-anbefaling"
-          beskrivelse: "En av blokkene bør være matematikk"
-          anbefaling: true
-          fagIder: ["matematikk-2p", "matematikk-r1"]
+        - type: "matematikk-obligatorisk"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P (84t fellesfag) ELLER Matematikk R1 (140t programfag)"
+          feilmelding: "Du må velge matematikk: enten 2P eller R1"
+          valg:
+            - id: "matematikk-2p"
+              timer: 84
+              type: "fellesfag"
+            - id: "matematikk-r1"
+              timer: 140
+              type: "programfag"
+              erstatter: "matematikk-2p"
 
       infomeldinger:
-        - "Velg 1 valgfritt programfag (140 timer)"
-        - "En av blokkene bør være matematikk"
+        - "Velg 1 valgfritt programfag (140 timer) + matematikk"
+        - "Matematikk: Velg enten 2P (fellesfag, 84t) eller R1 (programfag, 140t)"
+        - "Med R1 får du totalt 280 timer valgfrie programfag (140t + 140t R1)"
         - "Du har i tillegg 280 timer felles programfag (Mediesamfunnet 2 + Medieuttrykk 2)"
+
+      # Timer-beregning:
+      # - Med 2P: Fellesfag 504t, Valgfrie prog. 140t = ~924t totalt
+      # - Med R1: Fellesfag 420t, Valgfrie prog. 280t = ~980t totalt
 
     vg3:
       beskrivelse: "VG3 Medier: Velg 3 programfag (280 timer valgfrie + 113 timer historie)"
