@@ -24,7 +24,7 @@ Multi-school curriculum data API for Norwegian VGS schools. Provides JSON API vi
 - `GET /schools/{school-id}/full.json` - All data combined
 
 ### Schools
-- `bergen-private-gymnas` - Bergen Private Gymnas
+- `bergen-private-gymnas` - Bergen Private Gymnas (blokkskjema versjonsstyrt: v1 aktiv, v2 klar)
 
 ## 🚀 Quick Start
 
@@ -67,9 +67,11 @@ school-data/
 │   │   └── fellesfag/                       # Common mandatory subjects (from UDIR)
 │   └── schools/                             # School-specific configs
 │       └── bergen-private-gymnas/
-│           ├── school-config.yml            # School info (name, colors, programs)
+│           ├── school-config.yml            # School info (name, colors, programs, versjonsstyring)
 │           ├── tilbud.yml                   # Subjects offered (v2 structure)
-│           ├── blokkskjema.yml              # Block schedule + validation rules
+│           ├── blokkskjema.yml              # Block schedule v1 (LIVE)
+│           ├── blokkskjema_v2.yml           # Block schedule v2 (eksperimentell)
+│           ├── BLOKKSKJEMA_VERSJONSSTYRING.md  # Guide for å bytte versjon
 │           └── assets/                      # School assets (images, etc.)
 ├── scripts/
 │   ├── build-api.js                         # Build JSON API (v1 + v2)
@@ -82,7 +84,7 @@ school-data/
 ## 🏫 Adding a New School
 
 1. Create directory: `data/schools/{school-id}/`
-2. Add `school-config.yml` (school info, branding, contact, programs offered)
+2. Add `school-config.yml` (school info, branding, contact, programs offered, versjonsstyring)
 3. Add `tilbud.yml` (which subjects from master lists to offer - use v2 structure)
 4. Add `blokkskjema.yml` (block schedule, validation rules, program areas)
 5. Add assets folder with school images/documents
@@ -92,6 +94,31 @@ school-data/
 **Reference files:**
 - See [bergen-private-gymnas](data/schools/bergen-private-gymnas/) for example configs
 - See [curriculum/README.md](data/curriculum/README.md) for subject categories and IDs
+- See [bergen-private-gymnas/BLOKKSKJEMA_VERSJONSSTYRING.md](data/schools/bergen-private-gymnas/BLOKKSKJEMA_VERSJONSSTYRING.md) for blokkskjema versioning
+
+## 🔄 Blokkskjema Versioning (NEW: 2025-11-20)
+
+Schools can now have multiple versions of blokkskjema and switch between them via config.
+
+**How it works:**
+1. Define versions in `school-config.yml`:
+   ```yaml
+   blokkskjema:
+     activeVersion: "v1"
+     versions:
+       v1: "blokkskjema.yml"
+       v2: "blokkskjema_v2.yml"
+   ```
+2. Build script reads `activeVersion` and loads the correct file
+3. To switch: change `activeVersion`, run `npm run build`, commit & push
+
+**Benefits:**
+- Easy A/B testing of different course structures
+- Quick rollback if issues arise
+- Multiple versions can coexist safely
+- Admin-controlled, not user-facing
+
+See [BLOKKSKJEMA_VERSJONSSTYRING.md](data/schools/bergen-private-gymnas/BLOKKSKJEMA_VERSJONSSTYRING.md) for complete guide.
 
 ## 📝 Master Files & Data Flow
 

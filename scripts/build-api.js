@@ -288,7 +288,20 @@ function buildSchoolAPI(schoolId, curriculumData) {
   // Load school configs
   const schoolConfig = loadYAML(path.join(schoolDataDir, 'school-config.yml'));
   const tilbud = loadYAML(path.join(schoolDataDir, 'tilbud.yml'));
-  const blokkskjema = loadYAML(path.join(schoolDataDir, 'blokkskjema.yml'));
+
+  // Load blokkskjema - use version from config if available
+  let blokkskjemaFile = 'blokkskjema.yml'; // default
+  if (schoolConfig?.blokkskjema?.activeVersion && schoolConfig?.blokkskjema?.versions) {
+    const activeVersion = schoolConfig.blokkskjema.activeVersion;
+    const versionFile = schoolConfig.blokkskjema.versions[activeVersion];
+    if (versionFile) {
+      blokkskjemaFile = versionFile;
+      console.log(`  📋 Using blokkskjema version: ${activeVersion} (${versionFile})`);
+    } else {
+      console.log(`  ⚠️  Version "${activeVersion}" not found in config, using default: blokkskjema.yml`);
+    }
+  }
+  const blokkskjema = loadYAML(path.join(schoolDataDir, blokkskjemaFile));
 
   if (!schoolConfig) {
     console.log(`  ⚠️  No school-config.yml found for ${schoolId}, skipping...\n`);

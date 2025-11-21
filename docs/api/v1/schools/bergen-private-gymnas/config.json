@@ -47,5 +47,17 @@
       "studentCount": "~300",
       "description": "Bergen Private Gymnas er en privat videregående skole i Bergen sentrum."
     }
+  },
+  "blokkskjema": {
+    "activeVersion": "v1",
+    "versions": {
+      "v1": "blokkskjema.yml",
+      "v2": "blokkskjema_v2.yml"
+    },
+    "descriptions": {
+      "v1": "Original blokkskjema - Enkel struktur uten eksplisitt programtilgang",
+      "v2": "Eksperimentell versjon - Faktisk fagtilbud fra bilde med eksplisitt programtilgang og timer"
+    },
+    "documentation": "HVORDAN BYTTE BLOKKSKJEMA-VERSJON:\n1. Endre 'activeVersion' til ønsket versjon (v1 eller v2)\n2. Kjør 'npm run build' i school-data repo\n3. Commit og push endringer\n4. GitHub Pages deployer automatisk den nye versjonen\n\nROLLBACK:\n- Endre 'activeVersion' tilbake til forrige versjon\n- Kjør build og deploy på nytt\n\nFREMTIDIGE VERSJONER:\n- Legg til nye versjoner under 'versions'\n- Eksempel: v3: \"blokkskjema_v3.yml\"\n"
   }
 }
