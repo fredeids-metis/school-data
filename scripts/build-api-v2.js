@@ -171,6 +171,13 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
   }
   console.log(`  📋 Loaded blokkskjema_v2.yml`);
 
+  // Load timefordeling (fellesfag and obligatoriske programfag) - separate file
+  const timefordelingPath = path.join(schoolDataDir, 'timefordeling.yml');
+  const timefordeling = loadYAML(timefordelingPath);
+  if (timefordeling) {
+    console.log(`  📋 Loaded timefordeling.yml`);
+  }
+
   // Load tilbud for enrichment
   const tilbud = loadYAML(path.join(schoolDataDir, 'tilbud.yml'));
 
@@ -242,6 +249,15 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
       struktur: enrichedBlokkskjema.struktur,
       blokker: enrichedBlokkskjema.blokker
     },
+
+    // Fellesfag per trinn (from timefordeling.yml)
+    fellesfag: timefordeling?.fellesfag || {},
+
+    // Felles programfag per program (obligatoriske programfag, from timefordeling.yml)
+    fellesProgramfag: timefordeling?.fellesProgramfag || {},
+
+    // VG1 valg (matematikk og fremmedspråk som elever velger)
+    vg1Valg: timefordeling?.vg1Valg || {},
 
     // Validation rules per program
     valgregler: blokkskjema.valgregler || {},

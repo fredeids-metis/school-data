@@ -23,29 +23,6 @@ struktur:
     - "Blokk 4"
 
 # ========================================
-# TIMEANALYSE FRA TIMEFORDELING.md
-# ========================================
-# Studiespesialisering VG2: 420 timer programfag (3 fag á 140 timer)
-# Studiespesialisering VG3: 420 timer programfag (2 fordypning á 140t + 1 valgfritt á 140t)
-#
-# Musikk VG2: 140 timer valgfrie programfag (1 fag)
-# Musikk VG3: 140 timer valgfrie programfag (1 fag)
-#
-# Medier VG2: 140 timer valgfrie programfag (1 fag)
-# Medier VG3: 280 timer valgfrie programfag (2 fag)
-#
-# Historie:
-# - Studiespesialisering VG2: 56 timer (fellesfag)
-# - Studiespesialisering VG3: 113 timer (fellesfag)
-# - Musikk VG2: 56 timer (fellesfag)
-# - Musikk VG3: 113 timer (fellesfag)
-# - Medier VG2: 56 timer (fellesfag)
-# - Medier VG3: 113 timer (fellesfag)
-#
-# LØSNING: Historie plasseres i blokkskjema som "obligatorisk valg" for VG3
-# Dette gir riktig timefordeling når kombinert med andre programfag
-
-# ========================================
 # BLOKKER - VALGFRIE PROGRAMFAG
 # Basert på faktisk fagtilbud fra blokkskjema-bilde (2025-11-20)
 # ========================================
@@ -609,12 +586,13 @@ valgregler:
       # - Med R1: Fellesfag 336t, Programfag 560t = 896t totalt
 
     vg3:
-      beskrivelse: "VG3 Studiespesialisering: Velg 3 programfag (420 timer totalt)"
+      beskrivelse: "VG3 Studiespesialisering: Velg 3 programfag + Historie (4 fag totalt)"
 
       tilgjengeligeBlokker: ["blokk1", "blokk2", "blokk3", "blokk4"]
 
-      minAntallFag: 3
-      maxAntallFag: 3
+      # VIKTIG: minAntallFag inkluderer Historie som er obligatorisk
+      minAntallFag: 4
+      maxAntallFag: 4
 
       krav:
         - type: "minimum-timer"
