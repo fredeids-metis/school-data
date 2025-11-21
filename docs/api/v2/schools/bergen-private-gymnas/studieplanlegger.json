@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-11-21T08:59:31.552Z",
+    "generatedAt": "2025-11-21T09:14:50.887Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget"
   },
@@ -222,6 +222,90 @@
             "fagkode": "HIS1010",
             "lareplan": "HIS01-03",
             "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
+          },
+          {
+            "id": "biologi-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "naturfag",
+            "title": "Biologi 1",
+            "fagkode": "REA3035",
+            "lareplan": "BIO01-02",
+            "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
+          },
+          {
+            "id": "okonomistyring",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "økonomi",
+            "title": "Økonomistyring",
+            "fagkode": "SAM3068",
+            "lareplan": "NOK02-03",
+            "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
+          },
+          {
+            "id": "markedsforing-og-ledelse-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "bedriftsledelse",
+            "title": "Markedsføring og ledelse 1",
+            "fagkode": "SAM3045",
+            "lareplan": "MFL01-04",
+            "omFaget": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter."
+          },
+          {
+            "id": "sosiologi-og-sosialantropologi",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "samfunnsfag",
+            "title": "Sosiologi og sosialantropologi",
+            "fagkode": "SAM3054",
+            "lareplan": "POS04-01",
+            "omFaget": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv."
+          },
+          {
+            "id": "psykologi-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "samfunnsfag",
+            "title": "Psykologi 1",
+            "fagkode": "SAM3072",
+            "lareplan": "PSY01‑04",
+            "omFaget": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv."
+          },
+          {
+            "id": "bilde",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "kunst",
+            "title": "Bilde",
+            "fagkode": "MOK3008",
+            "lareplan": "MOK04‑02",
+            "omFaget": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon."
           }
         ]
       },
@@ -410,6 +494,77 @@
             "fagkode": "HIS1010",
             "lareplan": "HIS01-03",
             "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
+          },
+          {
+            "id": "kjemi-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "naturfag",
+            "title": "Kjemi 1",
+            "fagkode": "REA3045",
+            "lareplan": "KJE01-02",
+            "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv."
+          },
+          {
+            "id": "entreprenorskap-og-bedriftsutvikling-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "bedriftsledelse",
+            "title": "Entreprenørskap og bedriftsutvikling 1",
+            "fagkode": "SAM3063",
+            "lareplan": "ENT01-04",
+            "omFaget": "Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv."
+          },
+          {
+            "id": "politikk-og-menneskerettigheter",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "samfunnsfag",
+            "title": "Politikk og menneskerettigheter",
+            "fagkode": "SAM3055",
+            "lareplan": "POS05-02",
+            "omFaget": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv."
+          },
+          {
+            "id": "rettslare-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": null
+          },
+          {
+            "id": "grafisk-design",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "kunst",
+            "title": "Grafisk design",
+            "fagkode": "MOK3010",
+            "lareplan": "MOK06-02",
+            "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
           }
         ]
       },
@@ -635,6 +790,82 @@
             "fagkode": "HIS1010",
             "lareplan": "HIS01-03",
             "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
+          },
+          {
+            "id": "fysikk-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "naturfag",
+            "title": "Fysikk 1",
+            "fagkode": "REA3038",
+            "lareplan": "FYS01-02",
+            "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
+          },
+          {
+            "id": "markedsforing-og-ledelse-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "bedriftsledelse",
+            "title": "Markedsføring og ledelse 1",
+            "fagkode": "SAM3045",
+            "lareplan": "MFL01-04",
+            "omFaget": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter."
+          },
+          {
+            "id": "sosialkunnskap",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "samfunnsfag",
+            "title": "Sosialkunnskap",
+            "fagkode": "SAM3051",
+            "lareplan": "POS02-02",
+            "omFaget": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv."
+          },
+          {
+            "id": "rettslare-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": null
+          },
+          {
+            "id": "grafisk-design",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "kunst",
+            "title": "Grafisk design",
+            "fagkode": "MOK3010",
+            "lareplan": "MOK06-02",
+            "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
           }
         ]
       },
@@ -814,6 +1045,70 @@
             "fagkode": "HIS1010",
             "lareplan": "HIS01-03",
             "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
+          },
+          {
+            "id": "fysikk-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "naturfag",
+            "title": "Fysikk 1",
+            "fagkode": "REA3038",
+            "lareplan": "FYS01-02",
+            "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
+          },
+          {
+            "id": "biologi-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "naturfag",
+            "title": "Biologi 1",
+            "fagkode": "REA3035",
+            "lareplan": "BIO01-02",
+            "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
+          },
+          {
+            "id": "okonomi-og-ledelse",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "økonomi",
+            "title": "Økonomi og ledelse",
+            "fagkode": "SAM3070",
+            "lareplan": "NOK02-03",
+            "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
+          },
+          {
+            "id": "psykologi-1",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "samfunnsfag",
+            "title": "Psykologi 1",
+            "fagkode": "SAM3072",
+            "lareplan": "PSY01‑04",
+            "omFaget": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv."
           }
         ]
       }

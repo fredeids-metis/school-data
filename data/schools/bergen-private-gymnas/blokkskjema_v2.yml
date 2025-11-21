@@ -134,6 +134,44 @@ blokker:
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
         obligatorisk: true
 
+      # ===== VG3 NIVÅ 1-FAG (for elever som ikke tok dem i VG2) =====
+
+      - id: biologi-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: okonomistyring
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: markedsforing-og-ledelse-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: sosiologi-og-sosialantropologi
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: psykologi-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: bilde
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
   # =====================================
   # BLOKK 2
   # =====================================
@@ -227,6 +265,42 @@ blokker:
         tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
         obligatorisk: true
+
+      # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
+
+      # Naturfag
+      - id: kjemi-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Bedriftsledelse
+      - id: entreprenorskap-og-bedriftsutvikling-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Samfunnsfag
+      - id: politikk-og-menneskerettigheter
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: rettslare-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Kunst
+      - id: grafisk-design
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
 
   # =====================================
   # BLOKK 3
@@ -332,6 +406,42 @@ blokker:
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
         obligatorisk: true
 
+      # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
+
+      # Naturfag
+      - id: fysikk-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Bedriftsledelse
+      - id: markedsforing-og-ledelse-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Samfunnsfag
+      - id: sosialkunnskap
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: rettslare-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Kunst
+      - id: grafisk-design
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
   # =====================================
   # BLOKK 4
   # =====================================
@@ -416,6 +526,35 @@ blokker:
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
         obligatorisk: true
+
+      # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
+
+      # Naturfag
+      - id: fysikk-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      - id: biologi-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Økonomi
+      - id: okonomi-og-ledelse
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
+
+      # Samfunnsfag
+      - id: psykologi-1
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
 
 # ========================================
 # VALGREGLER PER PROGRAMOMRÅDE
