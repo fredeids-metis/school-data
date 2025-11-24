@@ -1,6 +1,6 @@
 ---
 id: historie-vg3
-title: Historie Vg3 studieforberedende utdanningsprogram
+title: Historie Vg3
 fagkode: HIS1010
 lareplan: HIS01-03
 type: fellesfag
@@ -8,7 +8,7 @@ vimeo: ""
 generert: 2025-11-24
 ---
 
-# Historie Vg3 studieforberedende utdanningsprogram
+# Historie Vg3
 
 **Læreplan:** Læreplan i historie fellesfag
 

@@ -21,11 +21,6 @@ fellesfag:
       timer: 140
       fagkode: ENG1007
       tilgjengeligFor: [studiespesialisering, musikk-dans-drama, medier-kommunikasjon]
-    - id: matematikk-1p
-      title: Matematikk 1P/1T
-      timer: 140
-      fagkode: MAT1019
-      tilgjengeligFor: [studiespesialisering, musikk-dans-drama, medier-kommunikasjon]
     - id: naturfag
       title: Naturfag
       timer: 140
@@ -139,9 +134,9 @@ vg1Valg:
     ikkeHarFremmedsprak:
       - id: spansk-i-ii
         title: Spansk I+II
-        timer: 253
+        timer: 113
         fagkode: FSP6237
-        merknad: Spansk nivå I+II over VG1-VG3
+        merknad: "Spansk nivå I+II (VG1: 113t + VG2: 112t + VG3: 140t = 365t totalt)"
 
 # ========================================
 # FELLES PROGRAMFAG (obligatoriske for spesifikke programmer)

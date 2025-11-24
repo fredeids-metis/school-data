@@ -109,7 +109,6 @@ blokker:
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
-        obligatorisk: true
 
       # ===== VG3 NIVÅ 1-FAG (for elever som ikke tok dem i VG2) =====
 
@@ -204,6 +203,15 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
 
+      # ===== VG2 FAG (fortsetter) =====
+
+      # Naturfag - Biologi 2 kan tas i VG2 (uten forutsetning)
+      - id: biologi-2
+        timer: 140
+        trinn: vg2
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Kan tas samtidig med Biologi 1 - ingen forutsetning kreves"
+
       # ===== VG3 FAG =====
 
       # Naturfag
@@ -241,7 +249,6 @@ blokker:
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
-        obligatorisk: true
 
       # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
 
@@ -367,7 +374,8 @@ blokker:
         merknad: "Kun for elever på Musikk-programmet"
 
       # SPANSK I+II - BETINGET OBLIGATORISK
-      - id: spansk-i-ii-vg3
+      - id: spansk-i-ii
+        fagkode: FSP6237
         timer: 140
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
@@ -381,7 +389,6 @@ blokker:
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
-        obligatorisk: true
 
       # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
 
@@ -502,7 +509,6 @@ blokker:
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
         merknad: "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema"
-        obligatorisk: true
 
       # ===== VG3 LEVEL 1 FAG (kan tas i VG3 hvis ikke tatt i VG2) =====
 
@@ -611,7 +617,7 @@ valgregler:
           feilmelding: "Du må velge to programfag nivå 2 (fordypning)"
 
         - type: "spansk-betinget"
-          fagId: "spansk-i-ii-vg3"
+          fagId: "spansk-i-ii"
           betingelse: "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
           beskrivelse: "Spansk I+II må velges hvis du ikke hadde fremmedspråk på ungdomsskolen"
 
@@ -682,7 +688,7 @@ valgregler:
           feilmelding: "Du må velge Historie VG3"
 
         - type: "spansk-betinget"
-          fagId: "spansk-i-ii-vg3"
+          fagId: "spansk-i-ii"
           betingelse: "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
           beskrivelse: "Spansk I+II må velges hvis du ikke hadde fremmedspråk på ungdomsskolen"
 
@@ -753,7 +759,7 @@ valgregler:
           feilmelding: "Du må velge Historie VG3"
 
         - type: "spansk-betinget"
-          fagId: "spansk-i-ii-vg3"
+          fagId: "spansk-i-ii"
           betingelse: "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
           beskrivelse: "Spansk I+II må velges hvis du ikke hadde fremmedspråk på ungdomsskolen"
 

@@ -274,6 +274,7 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
         id: f.id,
         title: f.title,
         fagkode: f.fagkode,
+        lareplan: f.lareplan,
         omFaget: f.omFaget,
         related: f.related
       })),
@@ -281,6 +282,7 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
         id: f.id,
         title: f.title,
         fagkode: f.fagkode,
+        lareplan: f.lareplan,
         program: f.program,
         omFaget: f.omFaget
       })),
@@ -288,6 +290,7 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
         id: f.id,
         title: f.title,
         fagkode: f.fagkode,
+        lareplan: f.lareplan,
         trinn: f.trinn,
         omFaget: f.omFaget
       }))
