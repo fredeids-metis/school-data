@@ -77,11 +77,11 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
 
-      - id: rettslare-2
+      - id: rettslaere-2
         timer: 140
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        anbefaltForutsetning: ["rettslare-1"]
+        anbefaltForutsetning: ["rettslaere-1"]
 
       - id: psykologi-1
         timer: 140
@@ -193,7 +193,7 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
 
-      - id: rettslare-1
+      - id: rettslaere-1
         timer: 140
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
@@ -266,7 +266,7 @@ blokker:
         tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
         merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
 
-      - id: rettslare-1
+      - id: rettslaere-1
         timer: 140
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
@@ -317,7 +317,7 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
 
-      - id: rettslare-1
+      - id: rettslaere-1
         timer: 140
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
@@ -406,7 +406,7 @@ blokker:
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
         merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
 
-      - id: rettslare-1
+      - id: rettslaere-1
         timer: 140
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
@@ -484,11 +484,11 @@ blokker:
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
 
-      - id: rettslare-2
+      - id: rettslaere-2
         timer: 140
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        anbefaltForutsetning: ["rettslare-1"]
+        anbefaltForutsetning: ["rettslaere-1"]
 
       # Språk
       - id: engelsk-1
