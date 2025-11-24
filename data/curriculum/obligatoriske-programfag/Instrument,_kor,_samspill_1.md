@@ -6,7 +6,7 @@ lareplan: MUS05-02
 type: obligatorisk-programfag
 program: musikk-dans-drama
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Instrument, kor, samspill 1
@@ -60,4 +60,4 @@ Kjerneelementet musikkformidling handler om å forberede musikalsk repertoar, se
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MUS2012*
-*Generert: 2025-11-20 14:29:39*
+*Generert: 2025-11-24 09:28:54*

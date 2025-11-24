@@ -6,7 +6,7 @@ lareplan: MOK01-02
 type: obligatorisk-programfag
 program: medier-kommunikasjon
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Mediesamfunnet 3
@@ -62,4 +62,4 @@ Kjerneelementet innholdsproduksjon handler om å utvikle, produsere og publisere
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MOK2010*
-*Generert: 2025-11-20 14:30:13*
+*Generert: 2025-11-24 09:29:19*

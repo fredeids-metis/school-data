@@ -6,7 +6,7 @@ lareplan: MDD03-02
 type: obligatorisk-programfag
 program: musikk-dans-drama
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Lytting
@@ -46,4 +46,4 @@ Kjerneelementet musikkforståelse handler om å arbeide med kjennetegn ved musik
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MDD3007*
-*Generert: 2025-11-20 14:29:45*
+*Generert: 2025-11-24 09:28:57*

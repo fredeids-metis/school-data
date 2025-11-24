@@ -5,7 +5,7 @@ fagkode: NAT1007
 lareplan: NAT01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Naturfag vg1 studieforberedende utdanningsprogram
@@ -67,4 +67,4 @@ Elevene skal forstå hvordan kroppens store og små systemer virker sammen. De s
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: NAT1007*
-*Generert: 2025-11-20 14:28:20*
+*Generert: 2025-11-24 09:27:46*

@@ -5,7 +5,7 @@ fagkode: HIS1010
 lareplan: HIS01-03
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Historie Vg3 studieforberedende utdanningsprogram
@@ -64,4 +64,4 @@ Elevene skal opparbeide seg innsikt i og oversikt over viktig historisk innhold 
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: HIS1010*
-*Generert: 2025-11-20 14:28:45*
+*Generert: 2025-11-24 09:28:12*

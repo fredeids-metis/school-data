@@ -5,7 +5,7 @@ fagkode: FSP6218
 lareplan: FSP01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Spansk I, 1. år
@@ -56,4 +56,4 @@ Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i sta
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: FSP6218*
-*Generert: 2025-11-20 14:29:03*
+*Generert: 2025-11-24 09:28:26*

@@ -2,10 +2,10 @@
 id: kroppsoving-vg1
 title: Kroppsøving vg1
 fagkode: KRO1017
-lareplan: KRO01-05
+lareplan: KRO01-05;STUDIESPESIALISERING,MEDIER-KOMMUNIKASJON
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Kroppsøving vg1
@@ -49,4 +49,4 @@ Elevene skal bruke nærområdet og utforske naturen gjennom varierte uteaktivite
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: KRO1017*
-*Generert: 2025-11-20 14:28:08*
+*Generert: 2025-11-24 09:27:36*

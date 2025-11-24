@@ -1,11 +1,11 @@
 ---
-id: spansk-i-ii-vg3
+id: spansk-iii-vg3
 title: Spansk I+II
 fagkode: FSP6226
 lareplan: FSP01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Spansk I+II
@@ -56,4 +56,4 @@ Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i sta
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: FSP6226*
-*Generert: 2025-11-20 14:29:28*
+*Generert: 2025-11-24 09:28:47*

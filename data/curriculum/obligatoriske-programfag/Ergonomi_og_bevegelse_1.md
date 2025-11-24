@@ -6,7 +6,7 @@ lareplan: MUS03-02
 type: obligatorisk-programfag
 program: musikk-dans-drama
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Ergonomi og bevegelse 1
@@ -49,4 +49,4 @@ Kjerneelementet kropp og helse handler om å utvikle kunnskaper om kroppen som v
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MUS2010*
-*Generert: 2025-11-20 14:29:34*
+*Generert: 2025-11-24 09:28:51*

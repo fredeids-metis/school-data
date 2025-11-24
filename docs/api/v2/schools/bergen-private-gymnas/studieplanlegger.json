@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-11-21T12:23:22.099Z",
+    "generatedAt": "2025-11-24T08:36:32.584Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget"
   },
@@ -768,11 +768,7 @@
             "merknad": "BETINGET OBLIGATORISK for elever uten fremmedspråk fra ungdomsskolen",
             "betingetObligatorisk": true,
             "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet",
-            "kategori": "språk",
-            "title": "Spansk I+II",
-            "fagkode": "FSP6226",
-            "lareplan": "FSP01-04",
-            "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse."
+            "kategori": "språk"
           },
           {
             "id": "historie-vg3",
@@ -1241,6 +1237,18 @@
           "musikk-dans-drama",
           "medier-kommunikasjon"
         ]
+      },
+      {
+        "id": "fremmedsprak-vg2",
+        "title": "Fremmedspråk",
+        "timer": 112,
+        "fagkode": "FSP6219",
+        "tilgjengeligFor": [
+          "studiespesialisering",
+          "musikk-dans-drama",
+          "medier-kommunikasjon"
+        ],
+        "merknad": "Fortsetter språket fra VG1. Kan være nivå I, II eller I+II"
       }
     ],
     "vg3": [
@@ -2055,7 +2063,7 @@
         "id": "rettslaere-1",
         "title": "Rettslære 1",
         "fagkode": "SAM3057",
-        "omFaget": "_(Ikke tilgjengelig)_",
+        "omFaget": "Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.",
         "related": [
           "Rettslære 2"
         ]
@@ -2064,7 +2072,7 @@
         "id": "rettslaere-2",
         "title": "Rettslære 2",
         "fagkode": "SAM3058",
-        "omFaget": "_(Ikke tilgjengelig)_",
+        "omFaget": "Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.",
         "related": [
           "Rettslære 1"
         ]
@@ -2387,7 +2395,7 @@
         "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse."
       },
       {
-        "id": "spansk-i-ii-vg3",
+        "id": "spansk-iii-vg3",
         "title": "Spansk I+II",
         "fagkode": "FSP6226",
         "trinn": null,

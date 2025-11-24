@@ -5,7 +5,7 @@ fagkode: MAT1023
 lareplan: MAT05-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Matematikk 2P
@@ -58,4 +58,4 @@ Abstraksjon i matematikk 2P handler om å bruke et formelt symbolspråk og forme
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MAT1023*
-*Generert: 2025-11-20 14:28:38*
+*Generert: 2025-11-24 09:28:02*

@@ -6,7 +6,7 @@ lareplan: MOK02-02
 type: obligatorisk-programfag
 program: medier-kommunikasjon
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Medieuttrykk 3
@@ -53,4 +53,4 @@ Kjerneelementet kreativitet, produksjon og prosess handler om å lage selvstendi
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MOK2014*
-*Generert: 2025-11-20 14:30:15*
+*Generert: 2025-11-24 09:29:21*

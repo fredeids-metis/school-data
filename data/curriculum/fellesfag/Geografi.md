@@ -2,10 +2,10 @@
 id: geografi
 title: Geografi
 fagkode: GEO1003
-lareplan: GEO01-02
+lareplan: GEO01-02;MUSIKK-DANS-DRAMA,MEDIER-KOMMUNIKASJON
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Geografi
@@ -51,4 +51,4 @@ Elevene skal kunne vurdere bakgrunn for, konsekvenser av og handlingsalternativ 
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: GEO1003*
-*Generert: 2025-11-20 14:28:06*
+*Generert: 2025-11-24 09:27:55*

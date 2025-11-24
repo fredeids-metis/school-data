@@ -6,7 +6,7 @@ lareplan: MUS06-02
 type: obligatorisk-programfag
 program: musikk-dans-drama
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Musikk i perspektiv 1
@@ -52,4 +52,4 @@ Kjerneelementet gehør i kontekst handler om å utvikle en allsidig auditiv tiln
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MUS2014*
-*Generert: 2025-11-20 14:29:42*
+*Generert: 2025-11-24 09:28:56*

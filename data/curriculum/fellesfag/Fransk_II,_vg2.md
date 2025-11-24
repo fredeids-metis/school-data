@@ -5,7 +5,7 @@ fagkode: FSP6152
 lareplan: FSP01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Fransk II
@@ -56,4 +56,4 @@ Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i sta
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: FSP6152*
-*Generert: 2025-11-20 14:29:24*
+*Generert: 2025-11-24 09:28:45*

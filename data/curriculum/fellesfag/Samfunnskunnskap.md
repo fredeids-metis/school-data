@@ -2,10 +2,10 @@
 id: samfunnskunnskap
 title: Samfunnskunnskap
 fagkode: SAK1001
-lareplan: SAK01-01
+lareplan: SAK01-01;MUSIKK-DANS-DRAMA,MEDIER-KOMMUNIKASJON
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Samfunnskunnskap
@@ -63,4 +63,4 @@ Elevene skal forstå hvordan mennesker utvikler identitet og samhandler med andr
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: SAK1001*
-*Generert: 2025-11-20 14:28:29*
+*Generert: 2025-11-24 09:28:08*

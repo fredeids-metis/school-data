@@ -73,6 +73,12 @@ fellesfag:
       timer: 84
       fagkode: SAK1001
       tilgjengeligFor: [musikk-dans-drama, medier-kommunikasjon]
+    - id: fremmedsprak-vg2
+      title: Fremmedspråk
+      timer: 112
+      fagkode: FSP6219
+      tilgjengeligFor: [studiespesialisering, musikk-dans-drama, medier-kommunikasjon]
+      merknad: "Fortsetter språket fra VG1. Kan være nivå I, II eller I+II"
 
   vg3:
     - id: norsk-vg3

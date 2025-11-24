@@ -5,7 +5,7 @@ fagkode: ENG1007
 lareplan: ENG01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Engelsk vg1 studieforberedende utdanningsprogram
@@ -60,4 +60,4 @@ Språklæringen skjer i møte med engelskspråklige tekster. Tekstbegrepet bruke
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: ENG1007*
-*Generert: 2025-11-20 14:28:03*
+*Generert: 2025-11-24 09:27:31*

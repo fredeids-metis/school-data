@@ -5,7 +5,7 @@ fagkode: REL1003
 lareplan: REL01-03
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Religion og etikk
@@ -65,4 +65,4 @@ Elevene skal kunne identifisere etiske dilemmaer og drøfte moralske spørsmål 
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: REL1003*
-*Generert: 2025-11-20 14:28:56*
+*Generert: 2025-11-24 09:28:21*

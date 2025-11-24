@@ -5,7 +5,7 @@ fagkode: KRO1019
 lareplan: KRO01-05
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Kroppsøving Vg3
@@ -48,4 +48,4 @@ Elevene skal bruke nærområdet og utforske naturen gjennom varierte uteaktivite
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: KRO1019*
-*Generert: 2025-11-20 14:28:49*
+*Generert: 2025-11-24 09:28:14*

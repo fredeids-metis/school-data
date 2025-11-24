@@ -5,7 +5,7 @@ fagkode: HIS1009
 lareplan: HIS01-03
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Historie vg2 studieforberedende utdanningsprogram
@@ -58,4 +58,4 @@ Elevene skal opparbeide seg innsikt i og oversikt over viktig historisk innhold 
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: HIS1009*
-*Generert: 2025-11-20 14:28:32*
+*Generert: 2025-11-24 09:27:58*

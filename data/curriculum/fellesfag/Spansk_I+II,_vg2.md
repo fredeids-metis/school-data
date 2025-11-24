@@ -5,7 +5,7 @@ fagkode: FSP6225
 lareplan: FSP01-04
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Spansk I+II, 2. år
@@ -56,4 +56,4 @@ Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i sta
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: FSP6225*
-*Generert: 2025-11-20 14:29:19*
+*Generert: 2025-11-24 09:28:41*

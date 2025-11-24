@@ -5,7 +5,7 @@ fagkode: MAT1021
 lareplan: MAT09-01
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Matematikk 1T
@@ -65,4 +65,4 @@ Abstraksjon i matematikk T handler om å bruke et formelt symbolspråk og formel
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MAT1021*
-*Generert: 2025-11-20 14:28:16*
+*Generert: 2025-11-24 09:27:42*

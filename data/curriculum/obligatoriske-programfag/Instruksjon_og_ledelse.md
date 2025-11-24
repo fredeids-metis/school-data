@@ -6,7 +6,7 @@ lareplan: MUS04-02
 type: obligatorisk-programfag
 program: musikk-dans-drama
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Instruksjon og ledelse
@@ -50,4 +50,4 @@ Kjerneelementet ensembleledelse handler om å utøve musikalsk lederskap i og sa
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: MUS2018*
-*Generert: 2025-11-20 14:29:50*
+*Generert: 2025-11-24 09:29:01*

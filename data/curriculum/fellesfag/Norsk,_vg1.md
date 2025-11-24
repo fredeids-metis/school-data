@@ -5,7 +5,7 @@ fagkode: NOR1260
 lareplan: NOR01-07
 type: fellesfag
 vimeo: ""
-generert: 2025-11-20
+generert: 2025-11-24
 ---
 
 # Norsk, vg1 studieforberedende utdanningsprogram, skriftlig
@@ -68,4 +68,4 @@ Elevene skal ha kunnskap om dagens språksituasjon i Norge og utforske dens hist
 ---
 *Hentet fra UDIR Grep API*
 *Fagkode: NOR1260*
-*Generert: 2025-11-20 14:28:25*
+*Generert: 2025-11-24 09:27:49*
