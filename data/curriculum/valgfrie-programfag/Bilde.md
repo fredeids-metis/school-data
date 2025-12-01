@@ -3,6 +3,7 @@ id: bilde
 title: Bilde
 fagkode: MOK3008
 lareplan: MOK04‑02
+bilde: bilde.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-01T11:57:51.687Z",
+    "generatedAt": "2025-12-01T12:36:15.739Z",
     "school": "metis-vgs",
     "description": "Komplett data for Studieplanlegger widget"
   },
@@ -1877,7 +1877,7 @@
         "shortTitle": "Bilde",
         "fagkode": "MOK3008",
         "lareplan": "MOK04‑02",
-        "bilde": null,
+        "bilde": "bilde.jpg",
         "vimeo": null,
         "omFaget": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon.",
         "hvordanArbeiderMan": "Undervisningen kombinerer individuelt arbeid med samarbeidsprosjekter. Du starter med å bli kjent med kamerautstyr, lyssetting og bildebehandlingsprogrammer. Etter hvert arbeider du med større produksjoner der du utvikler idéer, planlegger gjennomføring og ferdigstiller produkter for ulike formater og kanaler. Gjennom hele prosessen får du veiledning og trening i å vurdere egne og andres arbeider med et kritisk blikk.",
