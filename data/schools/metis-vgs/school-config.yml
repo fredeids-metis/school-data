@@ -1,0 +1,47 @@
+# Metis Videregaende Skole - Konfigurasjon
+# Proof-of-concept med duplisert BPG-data
+
+school:
+  id: metis-vgs
+  name: "Metis Videregaende Skole"
+  shortName: "MVGS"
+
+  contact:
+    address: "Testveien 1"
+    postalCode: "0001"
+    city: "Oslo"
+    phone: "+47 00 00 00 00"
+    email: "post@metis-vgs.no"
+    website: "https://metis-vgs.no"
+
+  branding:
+    primaryColor: "#1a365d"
+    secondaryColor: "#38a169"
+
+  schoolType: "Proof-of-concept"
+
+  programs:
+    - id: "studiespesialisering"
+      name: "Studiespesialisering"
+      programomrade: "realfag"
+      active: true
+
+    - id: "medier-kommunikasjon"
+      name: "Medier og kommunikasjon"
+      programomrade: "medier-kommunikasjon"
+      active: true
+
+    - id: "musikk-dans-drama"
+      name: "Musikk, dans og drama"
+      programomrade: "musikk"
+      active: true
+
+  metadata:
+    established: 2025
+    description: "Proof-of-concept skole for multi-tenant testing"
+    note: "Data er duplisert fra Bergen Private Gymnas"
+
+blokkskjema:
+  activeVersion: "v2"
+  versions:
+    v2: "blokkskjema_v2.yml"

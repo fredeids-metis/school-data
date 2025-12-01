@@ -6,8 +6,10 @@
   "scripts": {
     "build": "node scripts/build-api.js",
     "build:v2": "node scripts/build-api-v2.js",
-    "build:all": "node scripts/build-api.js && node scripts/build-api-v2.js",
-    "fetch": "bash scripts/fetch-curriculum.sh"
+    "build:2025-01": "node scripts/build-api-2025-01.js",
+    "build:all": "node scripts/build-api.js && node scripts/build-api-v2.js && node scripts/build-api-2025-01.js",
+    "fetch": "bash scripts/fetch-curriculum.sh",
+    "serve": "npx serve docs -l 8080"
   },
   "keywords": ["education", "curriculum", "vgs", "norway", "api"],
   "author": "Fredrik",

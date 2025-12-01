@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "version": "2025-01",
+    "generatedAt": "2025-12-01T09:21:21.691Z",
+    "description": "Liste over skoler med API-tilgang"
+  },
+  "skoler": [
+    {
+      "id": "bergen-private-gymnas",
+      "name": "Bergen Private Gymnas",
+      "shortName": "BPG",
+      "apiUrl": "https://fredeids-metis.github.io/school-data/api/2025-01/skoler/bergen-private-gymnas/studieplanlegger.json"
+    },
+    {
+      "id": "metis-vgs",
+      "name": "Metis Videregaende Skole",
+      "shortName": "MVGS",
+      "apiUrl": "https://fredeids-metis.github.io/school-data/api/2025-01/skoler/metis-vgs/studieplanlegger.json"
+    }
+  ]
+}
