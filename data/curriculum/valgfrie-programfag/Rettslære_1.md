@@ -17,6 +17,14 @@ generert: 2025-11-24
 
 Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.
 
+## Hvordan arbeider man i faget
+
+Undervisningen er case-basert der du analyserer konkrete juridiske konflikter, slik som tvister om arv, kjøpsrettigheter, arbeidsforhold eller foreldreansvar ved samlivsbrudd. Gjennom juridisk metode lærer du å identifisere partenes krav, finne relevant lovgivning og argumentere systematisk frem til en begrunnet konklusjon. Arbeidet veksler mellom individuelle oppgaver, gruppediskusjoner og muntlige drøftinger. I løpet av skoleåret legges det opp til besøk i tingretten, der du får se hvordan en reell rettssak gjennomføres.
+
+## Fagets relevans
+
+Rettslære 1 gir deg praktisk kunnskap om lover og regler som berører hverdagen, fra forbrukerrettigheter og arbeidskontrakter til arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger og argumentere saklig for ulike standpunkter. Denne kompetansen er verdifull uavhengig av videre studievalg, men er særlig relevant dersom du vurderer utdanning innen jus, økonomi, ledelse, eiendomsmegling eller ønsker å starte egen virksomhet. Faget gir et godt grunnlag for Rettslære 2, men kan også tas som et selvstendig fag.
+
 ## Kompetansemål
 
 - reflektere over Norge som rettsstat og vurdere maktfordeling, rettssikkerhet og legalitetsprinsippet i Norge

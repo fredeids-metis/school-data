@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.
 
+## Hvordan arbeider man i faget
+
+I engelsk 1 har du stor innflytelse på fagets innhold. Sammen med læreren velger dere temaer som er relevante for fremtidige studier og interesser. Du arbeider med varierte teksttyper: akademiske artikler, skjønnlitteratur, film og digitale medier. Undervisningen kombinerer individuelt arbeid med samarbeid, og du får øve på både muntlig og skriftlig formidling. Vurderingen legger vekt på prosess og utvikling, med mulighet for å fordype deg i selvvalgte emner.
+
+## Fagets relevans
+
+Engelsk er arbeidsspråket i høyere utdanning. Mer enn halvparten av masteroppgavene ved norske universiteter skrives på engelsk, og pensumlitteraturen på mange studieretninger er hovedsakelig engelskspråklig. I tillegg er engelsk det viktigste kommunikasjonsspråket i internasjonalt arbeidsliv og forskning. I dette faget utvikler du akademisk skriving, kritisk lesing og muntlig formidling på høyt nivå. Du lærer å bruke fagspesifikke begreper og å tilpasse språket til ulike situasjoner, enten du skal skrive en rapport, holde en presentasjon eller delta i en faglig debatt.
+
 ## Kompetansemål
 
 - bruke egnede lese-, lytte-, tale- og skrivestrategier tilpasset situasjon og formål

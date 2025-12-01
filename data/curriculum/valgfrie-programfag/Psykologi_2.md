@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.
 
+## Hvordan arbeider man i faget
+
+I Psykologi 2 arbeider du praktisk og utforskende med sentrale psykologiske temaer. Du lærer å finne, vurdere og analysere faglig informasjon, og du får planlegge og gjennomføre egne psykologiske undersøkelser. Faget legger vekt på å sammenligne ulike vitenskapelige teorier og perspektiver for å forstå menneskelig atferd og utvikling. Undervisningen kombinerer teori med diskusjoner og refleksjon. Du utforsker hvordan gruppeinteraksjon påvirker holdninger og identitet, og hvordan kommunikasjon kan løse konflikter. Psykisk helse er et sentralt tema der du drøfter hva som er normalt, hvordan samfunnets syn på psykiske lidelser har endret seg, og hvordan biologiske, psykologiske og sosiale faktorer spiller sammen. Faget kan tas uavhengig av Psykologi 1, og gir deg verktøy til å forstå deg selv og andre bedre.
+
+## Fagets relevans
+
+Psykologi 2 er et verdifullt grunnlag for studier innen helse, samfunn og atferdsfag. Faget er særlig relevant dersom du vurderer profesjonsstudiet i psykologi, som er en seksårig utdanning med klinisk praksis. Andre aktuelle studieretninger inkluderer sykepleie, helsesykepleie, sosialt arbeid, pedagogikk og medisin. Kompetansen du tilegner deg er etterspurt i mange yrker der psykologer arbeider med behandling og forebyggende helsearbeid ved sykehus, i kommunehelsetjenesten eller i privat praksis. Helsesykepleiere veileder barn og unge om psykisk helse og utvikling. Andre relevante yrker er rådgiver, sosionom, lærer, personalarbeider og coach.
+
 ## Kompetansemål
 
 - finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger

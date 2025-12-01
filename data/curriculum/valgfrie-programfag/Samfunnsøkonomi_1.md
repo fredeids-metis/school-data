@@ -15,6 +15,14 @@ generert: 2025-11-14
 
 Samfunnsøkonomi handler om å forstå det økonomiske samspillet mellom ulike aktører i privat og offentlig sektor i Norge, og mellom Norge og andre land. Økonomisk teori og tenkemåte gir grunnlag for å forstå sammenhenger i økonomien og økonomisk politikk. Samfunnsøkonomi skal bidra til en forståelse av hvordan politiske beslutninger påvirker økonomi, miljø og velferd. Faget handler også om hvordan verdier blir skapt og fordelt i offentlig og privat sektor. Faget forbereder elevene til videre studier og gir et grunnlag for å delta i samfunnsdebatt og arbeidsliv.
 
+## Hvordan arbeider man i faget
+
+I samfunnsøkonomi kobles teori til virkeligheten gjennom analyse av dagsaktuelle økonomiske problemstillinger. Arbeidet innebærer bruk av økonomiske modeller og grafiske fremstillinger, kildevurdering, og diskusjoner om økonomisk politikk. Elevene arbeider både selvstendig med faglige analyser og i grupper med drøftingsoppgaver. Faget legger vekt på å forstå sammenhenger mellom markeder, politiske beslutninger og samfunnsøkonomiske konsekvenser.
+
+## Fagets relevans
+
+Samfunnsøkonomi gir et solid grunnlag for høyere utdanning innen økonomi, statsvitenskap, jus og ledelse, både i Norge og internasjonalt. Faget er relevant for elever som ønsker å forstå hvordan økonomiske mekanismer påvirker samfunnet, fra renter og inflasjon til arbeidsmarked og global handel. Kompetansen er etterspurt i næringsliv, offentlig forvaltning og organisasjoner. Det kreves ingen forkunnskaper, og faget vektlegger forståelse av sammenhenger fremfor avansert tallbehandling.
+
 ## Kompetansemål
 
 - velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger

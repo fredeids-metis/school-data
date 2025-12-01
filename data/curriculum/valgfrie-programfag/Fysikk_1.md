@@ -16,6 +16,18 @@ generert: 2025-11-14
 
 Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.
 
+## Hvordan arbeider man i faget
+
+I fysikk lærer du best gjennom praktisk anvendelse. Undervisningen kombinerer teorigjennomgang og diskusjon der vi utforsker fysiske prinsipper og modeller, oppgaveløsning med beregninger og matematisk analyse, og elevforsøk der du planlegger, gjennomfører og analyserer eksperimenter. Du vil også jobbe med demonstrasjoner som visualiserer fysiske fenomener, og programmering for å modellere bevegelse og fysiske systemer.
+
+Du vil jobbe både individuelt og i grupper, og du må være forberedt på å bruke matematikk aktivt som verktøy.
+
+## Fagets relevans
+
+Fysikk gir deg verktøy til å forstå alt fra mobilteknologi til klimaendringer. Faget passer for deg som er nysgjerrig på hvordan ting fungerer, liker å løse problemer gjennom logisk tenkning, og trives med matematikk.
+
+Du bør ha 1T (teoretisk matematikk) fra VG1. Elever med 1P kan ta faget, men vil møte en brattere læringskurve. Fysikk 1 er et viktig grunnlag for ingeniørutdanninger, medisin, odontologi, realfag og arkitektur, og er relevant for alle tekniske og naturvitenskapelige studier.
+
 ## Kompetansemål
 
 - planlegge og gjennomføre forsøk, analysere data og trekke konklusjoner

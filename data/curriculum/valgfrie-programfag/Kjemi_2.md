@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv. 
 
+## Hvordan arbeider man i faget
+
+I Kjemi 2 tilbringer du mye tid på laboratoriet. Du planlegger og gjennomfører egne forsøk, analyserer resultater og vurderer feilkilder. Faget bygger videre på Kjemi 1, og du lærer avanserte teknikker som kromatografi for å separere stoffblandinger. Du gjør beregninger på pH, løselighet og elektrokjemiske reaksjoner. Mye av arbeidet handler om å forstå hvorfor stoffer reagerer som de gjør. Du utforsker likevektsreaksjoner, redoksreaksjoner og organiske reaksjoner som addisjon og substitusjon. Undervisningen kombinerer teori med praktisk laboratoriearbeid, der du lærer å jobbe systematisk og nøyaktig. Du gjennomfører også egne synteser og vurderer hvordan du kan oppnå best mulig utbytte og renhet.
+
+## Fagets relevans
+
+Kjemi 2 er viktig for deg som vil studere medisin, farmasi, biokjemi, kjemiingeniør eller andre realfag. Faget gir deg et solid grunnlag for å forstå legemidler, materialer og kjemiske prosesser i kroppen og naturen. Mange universiteter og høyskoler krever eller anbefaler Kjemi 2 for opptak til disse studiene. Med kjemikompetanse kan du jobbe som kjemiker, farmasøyt, biokjemiker eller kjemiingeniør. Kjemikere jobber i industrien, på sykehus, i forskning og i offentlig sektor med alt fra legemiddelutvikling til miljøovervåking. Faget er også relevant for deg som er interessert i grønn kjemi og bærekraftig produksjon av materialer og energi.
+
 ## Kompetansemål
 
 - forstå og bruke kjemisk terminologi og fagspråk i faglig kommunikasjon

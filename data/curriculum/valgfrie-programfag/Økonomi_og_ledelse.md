@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.
 
+## Hvordan arbeider man i faget
+
+I økonomi og ledelse jobber du praktisk med tall, analyser og beslutninger. Du lærer å sette opp budsjetter, beregne om investeringer er lønnsomme, og analysere hvordan bedrifter kan tjene penger. Mye av arbeidet handler om å bruke regneark og økonomiske modeller til å løse reelle problemstillinger fra næringslivet. Faget kombinerer teori med praktiske caseoppgaver. Du kan for eksempel analysere en bedrifts kostnadsstruktur, vurdere om de bør lansere et nytt produkt, eller undersøke hvordan ulike lederstiler påvirker arbeidsmiljøet. Gruppearbeid og presentasjoner er vanlig, og du lærer å argumentere for økonomiske beslutninger basert på data og analyser.
+
+## Fagets relevans
+
+Økonomi og ledelse er et solid grunnlag for studier innen økonomi og administrasjon, som tilbys ved de fleste universiteter og høyskoler. Faget passer godt for deg som vurderer siviløkonom-utdanning, revisorstudier, eller bachelor i økonomi og ledelse. Du får også et forsprang hvis du vil studere markedsføring, finans eller bedriftsutvikling. Karrieremulighetene er mange og varierte. Økonomer jobber i banker, forsikringsselskaper, konsulentfirmaer og offentlig sektor. Du kan bli regnskapsfører, controller, økonomisk rådgiver eller jobbe med analyse og strategi. Ledelsesdelen av faget er også relevant hvis du drømmer om å starte egen bedrift eller jobbe med personalledelse.
+
 ## Kompetansemål
 
 - velge og bruke økonomiske modeller til å bearbeide og beregne økonomiske størrelser

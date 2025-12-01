@@ -15,6 +15,14 @@ generert: 2025-11-14
 
 Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.
 
+## Hvordan arbeider man i faget
+
+I R2 jobber du mye med å utforske matematiske sammenhenger og utvikle egne løsningsmetoder. Du lærer integralregning, rekker, vektorer i rommet og trigonometriske funksjoner. En viktig del av faget handler om å bruke programmering til å løse matematiske problemer, for eksempel å lage algoritmer som beregner integraler numerisk. Undervisningen veksler mellom teori, oppgaveløsning og utforsking. Du jobber med reelle datasett og lager matematiske modeller som beskriver situasjoner fra naturvitenskap og samfunn. En god del tid går med til å forstå og utvikle matematiske bevis, noe som trener evnen til logisk tenkning og presis argumentasjon.
+
+## Fagets relevans
+
+R2 er obligatorisk for deg som vil studere til sivilingeniør, ingeniør eller arkitekt. Sammen med R1 og Fysikk 1 oppfyller du opptakskravene til de fleste teknologi- og realfagsutdanninger i Norge. NTNU krever i tillegg karakter 4 eller bedre i R2 for opptak til sivilingeniørstudiene. Faget åpner dører til yrker som sivilingeniør, dataingeniør, fysiker, matematiker og aktuar. Også innen økonomi, finans og forskning er avansert matematikkompetanse etterspurt. Som sivilingeniør vil du alltid være ettertraktet i industrien, og jobbmulighetene er mange og varierte.
+
 ## Kompetansemål
 
 - utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker

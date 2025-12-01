@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv. 
 
+## Hvordan arbeider man i faget
+
+Kjemi 1 kombinerer teori, beregninger og praktisk laboratoriearbeid. I teoridelen lærer du om atomers oppbygning, kjemiske bindinger og hvordan stoffer reagerer med hverandre. Du blir kjent med periodesystemet som et verktøy for å forstå stoffers egenskaper. Regning er en viktig del av faget. Du lærer å beregne konsentrasjoner, reaksjonsmengder og energiendringer. God forståelse av matematikk fra fellesfaget er derfor en fordel. På laboratoriet gjennomfører du forsøk som titreringer, spektroskopi og syntesereaksjoner. Her lærer du å planlegge forsøk, vurdere feilkilder og trekke konklusjoner basert på observasjoner og målinger.
+
+## Fagets relevans
+
+Kjemi er grunnleggende for å forstå verden rundt oss, fra kroppens biokjemi til klimaendringer og nye materialer. Faget gir innsikt i hvordan stoffer oppfører seg og hvordan vi kan utnytte denne kunnskapen til samfunnets beste. Kjemi 1 er et krav eller en sterk anbefaling for en rekke studier som medisin, odontologi, veterinærmedisin, farmasi, biologi, bioteknologi, kjemiingeniør og andre ingeniørstudier. Faget er også relevant for miljøvitenskap, matvitenskap, prosessindustri eller forskning. Gjennom arbeidet med grønn kjemi ser du hvordan kjemisk kompetanse bidrar til bærekraftig utvikling.
+
 ## Kompetansemål
 
 - forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon

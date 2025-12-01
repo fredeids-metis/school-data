@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.
 
+## Hvordan arbeider man i faget
+
+Undervisningen kombinerer teoretisk fordypning med praktisk utforskning. Du lærer sentrale psykologiske teorier og perspektiver, og anvender dem gjennom diskusjoner, case-analyser og egne undersøkelser. Faget legger vekt på vitenskapelig og kritisk tenkning der du gjennomfører mindre forskningsprosjekter, analyserer psykologiske studier og vurderer ulike forklaringsmodeller. Arbeidet veksler mellom individuelt arbeid og samarbeid i grupper, med vekt på muntlig refleksjon og faglig argumentasjon.
+
+## Fagets relevans
+
+Psykologi gir innsikt i menneskelig tenkning, følelser og atferd, og er relevant for et bredt spekter av utdanninger og yrker. Faget er særlig aktuelt for deg som ønsker å forstå hva som driver menneskelig handling, enten du sikter mot studier i psykologi, helse- og sosialfag, pedagogikk, jus eller andre samfunnsorienterte retninger. Fordi faget er teoritung og krever jevn innsats, passer det best for elever som trives med lesing, refleksjon og faglig fordypning over tid. Du utvikler analytiske ferdigheter og et begrepsapparat som er verdifullt i studier, arbeidsliv og som medborger.
+
 ## Kompetansemål
 
 - finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger

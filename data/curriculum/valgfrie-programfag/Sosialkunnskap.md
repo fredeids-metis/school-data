@@ -15,6 +15,18 @@ generert: 2025-11-14
 
 Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv.
 
+## Hvordan arbeider man i faget
+
+I sosialkunnskap jobber du mye med å utforske samfunnet rundt deg. Du lærer samfunnsvitenskapelige metoder og gjennomfører egne undersøkelser - kanskje intervjuer du folk i lokalmiljøet, analyserer statistikk om sosial ulikhet, eller undersøker hvordan velferdstjenester fungerer i praksis. Gruppearbeid og diskusjoner er sentralt, der dere drøfter temaer som marginalisering, identitet og menneskerettigheter.
+
+Faget kombinerer teori med praktiske case-studier. Du analyserer reelle samfunnsutfordringer som utenforskap blant ungdom, integrering i arbeidslivet eller hvordan kriser håndteres på ulike nivåer. Kritisk tenkning står sentralt - du lærer å finne og vurdere informasjon, stille gode spørsmål og se saker fra flere perspektiver
+
+## Fagets relevans
+
+Sosialkunnskap gir et solid grunnlag for studier innen sosialt arbeid, barnevern, vernepleie, sosiologi og statsvitenskap. Faget passer deg som vurderer utdanninger der du skal jobbe med mennesker i ulike livssituasjoner - enten det er på NAV, i barnevernet, på krisesenter, i rusomsorgen eller i psykisk helsevern.
+
+Yrkene du kan sikte mot inkluderer sosionom, barnevernspedagog, vernepleier, miljøterapeut eller rådgiver i offentlig forvaltning. Felles for disse er at du hjelper folk med å mestre livet sitt og navigere velferdssamfunnet. Sosialkunnskap gir deg også verdifull innsikt hvis du vil jobbe med politikk, humanitært arbeid eller i frivillige organisasjoner
+
 ## Kompetansemål
 
 - finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger

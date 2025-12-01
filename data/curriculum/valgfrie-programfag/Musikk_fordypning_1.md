@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.
 
+## Hvordan arbeider man i faget
+
+Undervisningen kombinerer teori og praktisk arbeid. Du lærer arrangeringsteknikker og komponering gjennom prosjekter der du skaper egen musikk og fremfører den for medelever. Notasjonsprogrammet Sibelius brukes til å skrive og redigere noter digitalt. En vesentlig del av faget er gehørtrening, der du øver på prima vista-lesing (notelesing fra bladet), rytmetrening og melodisk diktat. Det vil si å lytte til musikk og skrive ned det du hører. Du arbeider både individuelt og i samarbeid med andre, og får erfaring med å gi og motta konstruktiv respons på kreativt arbeid.
+
+## Fagets relevans
+
+Faget passer for deg som har interesse for musikk og behersker grunnleggende notelære og musikkteori. Faget bygger videre på Musikk 1 (vg1-nivå), og denne eller tilsvarende bakgrunn anbefales. Musikk fordypning 1 er særlig relevant hvis du vurderer høyere utdanning innen utøvende musikk, musikkproduksjon eller musikkvitenskap, der opptaksprøver ofte inkluderer teori og gehør. Faget gir deg også et solid grunnlag for å jobbe med arrangering, komponering eller musikkformidling i kulturlivet.
+
 ## Kompetansemål
 
 - gjenkjenne og sette ord på musikkens elementer i varierte eksempler fra klingende og noterte kilder ved hjelp av musikkteoretisk kunnskap og gehør

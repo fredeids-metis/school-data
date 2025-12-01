@@ -16,6 +16,14 @@ generert: 2025-11-14
 
 Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.
 
+## Hvordan arbeider man i faget
+
+Faget kombinerer teori med praktisk oppgaveløsning. Arbeidet er i stor grad databasert, og du lærer å bruke regneark og økonomiske modeller som verktøy for analyse og beregning. Fokus ligger på å tolke og forklare resultatene, ikke å pugge formler. Undervisningen veksler mellom individuelt arbeid, samarbeid i grupper og diskusjoner rundt reelle case fra næringslivet.
+
+## Fagets relevans
+
+Økonomistyring gir deg innsikt i hvordan virksomheter styres og hvordan økonomiske beslutninger tas. Du lærer å lese og analysere regnskap, utarbeide budsjetter og vurdere lønnsomhet. Kompetanse som er verdifull både i videre studier innen økonomi og i arbeidslivet. Faget passer for deg som er nysgjerrig på hvordan bedrifter fungerer, og som liker å arbeide systematisk med tall og modeller.
+
 ## Kompetansemål
 
 - velge og bruke økonomiske modeller til å bearbeide og beregne økonomiske størrelser
