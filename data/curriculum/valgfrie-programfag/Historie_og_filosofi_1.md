@@ -3,6 +3,7 @@ id: historie-og-filosofi-1
 title: Historie og filosofi 1
 fagkode: SAM3042
 lareplan: HIF01-04
+bilde: historie-og-filosofi-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

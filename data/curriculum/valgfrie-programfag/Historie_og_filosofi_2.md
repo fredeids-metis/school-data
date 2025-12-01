@@ -3,6 +3,7 @@ id: historie-og-filosofi-2
 title: Historie og filosofi 2
 fagkode: SAM3043
 lareplan: HIF01-04
+bilde: historie-og-filosofi-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

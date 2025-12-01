@@ -3,6 +3,7 @@ id: entreprenorskap-og-bedriftsutvikling-2
 title: Entreprenørskap og bedriftsutvikling 2
 fagkode: SAM3064
 lareplan: ENT01-04
+bilde: entreprenorskap-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

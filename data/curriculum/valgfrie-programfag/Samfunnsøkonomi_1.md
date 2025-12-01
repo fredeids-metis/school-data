@@ -3,6 +3,7 @@ id: samfunnsokonomi-1
 title: Samfunnsøkonomi 1
 fagkode: SAM3060
 lareplan: SOK01‑03
+bilde: samfunnsokonomi-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

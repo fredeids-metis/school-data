@@ -3,6 +3,7 @@ id: samfunnsokonomi-2
 title: Samfunnsøkonomi 2
 fagkode: SAM3061
 lareplan: SOK01‑03
+bilde: samfunnsokonomi-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

@@ -3,6 +3,7 @@ id: markedsforing-og-ledelse-1
 title: Markedsføring og ledelse 1
 fagkode: SAM3045
 lareplan: MFL01-04
+bilde: markedsforing-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

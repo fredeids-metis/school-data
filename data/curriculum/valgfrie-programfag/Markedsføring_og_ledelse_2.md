@@ -3,6 +3,7 @@ id: markedsforing-og-ledelse-2
 title: Markedsføring og ledelse 2
 fagkode: SAM3046
 lareplan: MFL01-04
+bilde: markedsforing-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

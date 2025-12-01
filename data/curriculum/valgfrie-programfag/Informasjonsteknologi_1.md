@@ -3,6 +3,7 @@ id: informasjonsteknologi-1
 title: Informasjonsteknologi 1
 fagkode: REA3048
 lareplan: INF01‑03
+bilde: informasjonsteknologi-1.jpg
 vimeo: ""
 generert: 2025-11-13
 ---
