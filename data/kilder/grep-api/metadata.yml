@@ -1,0 +1,46 @@
+# Grep API
+# Utdanningsdirektoratets tekniske API for læreplandata
+
+dokument:
+  id: grep-api
+  navn: "Utdanningsdirektoratets Grep API"
+  kortnavn: "Grep API"
+  type: "REST API"
+  utgiver: "Utdanningsdirektoratet"
+
+tilgang:
+  dokumentasjon: "https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki"
+  apiEndepunkt: "https://data.udir.no/kl06/v201906"
+  openApi: "https://data.udir.no/kl06/v201906/swagger"
+
+versjonering:
+  apiVersjon: "v201906"
+  sistHentet: "2025-11-14"
+  oppdateringsfrekvens: "Ved behov (npm run fetch)"
+
+dataTyper:
+  - type: "fagkoder"
+    beskrivelse: "Offisielle fagkoder (f.eks. REA3038 for Fysikk 1)"
+    brukesI: ["curriculum/*/*.md (frontmatter: fagkode)"]
+
+  - type: "lareplanKoder"
+    beskrivelse: "Læreplankoder (f.eks. FYS01-02)"
+    brukesI: ["curriculum/*/*.md (frontmatter: lareplan)"]
+
+  - type: "kompetansemal"
+    beskrivelse: "Kompetansemål for hvert fag"
+    brukesI: ["curriculum/*/*.md (markdown-innhold)"]
+
+  - type: "kjerneelementer"
+    beskrivelse: "Kjerneelementer i fagene"
+    brukesI: ["curriculum/*/*.md (markdown-innhold)"]
+
+hentingScript:
+  kommando: "npm run fetch"
+  fil: "scripts/fetch-curriculum.sh"
+  output: "data/curriculum/*/*.md"
+
+notater:
+  - "Fagkoder og læreplankoder skal IKKE endres manuelt"
+  - "Bruk alltid fetch-script for å oppdatere UDIR-data"
+  - "Lokale tilpasninger (fagets relevans etc.) er separate felt"

@@ -1,0 +1,47 @@
+# Privatskoleforskriften
+# Forskrift til privatskolelova
+
+dokument:
+  id: privatskoleforskriften
+  navn: "Forskrift til privatskolelova (privatskoleforskrifta)"
+  kortnavn: "Privatskoleforskriften"
+  type: "Forskrift"
+  utgiver: "Kunnskapsdepartementet"
+
+tilgang:
+  lovdataUrl: "https://lovdata.no/forskrift/2006-07-14-932"
+  udirUrl: "https://www.udir.no/regelverkstolkninger/Privatskole/forskrift-til-privatskolelova-privatskoleforskrifta/"
+  sistBesøkt: "2025-12-01"
+
+versjonering:
+  ikrafttredelse: "2006-07-14"
+  sistEndret: "2024-08-01"
+  nesteRevisjon: "Ukjent"
+
+relevanteKapitler:
+  - kapittel: "3"
+    tittel: "Krav til verksemda"
+    relevans: "Generelle krav til drift av privatskole"
+
+  - kapittel: "4"
+    tittel: "Inntak av elevar"
+    relevans: "Regler for elevinntak"
+
+  - kapittel: "5"
+    tittel: "Innhaldet i opplæringa"
+    relevans: "Krav til faginnhold og timefordeling"
+    brukesI: ["timefordeling.yml", "regler.yml"]
+
+  - paragraf: "5-1"
+    tittel: "Fag- og timefordeling"
+    sitat: "Friskolane skal følgje gjeldande fag- og timefordeling for offentlege skolar"
+    relevans: "Bekrefter at private skoler må følge Udir-1"
+
+notater:
+  - "BPG og MVGS er private skoler under denne forskriften"
+  - "Forskriften krever at vi følger offentlig fag- og timefordeling"
+  - "Gir noen fritak og særordninger for private skoler"
+
+gjelderFor:
+  - "Bergen Private Gymnas (BPG)"
+  - "Metis Videregående Skole (MVGS)"

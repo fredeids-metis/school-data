@@ -1,0 +1,45 @@
+# Udir-1-2025: Fag- og timefordeling
+# Rundskriv fra Utdanningsdirektoratet
+
+dokument:
+  id: udir-1-2025
+  navn: "Fag- og timefordeling og tilbudsstruktur for Kunnskapsløftet Udir-1-2025"
+  kortnavn: "Udir-1-2025"
+  type: "Rundskriv"
+  utgiver: "Utdanningsdirektoratet"
+
+tilgang:
+  url: "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/"
+  pdf: null  # Ikke tilgjengelig som PDF
+  sistBesøkt: "2025-12-01"
+
+versjonering:
+  gjeldendeFra: "2025-08-01"
+  erstatter: "Udir-1-2024"
+  nesteRevisjon: "2026-08-01 (forventet)"
+
+relevanteSeksjoner:
+  - seksjon: "4"
+    tittel: "Fag- og timefordeling i videregående opplæring"
+    brukesI: ["timefordeling.yml"]
+
+  - seksjon: "4.3"
+    tittel: "Studieforberedende utdanningsprogram"
+    brukesI: ["timefordeling.yml", "regler.yml"]
+
+  - seksjon: "4.3.1"
+    tittel: "Studiespesialisering"
+    brukesI: ["regler.yml (fordypningskrav)"]
+
+  - seksjon: "4.3.2"
+    tittel: "Musikk, dans og drama"
+    brukesI: ["timefordeling.yml"]
+
+  - seksjon: "4.3.3"
+    tittel: "Medier og kommunikasjon"
+    brukesI: ["timefordeling.yml"]
+
+notater:
+  - "Rundskrivet oppdateres årlig, vanligvis i august"
+  - "Timefordelingen er bindende minimumskrav"
+  - "Skolene kan tilby mer enn minstekravene"

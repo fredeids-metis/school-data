@@ -1,0 +1,105 @@
+# Kildeversjon - Sentralt register over alle kilder
+# Oppdater denne filen når kilder verifiseres eller endres
+
+metadata:
+  sistOppdatert: "2025-12-01"
+  oppdatertAv: "Fredrik"
+  nesteRevisjon: "2025-08-01"  # Når UDIR publiserer nye rundskriv
+
+# =============================================================================
+# NIVÅ 1: LOVVERK
+# =============================================================================
+lovverk:
+  privatskoleforskriften:
+    navn: "Forskrift til privatskolelova (privatskoleforskrifta)"
+    kortnavn: "Privatskoleforskriften"
+    lovdataUrl: "https://lovdata.no/forskrift/2006-07-14-932"
+    udirUrl: "https://www.udir.no/regelverkstolkninger/Privatskole/forskrift-til-privatskolelova-privatskoleforskrifta/"
+    gjelderFra: "2006-07-14"
+    sistEndret: "2024-08-01"
+    verifisertDato: "2025-12-01"
+    relevans: "Gjelder alle private videregående skoler inkl. BPG og MVGS"
+    brukesI:
+      - "regler.yml (generelle regler)"
+      - "skoler/*/config.yml (skoletype)"
+
+# =============================================================================
+# NIVÅ 2: UDIR RUNDSKRIV
+# =============================================================================
+udir:
+  udir-1-2025:
+    navn: "Fag- og timefordeling og tilbudsstruktur for Kunnskapsløftet (Udir-1-2025)"
+    kortnavn: "Udir-1-2025"
+    url: "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/"
+    versjon: "2025"
+    gjelderFra: "2025-08-01"
+    erstatter: "Udir-1-2024"
+    verifisertDato: "2025-12-01"
+    relevans: "Hovedkilde for timefordeling, programområder og tilbudsstruktur"
+    brukesI:
+      - "regler.yml (fordypningskrav)"
+      - "skoler/*/timefordeling.yml"
+      - "curriculum/ (fagkategorier)"
+
+  vitnemalsregler-2025:
+    navn: "Føring av vitnemål og kompetansebevis for videregående opplæring 2025"
+    kortnavn: "Vitnemålsregler 2025"
+    url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/"
+    versjon: "2025"
+    gjelderFra: "2025-01-01"
+    verifisertDato: "2025-12-01"
+    relevans: "Regler for kombinasjoner av fag, fordypning, eksklusjoner"
+    brukesI:
+      - "regler.yml (eksklusjoner)"
+      - "regler.yml (forutsetninger)"
+      - "regler.yml (obligatoriskeFag)"
+
+# =============================================================================
+# NIVÅ 3: UDIR TEKNISKE DATA (API)
+# =============================================================================
+udir_api:
+  grep-api:
+    navn: "Utdanningsdirektoratets Grep API"
+    kortnavn: "Grep API"
+    dokumentasjon: "https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki"
+    apiEndepunkt: "https://data.udir.no/kl06/v201906"
+    versjon: "v201906"
+    sistHentet: "2025-11-14"
+    verifisertDato: "2025-12-01"
+    relevans: "Fagkoder, læreplankoder, kompetansemål, kjerneelementer"
+    brukesI:
+      - "curriculum/valgfrie-programfag/*.md (frontmatter)"
+      - "curriculum/obligatoriske-programfag/*.md"
+      - "curriculum/fellesfag/*.md"
+    oppdateringskommando: "npm run fetch"
+
+# =============================================================================
+# NIVÅ 4: LOKAL SKOLEDATA
+# =============================================================================
+lokal:
+  beskrivelse: "Data som er laget av skolen selv, ikke hentet fra UDIR"
+  kanEndresAv: "Skoleadministrator"
+  eksempler:
+    - felt: "fagets_relevans"
+      beskrivelse: "Skolens egne beskrivelser av hvorfor faget er relevant"
+      plassering: "curriculum/*/*.md (markdown-innhold)"
+    - felt: "hvordan_arbeider_man"
+      beskrivelse: "Skolens beskrivelser av arbeidsmetoder"
+      plassering: "curriculum/*/*.md (markdown-innhold)"
+    - felt: "bilde"
+      beskrivelse: "Fagbilder brukt i UI"
+      plassering: "skoler/*/assets/bilder/"
+    - felt: "vimeo"
+      beskrivelse: "Lenker til fagvideoer"
+      plassering: "curriculum/*/*.md (frontmatter)"
+    - felt: "blokkskjema"
+      beskrivelse: "Skolens faktiske fagtilbud per blokk"
+      plassering: "skoler/*/blokkskjema*.yml"
+
+# =============================================================================
+# ENDRINGSLOGG
+# =============================================================================
+endringslogg:
+  - dato: "2025-12-01"
+    endring: "Opprettet kildeversjon.yml"
+    ansvarlig: "Claude/Fredrik"

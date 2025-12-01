@@ -1,0 +1,47 @@
+# Vitnemålsregler 2025
+# Føring av vitnemål og kompetansebevis for videregående opplæring
+
+dokument:
+  id: vitnemalsregler-2025
+  navn: "Føring av vitnemål og kompetansebevis for videregående opplæring i Kunnskapsløftet 2025"
+  kortnavn: "Vitnemålsregler 2025"
+  type: "Veiledning"
+  utgiver: "Utdanningsdirektoratet"
+
+tilgang:
+  url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/"
+  pdf: null
+  sistBesøkt: "2025-12-01"
+
+versjonering:
+  gjeldendeFra: "2025-01-01"
+  erstatter: "Vitnemålsregler 2024"
+  nesteRevisjon: "2026-01-01 (forventet)"
+
+relevanteSeksjoner:
+  - seksjon: "3"
+    tittel: "Føring av vurdering i fag"
+    brukesI: ["regler.yml"]
+
+  - seksjon: "3.8"
+    tittel: "Føring av vurdering i realfag"
+    brukesI: ["regler.yml (eksklusjoner: math-s-r-conflict)"]
+    sitat: "Det er ikke mulig å ha både matematikk S og matematikk R på vitnemålet"
+
+  - seksjon: "3.11"
+    tittel: "Føring av programfag"
+    brukesI: ["regler.yml (forutsetninger)"]
+
+  - seksjon: "4"
+    tittel: "Fordypning"
+    brukesI: ["regler.yml (fordypning)"]
+    sitat: "Elever på studiespesialisering må ha minst 560 timer fordypning fra minst to programfagområder"
+
+  - seksjon: "5"
+    tittel: "Krav til vitnemål"
+    brukesI: ["regler.yml (obligatoriskeFag)"]
+
+notater:
+  - "Hovedkilde for eksklusjonsregler (hvilke fag som ikke kan kombineres)"
+  - "Definerer fordypningskravene som valideres i studieplanleggeren"
+  - "Oppdateres årlig, vanligvis i januar"
