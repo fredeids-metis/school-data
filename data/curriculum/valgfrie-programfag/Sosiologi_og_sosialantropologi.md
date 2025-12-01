@@ -3,6 +3,7 @@ id: sosiologi-og-sosialantropologi
 title: Sosiologi og sosialantropologi
 fagkode: SAM3054
 lareplan: POS04-01
+bilde: sosiologi-og-sosialantropologi.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

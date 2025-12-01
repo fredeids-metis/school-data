@@ -3,6 +3,7 @@ id: kjemi-2
 title: Kjemi 2
 fagkode: REA3046
 lareplan: KJE01-02
+bilde: kjemi-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

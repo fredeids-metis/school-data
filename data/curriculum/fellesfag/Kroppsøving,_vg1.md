@@ -4,6 +4,7 @@ title: Kroppsøving vg1
 fagkode: KRO1017
 lareplan: KRO01-05;STUDIESPESIALISERING,MEDIER-KOMMUNIKASJON
 type: fellesfag
+bilde: kroppsoving-1.jpg
 vimeo: ""
 generert: 2025-11-24
 ---

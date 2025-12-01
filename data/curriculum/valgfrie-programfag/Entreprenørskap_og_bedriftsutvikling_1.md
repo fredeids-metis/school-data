@@ -3,6 +3,7 @@ id: entreprenorskap-og-bedriftsutvikling-1
 title: Entreprenørskap og bedriftsutvikling 1
 fagkode: SAM3063
 lareplan: ENT01-04
+bilde: entreprenorskap-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

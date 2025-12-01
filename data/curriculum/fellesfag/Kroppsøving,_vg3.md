@@ -4,6 +4,7 @@ title: Kroppsøving Vg3
 fagkode: KRO1019
 lareplan: KRO01-05
 type: fellesfag
+bilde: kroppsoving-3.jpg
 vimeo: ""
 generert: 2025-11-24
 ---

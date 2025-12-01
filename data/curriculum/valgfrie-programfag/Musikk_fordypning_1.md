@@ -3,6 +3,7 @@ id: musikk-fordypning-1
 title: Musikk fordypning 1
 fagkode: MUS3006
 lareplan: MUS08‑02
+bilde: musikk-fordypning-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

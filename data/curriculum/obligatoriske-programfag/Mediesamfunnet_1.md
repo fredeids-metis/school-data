@@ -5,6 +5,7 @@ fagkode: MOK2008
 lareplan: MOK01-02
 type: obligatorisk-programfag
 program: medier-kommunikasjon
+bilde: mediesamfunnet-1.jpg
 vimeo: ""
 generert: 2025-11-24
 ---

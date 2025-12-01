@@ -3,6 +3,7 @@ id: engelsk-1
 title: Engelsk 1
 fagkode: SPR3029
 lareplan: ENG04‑02
+bilde: engelsk-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

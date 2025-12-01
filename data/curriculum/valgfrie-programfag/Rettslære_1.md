@@ -4,6 +4,7 @@ title: Rettslære 1
 fagkode: SAM3057
 lareplan: RTL01-05
 type: valgfritt-programfag
+bilde: rettslare-1.jpg
 vimeo: ""
 generert: 2025-11-24
 ---

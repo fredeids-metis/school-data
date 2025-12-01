@@ -5,6 +5,7 @@ fagkode: MOK2012
 lareplan: MOK02-02
 type: obligatorisk-programfag
 program: medier-kommunikasjon
+bilde: medieuttrykk-1.jpg
 vimeo: ""
 generert: 2025-11-24
 ---

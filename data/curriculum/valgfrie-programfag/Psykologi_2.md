@@ -3,6 +3,7 @@ id: psykologi-2
 title: Psykologi 2
 fagkode: SAM3073
 lareplan: PSY01‑04
+bilde: psykologi-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

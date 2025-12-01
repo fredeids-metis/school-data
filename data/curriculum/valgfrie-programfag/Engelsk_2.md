@@ -3,6 +3,7 @@ id: engelsk-2
 title: Engelsk 2
 fagkode: SPR3031
 lareplan: ENG04‑02
+bilde: engelsk-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

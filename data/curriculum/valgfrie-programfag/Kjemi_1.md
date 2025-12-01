@@ -3,6 +3,7 @@ id: kjemi-1
 title: Kjemi 1
 fagkode: REA3045
 lareplan: KJE01-02
+bilde: kjemi-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

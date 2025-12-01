@@ -3,6 +3,7 @@ id: grafisk-design
 title: Grafisk design
 fagkode: MOK3010
 lareplan: MOK06-02
+bilde: grafisk-design.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

@@ -7,6 +7,7 @@ type: ["fellesfag", "programfag"]
 obligatorisk: true
 erstatbar: true
 trinn: vg2
+bilde: matematikk-2p.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

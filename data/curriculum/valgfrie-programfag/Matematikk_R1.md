@@ -3,6 +3,7 @@ id: matematikk-r1
 title: Matematikk R1
 fagkode: REA3056
 lareplan: MAT03-02
+bilde: matematikk-r1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

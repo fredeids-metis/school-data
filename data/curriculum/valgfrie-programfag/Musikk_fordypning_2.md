@@ -3,6 +3,7 @@ id: musikk-fordypning-2
 title: Musikk fordypning 2
 fagkode: MUS3008
 lareplan: MUS08‑02
+bilde: musikk-fordypning-2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

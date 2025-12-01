@@ -3,6 +3,7 @@ id: okonomi-og-ledelse
 title: Økonomi og ledelse
 fagkode: SAM3070
 lareplan: NOK02-03
+bilde: okonomi-og-ledelse.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

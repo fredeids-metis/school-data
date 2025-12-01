@@ -3,6 +3,7 @@ id: psykologi-1
 title: Psykologi 1
 fagkode: SAM3072
 lareplan: PSY01‑04
+bilde: psykologi-1.jpg
 vimeo: ""
 generert: 2025-11-14
 ---
