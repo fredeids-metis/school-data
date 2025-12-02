@@ -1,101 +1,90 @@
 # School Data API
 
-Masterkilde for all skoledata i organisasjonen (BPG + MVGS). API-et brukes av nettsider, apper og chatbotter.
+Single source of truth for skoledata. Brukes av studieplanlegger, fagkatalog og chatbotter.
 
 ## API-endepunkter
 
-**Base URL:** `https://fredeids-metis.github.io/school-data/api/2025-01`
+**Primær (v2):** `https://fredeids-metis.github.io/school-data/api/v2`
 
 | Endepunkt | Beskrivelse |
 |-----------|-------------|
-| `/curriculum/fag.json` | Alle fag med beskrivelser |
-| `/curriculum/regler.json` | Valideringsregler |
-| `/skoler/index.json` | Liste over skoler |
-| `/skoler/{id}/studieplanlegger.json` | Komplett data for studieplanlegger |
+| `/schools/{id}/studieplanlegger.json` | Komplett data for studieplanlegger |
 
 **Tilgjengelige skoler:**
 - `bergen-private-gymnas` - Bergen Private Gymnas
-- `metis-vgs` - Metis Videregående Skole
 
 ## Mappestruktur
 
 ```
 school-data/
 ├── data/
-│   ├── curriculum/          # Felles fagdata (UDIR)
-│   │   ├── valgfrie-programfag/
+│   ├── curriculum/              # Felles fagdata (UDIR)
+│   │   ├── valgfrie-programfag/ # Markdown-filer med fagbeskrivelser
 │   │   ├── obligatoriske-programfag/
 │   │   ├── fellesfag/
-│   │   └── regler.yml       # Valideringsregler
+│   │   └── regler.yml           # Valideringsregler (single source of truth)
 │   │
-│   ├── kilder/              # Kildehenvisninger
-│   │   ├── versjon.yml      # Sentralt kilderegister
-│   │   ├── udir-1-2025/
-│   │   ├── vitnemalsregler-2025/
-│   │   └── privatskoleforskriften/
+│   ├── kilder/                  # Kildehenvisninger
+│   │   └── versjon.yml          # Sentralt kilderegister
 │   │
-│   └── skoler/              # Skolekonfigurasjoner
-│       ├── bergen-private-gymnas/
-│       └── metis-vgs/
+│   └── schools/                 # Skolekonfigurasjoner
+│       └── bergen-private-gymnas/
+│           ├── school-config.yml    # Skolekonfig + blokkskjema-versjoner
+│           ├── blokkskjema_v2.yml   # Aktiv versjon
+│           ├── blokkskjema_test.yml # Test-versjon
+│           ├── blokkskjema_vanilla.yml # Alternativ versjon
+│           └── timefordeling.yml
 │
 ├── scripts/
-│   └── build-api-2025-01.js
+│   ├── build-api-v2.js          # Hovedscript (brukes av studieplanlegger)
+│   ├── build-api.js             # v1 (legacy)
+│   └── build-api-2025-01.js     # Standard API
 │
-└── docs/api/2025-01/        # Generert API (GitHub Pages)
+└── docs/
+    ├── api/                     # Generert API (GitHub Pages)
+    │   ├── v2/                  # Primær versjon
+    │   ├── v1/                  # Legacy
+    │   └── 2025-01/             # Standard
+    ├── schools/                 # Skole-dokumentasjon
+    └── archive/                 # Sesjonsdokumenter
 ```
-
-## Datakilder
-
-| Nivå | Kilde | Hva | Kan redigeres? |
-|------|-------|-----|----------------|
-| 1 | Privatskoleforskriften | Lovverk | Nei |
-| 2 | Udir-1-2025 | Timefordeling | Nei |
-| 2 | Vitnemålsregler 2025 | Eksklusjoner, fordypning | Nei |
-| 3 | Grep API | Fagkoder, kompetansemål | Nei (auto-hentet) |
-| 4 | Lokal | Fagets relevans, bilder | Ja |
-
-Se `data/kilder/` for fullstendig kildedokumentasjon.
 
 ## Bruk
 
-### Bygg API lokalt
+### Bygg API
 
 ```bash
 npm install
-npm run build:2025-01
-```
-
-### Hent fagdata fra UDIR
-
-```bash
-npm run fetch
+npm run build:v2    # Hovedversjon (studieplanlegger)
+npm run build:all   # Alle versjoner
 ```
 
 ### Test lokalt
 
 ```bash
 npm run serve
-# Åpne http://localhost:8080/api/2025-01/skoler/index.json
+# Åpne http://localhost:8080/api/v2/schools/bergen-private-gymnas/studieplanlegger.json
 ```
 
-## Legge til ny skole
+## Blokkskjema-versjoner
 
-1. Opprett `data/skoler/{skole-id}/`
-2. Legg til `school-config.yml`, `blokkskjema.yml`, `timefordeling.yml`
-3. Kjør `npm run build:2025-01`
-4. Push til GitHub
+Hver skole kan ha flere blokkskjema-versjoner definert i `school-config.yml`:
 
-## Apper som bruker dette API-et
+```yaml
+blokkskjema:
+  activeVersion: "v2"
+  versions:
+    v2: "blokkskjema_v2.yml"      # Aktiv versjon
+    test: "blokkskjema_test.yml"  # Test-versjon
+    vanilla: "blokkskjema_vanilla.yml"
+```
 
-- **Studieplanlegger** - Fagvalg for VG2/VG3
-- **Fagkatalog** - Oversikt over programfag
-- **BPG-botten** - Chatbot for fagvalg
+Alle versjoner bygges inn i API og kan velges runtime via `?blokkskjema=vanilla`.
 
-## Vedlikehold
+## Klienter
 
-- Årlig sjekk mot nye UDIR-rundskriv (august)
-- Oppdater `data/kilder/versjon.yml` ved verifisering
-- Kjør `npm run fetch` for å oppdatere fagdata
+- **Studieplanlegger** - Fagvalg for VG2/VG3 (fredeids-metis/studieplanlegger)
+- **Fagkatalog** - Oversikt over programfag (fredeids-metis/fagkatalog)
 
 ## Lisens
 
