@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-02T08:35:07.552Z",
+    "generatedAt": "2025-12-02T09:05:58.148Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -1863,12 +1863,12 @@
         "krever": [
           "fysikk-1"
         ],
-        "type": "warning",
+        "type": "blocking",
         "beskrivelse": "Fysikk 2 bygger på Fysikk 1",
-        "feilmelding": "Fysikk 2 anbefales med Fysikk 1 først",
+        "feilmelding": "Du må ha Fysikk 1 i VG2 for å velge Fysikk 2",
         "forslag": "Legg til Fysikk 1 i VG2",
         "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan FYS01-02",
           "merknad": "Bygger på kompetansemål fra Fysikk 1"
         }
@@ -1878,27 +1878,13 @@
         "krever": [
           "kjemi-1"
         ],
-        "type": "warning",
+        "type": "blocking",
         "beskrivelse": "Kjemi 2 bygger på Kjemi 1",
-        "feilmelding": "Kjemi 2 anbefales med Kjemi 1 først",
+        "feilmelding": "Du må ha Kjemi 1 i VG2 for å velge Kjemi 2",
         "forslag": "Legg til Kjemi 1 i VG2",
         "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan KJE01-02"
-        }
-      },
-      {
-        "fag": "biologi-2",
-        "krever": [
-          "biologi-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Biologi 2 bygger på Biologi 1",
-        "feilmelding": "Biologi 2 anbefales med Biologi 1 først",
-        "forslag": "Legg til Biologi 1 i VG2",
-        "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan BIO01-02"
         }
       },
       {
@@ -1906,9 +1892,9 @@
         "krever": [
           "matematikk-r1"
         ],
-        "type": "warning",
-        "beskrivelse": "Matematikk R2 krever R1",
-        "feilmelding": "Matematikk R2 krever at du har hatt R1 i VG2",
+        "type": "blocking",
+        "beskrivelse": "Matematikk R2 bygger på R1",
+        "feilmelding": "Du må ha Matematikk R1 i VG2 for å velge R2",
         "forslag": "Legg til Matematikk R1 i VG2",
         "kilde": {
           "dokument": "vitnemalsregler-2025",
@@ -1921,9 +1907,9 @@
         "krever": [
           "matematikk-s1"
         ],
-        "type": "warning",
-        "beskrivelse": "Matematikk S2 krever S1",
-        "feilmelding": "Matematikk S2 krever at du har hatt S1 i VG2",
+        "type": "blocking",
+        "beskrivelse": "Matematikk S2 bygger på S1",
+        "feilmelding": "Du må ha Matematikk S1 i VG2 for å velge S2",
         "forslag": "Legg til Matematikk S1 i VG2",
         "kilde": {
           "dokument": "vitnemalsregler-2025",
@@ -1936,54 +1922,12 @@
         "krever": [
           "markedsforing-og-ledelse-1"
         ],
-        "type": "warning",
-        "beskrivelse": "Markedsføring 2 bygger på Markedsføring 1",
-        "feilmelding": "Markedsføring og ledelse 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Markedsføring og ledelse 1",
+        "type": "blocking",
+        "beskrivelse": "Markedsføring og ledelse 2 bygger på nivå 1",
+        "feilmelding": "Du må ha Markedsføring og ledelse 1 for å velge nivå 2",
+        "forslag": "Legg til Markedsføring og ledelse 1 i VG2",
         "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan"
-        }
-      },
-      {
-        "fag": "entreprenorskap-og-bedriftsutvikling-2",
-        "krever": [
-          "entreprenorskap-og-bedriftsutvikling-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Entreprenørskap 2 bygger på Entreprenørskap 1",
-        "feilmelding": "Entreprenørskap 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Entreprenørskap 1",
-        "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan"
-        }
-      },
-      {
-        "fag": "psykologi-2",
-        "krever": [
-          "psykologi-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Psykologi 2 bygger på Psykologi 1",
-        "feilmelding": "Psykologi 2 anbefales med Psykologi 1 først",
-        "forslag": "Legg til Psykologi 1",
-        "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan PSY01-02"
-        }
-      },
-      {
-        "fag": "rettslare-2",
-        "krever": [
-          "rettslare-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Rettslære 2 bygger på Rettslære 1",
-        "feilmelding": "Rettslære 2 anbefales med Rettslære 1 først",
-        "forslag": "Legg til Rettslære 1",
-        "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan"
         }
       },
@@ -1992,12 +1936,12 @@
         "krever": [
           "historie-og-filosofi-1"
         ],
-        "type": "warning",
+        "type": "blocking",
         "beskrivelse": "Historie og filosofi 2 bygger på nivå 1",
-        "feilmelding": "Historie og filosofi 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Historie og filosofi 1",
+        "feilmelding": "Du må ha Historie og filosofi 1 for å velge nivå 2",
+        "forslag": "Legg til Historie og filosofi 1 i VG2",
         "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan"
         }
       },
@@ -2006,54 +1950,12 @@
         "krever": [
           "samfunnsokonomi-1"
         ],
-        "type": "warning",
-        "beskrivelse": "Samfunnsøkonomi 2 bygger på Samfunnsøkonomi 1",
-        "feilmelding": "Samfunnsøkonomi 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Samfunnsøkonomi 1",
+        "type": "blocking",
+        "beskrivelse": "Samfunnsøkonomi 2 bygger på nivå 1",
+        "feilmelding": "Du må ha Samfunnsøkonomi 1 for å velge nivå 2",
+        "forslag": "Legg til Samfunnsøkonomi 1 i VG2",
         "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan"
-        }
-      },
-      {
-        "fag": "musikk-fordypning-2",
-        "krever": [
-          "musikk-fordypning-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Musikk fordypning 2 bygger på nivå 1",
-        "feilmelding": "Musikk fordypning 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Musikk fordypning 1",
-        "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan"
-        }
-      },
-      {
-        "fag": "informasjonsteknologi-2",
-        "krever": [
-          "informasjonsteknologi-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "IT 2 bygger på IT 1",
-        "feilmelding": "Informasjonsteknologi 2 anbefales med nivå 1 først",
-        "forslag": "Legg til Informasjonsteknologi 1",
-        "kilde": {
-          "dokument": "grep-api",
-          "type": "Læreplan"
-        }
-      },
-      {
-        "fag": "geofag-2",
-        "krever": [
-          "geofag-1"
-        ],
-        "type": "warning",
-        "beskrivelse": "Geofag 2 bygger på Geofag 1",
-        "feilmelding": "Geofag 2 anbefales med Geofag 1 først",
-        "forslag": "Legg til Geofag 1",
-        "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan"
         }
       },
@@ -2062,12 +1964,12 @@
         "krever": [
           "engelsk-1"
         ],
-        "type": "warning",
+        "type": "blocking",
         "beskrivelse": "Engelsk 2 bygger på Engelsk 1",
-        "feilmelding": "Engelsk 2 anbefales med Engelsk 1 først",
+        "feilmelding": "Du må ha Engelsk 1 for å velge Engelsk 2",
         "forslag": "Legg til Engelsk 1",
         "kilde": {
-          "dokument": "grep-api",
+          "dokument": "vitnemalsregler-2025",
           "type": "Læreplan"
         }
       }
