@@ -429,6 +429,9 @@ function buildStudieplanleggerJSON(skoleId, curriculumData) {
         bilde: f.bilde,
         vimeo: f.vimeo,
         omFaget: f.omFaget,
+        hvordanArbeiderMan: f.hvordanArbeiderMan,
+        fagetsRelevans: f.fagetsRelevans,
+        kjerneelementer: f.kjerneelementer,
         beskrivelseHTML: f.beskrivelseHTML
       })),
       fellesfag: curriculumData.fellesfag.map(f => ({
@@ -441,6 +444,9 @@ function buildStudieplanleggerJSON(skoleId, curriculumData) {
         bilde: f.bilde,
         vimeo: f.vimeo,
         omFaget: f.omFaget,
+        hvordanArbeiderMan: f.hvordanArbeiderMan,
+        fagetsRelevans: f.fagetsRelevans,
+        kjerneelementer: f.kjerneelementer,
         beskrivelseHTML: f.beskrivelseHTML
       }))
     }

@@ -5,6 +5,11 @@
  *
  * This is a SEPARATE build script that does NOT touch v1 API.
  *
+ * FEATURES:
+ * - Multi-version blokkskjema support (reads from school-config.yml)
+ * - Full markdown section extraction (omFaget, hvordanArbeiderMan, fagetsRelevans, kjerneelementer)
+ * - Curriculum enrichment with related subjects
+ *
  * Output structure:
  * docs/api/v2/
  * └── schools/
@@ -32,7 +37,7 @@ const GITHUB_USER = 'fredeids-metis';
 const REPO_NAME = 'school-data';
 const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/api/v2`;
 
-console.log('🚀 Building API v2 (Studieplanlegger)...\n');
+console.log('🚀 Building API v2 (Studieplanlegger) with multi-version support...\n');
 
 // Create output directories
 function ensureDir(dir) {
@@ -41,7 +46,7 @@ function ensureDir(dir) {
   }
 }
 
-// Extract plain text from markdown section
+// Extract plain text from markdown section "Om faget"
 function extractOmFaget(markdown) {
   const lines = markdown.split('\n');
   let inOmFaget = false;
@@ -63,6 +68,58 @@ function extractOmFaget(markdown) {
   return omFagetLines.join(' ');
 }
 
+// Extract a named section from markdown
+function extractSection(markdown, sectionName) {
+  const lines = markdown.split('\n');
+  let inSection = false;
+  const sectionLines = [];
+
+  for (const line of lines) {
+    if (line.startsWith(`## ${sectionName}`)) {
+      inSection = true;
+      continue;
+    }
+    if (inSection && line.startsWith('## ')) {
+      break;
+    }
+    if (inSection) {
+      if (line.trim() && !line.startsWith('<!--')) {
+        sectionLines.push(line);
+      }
+    }
+  }
+
+  const content = sectionLines.join('\n').trim();
+  return content || null;
+}
+
+// Extract kjerneelementer as structured array
+function extractKjerneelementer(markdown) {
+  const lines = markdown.split('\n');
+  let inKjerneelementer = false;
+  let currentElement = null;
+  const elementer = [];
+
+  for (const line of lines) {
+    if (line.startsWith('## Kjerneelementer')) {
+      inKjerneelementer = true;
+      continue;
+    }
+    if (inKjerneelementer && line.startsWith('## ') && !line.startsWith('### ')) {
+      break;
+    }
+    if (inKjerneelementer && line.startsWith('### ')) {
+      if (currentElement) elementer.push(currentElement);
+      currentElement = { title: line.replace('### ', '').trim(), content: '' };
+    } else if (inKjerneelementer && currentElement && line.trim() && !line.startsWith('<!--')) {
+      currentElement.content += (currentElement.content ? '\n' : '') + line.trim();
+    }
+  }
+  if (currentElement) elementer.push(currentElement);
+
+  return elementer.length > 0 ? elementer : null;
+}
+
 // Read markdown files from a directory
 function loadMarkdownFiles(directory, defaultType = 'programfag') {
   if (!fs.existsSync(directory)) {
@@ -80,6 +137,7 @@ function loadMarkdownFiles(directory, defaultType = 'programfag') {
     return {
       id: frontmatter.id,
       title: frontmatter.title,
+      shortTitle: frontmatter.shortTitle || null,
       fagkode: frontmatter.fagkode,
       lareplan: frontmatter.lareplan,
       type: frontmatter.type || defaultType,
@@ -87,9 +145,14 @@ function loadMarkdownFiles(directory, defaultType = 'programfag') {
       obligatorisk: frontmatter.obligatorisk || false,
       erstatbar: frontmatter.erstatbar || false,
       trinn: frontmatter.trinn || null,
+      bilde: frontmatter.bilde || null,
+      vimeo: frontmatter.vimeo || null,
       beskrivelse: markdown.trim(),
       beskrivelseHTML: marked(markdown.trim()),
       omFaget: extractOmFaget(markdown),
+      hvordanArbeiderMan: extractSection(markdown, 'Hvordan arbeider man i faget'),
+      fagetsRelevans: extractSection(markdown, 'Fagets relevans'),
+      kjerneelementer: extractKjerneelementer(markdown),
       generert: frontmatter.generert
     };
   });
@@ -144,6 +207,40 @@ function loadYAML(filePath) {
   return yaml.load(content);
 }
 
+/**
+ * Enrich a blokkskjema with curriculum data
+ * @param {Object} blokkskjema - Raw blokkskjema data
+ * @param {Map} curriculumMap - Map of fag id to curriculum data
+ * @param {Map} kategoriMap - Map of fag id to kategori
+ * @returns {Object} Enriched blokkskjema
+ */
+function enrichBlokkskjema(blokkskjema, curriculumMap, kategoriMap) {
+  const enriched = JSON.parse(JSON.stringify(blokkskjema));
+
+  if (enriched.blokker) {
+    Object.keys(enriched.blokker).forEach(blokkKey => {
+      const blokk = enriched.blokker[blokkKey];
+      if (blokk.fag && Array.isArray(blokk.fag)) {
+        blokk.fag = blokk.fag.map(fag => {
+          const curriculum = curriculumMap.get(fag.id);
+          return {
+            ...fag,
+            kategori: kategoriMap.get(fag.id) || null,
+            ...(curriculum && {
+              title: curriculum.title,
+              fagkode: curriculum.fagkode,
+              lareplan: curriculum.lareplan,
+              omFaget: curriculum.omFaget
+            })
+          };
+        });
+      }
+    });
+  }
+
+  return enriched;
+}
+
 // Build studieplanlegger.json for a school
 function buildStudieplanleggerAPI(schoolId, curriculumData) {
   console.log(`\n🏫 Building Studieplanlegger API for: ${schoolId}...`);
@@ -161,15 +258,59 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     return;
   }
 
-  // Load blokkskjema v2 directly (not from config version)
-  const blokkskjemaV2Path = path.join(schoolDataDir, 'blokkskjema_v2.yml');
-  const blokkskjema = loadYAML(blokkskjemaV2Path);
+  // Get blokkskjema versions from school config
+  const blokkskjemaConfig = schoolConfig.blokkskjema || {};
+  const availableVersions = blokkskjemaConfig.versions || { v2: 'blokkskjema_v2.yml' };
+  let activeVersion = blokkskjemaConfig.activeVersion || 'v2';
 
-  if (!blokkskjema) {
-    console.log(`  ⚠️  No blokkskjema_v2.yml found for ${schoolId}, skipping...`);
+  // Validate that activeVersion exists in availableVersions
+  if (!availableVersions[activeVersion]) {
+    const availableKeys = Object.keys(availableVersions);
+    console.log(`  ⚠️  activeVersion "${activeVersion}" not found. Available: ${availableKeys.join(', ')}`);
+
+    if (availableKeys.length > 0) {
+      activeVersion = availableKeys[0];
+      console.log(`  ⚠️  Falling back to: ${activeVersion}`);
+    } else {
+      console.log(`  ⚠️  No blokkskjema versions defined, skipping...`);
+      return;
+    }
+  }
+
+  console.log(`  📋 Active blokkskjema version: ${activeVersion}`);
+  console.log(`  📋 Available versions: ${Object.keys(availableVersions).join(', ')}`);
+
+  // Load all available blokkskjema versions
+  const blokkskjemaVersions = {};
+  let primaryBlokkskjema = null;
+
+  for (const [versionId, filename] of Object.entries(availableVersions)) {
+    const blokkskjemaPath = path.join(schoolDataDir, filename);
+    const blokkskjema = loadYAML(blokkskjemaPath);
+
+    if (blokkskjema) {
+      blokkskjemaVersions[versionId] = blokkskjema;
+      console.log(`  ✅ Loaded ${filename} as "${versionId}"`);
+
+      if (versionId === activeVersion) {
+        primaryBlokkskjema = blokkskjema;
+      }
+    } else {
+      console.log(`  ⚠️  Could not load ${filename} for version "${versionId}"`);
+    }
+  }
+
+  if (Object.keys(blokkskjemaVersions).length === 0) {
+    console.log(`  ⚠️  No blokkskjema files found, skipping...`);
     return;
   }
-  console.log(`  📋 Loaded blokkskjema_v2.yml`);
+
+  if (!primaryBlokkskjema) {
+    const firstVersion = Object.keys(blokkskjemaVersions)[0];
+    primaryBlokkskjema = blokkskjemaVersions[firstVersion];
+    activeVersion = firstVersion;
+    console.log(`  ⚠️  Active version not found, using "${firstVersion}"`);
+  }
 
   // Load timefordeling (fellesfag and obligatoriske programfag) - separate file
   const timefordelingPath = path.join(schoolDataDir, 'timefordeling.yml');
@@ -201,30 +342,14 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     curriculumMap.set(fag.id, fag);
   });
 
-  // Enrich blokkskjema with curriculum data
-  const enrichedBlokkskjema = JSON.parse(JSON.stringify(blokkskjema));
-
-  if (enrichedBlokkskjema.blokker) {
-    Object.keys(enrichedBlokkskjema.blokker).forEach(blokkKey => {
-      const blokk = enrichedBlokkskjema.blokker[blokkKey];
-      if (blokk.fag && Array.isArray(blokk.fag)) {
-        blokk.fag = blokk.fag.map(fag => {
-          const curriculum = curriculumMap.get(fag.id);
-          return {
-            ...fag,
-            kategori: kategoriMap.get(fag.id) || null,
-            // Add curriculum data if found
-            ...(curriculum && {
-              title: curriculum.title,
-              fagkode: curriculum.fagkode,
-              lareplan: curriculum.lareplan,
-              omFaget: curriculum.omFaget
-            })
-          };
-        });
-      }
-    });
+  // Enrich all blokkskjema versions
+  const enrichedVersions = {};
+  for (const [versionId, blokkskjema] of Object.entries(blokkskjemaVersions)) {
+    enrichedVersions[versionId] = enrichBlokkskjema(blokkskjema, curriculumMap, kategoriMap);
   }
+
+  // Get enriched primary for valgregler etc.
+  const enrichedPrimary = enrichedVersions[activeVersion];
 
   // Build the complete studieplanlegger.json
   const studieplanleggerOutput = {
@@ -232,7 +357,8 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
       version: 'v2',
       generatedAt: new Date().toISOString(),
       school: schoolId,
-      description: 'Complete data for Studieplanlegger widget'
+      description: 'Complete data for Studieplanlegger widget',
+      blokkskjemaVersions: Object.keys(enrichedVersions)
     },
 
     // School configuration
@@ -243,11 +369,19 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
       programs: schoolConfig.school.programs
     },
 
-    // Blokkskjema structure with enriched fag data
+    // Blokkskjema structure with multi-version support
     blokkskjema: {
-      versjon: enrichedBlokkskjema.versjon,
-      struktur: enrichedBlokkskjema.struktur,
-      blokker: enrichedBlokkskjema.blokker
+      activeVersion: activeVersion,
+      versions: Object.fromEntries(
+        Object.entries(enrichedVersions).map(([versionId, enriched]) => [
+          versionId,
+          {
+            versjon: enriched.versjon,
+            struktur: enriched.struktur,
+            blokker: enriched.blokker
+          }
+        ])
+      )
     },
 
     // Fellesfag per trinn (from timefordeling.yml)
@@ -259,40 +393,61 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     // VG1 valg (matematikk og fremmedspråk som elever velger)
     vg1Valg: timefordeling?.vg1Valg || {},
 
-    // Validation rules per program
-    valgregler: blokkskjema.valgregler || {},
+    // Validation rules per program (from primary blokkskjema)
+    valgregler: primaryBlokkskjema.valgregler || {},
 
-    // Prerequisites and exclusions
-    regler: blokkskjema.regler || {},
+    // Prerequisites and exclusions (from primary blokkskjema)
+    regler: primaryBlokkskjema.regler || {},
 
-    // Time validation per program and grade
-    timevalidering: blokkskjema.timevalidering || {},
+    // Time validation per program and grade (from primary blokkskjema)
+    timevalidering: primaryBlokkskjema.timevalidering || {},
 
-    // Curriculum data (simplified for quick lookups)
+    // Curriculum data (with all markdown sections for fagkatalog compatibility)
     curriculum: {
       valgfrieProgramfag: valgfrieProgramfag.map(f => ({
         id: f.id,
         title: f.title,
+        shortTitle: f.shortTitle,
         fagkode: f.fagkode,
         lareplan: f.lareplan,
+        bilde: f.bilde,
+        vimeo: f.vimeo,
         omFaget: f.omFaget,
+        hvordanArbeiderMan: f.hvordanArbeiderMan,
+        fagetsRelevans: f.fagetsRelevans,
+        beskrivelseHTML: f.beskrivelseHTML,
+        kjerneelementer: f.kjerneelementer,
         related: f.related
       })),
       obligatoriskeProgramfag: obligatoriskeProgramfag.map(f => ({
         id: f.id,
         title: f.title,
+        shortTitle: f.shortTitle,
         fagkode: f.fagkode,
         lareplan: f.lareplan,
         program: f.program,
-        omFaget: f.omFaget
+        bilde: f.bilde,
+        vimeo: f.vimeo,
+        omFaget: f.omFaget,
+        hvordanArbeiderMan: f.hvordanArbeiderMan,
+        fagetsRelevans: f.fagetsRelevans,
+        beskrivelseHTML: f.beskrivelseHTML,
+        kjerneelementer: f.kjerneelementer
       })),
       fellesfag: fellesfag.map(f => ({
         id: f.id,
         title: f.title,
+        shortTitle: f.shortTitle,
         fagkode: f.fagkode,
         lareplan: f.lareplan,
         trinn: f.trinn,
-        omFaget: f.omFaget
+        bilde: f.bilde,
+        vimeo: f.vimeo,
+        omFaget: f.omFaget,
+        hvordanArbeiderMan: f.hvordanArbeiderMan,
+        fagetsRelevans: f.fagetsRelevans,
+        beskrivelseHTML: f.beskrivelseHTML,
+        kjerneelementer: f.kjerneelementer
       }))
     }
   };
@@ -304,13 +459,15 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
   );
 
   // Calculate stats
-  const blokkCount = Object.keys(enrichedBlokkskjema.blokker || {}).length;
-  const fagCount = Object.values(enrichedBlokkskjema.blokker || {})
+  const versionCount = Object.keys(enrichedVersions).length;
+  const blokkCount = Object.keys(enrichedPrimary.blokker || {}).length;
+  const fagCount = Object.values(enrichedPrimary.blokker || {})
     .reduce((sum, blokk) => sum + (blokk.fag?.length || 0), 0);
-  const programCount = Object.keys(blokkskjema.valgregler || {}).length;
+  const programCount = Object.keys(primaryBlokkskjema.valgregler || {}).length;
 
   console.log(`  ✅ Created studieplanlegger.json`);
-  console.log(`     - ${blokkCount} blokker`);
+  console.log(`     - ${versionCount} blokkskjema-versjon(er): ${Object.keys(enrichedVersions).join(', ')}`);
+  console.log(`     - ${blokkCount} blokker (i aktiv versjon "${activeVersion}")`);
   console.log(`     - ${fagCount} fag-oppføringer`);
   console.log(`     - ${programCount} programområder med valgregler`);
 }
@@ -323,19 +480,19 @@ function build() {
   // Load curriculum data
   const curriculumData = loadCurriculumData();
 
-  // Find all schools with blokkskjema_v2.yml
+  // Find all schools with school-config.yml
   const schools = fs.readdirSync(SCHOOLS_DIR).filter(f => {
     const schoolDir = path.join(SCHOOLS_DIR, f);
     return fs.statSync(schoolDir).isDirectory() &&
-           fs.existsSync(path.join(schoolDir, 'blokkskjema_v2.yml'));
+           fs.existsSync(path.join(schoolDir, 'school-config.yml'));
   });
 
   if (schools.length === 0) {
-    console.log('\n⚠️  No schools with blokkskjema_v2.yml found!');
+    console.log('\n⚠️  No schools with school-config.yml found!');
     return;
   }
 
-  console.log(`\n📍 Found ${schools.length} school(s) with blokkskjema_v2.yml`);
+  console.log(`\n📍 Found ${schools.length} school(s) with school-config.yml`);
 
   // Build API for each school
   schools.forEach(schoolId => {
