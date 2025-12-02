@@ -396,8 +396,8 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     // Validation rules per program (from primary blokkskjema)
     valgregler: primaryBlokkskjema.valgregler || {},
 
-    // Prerequisites and exclusions (from primary blokkskjema)
-    regler: primaryBlokkskjema.regler || {},
+    // Prerequisites and exclusions (from curriculum/regler.yml - complete validation rules)
+    regler: loadYAML(path.join(CURRICULUM_DIR, 'regler.yml')) || primaryBlokkskjema.regler || {},
 
     // Time validation per program and grade (from primary blokkskjema)
     timevalidering: primaryBlokkskjema.timevalidering || {},
