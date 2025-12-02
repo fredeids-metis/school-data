@@ -465,6 +465,80 @@ function buildStudieplanleggerJSON(skoleId, curriculumData) {
   console.log(`      ${blokkCount} blokker, ${fagCount} fag-oppforinger`);
 }
 
+// Build tilbudt-fag.json for a school (filtered curriculum based on blokkskjema)
+function buildTilbudteFagJSON(skoleId, curriculumData) {
+  console.log(`Building ${skoleId}/tilbudt-fag.json...`);
+
+  const skoleDir = path.join(SCHOOLS_DIR, skoleId);
+  const outputDir = path.join(OUTPUT_DIR, 'skoler', skoleId);
+  ensureDir(outputDir);
+
+  // Load school config to get active blokkskjema version
+  const config = loadYAML(path.join(skoleDir, 'school-config.yml')) ||
+                 loadYAML(path.join(skoleDir, 'config.yml'));
+
+  // Determine which blokkskjema file to use
+  let blokkskjemaFile = 'blokkskjema.yml';
+  if (config?.blokkskjema?.activeVersion) {
+    blokkskjemaFile = `blokkskjema_${config.blokkskjema.activeVersion}.yml`;
+  }
+
+  const blokkskjema = loadYAML(path.join(skoleDir, blokkskjemaFile)) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema_v2.yml')) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema.yml'));
+
+  if (!blokkskjema) {
+    console.log(`  [!] No blokkskjema found for ${skoleId}, skipping tilbudt-fag`);
+    return;
+  }
+
+  // Extract unique fag IDs from blokkskjema
+  const tilbudteFagIds = new Set();
+  if (blokkskjema.blokker) {
+    Object.values(blokkskjema.blokker).forEach(blokk => {
+      if (blokk.fag && Array.isArray(blokk.fag)) {
+        blokk.fag.forEach(fag => tilbudteFagIds.add(fag.id));
+      }
+    });
+  }
+
+  // Build curriculum lookup
+  const curriculumMap = new Map();
+  curriculumData.valgfrieProgramfag.forEach(fag => curriculumMap.set(fag.id, fag));
+
+  // Create filtered curriculum with full data
+  const tilbudteFag = Array.from(tilbudteFagIds)
+    .map(id => curriculumMap.get(id))
+    .filter(Boolean)
+    .sort((a, b) => a.title.localeCompare(b.title, 'nb'));
+
+  // Log any missing fag (in blokkskjema but not in curriculum)
+  const missingFag = Array.from(tilbudteFagIds).filter(id => !curriculumMap.has(id));
+  if (missingFag.length > 0) {
+    console.log(`  [!] Warning: ${missingFag.length} fag in blokkskjema not found in curriculum:`);
+    missingFag.forEach(id => console.log(`      - ${id}`));
+  }
+
+  const output = {
+    metadata: {
+      version: API_VERSION,
+      generatedAt: new Date().toISOString(),
+      school: skoleId,
+      blokkskjemaVersion: config?.blokkskjema?.activeVersion || 'default',
+      count: tilbudteFag.length,
+      description: 'Fag tilbudt ved skolen basert på aktivt blokkskjema'
+    },
+    valgfrieProgramfag: tilbudteFag
+  };
+
+  fs.writeFileSync(
+    path.join(outputDir, 'tilbudt-fag.json'),
+    JSON.stringify(output, null, 2)
+  );
+
+  console.log(`  [+] Created tilbudt-fag.json (${tilbudteFag.length} fag fra blokkskjema)`);
+}
+
 // Main build
 function build() {
   ensureDir(OUTPUT_DIR);
@@ -481,6 +555,7 @@ function build() {
 
   schools.forEach(skoleId => {
     buildStudieplanleggerJSON(skoleId, curriculumData);
+    buildTilbudteFagJSON(skoleId, curriculumData);
   });
 
   console.log(`\n${'='.repeat(60)}`);
@@ -493,6 +568,7 @@ function build() {
   console.log(`  ${BASE_URL}/skoler/index.json`);
   schools.forEach(skoleId => {
     console.log(`  ${BASE_URL}/skoler/${skoleId}/studieplanlegger.json`);
+    console.log(`  ${BASE_URL}/skoler/${skoleId}/tilbudt-fag.json`);
   });
   console.log('');
 }
