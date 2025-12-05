@@ -179,8 +179,8 @@ fagomrader:
 # Spesialregler
 spesialregler:
   matematikkErstatter2P:
-    beskrivelse: "Matematikk R1 eller S1 erstatter fellesfaget Matematikk 2P"
-    gjelder: [matematikk-r1, matematikk-s1]
+    beskrivelse: "Matematikk-programfag (R1, S1, Statistikk, Matematikk for økonomifag) erstatter fellesfaget Matematikk 2P"
+    gjelder: [matematikk-r1, matematikk-s1, statistikk, matematikk-for-okonomifag]
     erstatter: matematikk-2p
     frigjorteTimer: 84
     kilde:

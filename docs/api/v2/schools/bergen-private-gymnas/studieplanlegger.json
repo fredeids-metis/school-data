@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-05T11:09:39.826Z",
+    "generatedAt": "2025-12-05T13:22:52.810Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -2113,7 +2113,8 @@
         "fag": [
           {
             "id": "engelsk",
-            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "title": "Engelsk",
+            "fullTitle": "Engelsk vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "ENG1007",
             "merknad": null,
@@ -2122,6 +2123,7 @@
           {
             "id": "fremmedsprak-vg1",
             "title": "Fremmedsprak VG1",
+            "fullTitle": null,
             "timer": 113,
             "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
             "merknad": "Spansk II/Fransk II/Tysk II/Kinesisk II/Japansk II",
@@ -2130,6 +2132,7 @@
           {
             "id": "geografi",
             "title": "Geografi",
+            "fullTitle": "Geografi",
             "timer": 56,
             "fagkode": "GEO1003",
             "merknad": null,
@@ -2137,7 +2140,8 @@
           },
           {
             "id": "kroppsoving-vg1",
-            "title": "Kroppsøving vg1",
+            "title": "Kroppsøving VG1",
+            "fullTitle": "Kroppsøving vg1",
             "timer": 56,
             "fagkode": "KRO1017",
             "merknad": null,
@@ -2146,6 +2150,7 @@
           {
             "id": "matematikk-vg1",
             "title": "Matematikk VG1",
+            "fullTitle": null,
             "timer": 140,
             "fagkode": "MAT1019/MAT1021",
             "merknad": null,
@@ -2156,7 +2161,8 @@
           },
           {
             "id": "naturfag",
-            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "title": "Naturfag",
+            "fullTitle": "Naturfag vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "NAT1007",
             "merknad": null,
@@ -2164,7 +2170,8 @@
           },
           {
             "id": "norsk-vg1",
-            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG1",
+            "fullTitle": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
             "timer": 113,
             "fagkode": "NOR1260",
             "merknad": null,
@@ -2173,6 +2180,7 @@
           {
             "id": "samfunnskunnskap",
             "title": "Samfunnskunnskap",
+            "fullTitle": "Samfunnskunnskap",
             "timer": 84,
             "fagkode": "SAK1001",
             "merknad": null,
@@ -2186,6 +2194,7 @@
           {
             "id": "fremmedsprak-vg2",
             "title": "Fremmedsprak VG2",
+            "fullTitle": null,
             "timer": 112,
             "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
             "merknad": null,
@@ -2193,7 +2202,8 @@
           },
           {
             "id": "historie-vg2",
-            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "title": "Historie VG2",
+            "fullTitle": "Historie vg2 studieforberedende utdanningsprogram",
             "timer": 56,
             "fagkode": "HIS1009",
             "merknad": null,
@@ -2201,7 +2211,8 @@
           },
           {
             "id": "kroppsoving-vg2",
-            "title": "Kroppsøving vg2",
+            "title": "Kroppsøving VG2",
+            "fullTitle": "Kroppsøving vg2",
             "timer": 56,
             "fagkode": "KRO1018",
             "merknad": null,
@@ -2210,6 +2221,7 @@
           {
             "id": "matematikk-2p",
             "title": "Matematikk 2P",
+            "fullTitle": "Matematikk 2P",
             "timer": 84,
             "fagkode": "MAT1023",
             "merknad": "Erstattes av R1/S1 hvis programfag velges",
@@ -2217,7 +2229,8 @@
           },
           {
             "id": "norsk-vg2",
-            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG2",
+            "fullTitle": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
             "timer": 112,
             "fagkode": "NOR1264",
             "merknad": null,
@@ -2230,7 +2243,8 @@
         "fag": [
           {
             "id": "historie-vg3",
-            "title": "Historie Vg3",
+            "title": "Historie VG3",
+            "fullTitle": "Historie Vg3",
             "timer": 113,
             "fagkode": "HIS1010",
             "merknad": null,
@@ -2238,7 +2252,8 @@
           },
           {
             "id": "kroppsoving-vg3",
-            "title": "Kroppsøving Vg3",
+            "title": "Kroppsøving VG3",
+            "fullTitle": "Kroppsøving Vg3",
             "timer": 56,
             "fagkode": "KRO1019",
             "merknad": null,
@@ -2246,7 +2261,8 @@
           },
           {
             "id": "norsk-vg3",
-            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG3",
+            "fullTitle": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
             "timer": 168,
             "fagkode": "NOR1267",
             "merknad": null,
@@ -2255,6 +2271,7 @@
           {
             "id": "religion-og-etikk",
             "title": "Religion og etikk",
+            "fullTitle": "Religion og etikk",
             "timer": 84,
             "fagkode": "REL1003",
             "merknad": null,
@@ -2269,7 +2286,8 @@
         "fag": [
           {
             "id": "engelsk",
-            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "title": "Engelsk",
+            "fullTitle": "Engelsk vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "ENG1007",
             "merknad": null,
@@ -2278,6 +2296,7 @@
           {
             "id": "fremmedsprak-vg1",
             "title": "Fremmedsprak VG1",
+            "fullTitle": null,
             "timer": 113,
             "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
             "merknad": null,
@@ -2285,7 +2304,8 @@
           },
           {
             "id": "kroppsoving-vg1",
-            "title": "Kroppsøving vg1",
+            "title": "Kroppsøving VG1",
+            "fullTitle": "Kroppsøving vg1",
             "timer": 56,
             "fagkode": "KRO1017",
             "merknad": null,
@@ -2294,6 +2314,7 @@
           {
             "id": "matematikk-vg1",
             "title": "Matematikk VG1",
+            "fullTitle": null,
             "timer": 140,
             "fagkode": "MAT1019/MAT1021",
             "merknad": null,
@@ -2304,7 +2325,8 @@
           },
           {
             "id": "naturfag",
-            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "title": "Naturfag",
+            "fullTitle": "Naturfag vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "NAT1007",
             "merknad": null,
@@ -2312,7 +2334,8 @@
           },
           {
             "id": "norsk-vg1",
-            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG1",
+            "fullTitle": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
             "timer": 113,
             "fagkode": "NOR1260",
             "merknad": null,
@@ -2326,6 +2349,7 @@
           {
             "id": "fremmedsprak-vg2",
             "title": "Fremmedsprak VG2",
+            "fullTitle": null,
             "timer": 112,
             "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
             "merknad": null,
@@ -2334,6 +2358,7 @@
           {
             "id": "geografi",
             "title": "Geografi",
+            "fullTitle": "Geografi",
             "timer": 56,
             "fagkode": "GEO1003",
             "merknad": null,
@@ -2341,7 +2366,8 @@
           },
           {
             "id": "historie-vg2",
-            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "title": "Historie VG2",
+            "fullTitle": "Historie vg2 studieforberedende utdanningsprogram",
             "timer": 56,
             "fagkode": "HIS1009",
             "merknad": null,
@@ -2349,7 +2375,8 @@
           },
           {
             "id": "kroppsoving-vg2",
-            "title": "Kroppsøving vg2",
+            "title": "Kroppsøving VG2",
+            "fullTitle": "Kroppsøving vg2",
             "timer": 56,
             "fagkode": "KRO1018",
             "merknad": null,
@@ -2358,6 +2385,7 @@
           {
             "id": "matematikk-2p",
             "title": "Matematikk 2P",
+            "fullTitle": "Matematikk 2P",
             "timer": 84,
             "fagkode": "MAT1023",
             "merknad": "Erstattes av R1/S1 hvis programfag velges",
@@ -2365,7 +2393,8 @@
           },
           {
             "id": "norsk-vg2",
-            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG2",
+            "fullTitle": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
             "timer": 112,
             "fagkode": "NOR1264",
             "merknad": null,
@@ -2374,6 +2403,7 @@
           {
             "id": "samfunnskunnskap",
             "title": "Samfunnskunnskap",
+            "fullTitle": "Samfunnskunnskap",
             "timer": 84,
             "fagkode": "SAK1001",
             "merknad": null,
@@ -2386,7 +2416,8 @@
         "fag": [
           {
             "id": "historie-vg3",
-            "title": "Historie Vg3",
+            "title": "Historie VG3",
+            "fullTitle": "Historie Vg3",
             "timer": 113,
             "fagkode": "HIS1010",
             "merknad": null,
@@ -2394,7 +2425,8 @@
           },
           {
             "id": "kroppsoving-vg3",
-            "title": "Kroppsøving Vg3",
+            "title": "Kroppsøving VG3",
+            "fullTitle": "Kroppsøving Vg3",
             "timer": 56,
             "fagkode": "KRO1019",
             "merknad": null,
@@ -2402,7 +2434,8 @@
           },
           {
             "id": "norsk-vg3",
-            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG3",
+            "fullTitle": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
             "timer": 168,
             "fagkode": "NOR1267",
             "merknad": null,
@@ -2411,6 +2444,7 @@
           {
             "id": "religion-og-etikk",
             "title": "Religion og etikk",
+            "fullTitle": "Religion og etikk",
             "timer": 84,
             "fagkode": "REL1003",
             "merknad": null,
@@ -2425,7 +2459,8 @@
         "fag": [
           {
             "id": "engelsk",
-            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "title": "Engelsk",
+            "fullTitle": "Engelsk vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "ENG1007",
             "merknad": null,
@@ -2434,6 +2469,7 @@
           {
             "id": "fremmedsprak-vg1",
             "title": "Fremmedsprak VG1",
+            "fullTitle": null,
             "timer": 113,
             "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
             "merknad": null,
@@ -2442,6 +2478,7 @@
           {
             "id": "matematikk-vg1",
             "title": "Matematikk VG1",
+            "fullTitle": null,
             "timer": 140,
             "fagkode": "MAT1019/MAT1021",
             "merknad": null,
@@ -2452,7 +2489,8 @@
           },
           {
             "id": "naturfag",
-            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "title": "Naturfag",
+            "fullTitle": "Naturfag vg1 studieforberedende utdanningsprogram",
             "timer": 140,
             "fagkode": "NAT1007",
             "merknad": null,
@@ -2460,7 +2498,8 @@
           },
           {
             "id": "norsk-vg1",
-            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG1",
+            "fullTitle": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
             "timer": 113,
             "fagkode": "NOR1260",
             "merknad": null,
@@ -2474,6 +2513,7 @@
           {
             "id": "fremmedsprak-vg2",
             "title": "Fremmedsprak VG2",
+            "fullTitle": null,
             "timer": 112,
             "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
             "merknad": null,
@@ -2482,6 +2522,7 @@
           {
             "id": "geografi",
             "title": "Geografi",
+            "fullTitle": "Geografi",
             "timer": 56,
             "fagkode": "GEO1003",
             "merknad": null,
@@ -2489,7 +2530,8 @@
           },
           {
             "id": "historie-vg2",
-            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "title": "Historie VG2",
+            "fullTitle": "Historie vg2 studieforberedende utdanningsprogram",
             "timer": 56,
             "fagkode": "HIS1009",
             "merknad": null,
@@ -2498,6 +2540,7 @@
           {
             "id": "matematikk-2p",
             "title": "Matematikk 2P",
+            "fullTitle": "Matematikk 2P",
             "timer": 84,
             "fagkode": "MAT1023",
             "merknad": "Erstattes av R1/S1 hvis programfag velges",
@@ -2505,7 +2548,8 @@
           },
           {
             "id": "norsk-vg2",
-            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG2",
+            "fullTitle": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
             "timer": 112,
             "fagkode": "NOR1264",
             "merknad": null,
@@ -2514,6 +2558,7 @@
           {
             "id": "samfunnskunnskap",
             "title": "Samfunnskunnskap",
+            "fullTitle": "Samfunnskunnskap",
             "timer": 84,
             "fagkode": "SAK1001",
             "merknad": null,
@@ -2526,7 +2571,8 @@
         "fag": [
           {
             "id": "historie-vg3",
-            "title": "Historie Vg3",
+            "title": "Historie VG3",
+            "fullTitle": "Historie Vg3",
             "timer": 113,
             "fagkode": "HIS1010",
             "merknad": null,
@@ -2534,7 +2580,8 @@
           },
           {
             "id": "norsk-vg3",
-            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "title": "Norsk VG3",
+            "fullTitle": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
             "timer": 168,
             "fagkode": "NOR1267",
             "merknad": null,
@@ -2543,6 +2590,7 @@
           {
             "id": "religion-og-etikk",
             "title": "Religion og etikk",
+            "fullTitle": "Religion og etikk",
             "timer": 84,
             "fagkode": "REL1003",
             "merknad": null,
@@ -2702,6 +2750,13 @@
     "fremmedsprak": {
       "harFremmedsprak": [
         {
+          "id": "spansk-1",
+          "title": "Spansk I",
+          "timer": 113,
+          "fagkode": "FSP6215",
+          "merknad": "For elever som vil starte nytt språk"
+        },
+        {
           "id": "spansk-2",
           "title": "Spansk II",
           "timer": 113,
@@ -2726,7 +2781,7 @@
           "title": "Spansk I+II",
           "timer": 225,
           "fagkode": "FSP6237",
-          "merknad": "For elever uten fremmedspråk fra ungdomsskolen"
+          "merknad": "For elever uten fremmedspråk fra ungdomsskolen (VG1: 113t + VG2: 112t + VG3: 140t)"
         }
       ]
     }
@@ -2993,20 +3048,23 @@
         "konfliktGrupper": [
           [
             "matematikk-r1",
-            "matematikk-s1"
+            "matematikk-s1",
+            "statistikk",
+            "matematikk-for-okonomifag"
           ],
           [
             "matematikk-2p"
           ]
         ],
-        "beskrivelse": "Matematikk R1 eller S1 erstatter fellesfaget 2P",
-        "feilmelding": "Du kan ikke kombinere R1/S1 med 2P - programfaget erstatter fellesfaget",
-        "forslag": "Matematikk R1 eller S1 erstatter 2P automatisk",
+        "beskrivelse": "Matematikk-programfag (R1, S1, Statistikk, Matematikk for økonomifag) erstatter fellesfaget 2P",
+        "feilmelding": "Du kan ikke kombinere dette matematikkfaget med 2P - programfaget erstatter fellesfaget",
+        "forslag": "Matematikk-programfag erstatter 2P automatisk",
         "kilde": {
           "dokument": "vitnemalsregler-2025",
           "seksjon": "3.8",
           "tittel": "Føring av vurdering i realfag",
-          "url": "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"
+          "url": "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8",
+          "merknad": "Statistikk og Matematikk for økonomifag gjelder fra skoleåret 2026/27"
         }
       },
       {
@@ -3355,10 +3413,12 @@
     },
     "spesialregler": {
       "matematikkErstatter2P": {
-        "beskrivelse": "Matematikk R1 eller S1 erstatter fellesfaget Matematikk 2P",
+        "beskrivelse": "Matematikk-programfag (R1, S1, Statistikk, Matematikk for økonomifag) erstatter fellesfaget Matematikk 2P",
         "gjelder": [
           "matematikk-r1",
-          "matematikk-s1"
+          "matematikk-s1",
+          "statistikk",
+          "matematikk-for-okonomifag"
         ],
         "erstatter": "matematikk-2p",
         "frigjorteTimer": 84,
@@ -5252,7 +5312,7 @@
       {
         "id": "engelsk",
         "title": "Engelsk vg1 studieforberedende utdanningsprogram",
-        "shortTitle": null,
+        "shortTitle": "Engelsk",
         "fagkode": "ENG1007",
         "lareplan": "ENG01-04",
         "trinn": null,
@@ -5372,7 +5432,7 @@
       {
         "id": "historie-vg2",
         "title": "Historie vg2 studieforberedende utdanningsprogram",
-        "shortTitle": null,
+        "shortTitle": "Historie VG2",
         "fagkode": "HIS1009",
         "lareplan": "HIS01-03",
         "trinn": null,
@@ -5404,7 +5464,7 @@
       {
         "id": "historie-vg3",
         "title": "Historie Vg3",
-        "shortTitle": null,
+        "shortTitle": "Historie VG3",
         "fagkode": "HIS1010",
         "lareplan": "HIS01-03",
         "trinn": null,
@@ -5451,7 +5511,7 @@
       {
         "id": "kroppsoving-vg1",
         "title": "Kroppsøving vg1",
-        "shortTitle": null,
+        "shortTitle": "Kroppsøving VG1",
         "fagkode": "KRO1017",
         "lareplan": "KRO01-05;STUDIESPESIALISERING,MEDIER-KOMMUNIKASJON",
         "trinn": null,
@@ -5479,7 +5539,7 @@
       {
         "id": "kroppsoving-vg2",
         "title": "Kroppsøving vg2",
-        "shortTitle": null,
+        "shortTitle": "Kroppsøving VG2",
         "fagkode": "KRO1018",
         "lareplan": "KRO01-05;STUDIESPESIALISERING,MEDIER-KOMMUNIKASJON",
         "trinn": null,
@@ -5507,7 +5567,7 @@
       {
         "id": "kroppsoving-vg3",
         "title": "Kroppsøving Vg3",
-        "shortTitle": null,
+        "shortTitle": "Kroppsøving VG3",
         "fagkode": "KRO1019",
         "lareplan": "KRO01-05",
         "trinn": null,
@@ -5643,7 +5703,7 @@
       {
         "id": "naturfag",
         "title": "Naturfag vg1 studieforberedende utdanningsprogram",
-        "shortTitle": null,
+        "shortTitle": "Naturfag",
         "fagkode": "NAT1007",
         "lareplan": "NAT01-04",
         "trinn": null,
@@ -5679,7 +5739,7 @@
       {
         "id": "norsk-vg1",
         "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
-        "shortTitle": null,
+        "shortTitle": "Norsk VG1",
         "fagkode": "NOR1260",
         "lareplan": "NOR01-07",
         "trinn": null,
@@ -5719,7 +5779,7 @@
       {
         "id": "norsk-vg2",
         "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
-        "shortTitle": null,
+        "shortTitle": "Norsk VG2",
         "fagkode": "NOR1264",
         "lareplan": "NOR01-07",
         "trinn": null,
@@ -5759,7 +5819,7 @@
       {
         "id": "norsk-vg3",
         "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
-        "shortTitle": null,
+        "shortTitle": "Norsk VG3",
         "fagkode": "NOR1267",
         "lareplan": "NOR01-07",
         "trinn": null,
