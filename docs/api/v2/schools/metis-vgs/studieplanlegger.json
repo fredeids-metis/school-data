@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-05T10:30:52.642Z",
+    "generatedAt": "2025-12-05T11:09:39.833Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -1158,115 +1158,630 @@
     }
   },
   "fellesfag": {
-    "vg1": {
-      "totalt": 842,
-      "fag": [
-        {
-          "id": "engelsk",
-          "timer": 140,
-          "fagkode": "ENG1007"
-        },
-        {
-          "id": "fremmedsprak-vg1",
-          "timer": 113,
-          "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
-          "merknad": "Spansk II/Fransk II/Tysk II/Kinesisk II/Japansk II"
-        },
-        {
-          "id": "geografi",
-          "timer": 56,
-          "fagkode": "GEO1003"
-        },
-        {
-          "id": "kroppsoving-vg1",
-          "timer": 56,
-          "fagkode": "KRO1017"
-        },
-        {
-          "id": "matematikk-vg1",
-          "timer": 140,
-          "fagkode": "MAT1019/MAT1021",
-          "alternativer": [
-            "matematikk-1p",
-            "matematikk-1t"
-          ]
-        },
-        {
-          "id": "naturfag",
-          "timer": 140,
-          "fagkode": "NAT1007"
-        },
-        {
-          "id": "norsk-vg1",
-          "timer": 113,
-          "fagkode": "NOR1260"
-        },
-        {
-          "id": "samfunnskunnskap",
-          "timer": 84,
-          "fagkode": "SAK1001"
-        }
-      ]
+    "studiespesialisering": {
+      "vg1": {
+        "totalt": 842,
+        "fag": [
+          {
+            "id": "engelsk",
+            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "ENG1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "fremmedsprak-vg1",
+            "title": "Fremmedsprak VG1",
+            "timer": 113,
+            "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
+            "merknad": "Spansk II/Fransk II/Tysk II/Kinesisk II/Japansk II",
+            "alternativer": null
+          },
+          {
+            "id": "geografi",
+            "title": "Geografi",
+            "timer": 56,
+            "fagkode": "GEO1003",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg1",
+            "title": "Kroppsøving vg1",
+            "timer": 56,
+            "fagkode": "KRO1017",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-vg1",
+            "title": "Matematikk VG1",
+            "timer": 140,
+            "fagkode": "MAT1019/MAT1021",
+            "merknad": null,
+            "alternativer": [
+              "matematikk-1p",
+              "matematikk-1t"
+            ]
+          },
+          {
+            "id": "naturfag",
+            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "NAT1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg1",
+            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 113,
+            "fagkode": "NOR1260",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "samfunnskunnskap",
+            "title": "Samfunnskunnskap",
+            "timer": 84,
+            "fagkode": "SAK1001",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg2": {
+        "totalt": 420,
+        "fag": [
+          {
+            "id": "fremmedsprak-vg2",
+            "title": "Fremmedsprak VG2",
+            "timer": 112,
+            "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "historie-vg2",
+            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "timer": 56,
+            "fagkode": "HIS1009",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg2",
+            "title": "Kroppsøving vg2",
+            "timer": 56,
+            "fagkode": "KRO1018",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-2p",
+            "title": "Matematikk 2P",
+            "timer": 84,
+            "fagkode": "MAT1023",
+            "merknad": "Erstattes av R1/S1 hvis programfag velges",
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg2",
+            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 112,
+            "fagkode": "NOR1264",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg3": {
+        "totalt": 421,
+        "fag": [
+          {
+            "id": "historie-vg3",
+            "title": "Historie Vg3",
+            "timer": 113,
+            "fagkode": "HIS1010",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg3",
+            "title": "Kroppsøving Vg3",
+            "timer": 56,
+            "fagkode": "KRO1019",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg3",
+            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 168,
+            "fagkode": "NOR1267",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "religion-og-etikk",
+            "title": "Religion og etikk",
+            "timer": 84,
+            "fagkode": "REL1003",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      }
     },
-    "vg2": {
-      "totalt": 420,
-      "fag": [
-        {
-          "id": "fremmedsprak-vg2",
-          "timer": 112,
-          "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152"
-        },
-        {
-          "id": "historie-vg2",
-          "timer": 56,
-          "fagkode": "HIS1009"
-        },
-        {
-          "id": "kroppsoving-vg2",
-          "timer": 56,
-          "fagkode": "KRO1018"
-        },
-        {
-          "id": "matematikk-2p",
-          "timer": 84,
-          "fagkode": "MAT1023",
-          "merknad": "Erstattes av R1/S1 hvis programfag velges"
-        },
-        {
-          "id": "norsk-vg2",
-          "timer": 112,
-          "fagkode": "NOR1264"
-        }
-      ]
+    "medier-kommunikasjon": {
+      "vg1": {
+        "totalt": 702,
+        "fag": [
+          {
+            "id": "engelsk",
+            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "ENG1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "fremmedsprak-vg1",
+            "title": "Fremmedsprak VG1",
+            "timer": 113,
+            "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg1",
+            "title": "Kroppsøving vg1",
+            "timer": 56,
+            "fagkode": "KRO1017",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-vg1",
+            "title": "Matematikk VG1",
+            "timer": 140,
+            "fagkode": "MAT1019/MAT1021",
+            "merknad": null,
+            "alternativer": [
+              "matematikk-1p",
+              "matematikk-1t"
+            ]
+          },
+          {
+            "id": "naturfag",
+            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "NAT1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg1",
+            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 113,
+            "fagkode": "NOR1260",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg2": {
+        "totalt": 504,
+        "fag": [
+          {
+            "id": "fremmedsprak-vg2",
+            "title": "Fremmedsprak VG2",
+            "timer": 112,
+            "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "geografi",
+            "title": "Geografi",
+            "timer": 56,
+            "fagkode": "GEO1003",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "historie-vg2",
+            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "timer": 56,
+            "fagkode": "HIS1009",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg2",
+            "title": "Kroppsøving vg2",
+            "timer": 56,
+            "fagkode": "KRO1018",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-2p",
+            "title": "Matematikk 2P",
+            "timer": 84,
+            "fagkode": "MAT1023",
+            "merknad": "Erstattes av R1/S1 hvis programfag velges",
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg2",
+            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 112,
+            "fagkode": "NOR1264",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "samfunnskunnskap",
+            "title": "Samfunnskunnskap",
+            "timer": 84,
+            "fagkode": "SAK1001",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg3": {
+        "totalt": 421,
+        "fag": [
+          {
+            "id": "historie-vg3",
+            "title": "Historie Vg3",
+            "timer": 113,
+            "fagkode": "HIS1010",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "kroppsoving-vg3",
+            "title": "Kroppsøving Vg3",
+            "timer": 56,
+            "fagkode": "KRO1019",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg3",
+            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 168,
+            "fagkode": "NOR1267",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "religion-og-etikk",
+            "title": "Religion og etikk",
+            "timer": 84,
+            "fagkode": "REL1003",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      }
     },
-    "vg3": {
-      "totalt": 421,
-      "fag": [
+    "musikk-dans-drama": {
+      "vg1": {
+        "totalt": 646,
+        "fag": [
+          {
+            "id": "engelsk",
+            "title": "Engelsk vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "ENG1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "fremmedsprak-vg1",
+            "title": "Fremmedsprak VG1",
+            "timer": 113,
+            "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-vg1",
+            "title": "Matematikk VG1",
+            "timer": 140,
+            "fagkode": "MAT1019/MAT1021",
+            "merknad": null,
+            "alternativer": [
+              "matematikk-1p",
+              "matematikk-1t"
+            ]
+          },
+          {
+            "id": "naturfag",
+            "title": "Naturfag vg1 studieforberedende utdanningsprogram",
+            "timer": 140,
+            "fagkode": "NAT1007",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg1",
+            "title": "Norsk, vg1 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 113,
+            "fagkode": "NOR1260",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg2": {
+        "totalt": 504,
+        "fag": [
+          {
+            "id": "fremmedsprak-vg2",
+            "title": "Fremmedsprak VG2",
+            "timer": 112,
+            "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "geografi",
+            "title": "Geografi",
+            "timer": 56,
+            "fagkode": "GEO1003",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "historie-vg2",
+            "title": "Historie vg2 studieforberedende utdanningsprogram",
+            "timer": 56,
+            "fagkode": "HIS1009",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "matematikk-2p",
+            "title": "Matematikk 2P",
+            "timer": 84,
+            "fagkode": "MAT1023",
+            "merknad": "Erstattes av R1/S1 hvis programfag velges",
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg2",
+            "title": "Norsk, vg2 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 112,
+            "fagkode": "NOR1264",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "samfunnskunnskap",
+            "title": "Samfunnskunnskap",
+            "timer": 84,
+            "fagkode": "SAK1001",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      },
+      "vg3": {
+        "totalt": 365,
+        "fag": [
+          {
+            "id": "historie-vg3",
+            "title": "Historie Vg3",
+            "timer": 113,
+            "fagkode": "HIS1010",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "norsk-vg3",
+            "title": "Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig",
+            "timer": 168,
+            "fagkode": "NOR1267",
+            "merknad": null,
+            "alternativer": null
+          },
+          {
+            "id": "religion-og-etikk",
+            "title": "Religion og etikk",
+            "timer": 84,
+            "fagkode": "REL1003",
+            "merknad": null,
+            "alternativer": null
+          }
+        ]
+      }
+    }
+  },
+  "fellesProgramfag": {
+    "medier-kommunikasjon": {
+      "vg1": {
+        "totalt": 280,
+        "fag": [
+          {
+            "id": "mediesamfunnet-1",
+            "title": "Mediesamfunnet 1",
+            "timer": 140,
+            "fagkode": "MOK2008"
+          },
+          {
+            "id": "medieuttrykk-1",
+            "title": "Medieuttrykk 1",
+            "timer": 140,
+            "fagkode": "MOK2012"
+          }
+        ]
+      },
+      "vg2": {
+        "totalt": 280,
+        "fag": [
+          {
+            "id": "mediesamfunnet-2",
+            "title": "Mediesamfunnet 2",
+            "timer": 140,
+            "fagkode": "MOK2009"
+          },
+          {
+            "id": "medieuttrykk-2",
+            "title": "Medieuttrykk 2",
+            "timer": 140,
+            "fagkode": "MOK2013"
+          }
+        ]
+      },
+      "vg3": {
+        "totalt": 280,
+        "fag": [
+          {
+            "id": "mediesamfunnet-3",
+            "title": "Mediesamfunnet 3",
+            "timer": 140,
+            "fagkode": "MOK2010"
+          },
+          {
+            "id": "medieuttrykk-3",
+            "title": "Medieuttrykk 3",
+            "timer": 140,
+            "fagkode": "MOK2014"
+          }
+        ]
+      }
+    },
+    "musikk-dans-drama": {
+      "vg1": {
+        "totalt": 336,
+        "fag": [
+          {
+            "id": "musikk-dans-drama",
+            "title": "Musikk Dans Drama",
+            "timer": 140,
+            "fagkode": "MDD2002"
+          },
+          {
+            "id": "lytting",
+            "title": "Lytting",
+            "timer": 56,
+            "fagkode": "MDD3007"
+          },
+          {
+            "id": "musikk",
+            "title": "Musikk",
+            "timer": 140,
+            "fagkode": "MDD3009"
+          }
+        ]
+      },
+      "vg2": {
+        "totalt": 336,
+        "fag": [
+          {
+            "id": "ergonomi-og-bevegelse-1",
+            "title": "Ergonomi og bevegelse 1",
+            "timer": 56,
+            "fagkode": "MUS2010"
+          },
+          {
+            "id": "instrument-kor-samspill-1",
+            "title": "Instrument, kor, samspill 1",
+            "timer": 140,
+            "fagkode": "MUS2012"
+          },
+          {
+            "id": "musikk-i-perspektiv-1",
+            "title": "Musikk i perspektiv 1",
+            "timer": 140,
+            "fagkode": "MUS2014"
+          }
+        ]
+      },
+      "vg3": {
+        "totalt": 476,
+        "fag": [
+          {
+            "id": "ergonomi-og-bevegelse-2",
+            "title": "Ergonomi og bevegelse 2",
+            "timer": 56,
+            "fagkode": "MUS2011"
+          },
+          {
+            "id": "instruksjon-og-ledelse",
+            "title": "Instruksjon og ledelse",
+            "timer": 140,
+            "fagkode": "MUS2018"
+          },
+          {
+            "id": "instrument-kor-samspill-2",
+            "title": "Instrument, kor, samspill 2",
+            "timer": 140,
+            "fagkode": "MUS2013"
+          },
+          {
+            "id": "musikk-i-perspektiv-2",
+            "title": "Musikk i perspektiv 2",
+            "timer": 140,
+            "fagkode": "MUS2016"
+          }
+        ]
+      }
+    }
+  },
+  "vg1Valg": {
+    "matematikk": [
+      {
+        "id": "matematikk-1p",
+        "title": "Matematikk 1P",
+        "timer": 140,
+        "fagkode": "MAT1019"
+      },
+      {
+        "id": "matematikk-1t",
+        "title": "Matematikk 1T",
+        "timer": 140,
+        "fagkode": "MAT1021"
+      }
+    ],
+    "fremmedsprak": {
+      "harFremmedsprak": [
         {
-          "id": "historie-vg3",
+          "id": "spansk-2",
+          "title": "Spansk II",
           "timer": 113,
-          "fagkode": "HIS1010"
+          "fagkode": "FSP6218"
         },
         {
-          "id": "kroppsoving-vg3",
-          "timer": 56,
-          "fagkode": "KRO1019"
+          "id": "tysk-2",
+          "title": "Tysk II",
+          "timer": 113,
+          "fagkode": "FSP6224"
         },
         {
-          "id": "norsk-vg3",
-          "timer": 168,
-          "fagkode": "NOR1267"
-        },
+          "id": "fransk-2",
+          "title": "Fransk II",
+          "timer": 113,
+          "fagkode": "FSP6221"
+        }
+      ],
+      "ikkeHarFremmedsprak": [
         {
-          "id": "religion-og-etikk",
-          "timer": 84,
-          "fagkode": "REL1003"
+          "id": "spansk-1-2",
+          "title": "Spansk I+II",
+          "timer": 225,
+          "fagkode": "FSP6237",
+          "merknad": "For elever uten fremmedspråk fra ungdomsskolen"
         }
       ]
     }
   },
-  "fellesProgramfag": {},
-  "vg1Valg": {},
   "valgregler": {
     "studiespesialisering": {
       "vg2": {

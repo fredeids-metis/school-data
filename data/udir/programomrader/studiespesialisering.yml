@@ -106,6 +106,38 @@ fordypning:
   timerPerOmrade: 280
   beskrivelse: "Minimum 560 timer fra 2 fagområder (280 timer hver)"
 
+# VG1 Valg (matematikk og fremmedspråk)
+vg1Valg:
+  matematikk:
+    - id: matematikk-1p
+      title: "Matematikk 1P"
+      timer: 140
+      fagkode: MAT1019
+    - id: matematikk-1t
+      title: "Matematikk 1T"
+      timer: 140
+      fagkode: MAT1021
+  fremmedsprak:
+    harFremmedsprak:
+      - id: spansk-2
+        title: "Spansk II"
+        timer: 113
+        fagkode: FSP6218
+      - id: tysk-2
+        title: "Tysk II"
+        timer: 113
+        fagkode: FSP6224
+      - id: fransk-2
+        title: "Fransk II"
+        timer: 113
+        fagkode: FSP6221
+    ikkeHarFremmedsprak:
+      - id: spansk-1-2
+        title: "Spansk I+II"
+        timer: 225
+        fagkode: FSP6237
+        merknad: "For elever uten fremmedspråk fra ungdomsskolen"
+
 # Spesialregler
 spesialregler:
   matematikkErstatter2P:

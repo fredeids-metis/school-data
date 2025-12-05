@@ -38,6 +38,23 @@ const GITHUB_USER = 'fredeids-metis';
 const REPO_NAME = 'school-data';
 const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/api/v2`;
 
+/**
+ * Format a fag ID to a readable title (fallback when curriculum data missing)
+ * E.g., "norsk-vg1" -> "Norsk VG1", "matematikk-1p" -> "Matematikk 1P"
+ */
+function formatFagId(id) {
+  if (!id) return '';
+  return id
+    .split('-')
+    .map(part => {
+      // Handle special cases like "vg1", "vg2", "vg3", "1p", "1t", "2p"
+      if (/^vg\d$/.test(part)) return part.toUpperCase();
+      if (/^\d[a-z]$/.test(part)) return part.toUpperCase();
+      return part.charAt(0).toUpperCase() + part.slice(1);
+    })
+    .join(' ');
+}
+
 console.log('🚀 Building API v2 (Studieplanlegger) with multi-version support...\n');
 
 // Create output directories
@@ -313,12 +330,24 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     console.log(`  ⚠️  Active version not found, using "${firstVersion}"`);
   }
 
-  // Load timefordeling from UDIR (now centralized)
-  const timefordelingPath = path.join(UDIR_DIR, 'programomrader', 'studiespesialisering.yml');
-  const timefordeling = loadYAML(timefordelingPath);
-  if (timefordeling) {
-    console.log(`  📋 Loaded UDIR timefordeling (programomrader/studiespesialisering.yml)`);
+  // Load ALL programområder from UDIR
+  const programomraderDir = path.join(UDIR_DIR, 'programomrader');
+  const programomrader = {};
+
+  if (fs.existsSync(programomraderDir)) {
+    const programFiles = fs.readdirSync(programomraderDir).filter(f => f.endsWith('.yml'));
+    for (const file of programFiles) {
+      const programId = file.replace('.yml', '');
+      const programData = loadYAML(path.join(programomraderDir, file));
+      if (programData) {
+        programomrader[programId] = programData;
+      }
+    }
+    console.log(`  📋 Loaded ${Object.keys(programomrader).length} programområder from UDIR`);
   }
+
+  // Use studiespesialisering as primary for backwards compatibility
+  const timefordeling = programomrader['studiespesialisering'] || {};
 
   // Load tilbud for enrichment
   const tilbud = loadYAML(path.join(schoolDataDir, 'tilbud.yml'));
@@ -386,11 +415,69 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
       )
     },
 
-    // Fellesfag per trinn (from timefordeling.yml)
-    fellesfag: timefordeling?.fellesfag || {},
+    // Fellesfag per trinn per programområde (enriched with titles from curriculum)
+    fellesfag: (() => {
+      const result = {};
+      // Build fellesfag for each program the school offers
+      const schoolPrograms = (schoolConfig.school.programs || []).map(p => p.id);
 
-    // Felles programfag per program (obligatoriske programfag, from timefordeling.yml)
-    fellesProgramfag: timefordeling?.fellesProgramfag || {},
+      for (const programId of schoolPrograms) {
+        const programData = programomrader[programId];
+        if (!programData?.fellesfag) continue;
+
+        result[programId] = {};
+        for (const [trinn, trinnData] of Object.entries(programData.fellesfag)) {
+          if (!trinnData?.fag) continue;
+
+          result[programId][trinn] = {
+            totalt: trinnData.totalt || 0,
+            fag: trinnData.fag.map(fag => {
+              // Try to find title from curriculum
+              const curriculumFag = curriculumMap.get(fag.id);
+              return {
+                id: fag.id,
+                title: curriculumFag?.title || formatFagId(fag.id),
+                timer: fag.timer,
+                fagkode: fag.fagkode,
+                merknad: fag.merknad || null,
+                alternativer: fag.alternativer || null
+              };
+            })
+          };
+        }
+      }
+      return result;
+    })(),
+
+    // Felles programfag per program (obligatoriske programfag)
+    fellesProgramfag: (() => {
+      const result = {};
+      const schoolPrograms = (schoolConfig.school.programs || []).map(p => p.id);
+
+      for (const programId of schoolPrograms) {
+        const programData = programomrader[programId];
+        if (!programData?.fellesProgramfag) continue;
+
+        result[programId] = {};
+        for (const [trinn, trinnData] of Object.entries(programData.fellesProgramfag)) {
+          if (!trinnData?.fag) continue;
+
+          result[programId][trinn] = {
+            totalt: trinnData.totalt || 0,
+            fag: trinnData.fag.map(fag => {
+              const curriculumFag = curriculumMap.get(fag.id);
+              return {
+                id: fag.id,
+                title: curriculumFag?.title || formatFagId(fag.id),
+                timer: fag.timer,
+                fagkode: fag.fagkode
+              };
+            })
+          };
+        }
+      }
+      return result;
+    })(),
 
     // VG1 valg (matematikk og fremmedspråk som elever velger)
     vg1Valg: timefordeling?.vg1Valg || {},
