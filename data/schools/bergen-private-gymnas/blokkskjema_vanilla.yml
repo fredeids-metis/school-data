@@ -4,9 +4,10 @@
 #
 # VIKTIGE PRINSIPPER:
 # - Fag uten forutsetningskrav kan velges av både VG2 og VG3
-# - Fag som "bygger på" (Fysikk 2, Kjemi 2, M&L 2, R2, S2, Engelsk 2) kun VG3
+# - Fag som "bygger på" (Fysikk 2, Kjemi 2, M&L 2, R2, Engelsk 2) kun VG3
 # - Historie er obligatorisk VG3 og ligger i alle blokker
 # - Spansk I+II er betinget obligatorisk for elever uten fremmedspråk
+# - Statistikk og Matematikk for økonomifag erstatter tidligere S1/S2
 
 school: bergen-private-gymnas
 versjon: "vanilla"
@@ -52,23 +53,35 @@ blokker:
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
         merknad: "Erstatter Matematikk 2P hvis valgt"
 
-      - id: matematikk-s1
+      - id: statistikk
         timer: 140
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Erstatter Matematikk 2P hvis valgt"
+        merknad: "Nytt fag fra 2026 - erstatter Matematikk S"
+
+      - id: statistikk
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Nytt fag fra 2026 - erstatter Matematikk S"
+
+      - id: matematikk-for-okonomifag
+        timer: 140
+        trinn: vg2
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        merknad: "Nytt fag fra 2026 - erstatter Matematikk S"
+
+      - id: matematikk-for-okonomifag
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
+        merknad: "Nytt fag fra 2026 - erstatter Matematikk S"
 
       - id: matematikk-r2
         timer: 140
         trinn: vg3
         tilgjengeligFor: ["studiespesialisering"]
         krever: ["matematikk-r1"]
-
-      - id: matematikk-s2
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering"]
-        krever: ["matematikk-s1"]
 
       # ===== HISTORIE (obligatorisk VG3) =====
       - id: historie-vg3
@@ -432,8 +445,8 @@ valgregler:
           feilmelding: "Du må velge 3 programfag (420 timer) i tillegg til matematikk"
 
         - type: "matematikk-obligatorisk"
-          beskrivelse: "Du MÅ velge enten Matematikk 2P, R1 eller S1"
-          feilmelding: "Du må velge matematikk: enten 2P, R1 eller S1"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P eller R1"
+          feilmelding: "Du må velge matematikk: enten 2P eller R1"
           valg:
             - id: "matematikk-2p"
               timer: 84
@@ -442,14 +455,11 @@ valgregler:
               timer: 140
               type: "programfag"
               erstatter: "matematikk-2p"
-            - id: "matematikk-s1"
-              timer: 140
-              type: "programfag"
-              erstatter: "matematikk-2p"
 
       infomeldinger:
         - "Velg 3 programfag (420 timer) + matematikk"
-        - "Matematikk: Velg enten 2P (84t), R1 (140t) eller S1 (140t)"
+        - "Matematikk: Velg enten 2P (84t) eller R1 (140t)"
+        - "Statistikk og Matematikk for økonomifag er valgfrie programfag"
         - "Du bør planlegge for fordypning (to fag fra samme fagområde)"
 
     vg3:
@@ -499,17 +509,13 @@ valgregler:
           feilmelding: "Du må velge 1 valgfritt programfag (140 timer)"
 
         - type: "matematikk-obligatorisk"
-          beskrivelse: "Du MÅ velge enten Matematikk 2P, R1 eller S1"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P eller R1"
           feilmelding: "Du må velge matematikk"
           valg:
             - id: "matematikk-2p"
               timer: 84
               type: "fellesfag"
             - id: "matematikk-r1"
-              timer: 140
-              type: "programfag"
-              erstatter: "matematikk-2p"
-            - id: "matematikk-s1"
               timer: 140
               type: "programfag"
               erstatter: "matematikk-2p"
@@ -558,17 +564,13 @@ valgregler:
           feilmelding: "Du må velge 1 valgfritt programfag (140 timer)"
 
         - type: "matematikk-obligatorisk"
-          beskrivelse: "Du MÅ velge enten Matematikk 2P, R1 eller S1"
+          beskrivelse: "Du MÅ velge enten Matematikk 2P eller R1"
           feilmelding: "Du må velge matematikk"
           valg:
             - id: "matematikk-2p"
               timer: 84
               type: "fellesfag"
             - id: "matematikk-r1"
-              timer: 140
-              type: "programfag"
-              erstatter: "matematikk-2p"
-            - id: "matematikk-s1"
               timer: 140
               type: "programfag"
               erstatter: "matematikk-2p"
@@ -610,11 +612,6 @@ regler:
       beskrivelse: "Matematikk R2 krever R1"
       feilmelding: "For å velge Matematikk R2 må du ha hatt R1"
 
-    - fag: "matematikk-s2"
-      krever: ["matematikk-s1"]
-      beskrivelse: "Matematikk S2 krever S1"
-      feilmelding: "For å velge Matematikk S2 må du ha hatt S1"
-
     - fag: "fysikk-2"
       krever: ["fysikk-1"]
       beskrivelse: "Fysikk 2 krever Fysikk 1"
@@ -640,23 +637,10 @@ regler:
       beskrivelse: "Kan ikke kombinere R-matte og 2P-matte"
       feilmelding: "Du kan ikke kombinere R-matematikk med 2P"
 
-    - gruppe: ["matematikk-s1", "matematikk-s2", "matematikk-2p"]
-      beskrivelse: "Kan ikke kombinere S-matte og 2P-matte"
-      feilmelding: "Du kan ikke kombinere S-matematikk med 2P"
-
-    - gruppe: ["matematikk-r1", "matematikk-r2", "matematikk-s1", "matematikk-s2"]
-      beskrivelse: "Kan ikke kombinere R-matte og S-matte"
-      feilmelding: "Du kan ikke kombinere R-matematikk og S-matematikk"
-
   erstatter:
     - fag: "matematikk-r1"
       erstatter: "matematikk-2p"
       beskrivelse: "Matematikk R1 erstatter 2P"
-      timer-frigjort: 84
-
-    - fag: "matematikk-s1"
-      erstatter: "matematikk-2p"
-      beskrivelse: "Matematikk S1 erstatter 2P"
       timer-frigjort: 84
 
 # ========================================
@@ -665,7 +649,7 @@ regler:
 metadata:
   versjon: "vanilla"
   opprettet: "2025-11-26"
-  sistOppdatert: "2025-11-26"
+  sistOppdatert: "2025-12-05"
   basertPå: "Blokkskjema 25-26 med Historie i alle blokker"
   kommentar: |
     Blokkskjema "vanilla" - basert på 25-26 med følgende tilpasninger:
@@ -675,11 +659,15 @@ metadata:
     - Fag som "bygger på" er kun tilgjengelig for VG3
     - Historie er lagt til i alle blokker for VG3
 
+    NYE FAG (erstatter Matematikk S1/S2):
+    - Statistikk (nytt fag fra 2026)
+    - Matematikk for økonomifag (nytt fag fra 2026)
+    Disse fagene bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.
+
     FAG SOM BYGGER PÅ (kun VG3):
     - Fysikk 2 (krever Fysikk 1)
     - Kjemi 2 (krever Kjemi 1)
     - Matematikk R2 (krever R1)
-    - Matematikk S2 (krever S1)
     - Markedsføring og ledelse 2 (krever nivå 1)
     - Engelsk 2 (krever Engelsk 1)
 
@@ -694,6 +682,7 @@ metadata:
     - Politikk og menneskerettigheter
     - Grafisk design, Bilde
     - Engelsk 1
+    - Statistikk, Matematikk for økonomifag
 
     BLOKKTILGANG:
     - Blokk 1: VG2 alle, VG3 kun Stud

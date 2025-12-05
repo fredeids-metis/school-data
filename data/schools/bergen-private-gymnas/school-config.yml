@@ -61,7 +61,7 @@ school:
 
 blokkskjema:
   # Hvilken versjon som er aktiv (brukes i produksjon)
-  activeVersion: "v2"  # Aktiv versjon - endre for å bytte
+  activeVersion: "vanilla"  # Aktiv versjon - endre for å bytte
 
   # Tilgjengelige versjoner og deres filer
   # Legg til nye versjoner her for å gjøre dem tilgjengelige for runtime-veksling
