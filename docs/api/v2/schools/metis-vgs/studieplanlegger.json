@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-02T09:05:58.148Z",
+    "generatedAt": "2025-12-05T08:55:46.515Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -2643,6 +2643,74 @@
         ]
       },
       {
+        "id": "geofag-1",
+        "title": "Geofag 1",
+        "shortTitle": null,
+        "fagkode": "REA3042",
+        "lareplan": "GFG01-03",
+        "bilde": "geofag-1.jpg",
+        "vimeo": null,
+        "omFaget": "Geofag handler om jordens oppbygning, prosesser og historie, samt samspillet mellom geosfærene og menneskets påvirkning på disse. Faget kombinerer naturvitenskap med forståelse av hvordan geologiske prosesser påvirker samfunnet og miljøet. Geofag gir innsikt i naturressurser, naturkatastrofer og klimaendringer.",
+        "hvordanArbeiderMan": "I Geofag 1 arbeider du med en kombinasjon av teori, feltarbeid og laboratorieøvelser. Du lærer å identifisere bergarter og mineraler, tolke geologiske kart og forstå landformer. Feltarbeid er en viktig del av faget der du undersøker geologiske fenomener i naturen. Digitale verktøy som GIS (geografiske informasjonssystemer) brukes til å analysere og visualisere geodata.",
+        "fagetsRelevans": "Geofag passer for deg som er interessert i naturen, miljøet og hvordan jorden fungerer. Faget er relevant for videre studier innen geologi, geografi, miljøvitenskap, ressursforvaltning og petroleumsfag. Kunnskapen er også verdifull for å forstå samfunnsutfordringer knyttet til klimaendringer, naturkatastrofer og bærekraftig ressursbruk.",
+        "beskrivelseHTML": "<h1>Geofag 1</h1>\n<p><strong>Læreplan:</strong> Læreplan i geofag</p>\n<h2>Om faget</h2>\n<p>Geofag handler om jordens oppbygning, prosesser og historie, samt samspillet mellom geosfærene og menneskets påvirkning på disse. Faget kombinerer naturvitenskap med forståelse av hvordan geologiske prosesser påvirker samfunnet og miljøet. Geofag gir innsikt i naturressurser, naturkatastrofer og klimaendringer.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Geofag 1 arbeider du med en kombinasjon av teori, feltarbeid og laboratorieøvelser. Du lærer å identifisere bergarter og mineraler, tolke geologiske kart og forstå landformer. Feltarbeid er en viktig del av faget der du undersøker geologiske fenomener i naturen. Digitale verktøy som GIS (geografiske informasjonssystemer) brukes til å analysere og visualisere geodata.</p>\n<h2>Fagets relevans</h2>\n<p>Geofag passer for deg som er interessert i naturen, miljøet og hvordan jorden fungerer. Faget er relevant for videre studier innen geologi, geografi, miljøvitenskap, ressursforvaltning og petroleumsfag. Kunnskapen er også verdifull for å forstå samfunnsutfordringer knyttet til klimaendringer, naturkatastrofer og bærekraftig ressursbruk.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>gjøre rede for jordas oppbygning og de viktigste bergartsdannende prosessene</li>\n<li>identifisere og klassifisere vanlige bergarter og mineraler og forklare hvordan de er dannet</li>\n<li>beskrive platetektonikk og forklare hvordan den former jordskorpen</li>\n<li>utforske og forklare hvordan ytre krefter former landskap gjennom forvitring, erosjon og avsetning</li>\n<li>bruke geologiske kart og profiler til å beskrive geologien i et område</li>\n<li>gjennomføre feltarbeid og laboratoriearbeid og dokumentere og presentere resultatene</li>\n<li>drøfte hvordan geologiske prosesser påvirker mennesker og samfunn</li>\n<li>utforske og vurdere hvordan naturressurser utnyttes og forvaltes</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Jorda som system</h3>\n<p>Kjerneelementet jorda som system handler om hvordan de ulike geosfærene (litosfæren, hydrosfæren, atmosfæren og biosfæren) samvirker og påvirker hverandre. Det handler om å forstå jorden som et dynamisk system der energi og materie utveksles mellom sfærene.</p>\n<h3>Geofaglige metoder og verktøy</h3>\n<p>Dette kjerneelementet handler om å bruke geofaglige metoder og verktøy for å undersøke og forstå geologiske fenomener. Det inkluderer feltarbeid, laboratoriearbeid, bruk av kart og digitale verktøy, samt vitenskapelig metode.</p>\n<h3>Naturressurser og bærekraft</h3>\n<p>Kjerneelementet naturressurser og bærekraft handler om hvordan geologiske ressurser dannes, utnyttes og forvaltes. Det handler også om å vurdere miljøkonsekvenser og bærekraftig ressursbruk.</p>\n<h3>Naturfare og samfunn</h3>\n<p>Dette kjerneelementet handler om hvordan geologiske prosesser kan utgjøre fare for mennesker og samfunn, og hvordan samfunnet kan tilpasse seg og forebygge skader fra naturhendelser.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3042</em>\n<em>Læreplan: GFG01-03</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Jorda som system",
+            "content": "Kjerneelementet jorda som system handler om hvordan de ulike geosfærene (litosfæren, hydrosfæren, atmosfæren og biosfæren) samvirker og påvirker hverandre. Det handler om å forstå jorden som et dynamisk system der energi og materie utveksles mellom sfærene."
+          },
+          {
+            "title": "Geofaglige metoder og verktøy",
+            "content": "Dette kjerneelementet handler om å bruke geofaglige metoder og verktøy for å undersøke og forstå geologiske fenomener. Det inkluderer feltarbeid, laboratoriearbeid, bruk av kart og digitale verktøy, samt vitenskapelig metode."
+          },
+          {
+            "title": "Naturressurser og bærekraft",
+            "content": "Kjerneelementet naturressurser og bærekraft handler om hvordan geologiske ressurser dannes, utnyttes og forvaltes. Det handler også om å vurdere miljøkonsekvenser og bærekraftig ressursbruk."
+          },
+          {
+            "title": "Naturfare og samfunn",
+            "content": "Dette kjerneelementet handler om hvordan geologiske prosesser kan utgjøre fare for mennesker og samfunn, og hvordan samfunnet kan tilpasse seg og forebygge skader fra naturhendelser."
+          }
+        ],
+        "related": [
+          "Geofag 2"
+        ]
+      },
+      {
+        "id": "geofag-2",
+        "title": "Geofag 2",
+        "shortTitle": null,
+        "fagkode": "REA3043",
+        "lareplan": "GFG01-03",
+        "bilde": "geofag-2.jpg",
+        "vimeo": null,
+        "omFaget": "Geofag 2 gir dypere forståelse av geologiske prosesser, jordens historie og klimasystemet. Faget fokuserer særlig på klimaendringer, naturfare og ressursforvaltning, og gir elevene kompetanse til å analysere komplekse geofaglige problemstillinger.",
+        "hvordanArbeiderMan": "I Geofag 2 arbeider du mer selvstendig med geofaglige undersøkelser og prosjekter. Du fordyper deg i temaer som klimahistorie, naturfare og ressursgeologi. Feltarbeid og dataanalyse er sentrale arbeidsformer, og du lærer å bruke avanserte metoder og verktøy for å undersøke og forstå geologiske fenomener. Du vil også jobbe med å formidle geofaglig kunnskap til ulike målgrupper.",
+        "fagetsRelevans": "Geofag 2 gir deg spisskompetanse som er etterspurt i mange sektorer - fra olje- og energibransjen til miljøforvaltning og klimaforskning. Faget er relevant for videre studier innen geologi, geofysikk, miljøvitenskap, ressursforvaltning og klimavitenskap. Sammen med Geofag 1 gir det et solid grunnlag for å forstå og bidra til løsninger på samfunnsutfordringer knyttet til klima og miljø.",
+        "beskrivelseHTML": "<h1>Geofag 2</h1>\n<p><strong>Læreplan:</strong> Læreplan i geofag</p>\n<h2>Om faget</h2>\n<p>Geofag 2 gir dypere forståelse av geologiske prosesser, jordens historie og klimasystemet. Faget fokuserer særlig på klimaendringer, naturfare og ressursforvaltning, og gir elevene kompetanse til å analysere komplekse geofaglige problemstillinger.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Geofag 2 arbeider du mer selvstendig med geofaglige undersøkelser og prosjekter. Du fordyper deg i temaer som klimahistorie, naturfare og ressursgeologi. Feltarbeid og dataanalyse er sentrale arbeidsformer, og du lærer å bruke avanserte metoder og verktøy for å undersøke og forstå geologiske fenomener. Du vil også jobbe med å formidle geofaglig kunnskap til ulike målgrupper.</p>\n<h2>Fagets relevans</h2>\n<p>Geofag 2 gir deg spisskompetanse som er etterspurt i mange sektorer - fra olje- og energibransjen til miljøforvaltning og klimaforskning. Faget er relevant for videre studier innen geologi, geofysikk, miljøvitenskap, ressursforvaltning og klimavitenskap. Sammen med Geofag 1 gir det et solid grunnlag for å forstå og bidra til løsninger på samfunnsutfordringer knyttet til klima og miljø.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>gjøre rede for jordens geologiske historie og utviklingen av livet på jorden</li>\n<li>utforske og forklare klimasystemet og hvordan klimaet har endret seg gjennom jordens historie</li>\n<li>analysere og vurdere årsaker til og konsekvenser av klimaendringer</li>\n<li>utforske og drøfte naturfare og sårbarhet i et geofaglig perspektiv</li>\n<li>undersøke og vurdere forekomst, utnyttelse og bærekraftig forvaltning av geologiske ressurser</li>\n<li>planlegge og gjennomføre geofaglige undersøkelser og presentere resultatene</li>\n<li>drøfte geofaglige problemstillinger med relevans for samfunnet og miljøet</li>\n<li>vurdere og bruke geofaglige data og modeller kritisk</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Jorda som system</h3>\n<p>Kjerneelementet jorda som system handler om hvordan de ulike geosfærene (litosfæren, hydrosfæren, atmosfæren og biosfæren) samvirker og påvirker hverandre. Det handler om å forstå jorden som et dynamisk system der energi og materie utveksles mellom sfærene.</p>\n<h3>Geofaglige metoder og verktøy</h3>\n<p>Dette kjerneelementet handler om å bruke geofaglige metoder og verktøy for å undersøke og forstå geologiske fenomener. Det inkluderer feltarbeid, laboratoriearbeid, bruk av kart og digitale verktøy, samt vitenskapelig metode.</p>\n<h3>Naturressurser og bærekraft</h3>\n<p>Kjerneelementet naturressurser og bærekraft handler om hvordan geologiske ressurser dannes, utnyttes og forvaltes. Det handler også om å vurdere miljøkonsekvenser og bærekraftig ressursbruk.</p>\n<h3>Naturfare og samfunn</h3>\n<p>Dette kjerneelementet handler om hvordan geologiske prosesser kan utgjøre fare for mennesker og samfunn, og hvordan samfunnet kan tilpasse seg og forebygge skader fra naturhendelser.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3043</em>\n<em>Læreplan: GFG01-03</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Jorda som system",
+            "content": "Kjerneelementet jorda som system handler om hvordan de ulike geosfærene (litosfæren, hydrosfæren, atmosfæren og biosfæren) samvirker og påvirker hverandre. Det handler om å forstå jorden som et dynamisk system der energi og materie utveksles mellom sfærene."
+          },
+          {
+            "title": "Geofaglige metoder og verktøy",
+            "content": "Dette kjerneelementet handler om å bruke geofaglige metoder og verktøy for å undersøke og forstå geologiske fenomener. Det inkluderer feltarbeid, laboratoriearbeid, bruk av kart og digitale verktøy, samt vitenskapelig metode."
+          },
+          {
+            "title": "Naturressurser og bærekraft",
+            "content": "Kjerneelementet naturressurser og bærekraft handler om hvordan geologiske ressurser dannes, utnyttes og forvaltes. Det handler også om å vurdere miljøkonsekvenser og bærekraftig ressursbruk."
+          },
+          {
+            "title": "Naturfare og samfunn",
+            "content": "Dette kjerneelementet handler om hvordan geologiske prosesser kan utgjøre fare for mennesker og samfunn, og hvordan samfunnet kan tilpasse seg og forebygge skader fra naturhendelser."
+          }
+        ],
+        "related": [
+          "Geofag 1"
+        ]
+      },
+      {
         "id": "grafisk-design",
         "title": "Grafisk design",
         "shortTitle": null,
@@ -2839,6 +2907,66 @@
         ]
       },
       {
+        "id": "kommunikasjon-og-kultur-1",
+        "title": "Kommunikasjon og kultur 1",
+        "shortTitle": null,
+        "fagkode": "SPR3033",
+        "lareplan": "KKM01-03",
+        "bilde": "kommunikasjon-og-kultur-1.jpg",
+        "vimeo": null,
+        "omFaget": "Kommunikasjon og kultur fokuserer på hvordan elevene kan utvikle forståelse for kommunikasjon, språk og kulturelle perspektiver. Faget bidrar til at elevene utvikler bevissthet om hvordan kommunikasjon utformes og fortolkes i et kulturelt perspektiv. Kunnskapen ruster elevene til å bygge meningsfylte relasjoner, orientere seg i samfunnet og mestre framtidens arbeidsliv.",
+        "hvordanArbeiderMan": "I Kommunikasjon og kultur 1 arbeider du med å utforske, analysere og skape ulike former for kommunikasjon. Du undersøker hvordan kulturelle faktorer påvirker kommunikasjon, og hvordan kommunikasjon påvirker og formes av kultur. Undervisningen kombinerer teori med praktiske øvelser der du analyserer tekster, medier og kommunikasjonssituasjoner. Du lærer også å produsere egne tekster og kommunikasjonsuttrykk tilpasset ulike formål og målgrupper.",
+        "fagetsRelevans": "Kommunikasjon og kultur passer for deg som er interessert i språk, kultur og hvordan mennesker kommuniserer. Faget gir kompetanse som er verdifull i mange sammenhenger - fra journalistikk og markedsføring til diplomati og kulturarbeid. Det er relevant for videre studier innen kommunikasjon, mediefag, kulturstudier, språkfag og samfunnsfag. Faget stimulerer kreativitet og utforskertrang gjennom møter med varierte tekstkulturer og medier.",
+        "beskrivelseHTML": "<h1>Kommunikasjon og kultur 1</h1>\n<p><strong>Læreplan:</strong> Læreplan i kommunikasjon og kultur</p>\n<h2>Om faget</h2>\n<p>Kommunikasjon og kultur fokuserer på hvordan elevene kan utvikle forståelse for kommunikasjon, språk og kulturelle perspektiver. Faget bidrar til at elevene utvikler bevissthet om hvordan kommunikasjon utformes og fortolkes i et kulturelt perspektiv. Kunnskapen ruster elevene til å bygge meningsfylte relasjoner, orientere seg i samfunnet og mestre framtidens arbeidsliv.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Kommunikasjon og kultur 1 arbeider du med å utforske, analysere og skape ulike former for kommunikasjon. Du undersøker hvordan kulturelle faktorer påvirker kommunikasjon, og hvordan kommunikasjon påvirker og formes av kultur. Undervisningen kombinerer teori med praktiske øvelser der du analyserer tekster, medier og kommunikasjonssituasjoner. Du lærer også å produsere egne tekster og kommunikasjonsuttrykk tilpasset ulike formål og målgrupper.</p>\n<h2>Fagets relevans</h2>\n<p>Kommunikasjon og kultur passer for deg som er interessert i språk, kultur og hvordan mennesker kommuniserer. Faget gir kompetanse som er verdifull i mange sammenhenger - fra journalistikk og markedsføring til diplomati og kulturarbeid. Det er relevant for videre studier innen kommunikasjon, mediefag, kulturstudier, språkfag og samfunnsfag. Faget stimulerer kreativitet og utforskertrang gjennom møter med varierte tekstkulturer og medier.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>utforske og analysere hvordan kulturelle faktorer påvirker kommunikasjon</li>\n<li>drøfte hvordan identitet og tilhørighet kommer til uttrykk gjennom språk og kommunikasjon</li>\n<li>analysere ulike typer tekster og medieuttrykk og vurdere hvordan de kommuniserer mening</li>\n<li>skape tekster og kommunikasjonsuttrykk tilpasset formål, mottaker og kanal</li>\n<li>utforske og drøfte sammenhenger mellom språk, makt og påvirkning</li>\n<li>anvende relevante begreper og teorier om kommunikasjon og kultur i analyse og drøfting</li>\n<li>reflektere over egen kommunikasjon og kulturelle bakgrunn</li>\n<li>samarbeide med andre og gi konstruktiv tilbakemelding på kommunikasjonsarbeid</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Kommunikasjon</h3>\n<p>Kjerneelementet kommunikasjon handler om hvordan mening skapes og utveksles mellom mennesker. Det handler om å forstå og bruke ulike kommunikasjonsformer og -kanaler, og om å tilpasse kommunikasjon til formål og mottaker.</p>\n<h3>Kultur og identitet</h3>\n<p>Dette kjerneelementet handler om hvordan kultur former og uttrykkes gjennom kommunikasjon. Det handler også om hvordan identitet og tilhørighet kommer til uttrykk gjennom språk, symboler og andre kommunikasjonsformer.</p>\n<h3>Tekst og medier</h3>\n<p>Kjerneelementet tekst og medier handler om å analysere og skape tekster i ulike sjangre og medier. Det handler om å forstå hvordan tekster og medier kommuniserer mening og påvirker holdninger og handlinger.</p>\n<h3>Språk og makt</h3>\n<p>Dette kjerneelementet handler om sammenhenger mellom språk, makt og påvirkning. Det handler om å forstå hvordan språkbruk kan inkludere og ekskludere, og hvordan kommunikasjon kan brukes til å påvirke og overtale.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: SPR3033</em>\n<em>Læreplan: KKM01-03</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Kommunikasjon",
+            "content": "Kjerneelementet kommunikasjon handler om hvordan mening skapes og utveksles mellom mennesker. Det handler om å forstå og bruke ulike kommunikasjonsformer og -kanaler, og om å tilpasse kommunikasjon til formål og mottaker."
+          },
+          {
+            "title": "Kultur og identitet",
+            "content": "Dette kjerneelementet handler om hvordan kultur former og uttrykkes gjennom kommunikasjon. Det handler også om hvordan identitet og tilhørighet kommer til uttrykk gjennom språk, symboler og andre kommunikasjonsformer."
+          },
+          {
+            "title": "Tekst og medier",
+            "content": "Kjerneelementet tekst og medier handler om å analysere og skape tekster i ulike sjangre og medier. Det handler om å forstå hvordan tekster og medier kommuniserer mening og påvirker holdninger og handlinger."
+          },
+          {
+            "title": "Språk og makt",
+            "content": "Dette kjerneelementet handler om sammenhenger mellom språk, makt og påvirkning. Det handler om å forstå hvordan språkbruk kan inkludere og ekskludere, og hvordan kommunikasjon kan brukes til å påvirke og overtale."
+          }
+        ],
+        "related": []
+      },
+      {
+        "id": "lyddesign",
+        "title": "Lyddesign",
+        "shortTitle": null,
+        "fagkode": "MOK3009",
+        "lareplan": "MOK05-02",
+        "bilde": "lyddesign.jpg",
+        "vimeo": null,
+        "omFaget": "Lyddesign handler om å arbeide med auditive uttrykk og lydproduksjon som en del av mediemangfoldet i samfunnet. Faget bidrar til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon, og gir innsikt i hvordan lyd kommuniserer og påvirker. Lyddesign forbereder elevene på videre studier og på et arbeidsliv der det stilles krav til produksjonskvalitet og auditiv kommunikasjon.",
+        "hvordanArbeiderMan": "I Lyddesign arbeider du praktisk med lydproduksjon i ulike sjangre og formater. Du lærer å bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering av lyd. Undervisningen kombinerer teknisk opplæring med kreativt arbeid der du utvikler egne lydprosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Du lærer også å analysere hvordan lyd brukes i ulike medier og hvordan lyddesign påvirker opplevelsen av et medieprodukt.",
+        "fagetsRelevans": "Lyddesign passer for deg som er interessert i lyd, musikk og auditiv kommunikasjon. Faget gir kompetanse som er etterspurt i bransjer som medieproduksjon, spillutvikling, film og TV, reklame og podcastproduksjon. Det er også relevant forberedelse til høyere utdanning innen lydteknikk, musikkproduksjon, mediefag eller kommunikasjon. Lyd er en viktig del av de fleste medieproduksjoner, og kompetanse i lyddesign gjør deg til en mer komplett medieprodusent.",
+        "beskrivelseHTML": "<h1>Lyddesign</h1>\n<p><strong>Læreplan:</strong> Læreplan i lyddesign</p>\n<h2>Om faget</h2>\n<p>Lyddesign handler om å arbeide med auditive uttrykk og lydproduksjon som en del av mediemangfoldet i samfunnet. Faget bidrar til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon, og gir innsikt i hvordan lyd kommuniserer og påvirker. Lyddesign forbereder elevene på videre studier og på et arbeidsliv der det stilles krav til produksjonskvalitet og auditiv kommunikasjon.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Lyddesign arbeider du praktisk med lydproduksjon i ulike sjangre og formater. Du lærer å bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering av lyd. Undervisningen kombinerer teknisk opplæring med kreativt arbeid der du utvikler egne lydprosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Du lærer også å analysere hvordan lyd brukes i ulike medier og hvordan lyddesign påvirker opplevelsen av et medieprodukt.</p>\n<h2>Fagets relevans</h2>\n<p>Lyddesign passer for deg som er interessert i lyd, musikk og auditiv kommunikasjon. Faget gir kompetanse som er etterspurt i bransjer som medieproduksjon, spillutvikling, film og TV, reklame og podcastproduksjon. Det er også relevant forberedelse til høyere utdanning innen lydteknikk, musikkproduksjon, mediefag eller kommunikasjon. Lyd er en viktig del av de fleste medieproduksjoner, og kompetanse i lyddesign gjør deg til en mer komplett medieprodusent.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>gjennomføre lydproduksjoner i ulike sjangre tilpasset ulike medier</li>\n<li>anvende verktøy og programvare for opptak, redigering, miksing og mastering av lyd</li>\n<li>vurdere og anvende ulike fortellerteknikker og auditive virkemidler i lydproduksjoner</li>\n<li>analysere innholdet i ulike lyduttrykk og drøfte hvordan lyd påvirker meninger og opplevelser</li>\n<li>anvende hensiktsmessig format og filtype for produksjon og publisering i ulike kanaler</li>\n<li>anvende regler for opphavsrett og personvern ved publisering av egne lydproduksjoner</li>\n<li>reflektere over og vurdere lydproduksjoner ved bruk av fagspråk</li>\n<li>utforske hvordan ulike teknologier og kanaler kan kombineres i lydproduksjoner</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Idéutvikling og kreativitet</h3>\n<p>Kjerneelementet idéutvikling og kreativitet handler om målrettede medieprodukter som gir mening og engasjerer. Videre handler det om at idéprosesser gir mangfold og grunnlag for målretting av produkter. Idéutvikling og kreativitet handler også om nysgjerrighet og vilje til å utforske ulike veier fram til ferdig produkt.</p>\n<h3>Kommunikasjon og etikk</h3>\n<p>Kjerneelementet kommunikasjon og etikk handler om å skape mening, forstå og bli forstått, og om å gjøre reflekterte og etiske valg som mediebruker og innholdsprodusent.</p>\n<h3>Lydproduksjon</h3>\n<p>Kjerneelementet lydproduksjon handler om ulike produksjonsteknikker og bruk av publiseringskanaler. Videre handler det om kunnskap om tekniske løsninger og kompetanse til å velge og bruke utstyr tilpasset ulike arbeidsoppgaver innen lydproduksjon.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: MOK3009</em>\n<em>Læreplan: MOK05-02</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Idéutvikling og kreativitet",
+            "content": "Kjerneelementet idéutvikling og kreativitet handler om målrettede medieprodukter som gir mening og engasjerer. Videre handler det om at idéprosesser gir mangfold og grunnlag for målretting av produkter. Idéutvikling og kreativitet handler også om nysgjerrighet og vilje til å utforske ulike veier fram til ferdig produkt."
+          },
+          {
+            "title": "Kommunikasjon og etikk",
+            "content": "Kjerneelementet kommunikasjon og etikk handler om å skape mening, forstå og bli forstått, og om å gjøre reflekterte og etiske valg som mediebruker og innholdsprodusent."
+          },
+          {
+            "title": "Lydproduksjon",
+            "content": "Kjerneelementet lydproduksjon handler om ulike produksjonsteknikker og bruk av publiseringskanaler. Videre handler det om kunnskap om tekniske løsninger og kompetanse til å velge og bruke utstyr tilpasset ulike arbeidsoppgaver innen lydproduksjon."
+          }
+        ],
+        "related": []
+      },
+      {
         "id": "markedsforing-og-ledelse-1",
         "title": "Markedsføring og ledelse 1",
         "shortTitle": null,
@@ -3009,6 +3137,135 @@
         "related": [
           "Matematikk R1"
         ]
+      },
+      {
+        "id": "matematikk-s1",
+        "title": "Matematikk S1",
+        "shortTitle": null,
+        "fagkode": "REA3060",
+        "lareplan": "MAT04-02",
+        "bilde": "matematikk-s1.jpg",
+        "vimeo": null,
+        "omFaget": "Matematikk S fokuserer på å forstå moderne anvendelser av matematikk i samfunnsfaglige og økonomiske sammenhenger. Faget gir elevene evnen til å utvikle matematisk forståelse og løse problemstillinger knyttet til økonomi og samfunn. Kunnskapen forbereder dem til videre arbeid og utdanning som krever matematisk kompetanse innen samfunnsfag, økonomi og helsefag.",
+        "hvordanArbeiderMan": "I Matematikk S1 arbeider du med matematiske modeller og metoder som er relevante for samfunnsfaglige og økonomiske problemstillinger. Undervisningen kombinerer teori med praktiske anvendelser der du lærer å bruke matematikk som verktøy for å analysere reelle situasjoner. Du vil jobbe med funksjoner, derivasjon, statistikk og sannsynlighetsregning, med fokus på anvendelser innen økonomi, samfunnsfag og helsefag. Digitale verktøy som regneark, CAS og GeoGebra brukes aktivt.",
+        "fagetsRelevans": "Matematikk S1 passer for deg som ønsker matematikkompetanse rettet mot samfunnsfag, økonomi eller helsefag. Faget gir et solid grunnlag for studier innen økonomi, administrasjon, sykepleie, samfunnsvitenskap og lignende retninger. S-matematikken har et annet fokus enn R-matematikken - der R er rettet mot realfag og ingeniørfag, er S rettet mot samfunnsfag og økonomi.",
+        "beskrivelseHTML": "<h1>Matematikk S1</h1>\n<p><strong>Læreplan:</strong> Læreplan i matematikk S</p>\n<h2>Om faget</h2>\n<p>Matematikk S fokuserer på å forstå moderne anvendelser av matematikk i samfunnsfaglige og økonomiske sammenhenger. Faget gir elevene evnen til å utvikle matematisk forståelse og løse problemstillinger knyttet til økonomi og samfunn. Kunnskapen forbereder dem til videre arbeid og utdanning som krever matematisk kompetanse innen samfunnsfag, økonomi og helsefag.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Matematikk S1 arbeider du med matematiske modeller og metoder som er relevante for samfunnsfaglige og økonomiske problemstillinger. Undervisningen kombinerer teori med praktiske anvendelser der du lærer å bruke matematikk som verktøy for å analysere reelle situasjoner. Du vil jobbe med funksjoner, derivasjon, statistikk og sannsynlighetsregning, med fokus på anvendelser innen økonomi, samfunnsfag og helsefag. Digitale verktøy som regneark, CAS og GeoGebra brukes aktivt.</p>\n<h2>Fagets relevans</h2>\n<p>Matematikk S1 passer for deg som ønsker matematikkompetanse rettet mot samfunnsfag, økonomi eller helsefag. Faget gir et solid grunnlag for studier innen økonomi, administrasjon, sykepleie, samfunnsvitenskap og lignende retninger. S-matematikken har et annet fokus enn R-matematikken - der R er rettet mot realfag og ingeniørfag, er S rettet mot samfunnsfag og økonomi.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>utforske og beskrive egenskapene til polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner</li>\n<li>bruke derivasjon til å analysere og tolke egenskaper ved polynomfunksjoner og drøfte og tolke funksjoner som er modeller for praktiske situasjoner</li>\n<li>analysere og tolke ulike funksjoner som modeller for praktiske situasjoner ved å bruke digitale verktøy</li>\n<li>planlegge, gjennomføre og presentere selvstendig arbeid knyttet til modellering og funksjonslære</li>\n<li>gjøre rede for begrepene vekstfart, grenseverdi, derivasjon og kontinuitet og bruke disse for å utforske og analysere funksjoner</li>\n<li>bruke ulike strategier for å løse lineære og ikke-lineære likninger og ulikheter på en matematisk forståelsesbasert måte</li>\n<li>lage, tolke og reflektere over funksjoner som kan beskrive økonomiske forhold, og bruke funksjonene i utforsking og problemløsing</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Utforsking og problemløsing</h3>\n<p>Utforsking i matematikk S handler om å lete etter mønstre, finne sammenhenger og diskutere seg fram til en felles forståelse. Det innebærer algoritmisk tenkning og systematiske tilnærminger til problemløsning med både manuelle og digitale metoder.</p>\n<h3>Modellering og anvendelser</h3>\n<p>Modellering handler om å lage matematiske beskrivelser av virkelige situasjoner. Elevene lærer å vurdere modellers gyldighet, gjenkjenne begrensninger og anvende matematisk kunnskap i ulike kontekster innen natur og samfunn.</p>\n<h3>Resonnering og argumentasjon</h3>\n<p>Dette kjerneelementet fokuserer på å forstå matematiske logiske kjeder og begrunne løsninger. Argumentasjon i matematikk S handler om å begrunne og bevise gyldigheten til framgangsmåter, resonnementer og løsninger.</p>\n<h3>Representasjon og kommunikasjon</h3>\n<p>Elevene arbeider med flere representasjonsformer - konkrete, kontekstuelle, visuelle, verbale og symbolske - og oversetter mellom ulike matematiske uttrykk og kontekster.</p>\n<h3>Abstraksjon og generalisering</h3>\n<p>Dette innebærer bruk av formelt matematisk språk og oppdagelse av underliggende strukturer, med bevegelse fra memorerte løsninger mot generelle algebraiske prinsipper og meningsfulle mønstre.</p>\n<h3>Matematiske kunnskapsområder</h3>\n<p>Disse kunnskapsområdene danner grunnlaget for å utvikle matematisk forståelse gjennom å utforske sammenhenger innenfor og mellom ulike matematiske domener knyttet til teori og praktiske anvendelser.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3060</em>\n<em>Læreplan: MAT04-02</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Utforsking og problemløsing",
+            "content": "Utforsking i matematikk S handler om å lete etter mønstre, finne sammenhenger og diskutere seg fram til en felles forståelse. Det innebærer algoritmisk tenkning og systematiske tilnærminger til problemløsning med både manuelle og digitale metoder."
+          },
+          {
+            "title": "Modellering og anvendelser",
+            "content": "Modellering handler om å lage matematiske beskrivelser av virkelige situasjoner. Elevene lærer å vurdere modellers gyldighet, gjenkjenne begrensninger og anvende matematisk kunnskap i ulike kontekster innen natur og samfunn."
+          },
+          {
+            "title": "Resonnering og argumentasjon",
+            "content": "Dette kjerneelementet fokuserer på å forstå matematiske logiske kjeder og begrunne løsninger. Argumentasjon i matematikk S handler om å begrunne og bevise gyldigheten til framgangsmåter, resonnementer og løsninger."
+          },
+          {
+            "title": "Representasjon og kommunikasjon",
+            "content": "Elevene arbeider med flere representasjonsformer - konkrete, kontekstuelle, visuelle, verbale og symbolske - og oversetter mellom ulike matematiske uttrykk og kontekster."
+          },
+          {
+            "title": "Abstraksjon og generalisering",
+            "content": "Dette innebærer bruk av formelt matematisk språk og oppdagelse av underliggende strukturer, med bevegelse fra memorerte løsninger mot generelle algebraiske prinsipper og meningsfulle mønstre."
+          },
+          {
+            "title": "Matematiske kunnskapsområder",
+            "content": "Disse kunnskapsområdene danner grunnlaget for å utvikle matematisk forståelse gjennom å utforske sammenhenger innenfor og mellom ulike matematiske domener knyttet til teori og praktiske anvendelser."
+          }
+        ],
+        "related": [
+          "Matematikk S2"
+        ]
+      },
+      {
+        "id": "matematikk-s2",
+        "title": "Matematikk S2",
+        "shortTitle": null,
+        "fagkode": "REA3062",
+        "lareplan": "MAT04-02",
+        "bilde": "matematikk-s2.jpg",
+        "vimeo": null,
+        "omFaget": "Matematikk S2 bygger videre på Matematikk S1 og gir dypere forståelse av matematiske metoder og modeller anvendt på samfunnsfaglige og økonomiske problemstillinger. Faget utvikler elevenes evne til å analysere komplekse sammenhenger og bruke avanserte matematiske verktøy for å forstå og løse problemer innen økonomi, samfunnsfag og helsefag.",
+        "hvordanArbeiderMan": "I Matematikk S2 arbeider du med mer avanserte matematiske konsepter som integrasjon, differensiallikninger og statistiske metoder. Du vil anvende disse på realistiske problemstillinger fra økonomi og samfunnsfag, som optimalisering, vekstmodeller og statistisk analyse. Undervisningen legger vekt på å utvikle matematisk forståelse gjennom praktiske anvendelser og bruk av digitale verktøy.",
+        "fagetsRelevans": "Matematikk S2 gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon, samfunnsvitenskap og helsefag. Faget er spesielt relevant for studier som krever statistisk analyse og matematisk modellering av samfunnsfenomener. Sammen med S1 gir S2 et fullverdig matematikkgrunnlag for mange universitetsstudier.\nDu må ha fullført Matematikk S1 for å ta dette faget.",
+        "beskrivelseHTML": "<h1>Matematikk S2</h1>\n<p><strong>Læreplan:</strong> Læreplan i matematikk S</p>\n<h2>Om faget</h2>\n<p>Matematikk S2 bygger videre på Matematikk S1 og gir dypere forståelse av matematiske metoder og modeller anvendt på samfunnsfaglige og økonomiske problemstillinger. Faget utvikler elevenes evne til å analysere komplekse sammenhenger og bruke avanserte matematiske verktøy for å forstå og løse problemer innen økonomi, samfunnsfag og helsefag.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Matematikk S2 arbeider du med mer avanserte matematiske konsepter som integrasjon, differensiallikninger og statistiske metoder. Du vil anvende disse på realistiske problemstillinger fra økonomi og samfunnsfag, som optimalisering, vekstmodeller og statistisk analyse. Undervisningen legger vekt på å utvikle matematisk forståelse gjennom praktiske anvendelser og bruk av digitale verktøy.</p>\n<h2>Fagets relevans</h2>\n<p>Matematikk S2 gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon, samfunnsvitenskap og helsefag. Faget er spesielt relevant for studier som krever statistisk analyse og matematisk modellering av samfunnsfenomener. Sammen med S1 gir S2 et fullverdig matematikkgrunnlag for mange universitetsstudier.</p>\n<p>Du må ha fullført Matematikk S1 for å ta dette faget.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>utforske og bruke integrasjon til å beregne areal under grafer og til å analysere praktiske problemstillinger</li>\n<li>modellere og analysere vekst ved hjelp av ulike vekstmodeller og differensiallikninger</li>\n<li>bruke og tolke statistiske begreper og metoder for å analysere data og trekke slutninger</li>\n<li>utforske og analysere sammensatte funksjoner og bruke disse til modellering</li>\n<li>bruke sannsynlighetsmodeller og kombinatorikk til å analysere og løse praktiske problemer</li>\n<li>planlegge, gjennomføre og presentere selvstendig arbeid med sammensatte matematiske problemstillinger</li>\n<li>bruke matematiske metoder og modeller til å utforske og løse problemer fra økonomi, samfunnsfag og helsefag</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Utforsking og problemløsing</h3>\n<p>Utforsking i matematikk S handler om å lete etter mønstre, finne sammenhenger og diskutere seg fram til en felles forståelse. Det innebærer algoritmisk tenkning og systematiske tilnærminger til problemløsning med både manuelle og digitale metoder.</p>\n<h3>Modellering og anvendelser</h3>\n<p>Modellering handler om å lage matematiske beskrivelser av virkelige situasjoner. Elevene lærer å vurdere modellers gyldighet, gjenkjenne begrensninger og anvende matematisk kunnskap i ulike kontekster innen natur og samfunn.</p>\n<h3>Resonnering og argumentasjon</h3>\n<p>Dette kjerneelementet fokuserer på å forstå matematiske logiske kjeder og begrunne løsninger. Argumentasjon i matematikk S handler om å begrunne og bevise gyldigheten til framgangsmåter, resonnementer og løsninger.</p>\n<h3>Representasjon og kommunikasjon</h3>\n<p>Elevene arbeider med flere representasjonsformer - konkrete, kontekstuelle, visuelle, verbale og symbolske - og oversetter mellom ulike matematiske uttrykk og kontekster.</p>\n<h3>Abstraksjon og generalisering</h3>\n<p>Dette innebærer bruk av formelt matematisk språk og oppdagelse av underliggende strukturer, med bevegelse fra memorerte løsninger mot generelle algebraiske prinsipper og meningsfulle mønstre.</p>\n<h3>Matematiske kunnskapsområder</h3>\n<p>Disse kunnskapsområdene danner grunnlaget for å utvikle matematisk forståelse gjennom å utforske sammenhenger innenfor og mellom ulike matematiske domener knyttet til teori og praktiske anvendelser.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3062</em>\n<em>Læreplan: MAT04-02</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Utforsking og problemløsing",
+            "content": "Utforsking i matematikk S handler om å lete etter mønstre, finne sammenhenger og diskutere seg fram til en felles forståelse. Det innebærer algoritmisk tenkning og systematiske tilnærminger til problemløsning med både manuelle og digitale metoder."
+          },
+          {
+            "title": "Modellering og anvendelser",
+            "content": "Modellering handler om å lage matematiske beskrivelser av virkelige situasjoner. Elevene lærer å vurdere modellers gyldighet, gjenkjenne begrensninger og anvende matematisk kunnskap i ulike kontekster innen natur og samfunn."
+          },
+          {
+            "title": "Resonnering og argumentasjon",
+            "content": "Dette kjerneelementet fokuserer på å forstå matematiske logiske kjeder og begrunne løsninger. Argumentasjon i matematikk S handler om å begrunne og bevise gyldigheten til framgangsmåter, resonnementer og løsninger."
+          },
+          {
+            "title": "Representasjon og kommunikasjon",
+            "content": "Elevene arbeider med flere representasjonsformer - konkrete, kontekstuelle, visuelle, verbale og symbolske - og oversetter mellom ulike matematiske uttrykk og kontekster."
+          },
+          {
+            "title": "Abstraksjon og generalisering",
+            "content": "Dette innebærer bruk av formelt matematisk språk og oppdagelse av underliggende strukturer, med bevegelse fra memorerte løsninger mot generelle algebraiske prinsipper og meningsfulle mønstre."
+          },
+          {
+            "title": "Matematiske kunnskapsområder",
+            "content": "Disse kunnskapsområdene danner grunnlaget for å utvikle matematisk forståelse gjennom å utforske sammenhenger innenfor og mellom ulike matematiske domener knyttet til teori og praktiske anvendelser."
+          }
+        ],
+        "related": [
+          "Matematikk S1"
+        ]
+      },
+      {
+        "id": "matematikk-for-okonomifag",
+        "title": "Matematikk for økonomifag",
+        "shortTitle": null,
+        "fagkode": "TBA",
+        "lareplan": "TBA",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
+        "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
+        "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Statistikk, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
+        "beskrivelseHTML": "<h1>Matematikk for økonomifag</h1>\n<p><strong>Læreplan:</strong> Foreslått fag - læreplan på høring hos UDIR</p>\n<blockquote>\n<p><strong>Merk:</strong> Dette faget er foreslått innført fra 1. august 2026. Fagkode og læreplan er ikke fastsatt ennå. Innholdet nedenfor er basert på UDIRs høringsutkast (oppdrag 2025-007) og kan bli endret.</p>\n</blockquote>\n<h2>Om faget</h2>\n<p>Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi.</p>\n<p>Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p><em>Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.</em></p>\n<h2>Fagets relevans</h2>\n<p>En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Statistikk, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.</p>\n<h2>Foreslått innhold (fra UDIRs høringsutkast)</h2>\n<p>Følgende innhold er foreslått av læreplangruppen. Det kan komme endringer før endelig læreplan fastsettes:</p>\n<ul>\n<li>Lineære budsjettbetingelser</li>\n<li>Ligninger med to ukjente</li>\n<li>Enhetspris, enhetskostnad, startkostnad</li>\n<li>Lineær optimering</li>\n<li>Potenser og logaritmer</li>\n<li>Grenseverdi og derivasjon</li>\n<li>Profittfunksjon</li>\n<li>Vendepunkt og konkavitet</li>\n<li>Polynomer, potensfunksjoner og logaritmefunksjoner</li>\n<li>Elastisitet</li>\n<li>Grensekostnader og grenseinntekter</li>\n<li>Profitt og pris som funksjon av kvantum</li>\n<li>Markedskryss for tilbud og etterspørsel</li>\n<li>Konsument-/produsentoverskudd for tilbud-/etterspørselkurver</li>\n<li>Nominell, effektiv og kontinuerlig rente</li>\n<li>Sparing, lån, kredittkort og avbetaling</li>\n<li>Nåverdier</li>\n</ul>\n<h2>Kompetansemål</h2>\n<p><em>Kompetansemål vil bli fastsatt av UDIR når læreplanen vedtas. Læreplanene kommer på høring i desember 2025.</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Kjerneelementer vil bli fastsatt av UDIR når læreplanen vedtas.</em></p>\n<h2>Ressurser</h2>\n<!-- Ressurser vil bli lagt til når faget er formelt etablert -->\n\n<hr>\n<p><em>Dette er et foreslått fag basert på UDIRs høringsutkast (oppdrag 2025-007).</em>\n<em>Foreslått ikrafttredelse: 1. august 2026</em>\n<em>Generert: 2025-12-05</em></p>\n",
+        "kjerneelementer": null,
+        "related": [
+          "Statistikk"
+        ]
+      },
+      {
+        "id": "mediespesialisering",
+        "title": "Mediespesialisering",
+        "shortTitle": null,
+        "fagkode": "MOK3012",
+        "lareplan": "MOK08-02",
+        "bilde": "mediespesialisering.jpg",
+        "vimeo": null,
+        "omFaget": "Mediespesialisering handler om å videreutvikle egen fagkompetanse, ferdigheter og holdninger i et selvvalgt medieuttrykk. Faget bidrar til å utvikle kreativ formidlingsevne, selvstendige uttrykk og tekniske ferdigheter på et avansert nivå. Mediespesialisering gir elevene mulighet til å fordype seg og spesialisere seg innenfor sitt valgte mediefelt.",
+        "hvordanArbeiderMan": "I Mediespesialisering arbeider du selvstendig med å utvikle og gjennomføre egne medieprosjekter på et avansert nivå. Du velger selv hvilken medieform du vil spesialisere deg i - for eksempel bilde, grafisk design, lyddesign, medieutvikling eller tekst. Arbeidet er prosjektbasert og du får veiledning gjennom hele prosessen fra idéutvikling til ferdig produkt. Du lærer å reflektere kritisk over eget arbeid og utvikle din personlige stemme som medieprodusent.",
+        "fagetsRelevans": "Mediespesialisering passer for deg som vil fordype deg i et mediefelt og utvikle et personlig uttrykk og en portefølje. Faget gir deg mulighet til å bygge spisskompetanse som er verdifull for videre studier innen mediefag, design, kommunikasjon eller kunst. Porteføljen du bygger opp kan brukes ved søknad til høyere utdanning eller i arbeidslivet.\nDu må ha fullført ett av de valgfrie programfagene i medier og kommunikasjon (bilde, grafisk design, lyddesign, medieutvikling eller tekst) for å ta mediespesialisering. Faget bygger videre på det faget du har tatt.",
+        "beskrivelseHTML": "<h1>Mediespesialisering</h1>\n<p><strong>Læreplan:</strong> Læreplan i mediespesialisering</p>\n<h2>Om faget</h2>\n<p>Mediespesialisering handler om å videreutvikle egen fagkompetanse, ferdigheter og holdninger i et selvvalgt medieuttrykk. Faget bidrar til å utvikle kreativ formidlingsevne, selvstendige uttrykk og tekniske ferdigheter på et avansert nivå. Mediespesialisering gir elevene mulighet til å fordype seg og spesialisere seg innenfor sitt valgte mediefelt.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Mediespesialisering arbeider du selvstendig med å utvikle og gjennomføre egne medieprosjekter på et avansert nivå. Du velger selv hvilken medieform du vil spesialisere deg i - for eksempel bilde, grafisk design, lyddesign, medieutvikling eller tekst. Arbeidet er prosjektbasert og du får veiledning gjennom hele prosessen fra idéutvikling til ferdig produkt. Du lærer å reflektere kritisk over eget arbeid og utvikle din personlige stemme som medieprodusent.</p>\n<h2>Fagets relevans</h2>\n<p>Mediespesialisering passer for deg som vil fordype deg i et mediefelt og utvikle et personlig uttrykk og en portefølje. Faget gir deg mulighet til å bygge spisskompetanse som er verdifull for videre studier innen mediefag, design, kommunikasjon eller kunst. Porteføljen du bygger opp kan brukes ved søknad til høyere utdanning eller i arbeidslivet.</p>\n<p>Du må ha fullført ett av de valgfrie programfagene i medier og kommunikasjon (bilde, grafisk design, lyddesign, medieutvikling eller tekst) for å ta mediespesialisering. Faget bygger videre på det faget du har tatt.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>utvikle og gjennomføre selvstendige medieprosjekter som viser kreativitet og faglig kompetanse</li>\n<li>utforske og eksperimentere med teknikker og uttrykksformer innenfor valgt mediefelt</li>\n<li>reflektere over og vurdere eget arbeid og egen utvikling som medieprodusent</li>\n<li>anvende avanserte produksjonsverktøy og -metoder tilpasset valgt medieuttrykk</li>\n<li>dokumentere og presentere arbeidsprosess og ferdige produkter på en profesjonell måte</li>\n<li>drøfte etiske og juridiske problemstillinger knyttet til medieproduksjon</li>\n<li>vurdere og gi konstruktiv tilbakemelding på andres mediearbeid</li>\n<li>utforske hvordan eget medieuttrykk kan kommunisere med ulike målgrupper</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Idéutvikling og kreativitet</h3>\n<p>Kjerneelementet idéutvikling og kreativitet handler om målrettede medieprodukter som gir mening og engasjerer. Videre handler det om at idéprosesser gir mangfold og grunnlag for målretting av produkter. Idéutvikling og kreativitet handler også om nysgjerrighet og vilje til å utforske ulike veier fram til ferdig produkt.</p>\n<h3>Kommunikasjon og etikk</h3>\n<p>Kjerneelementet kommunikasjon og etikk handler om å skape mening, forstå og bli forstått, og om å gjøre reflekterte og etiske valg som mediebruker og innholdsprodusent.</p>\n<h3>Medieproduksjon</h3>\n<p>Kjerneelementet medieproduksjon handler om ulike produksjonsteknikker og bruk av publiseringskanaler. Videre handler det om kunnskap om tekniske løsninger og kompetanse til å velge og bruke utstyr tilpasset ulike arbeidsoppgaver.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: MOK3012</em>\n<em>Læreplan: MOK08-02</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Idéutvikling og kreativitet",
+            "content": "Kjerneelementet idéutvikling og kreativitet handler om målrettede medieprodukter som gir mening og engasjerer. Videre handler det om at idéprosesser gir mangfold og grunnlag for målretting av produkter. Idéutvikling og kreativitet handler også om nysgjerrighet og vilje til å utforske ulike veier fram til ferdig produkt."
+          },
+          {
+            "title": "Kommunikasjon og etikk",
+            "content": "Kjerneelementet kommunikasjon og etikk handler om å skape mening, forstå og bli forstått, og om å gjøre reflekterte og etiske valg som mediebruker og innholdsprodusent."
+          },
+          {
+            "title": "Medieproduksjon",
+            "content": "Kjerneelementet medieproduksjon handler om ulike produksjonsteknikker og bruk av publiseringskanaler. Videre handler det om kunnskap om tekniske løsninger og kompetanse til å velge og bruke utstyr tilpasset ulike arbeidsoppgaver."
+          }
+        ],
+        "related": []
       },
       {
         "id": "musikk-fordypning-1",
@@ -3352,6 +3609,83 @@
         "beskrivelseHTML": "<h1>Spansk I+II</h1>\n<h2>Om faget</h2>\n<p>Spansk I+II er et sammenhengende fremmedspråkfag over tre år (VG1-VG3) for elever som ikke har hatt fremmedspråk på ungdomstrinnet. Faget gir grunnleggende kompetanse i spansk språk og kultur.</p>\n<h2>Timefordeling</h2>\n<ul>\n<li><strong>VG1</strong>: 113 timer</li>\n<li><strong>VG2</strong>: 112 timer</li>\n<li><strong>VG3</strong>: 140 timer</li>\n<li><strong>Totalt</strong>: 365 timer</li>\n</ul>\n<h2>Målgruppe</h2>\n<p>Dette faget er <strong>betinget obligatorisk</strong> for elever som ikke har hatt fremmedspråk (nivå I eller II) fra ungdomsskolen.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I spansk jobber du praktisk med språket fra første time. Du lærer å kommunisere muntlig og skriftlig gjennom samtaler, rollespill og presentasjoner. Undervisningen legger vekt på at du skal tørre å bruke språket aktivt, selv om du gjør feil underveis.</p>\n<p>Du utforsker også spansktalende kulturer gjennom film, musikk, nyheter og litteratur. Digitale verktøy og språkapper er en naturlig del av læringen, og du bruker ordbøker og oversettelsesverktøy som hjelpemidler. Gruppearbeid og parøvelser er vanlig, der dere øver på hverdagssituasjoner som å bestille mat, spørre om veien eller diskutere aktuelle temaer.</p>\n<h2>Fagets relevans</h2>\n<p>Spansk er verdens fjerde mest talte språk, og språkkompetanse åpner dører i arbeidslivet. Med spansk kan du jobbe i internasjonale organisasjoner, næringsliv, reiseliv eller diplomati. Norge har økende forbindelser med spansktalende land, noe som gjør kompetansen verdifull i mange bransjer.</p>\n<p>Vil du studere videre, kan du bygge på med spansk på universitet eller høgskole. Kombinert med praktisk-pedagogisk utdanning kan du bli spansklærer, der etterspørselen er stor. Språkkunnskaper er også et fortrinn i yrker som journalist, oversetter, guide eller i bedrifter med internasjonalt samarbeid.</p>\n<h2>Kompetansemål</h2>\n<p>Faget følger læreplanen for fremmedspråk nivå I og II, med progresjon over tre år.</p>\n<h3>Språklæring</h3>\n<ul>\n<li>kunne beskrive og vurdere egne valg av læringsstrategier og variere disse etter behov</li>\n<li>kunne identifisere språklige strukturer i tekst og sammenligne dem med strukturer i eget morsmål eller andre språk</li>\n<li>vurdere egne fremskritt i å forstå og bruke fremmedspråket</li>\n</ul>\n<h3>Kommunikasjon</h3>\n<ul>\n<li>forstå hovedinnholdet i tekster med ulikt innhold og ulike sjangere</li>\n<li>forstå instruksjoner og beskjeder</li>\n<li>lytte til og forstå talespr åk med noe variasjon i taletempo</li>\n<li>mestre et ordforråd som dekker hverdagssituasjoner</li>\n<li>uttale fremmedspråket på en forståelig måte</li>\n<li>uttrykke seg skriftlig og muntlig på en forståelig måte med sammenheng i presentasjon av et emne</li>\n<li>delta i spontane, dagligdagse samtaler</li>\n<li>tilpasse språket etter formelle og uformelle situasjoner</li>\n<li>bruke digitale verktøy og ordbøker som hjelpemidler i egen språklæring, i språklig samhandling og tekstskaping</li>\n</ul>\n<h3>Kultur, samfunn og litteratur</h3>\n<ul>\n<li>presentere ulike sider ved livet i områder der fremmedspråket brukes og drøfte identitet og kulturell tilhørighet</li>\n<li>gjenkjenne og bruke uttrykk for høflighet og uskrevne regler i målspråklandene</li>\n<li>beskrive og vurdere levemåter, samfunnsspørsmål og verdier i områder der fremmedspråket brukes og gjøre sammenligninger med eget lokalsamfunn</li>\n<li>lese, diskutere og presentere innholdet i tekster fra ulike sjangere, epoker og emner</li>\n<li>formidle innholdet i autentiske tekster</li>\n</ul>\n",
         "kjerneelementer": null,
         "related": []
+      },
+      {
+        "id": "statistikk",
+        "title": "Statistikk",
+        "shortTitle": null,
+        "fagkode": "TBA",
+        "lareplan": "TBA",
+        "bilde": "statistikk.jpg",
+        "vimeo": null,
+        "omFaget": "Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
+        "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
+        "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Matematikk for økonomifag, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
+        "beskrivelseHTML": "<h1>Statistikk</h1>\n<p><strong>Læreplan:</strong> Foreslått fag - læreplan på høring hos UDIR</p>\n<blockquote>\n<p><strong>Merk:</strong> Dette faget er foreslått innført fra 1. august 2026. Fagkode og læreplan er ikke fastsatt ennå. Innholdet nedenfor er basert på UDIRs høringsutkast (oppdrag 2025-007) og kan bli endret.</p>\n</blockquote>\n<h2>Om faget</h2>\n<p>Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet.</p>\n<p>Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p><em>Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.</em></p>\n<h2>Fagets relevans</h2>\n<p>En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Matematikk for økonomifag, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.</p>\n<h2>Foreslått innhold (fra UDIRs høringsutkast)</h2>\n<p>Følgende innhold er foreslått av læreplangruppen. Det kan komme endringer før endelig læreplan fastsettes:</p>\n<ul>\n<li>Selvvalgt oppgave basert på reelle datasett</li>\n<li>Hvordan statistikk påvirker avgjørelser og oppfatninger, og hvordan statistikk kan manipuleres og misbrukes</li>\n<li>Stokastiske forsøk</li>\n<li>Vanlige begreper som snitt, union, utfallsrom og venndiagram</li>\n<li>Betinget sannsynlighet, Bayes teorem</li>\n<li>Forventningsverdi, varians og standardavvik</li>\n<li>Binomiske og Poisson-fordelinger</li>\n<li>Stokastiske variabler</li>\n<li>Normalfordelingen</li>\n<li>Hypotesetesting og p-verdier</li>\n<li>Pearsons korrelasjonskoeffisient</li>\n<li>Regresjon av reelle datasett (lineær, eksponentiell og logistisk)</li>\n</ul>\n<h2>Kompetansemål</h2>\n<p><em>Kompetansemål vil bli fastsatt av UDIR når læreplanen vedtas. Læreplanene kommer på høring i desember 2025.</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Kjerneelementer vil bli fastsatt av UDIR når læreplanen vedtas.</em></p>\n<h2>Ressurser</h2>\n<!-- Ressurser vil bli lagt til når faget er formelt etablert -->\n\n<hr>\n<p><em>Dette er et foreslått fag basert på UDIRs høringsutkast (oppdrag 2025-007).</em>\n<em>Foreslått ikrafttredelse: 1. august 2026</em>\n<em>Generert: 2025-12-05</em></p>\n",
+        "kjerneelementer": null,
+        "related": [
+          "Matematikk for økonomifag"
+        ]
+      },
+      {
+        "id": "teknologi-og-forskningslaere-1",
+        "title": "Teknologi og forskningslære 1",
+        "shortTitle": null,
+        "fagkode": "REA3052",
+        "lareplan": "TNF01-03",
+        "bilde": "teknologi-og-forskningslaere-1.jpg",
+        "vimeo": null,
+        "omFaget": "Teknologi og forskningslære handler om naturvitenskapelige metoder og teknologiens og vitenskapens rolle i samfunnet. Faget kombinerer praktiske prosjekter med teoretisk forståelse av hvordan vitenskap og teknologi utvikles og påvirker samfunnet. Elevene lærer å planlegge, gjennomføre og dokumentere egne forsknings- og utviklingsprosjekter.",
+        "hvordanArbeiderMan": "I Teknologi og forskningslære 1 arbeider du med praktiske prosjekter der du lærer å bruke vitenskapelige metoder. Du planlegger og gjennomfører egne undersøkelser, bygger prototyper og dokumenterer arbeidet ditt. Faget legger vekt på skaperglede, engasjement og utforskertrang gjennom praktiske og teoretiske utfordringer. Du lærer også at feil og det å lære av feil har like stor verdi som suksess i forskningsprosesser.",
+        "fagetsRelevans": "Teknologi og forskningslære passer for deg som er nysgjerrig på hvordan ting fungerer og som liker å eksperimentere og bygge. Faget utvikler kritisk tenkning, etisk refleksjon og metodisk kompetanse som er verdifull i mange sammenhenger. Det er relevant for videre studier innen teknologi, naturvitenskap, ingeniørfag og andre felt der forskningsmetode og innovasjon er sentralt.",
+        "beskrivelseHTML": "<h1>Teknologi og forskningslære 1</h1>\n<p><strong>Læreplan:</strong> Læreplan i teknologi og forskningslære</p>\n<h2>Om faget</h2>\n<p>Teknologi og forskningslære handler om naturvitenskapelige metoder og teknologiens og vitenskapens rolle i samfunnet. Faget kombinerer praktiske prosjekter med teoretisk forståelse av hvordan vitenskap og teknologi utvikles og påvirker samfunnet. Elevene lærer å planlegge, gjennomføre og dokumentere egne forsknings- og utviklingsprosjekter.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Teknologi og forskningslære 1 arbeider du med praktiske prosjekter der du lærer å bruke vitenskapelige metoder. Du planlegger og gjennomfører egne undersøkelser, bygger prototyper og dokumenterer arbeidet ditt. Faget legger vekt på skaperglede, engasjement og utforskertrang gjennom praktiske og teoretiske utfordringer. Du lærer også at feil og det å lære av feil har like stor verdi som suksess i forskningsprosesser.</p>\n<h2>Fagets relevans</h2>\n<p>Teknologi og forskningslære passer for deg som er nysgjerrig på hvordan ting fungerer og som liker å eksperimentere og bygge. Faget utvikler kritisk tenkning, etisk refleksjon og metodisk kompetanse som er verdifull i mange sammenhenger. Det er relevant for videre studier innen teknologi, naturvitenskap, ingeniørfag og andre felt der forskningsmetode og innovasjon er sentralt.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>planlegge, gjennomføre og dokumentere et forsknings- eller utviklingsprosjekt med bruk av vitenskapelige metoder</li>\n<li>beskrive og vurdere ulike forskningsmetoder og drøfte hvordan metodevalg påvirker resultater</li>\n<li>gjøre rede for teknologiutviklingens betydning for vitenskap og samfunn gjennom historien</li>\n<li>utforske og drøfte etiske spørsmål knyttet til forskning og teknologiutvikling</li>\n<li>bruke digitale verktøy til å samle inn, analysere og presentere data</li>\n<li>dokumentere og presentere eget arbeid på en systematisk og vitenskapelig måte</li>\n<li>vurdere pålitelighet og gyldighet av egne og andres forskningsresultater</li>\n<li>samarbeide med andre i prosjektarbeid og vurdere egen og andres arbeidsinnsats</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Teknologi, vitenskap og samfunn</h3>\n<p>Kjerneelementet teknologi, vitenskap og samfunn handler om hvordan teknologi og vitenskap har utviklet seg gjennom historien og hvordan de påvirker og påvirkes av samfunnet. Det handler også om etiske spørsmål knyttet til forskning og teknologiutvikling.</p>\n<h3>Forskningsmetoder</h3>\n<p>Dette kjerneelementet handler om å forstå og anvende vitenskapelige metoder for å undersøke problemstillinger. Det inkluderer å planlegge undersøkelser, samle inn og analysere data, og vurdere pålitelighet og gyldighet.</p>\n<h3>Prosjektarbeid og innovasjon</h3>\n<p>Kjerneelementet prosjektarbeid og innovasjon handler om å utvikle og gjennomføre egne prosjekter. Det inkluderer idéutvikling, prototyping, testing og dokumentasjon, samt evnen til å lære av feil og forbedre løsninger.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3052</em>\n<em>Læreplan: TNF01-03</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Teknologi, vitenskap og samfunn",
+            "content": "Kjerneelementet teknologi, vitenskap og samfunn handler om hvordan teknologi og vitenskap har utviklet seg gjennom historien og hvordan de påvirker og påvirkes av samfunnet. Det handler også om etiske spørsmål knyttet til forskning og teknologiutvikling."
+          },
+          {
+            "title": "Forskningsmetoder",
+            "content": "Dette kjerneelementet handler om å forstå og anvende vitenskapelige metoder for å undersøke problemstillinger. Det inkluderer å planlegge undersøkelser, samle inn og analysere data, og vurdere pålitelighet og gyldighet."
+          },
+          {
+            "title": "Prosjektarbeid og innovasjon",
+            "content": "Kjerneelementet prosjektarbeid og innovasjon handler om å utvikle og gjennomføre egne prosjekter. Det inkluderer idéutvikling, prototyping, testing og dokumentasjon, samt evnen til å lære av feil og forbedre løsninger."
+          }
+        ],
+        "related": [
+          "Teknologi og forskningslære 2"
+        ]
+      },
+      {
+        "id": "teknologi-og-forskningslaere-2",
+        "title": "Teknologi og forskningslære 2",
+        "shortTitle": null,
+        "fagkode": "REA3053",
+        "lareplan": "TNF01-03",
+        "bilde": "teknologi-og-forskningslaere-2.jpg",
+        "vimeo": null,
+        "omFaget": "Teknologi og forskningslære 2 bygger videre på Teknologi og forskningslære 1 og gir dypere innsikt i vitenskapelige metoder og teknologiutvikling. Faget fokuserer på mer avanserte prosjekter og gir elevene mulighet til å fordype seg i et selvvalgt tema. Elevene utvikler kompetanse i å planlegge, gjennomføre og dokumentere komplekse forsknings- og utviklingsprosjekter.",
+        "hvordanArbeiderMan": "I Teknologi og forskningslære 2 arbeider du mer selvstendig med avanserte prosjekter. Du fordyper deg i et selvvalgt tema og gjennomfører et større forsknings- eller utviklingsprosjekt. Du bruker avanserte metoder og verktøy, og lærer å vurdere kritisk både egne og andres forskningsresultater. Faget legger vekt på å formidle vitenskapelig kunnskap og teknologiforståelse til ulike målgrupper.",
+        "fagetsRelevans": "Teknologi og forskningslære 2 gir deg spisskompetanse i forskningsmetode og prosjektarbeid som er verdifull for høyere utdanning og arbeidsliv. Faget er relevant for alle som ønsker å arbeide systematisk med problemløsning og innovasjon, enten det er innen naturvitenskap, teknologi, samfunnsfag eller andre felt. Sammen med ToF 1 gir det et solid grunnlag for videre studier.\nDu må ha fullført Teknologi og forskningslære 1 for å ta dette faget.",
+        "beskrivelseHTML": "<h1>Teknologi og forskningslære 2</h1>\n<p><strong>Læreplan:</strong> Læreplan i teknologi og forskningslære</p>\n<h2>Om faget</h2>\n<p>Teknologi og forskningslære 2 bygger videre på Teknologi og forskningslære 1 og gir dypere innsikt i vitenskapelige metoder og teknologiutvikling. Faget fokuserer på mer avanserte prosjekter og gir elevene mulighet til å fordype seg i et selvvalgt tema. Elevene utvikler kompetanse i å planlegge, gjennomføre og dokumentere komplekse forsknings- og utviklingsprosjekter.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I Teknologi og forskningslære 2 arbeider du mer selvstendig med avanserte prosjekter. Du fordyper deg i et selvvalgt tema og gjennomfører et større forsknings- eller utviklingsprosjekt. Du bruker avanserte metoder og verktøy, og lærer å vurdere kritisk både egne og andres forskningsresultater. Faget legger vekt på å formidle vitenskapelig kunnskap og teknologiforståelse til ulike målgrupper.</p>\n<h2>Fagets relevans</h2>\n<p>Teknologi og forskningslære 2 gir deg spisskompetanse i forskningsmetode og prosjektarbeid som er verdifull for høyere utdanning og arbeidsliv. Faget er relevant for alle som ønsker å arbeide systematisk med problemløsning og innovasjon, enten det er innen naturvitenskap, teknologi, samfunnsfag eller andre felt. Sammen med ToF 1 gir det et solid grunnlag for videre studier.</p>\n<p>Du må ha fullført Teknologi og forskningslære 1 for å ta dette faget.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>planlegge, gjennomføre og dokumentere et selvstendig forsknings- eller utviklingsprosjekt</li>\n<li>analysere og vurdere forskningsmetoder og drøfte hvordan metodevalg påvirker pålitelighet og gyldighet</li>\n<li>drøfte aktuelle etiske problemstillinger knyttet til forskning og teknologiutvikling</li>\n<li>utforske og drøfte hvordan teknologi og vitenskap kan bidra til å løse samfunnsutfordringer</li>\n<li>bruke avanserte digitale verktøy og metoder for datainnsamling, analyse og presentasjon</li>\n<li>formidle vitenskapelig kunnskap og teknologiforståelse til ulike målgrupper</li>\n<li>vurdere og kritisk analysere vitenskapelige artikler og andre kilder</li>\n<li>reflektere over egen læringsprosess og utvikling som forsker og problemløser</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Teknologi, vitenskap og samfunn</h3>\n<p>Kjerneelementet teknologi, vitenskap og samfunn handler om hvordan teknologi og vitenskap har utviklet seg gjennom historien og hvordan de påvirker og påvirkes av samfunnet. Det handler også om etiske spørsmål knyttet til forskning og teknologiutvikling.</p>\n<h3>Forskningsmetoder</h3>\n<p>Dette kjerneelementet handler om å forstå og anvende vitenskapelige metoder for å undersøke problemstillinger. Det inkluderer å planlegge undersøkelser, samle inn og analysere data, og vurdere pålitelighet og gyldighet.</p>\n<h3>Prosjektarbeid og innovasjon</h3>\n<p>Kjerneelementet prosjektarbeid og innovasjon handler om å utvikle og gjennomføre egne prosjekter. Det inkluderer idéutvikling, prototyping, testing og dokumentasjon, samt evnen til å lære av feil og forbedre løsninger.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: REA3053</em>\n<em>Læreplan: TNF01-03</em>\n<em>Generert: 2025-12-02</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Teknologi, vitenskap og samfunn",
+            "content": "Kjerneelementet teknologi, vitenskap og samfunn handler om hvordan teknologi og vitenskap har utviklet seg gjennom historien og hvordan de påvirker og påvirkes av samfunnet. Det handler også om etiske spørsmål knyttet til forskning og teknologiutvikling."
+          },
+          {
+            "title": "Forskningsmetoder",
+            "content": "Dette kjerneelementet handler om å forstå og anvende vitenskapelige metoder for å undersøke problemstillinger. Det inkluderer å planlegge undersøkelser, samle inn og analysere data, og vurdere pålitelighet og gyldighet."
+          },
+          {
+            "title": "Prosjektarbeid og innovasjon",
+            "content": "Kjerneelementet prosjektarbeid og innovasjon handler om å utvikle og gjennomføre egne prosjekter. Det inkluderer idéutvikling, prototyping, testing og dokumentasjon, samt evnen til å lære av feil og forbedre løsninger."
+          }
+        ],
+        "related": [
+          "Teknologi og forskningslære 1"
+        ]
       },
       {
         "id": "okonomi-og-ledelse",
