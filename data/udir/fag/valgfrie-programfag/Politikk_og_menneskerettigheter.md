@@ -3,6 +3,7 @@ id: politikk-og-menneskerettigheter
 title: Politikk og menneskerettigheter
 fagkode: SAM3055
 lareplan: POS05-02
+bilde: politikk-og-menneskerettigheter.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

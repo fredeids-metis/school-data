@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-05T09:51:47.421Z",
+    "generatedAt": "2025-12-05T10:06:08.976Z",
     "school": "bergen-private-gymnas",
     "description": "Komplett data for Studieplanlegger widget"
   },
@@ -2129,7 +2129,7 @@
         "shortTitle": "Matematikk R2",
         "fagkode": "REA3058",
         "lareplan": "MAT03-02",
-        "bilde": null,
+        "bilde": "matematikk-r2.jpg",
         "vimeo": null,
         "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.",
         "hvordanArbeiderMan": "I R2 jobber du mye med å utforske matematiske sammenhenger og utvikle egne løsningsmetoder. Du lærer integralregning, rekker, vektorer i rommet og trigonometriske funksjoner. En viktig del av faget handler om å bruke programmering til å løse matematiske problemer, for eksempel å lage algoritmer som beregner integraler numerisk. Undervisningen veksler mellom teori, oppgaveløsning og utforsking. Du jobber med reelle datasett og lager matematiske modeller som beskriver situasjoner fra naturvitenskap og samfunn. En god del tid går med til å forstå og utvikle matematiske bevis, noe som trener evnen til logisk tenkning og presis argumentasjon.",
@@ -2348,7 +2348,7 @@
         "shortTitle": "Politikk og menneskerettigheter",
         "fagkode": "SAM3055",
         "lareplan": "POS05-02",
-        "bilde": null,
+        "bilde": "politikk-og-menneskerettigheter.jpg",
         "vimeo": null,
         "omFaget": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv.",
         "hvordanArbeiderMan": "I politikk og menneskerettigheter jobber du mye med å analysere dagsaktuelle saker og politiske problemstillinger. Du lærer å bruke statsvitenskapelige teorier og modeller for å forstå hvordan makt fungerer og hvordan politiske beslutninger tas. Faget kombinerer teori med praktiske arbeidsformer som gruppearbeid, diskusjoner og prosjektarbeid. En sentral del av faget er langtidsoppgaven, der du fordyper deg i et tema over lengre tid og presenterer arbeidet både skriftlig og muntlig. Du vil også jobbe med akademisk skriving og kildebruk, og lære å vurdere informasjon kritisk. Ekskursjoner til Stortinget, rettssaler eller organisasjoner kan være en del av undervisningen.",
@@ -2560,7 +2560,7 @@
         "shortTitle": "Sosialkunnskap",
         "fagkode": "SAM3051",
         "lareplan": "POS02-02",
-        "bilde": null,
+        "bilde": "sosialkunnskap.jpg",
         "vimeo": null,
         "omFaget": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv.",
         "hvordanArbeiderMan": "I sosialkunnskap jobber du mye med å utforske samfunnet rundt deg. Du lærer samfunnsvitenskapelige metoder og gjennomfører egne undersøkelser - kanskje intervjuer du folk i lokalmiljøet, analyserer statistikk om sosial ulikhet, eller undersøker hvordan velferdstjenester fungerer i praksis. Gruppearbeid og diskusjoner er sentralt, der dere drøfter temaer som marginalisering, identitet og menneskerettigheter. Faget kombinerer teori med praktiske case-studier. Du analyserer reelle samfunnsutfordringer som utenforskap blant ungdom, integrering i arbeidslivet eller hvordan kriser håndteres på ulike nivåer. Kritisk tenkning står sentralt - du lærer å finne og vurdere informasjon, stille gode spørsmål og se saker fra flere perspektiver",

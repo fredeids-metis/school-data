@@ -3,6 +3,7 @@ id: matematikk-r2
 title: Matematikk R2
 fagkode: REA3058
 lareplan: MAT03-02
+bilde: matematikk-r2.jpg
 vimeo: ""
 generert: 2025-11-14
 ---

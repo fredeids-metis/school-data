@@ -3,6 +3,7 @@ id: sosialkunnskap
 title: Sosialkunnskap
 fagkode: SAM3051
 lareplan: POS02-02
+bilde: sosialkunnskap.jpg
 vimeo: ""
 generert: 2025-11-14
 ---
