@@ -1,15 +1,33 @@
 # School-Data: Arkitektur og Dataflyt
 
-## Kjernekonsept
+## Kjernekonsept: To-lags arkitektur
 
-School-data er et **nasjonalt fagbibliotek** med **skolespesifikke filtre**:
+School-data har **to separate lag**:
 
 ```
-UDIR (nasjonalt)     →    Skole (lokalt)      →    App (konsument)
-─────────────────         ──────────────           ────────────────
-Alle fag (90+)           Tilbud (hvilke fag)     Henter via API
-Alle regler              Blokkskjema (når/hvor)  Filtrerer selv
-Programområder           Versjonsstyring
+┌─────────────────────────────────────────────────────────────────┐
+│  LAG 1: UDIR (nasjonalt)                    data/udir/          │
+│  ─────────────────────────────────────────────────────────────  │
+│  • Alle fag (90+)           - Fagdefinisjoner fra UDIR          │
+│  • Alle programområder      - Timefordeling, krav               │
+│  • Alle regler              - Eksklusjoner, forutsetninger      │
+│  → Uavhengig av skole. Endringer her påvirker ALLE skoler.      │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│  LAG 2: SKOLE (filter)                      data/skoler/        │
+│  ─────────────────────────────────────────────────────────────  │
+│  • school-config.yml        - Hvilke programområder skolen har  │
+│  • tilbud.yml               - HVILKE fag skolen tilbyr          │
+│  • blokkskjema/             - NÅR/HVOR fagene undervises        │
+│  → Filtrerer fra UDIR. Endringer her påvirker KUN denne skolen. │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│  APPER (konsumenter via API)                                    │
+│  • Fagkatalog       → Bruker tilbud.yml (viser alle fag)        │
+│  • Studieplanlegger → Bruker blokkskjema (fagvalg med blokker)  │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ## Nøkkelbegreper
@@ -29,16 +47,28 @@ Programområder           Versjonsstyring
 - **forutsetninger.yml**: Fag som krever andre fag (f.eks. R2 krever R1)
 - **fordypning.yml**: Hvilke fag som teller som fordypning
 
-**BLOKKSKJEMA** (`data/skoler/{skole}/blokkskjema/`)
-- Skolens praktiske timeplan
-- Hvilke fag i hvilke blokker, parallelle fag (samme blokk = velg én)
-- Versjonsstyrt: `{skoleår}_{variant}.yml` (f.eks. 26-27_flex.yml)
+**SCHOOL-CONFIG** (`data/skoler/{skole}/school-config.yml`)
+- Skolens konfigurasjon: navn, kontaktinfo
+- **Hvilke programområder skolen tilbyr** (programs)
+- Hvilken blokkskjema-versjon som er aktiv
 
 **TILBUD** (`data/skoler/{skole}/tilbud.yml`)
-- Liste over hvilke fag skolen tilbyr (filter fra 90+ nasjonale)
+- **HVILKE fag** skolen tilbyr (filter fra 90+ nasjonale)
+- Brukes av: Fagkatalog
+- Kan inneholde fag som ikke ennå er plassert i blokkskjema
 
-**SCHOOL-CONFIG** (`data/skoler/{skole}/school-config.yml`)
-- Skolens konfigurasjon: navn, programområder, aktiv blokkskjema-versjon
+**BLOKKSKJEMA** (`data/skoler/{skole}/blokkskjema/`)
+- **NÅR/HVOR** fagene undervises (praktisk timeplan)
+- Hvilke fag i hvilke blokker, parallelle fag (samme blokk = velg én)
+- Brukes av: Studieplanlegger
+- Versjonsstyrt: `{skoleår}_{variant}.yml` - flere versjoner kan eksistere samtidig
+
+**Forskjell tilbud vs blokkskjema:**
+| | tilbud.yml | blokkskjema |
+|---|---|---|
+| Spørsmål | "Hvilke fag finnes?" | "Når kan jeg ta faget?" |
+| Brukes av | Fagkatalog | Studieplanlegger |
+| Versjonering | Én liste | Flere versjoner |
 
 ## Mappestruktur
 
