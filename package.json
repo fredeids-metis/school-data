@@ -1,13 +1,12 @@
 {
   "name": "school-data",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Multi-school curriculum data API for Norwegian VGS schools",
-  "main": "scripts/build-api.js",
+  "main": "scripts/build-api-2025-01.js",
   "scripts": {
-    "build": "node scripts/build-api.js",
+    "build": "node scripts/build-api-v2.js && node scripts/build-api-2025-01.js",
     "build:v2": "node scripts/build-api-v2.js",
     "build:2025-01": "node scripts/build-api-2025-01.js",
-    "build:all": "node scripts/build-api.js && node scripts/build-api-v2.js && node scripts/build-api-2025-01.js",
     "fetch": "bash scripts/fetch-curriculum.sh",
     "serve": "npx serve docs -l 8080"
   },

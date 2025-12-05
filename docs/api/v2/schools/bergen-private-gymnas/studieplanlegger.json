@@ -1,13 +1,12 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-05T08:55:46.508Z",
+    "generatedAt": "2025-12-05T09:51:47.328Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
-      "v2",
-      "test",
-      "vanilla"
+      "26-27_standard",
+      "26-27_flex"
     ]
   },
   "school": {
@@ -36,9 +35,9 @@
     ]
   },
   "blokkskjema": {
-    "activeVersion": "vanilla",
+    "activeVersion": "26-27_flex",
     "versions": {
-      "v2": {
+      "26-27_standard": {
         "versjon": "v2-experimental",
         "struktur": {
           "antallBlokker": 4,
@@ -1156,800 +1155,7 @@
           }
         }
       },
-      "test": {
-        "versjon": "test-redusert",
-        "struktur": {
-          "antallBlokker": 4,
-          "navnBlokker": [
-            "Blokk 1",
-            "Blokk 2",
-            "Blokk 3",
-            "Blokk 4"
-          ]
-        },
-        "blokker": {
-          "blokk1": {
-            "navn": "Blokk 1",
-            "beskrivelse": "Matematikk, Naturfag, Samfunnsfag, Økonomi",
-            "tilgjengeligFor": {
-              "vg2": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
-              ],
-              "vg3": [
-                "studiespesialisering"
-              ]
-            },
-            "fag": [
-              {
-                "id": "matematikk-2p",
-                "timer": 84,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": "fellesfag",
-                "title": "Matematikk 2P",
-                "fagkode": "MAT1023",
-                "lareplan": "MAT05-04",
-                "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk."
-              },
-              {
-                "id": "matematikk-r1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Erstatter Matematikk 2P hvis valgt",
-                "kategori": "matematikk",
-                "title": "Matematikk R1",
-                "fagkode": "REA3056",
-                "lareplan": "MAT03-02",
-                "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse."
-              },
-              {
-                "id": "biologi-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "naturfag",
-                "title": "Biologi 1",
-                "fagkode": "REA3035",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "okonomistyring",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "økonomi",
-                "title": "Økonomistyring",
-                "fagkode": "SAM3068",
-                "lareplan": "NOK02-03",
-                "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
-              },
-              {
-                "id": "sosiologi-og-sosialantropologi",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "samfunnsfag",
-                "title": "Sosiologi og sosialantropologi",
-                "fagkode": "SAM3054",
-                "lareplan": "POS04-01",
-                "omFaget": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv."
-              },
-              {
-                "id": "bilde",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "kunst",
-                "title": "Bilde",
-                "fagkode": "MOK3008",
-                "lareplan": "MOK04‑02",
-                "omFaget": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon."
-              },
-              {
-                "id": "matematikk-r2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "krever": [
-                  "matematikk-r1"
-                ],
-                "kategori": "matematikk",
-                "title": "Matematikk R2",
-                "fagkode": "REA3058",
-                "lareplan": "MAT03-02",
-                "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
-              },
-              {
-                "id": "biologi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Biologi 1",
-                "fagkode": "REA3035",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "okonomistyring",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "økonomi",
-                "title": "Økonomistyring",
-                "fagkode": "SAM3068",
-                "lareplan": "NOK02-03",
-                "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
-              },
-              {
-                "id": "sosiologi-og-sosialantropologi",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Sosiologi og sosialantropologi",
-                "fagkode": "SAM3054",
-                "lareplan": "POS04-01",
-                "omFaget": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv."
-              },
-              {
-                "id": "bilde",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "kunst",
-                "title": "Bilde",
-                "fagkode": "MOK3008",
-                "lareplan": "MOK04‑02",
-                "omFaget": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon."
-              }
-            ]
-          },
-          "blokk2": {
-            "navn": "Blokk 2",
-            "beskrivelse": "Naturfag, Bedriftsledelse, Samfunnsfag, Musikk",
-            "tilgjengeligFor": {
-              "vg2": [
-                "studiespesialisering"
-              ],
-              "vg3": [
-                "studiespesialisering",
-                "medier-kommunikasjon"
-              ]
-            },
-            "fag": [
-              {
-                "id": "matematikk-2p",
-                "timer": 84,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": "fellesfag",
-                "title": "Matematikk 2P",
-                "fagkode": "MAT1023",
-                "lareplan": "MAT05-04",
-                "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk."
-              },
-              {
-                "id": "matematikk-r1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Erstatter Matematikk 2P hvis valgt",
-                "kategori": "matematikk",
-                "title": "Matematikk R1",
-                "fagkode": "REA3056",
-                "lareplan": "MAT03-02",
-                "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse."
-              },
-              {
-                "id": "kjemi-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "naturfag",
-                "title": "Kjemi 1",
-                "fagkode": "REA3045",
-                "lareplan": "KJE01-02",
-                "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv."
-              },
-              {
-                "id": "politikk-og-menneskerettigheter",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "samfunnsfag",
-                "title": "Politikk og menneskerettigheter",
-                "fagkode": "SAM3055",
-                "lareplan": "POS05-02",
-                "omFaget": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv."
-              },
-              {
-                "id": "grafisk-design",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "kunst",
-                "title": "Grafisk design",
-                "fagkode": "MOK3010",
-                "lareplan": "MOK06-02",
-                "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
-              },
-              {
-                "id": "biologi-2",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Kan tas samtidig med Biologi 1 - ingen forutsetning kreves",
-                "kategori": "naturfag",
-                "title": "Biologi 2",
-                "fagkode": "REA3036",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "biologi-2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "anbefaltForutsetning": [
-                  "biologi-1"
-                ],
-                "kategori": "naturfag",
-                "title": "Biologi 2",
-                "fagkode": "REA3036",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "musikk-fordypning-2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "musikk-dans-drama"
-                ],
-                "anbefaltForutsetning": [
-                  "musikk-fordypning-1"
-                ],
-                "merknad": "Kun for elever på Musikk-programmet",
-                "kategori": "musikk",
-                "title": "Musikk fordypning 2",
-                "fagkode": "MUS3008",
-                "lareplan": "MUS08‑02",
-                "omFaget": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
-              },
-              {
-                "id": "kjemi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Kjemi 1",
-                "fagkode": "REA3045",
-                "lareplan": "KJE01-02",
-                "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv."
-              },
-              {
-                "id": "politikk-og-menneskerettigheter",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Politikk og menneskerettigheter",
-                "fagkode": "SAM3055",
-                "lareplan": "POS05-02",
-                "omFaget": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv."
-              },
-              {
-                "id": "grafisk-design",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "kunst",
-                "title": "Grafisk design",
-                "fagkode": "MOK3010",
-                "lareplan": "MOK06-02",
-                "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
-              }
-            ]
-          },
-          "blokk3": {
-            "navn": "Blokk 3",
-            "beskrivelse": "Matematikk, Naturfag, Bedriftsledelse, Samfunnsfag, Musikk, Språk",
-            "tilgjengeligFor": {
-              "vg2": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
-              ],
-              "vg3": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
-              ]
-            },
-            "fag": [
-              {
-                "id": "matematikk-2p",
-                "timer": 84,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": "fellesfag",
-                "title": "Matematikk 2P",
-                "fagkode": "MAT1023",
-                "lareplan": "MAT05-04",
-                "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk."
-              },
-              {
-                "id": "fysikk-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "naturfag",
-                "title": "Fysikk 1",
-                "fagkode": "REA3038",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
-              },
-              {
-                "id": "sosialkunnskap",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "samfunnsfag",
-                "title": "Sosialkunnskap",
-                "fagkode": "SAM3051",
-                "lareplan": "POS02-02",
-                "omFaget": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv."
-              },
-              {
-                "id": "musikk-fordypning-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "musikk-dans-drama"
-                ],
-                "merknad": "Kun for elever på Musikk-programmet",
-                "kategori": "musikk",
-                "title": "Musikk fordypning 1",
-                "fagkode": "MUS3006",
-                "lareplan": "MUS08‑02",
-                "omFaget": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet."
-              },
-              {
-                "id": "grafisk-design",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "kunst",
-                "title": "Grafisk design",
-                "fagkode": "MOK3010",
-                "lareplan": "MOK06-02",
-                "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
-              },
-              {
-                "id": "fysikk-2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "krever": [
-                  "fysikk-1"
-                ],
-                "kategori": "naturfag",
-                "title": "Fysikk 2",
-                "fagkode": "REA3039",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
-              },
-              {
-                "id": "musikk-fordypning-2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "musikk-dans-drama"
-                ],
-                "anbefaltForutsetning": [
-                  "musikk-fordypning-1"
-                ],
-                "merknad": "Kun for elever på Musikk-programmet",
-                "kategori": "musikk",
-                "title": "Musikk fordypning 2",
-                "fagkode": "MUS3008",
-                "lareplan": "MUS08‑02",
-                "omFaget": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet."
-              },
-              {
-                "id": "spansk-i-ii",
-                "fagkode": "FSP6237",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "BETINGET OBLIGATORISK for elever uten fremmedspråk fra ungdomsskolen",
-                "betingetObligatorisk": true,
-                "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet",
-                "kategori": null,
-                "title": "Spansk I+II",
-                "lareplan": "FSP6-01",
-                "omFaget": "Spansk I+II er et sammenhengende fremmedspråkfag over tre år (VG1-VG3) for elever som ikke har hatt fremmedspråk på ungdomstrinnet. Faget gir grunnleggende kompetanse i spansk språk og kultur."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
-              },
-              {
-                "id": "fysikk-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Fysikk 1",
-                "fagkode": "REA3038",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
-              },
-              {
-                "id": "sosialkunnskap",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Sosialkunnskap",
-                "fagkode": "SAM3051",
-                "lareplan": "POS02-02",
-                "omFaget": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv."
-              },
-              {
-                "id": "grafisk-design",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "kunst",
-                "title": "Grafisk design",
-                "fagkode": "MOK3010",
-                "lareplan": "MOK06-02",
-                "omFaget": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design."
-              }
-            ]
-          },
-          "blokk4": {
-            "navn": "Blokk 4",
-            "beskrivelse": "Naturfag, Økonomi, Bedriftsledelse, Samfunnsfag, Språk",
-            "tilgjengeligFor": {
-              "vg2": [
-                "studiespesialisering"
-              ],
-              "vg3": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
-              ]
-            },
-            "fag": [
-              {
-                "id": "matematikk-2p",
-                "timer": 84,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": "fellesfag",
-                "title": "Matematikk 2P",
-                "fagkode": "MAT1023",
-                "lareplan": "MAT05-04",
-                "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk."
-              },
-              {
-                "id": "fysikk-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "naturfag",
-                "title": "Fysikk 1",
-                "fagkode": "REA3038",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
-              },
-              {
-                "id": "biologi-1",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "naturfag",
-                "title": "Biologi 1",
-                "fagkode": "REA3035",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "okonomi-og-ledelse",
-                "timer": 140,
-                "trinn": "vg2",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "kategori": "økonomi",
-                "title": "Økonomi og ledelse",
-                "fagkode": "SAM3070",
-                "lareplan": "NOK02-03",
-                "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
-              },
-              {
-                "id": "kjemi-2",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "krever": [
-                  "kjemi-1"
-                ],
-                "kategori": "naturfag",
-                "title": "Kjemi 2",
-                "fagkode": "REA3046",
-                "lareplan": "KJE01-02",
-                "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv."
-              },
-              {
-                "id": "sosiologi-og-sosialantropologi",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "samfunnsfag",
-                "title": "Sosiologi og sosialantropologi",
-                "fagkode": "SAM3054",
-                "lareplan": "POS04-01",
-                "omFaget": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv."
-              },
-              {
-                "id": "engelsk-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "kategori": "språk",
-                "title": "Engelsk 1",
-                "fagkode": "SPR3029",
-                "lareplan": "ENG04‑02",
-                "omFaget": "Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3 - Fellesfag som velges i blokkskjema",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
-              },
-              {
-                "id": "fysikk-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Fysikk 1",
-                "fagkode": "REA3038",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv."
-              },
-              {
-                "id": "biologi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Biologi 1",
-                "fagkode": "REA3035",
-                "lareplan": "BIO01-02",
-                "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv."
-              },
-              {
-                "id": "okonomi-og-ledelse",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "økonomi",
-                "title": "Økonomi og ledelse",
-                "fagkode": "SAM3070",
-                "lareplan": "NOK02-03",
-                "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid."
-              }
-            ]
-          }
-        }
-      },
-      "vanilla": {
+      "26-27_flex": {
         "versjon": "vanilla",
         "struktur": {
           "antallBlokker": 4,
@@ -2897,349 +2103,115 @@
     }
   },
   "fellesfag": {
-    "vg1": [
-      {
-        "id": "norsk-vg1",
-        "title": "Norsk",
-        "timer": 113,
-        "fagkode": "NOR1260",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "engelsk",
-        "title": "Engelsk",
-        "timer": 140,
-        "fagkode": "ENG1007",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "naturfag",
-        "title": "Naturfag",
-        "timer": 140,
-        "fagkode": "NAT1007",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "geografi-vg1",
-        "title": "Geografi",
-        "timer": 56,
-        "fagkode": "GEO1003",
-        "tilgjengeligFor": [
-          "studiespesialisering"
-        ]
-      },
-      {
-        "id": "samfunnskunnskap-vg1",
-        "title": "Samfunnskunnskap",
-        "timer": 84,
-        "fagkode": "SAK1001",
-        "tilgjengeligFor": [
-          "studiespesialisering"
-        ]
-      },
-      {
-        "id": "kroppsoving-vg1",
-        "title": "Kroppsøving",
-        "timer": 56,
-        "fagkode": "KRO1017",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "medier-kommunikasjon"
-        ]
-      }
-    ],
-    "vg2": [
-      {
-        "id": "norsk-vg2",
-        "title": "Norsk",
-        "timer": 112,
-        "fagkode": "NOR1264",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "historie-vg2",
-        "title": "Historie",
-        "timer": 56,
-        "fagkode": "HIS1009",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "kroppsoving-vg2",
-        "title": "Kroppsøving",
-        "timer": 56,
-        "fagkode": "KRO1018",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "geografi-vg2",
-        "title": "Geografi",
-        "timer": 56,
-        "fagkode": "GEO1003",
-        "tilgjengeligFor": [
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "samfunnskunnskap-vg2",
-        "title": "Samfunnskunnskap",
-        "timer": 84,
-        "fagkode": "SAK1001",
-        "tilgjengeligFor": [
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "fremmedsprak-vg2",
-        "title": "Fremmedspråk",
-        "timer": 112,
-        "fagkode": "FSP6219",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ],
-        "merknad": "Fortsetter språket fra VG1. Kan være nivå I, II eller I+II"
-      }
-    ],
-    "vg3": [
-      {
-        "id": "norsk-vg3",
-        "title": "Norsk",
-        "timer": 168,
-        "fagkode": "NOR1267",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "historie-vg3",
-        "title": "Historie",
-        "timer": 113,
-        "fagkode": "HIS1010",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "religion-og-etikk",
-        "title": "Religion og etikk",
-        "timer": 84,
-        "fagkode": "REL1003",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "musikk-dans-drama",
-          "medier-kommunikasjon"
-        ]
-      },
-      {
-        "id": "kroppsoving-vg3",
-        "title": "Kroppsøving",
-        "timer": 56,
-        "fagkode": "KRO1019",
-        "tilgjengeligFor": [
-          "studiespesialisering",
-          "medier-kommunikasjon"
-        ]
-      }
-    ]
-  },
-  "fellesProgramfag": {
-    "musikk-dans-drama": {
-      "vg1": [
+    "vg1": {
+      "totalt": 842,
+      "fag": [
         {
-          "id": "musikk-dans-drama-vg1",
-          "title": "Musikk, dans og drama",
+          "id": "engelsk",
           "timer": 140,
-          "fagkode": "MDD2002"
+          "fagkode": "ENG1007"
         },
         {
-          "id": "lytting",
-          "title": "Lytting",
+          "id": "fremmedsprak-vg1",
+          "timer": 113,
+          "fagkode": "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151",
+          "merknad": "Spansk II/Fransk II/Tysk II/Kinesisk II/Japansk II"
+        },
+        {
+          "id": "geografi",
           "timer": 56,
-          "fagkode": "MDD3007"
+          "fagkode": "GEO1003"
         },
         {
-          "id": "musikk-vg1",
-          "title": "Musikk",
-          "timer": 140,
-          "fagkode": "MDD3009"
-        }
-      ],
-      "vg2": [
-        {
-          "id": "ergonomi-og-bevegelse-1",
-          "title": "Ergonomi og bevegelse 1",
+          "id": "kroppsoving-vg1",
           "timer": 56,
-          "fagkode": "MUS2010"
+          "fagkode": "KRO1017"
         },
         {
-          "id": "instrument-kor-samspill-1",
-          "title": "Instrument, kor, samspill 1",
+          "id": "matematikk-vg1",
           "timer": 140,
-          "fagkode": "MUS2012"
+          "fagkode": "MAT1019/MAT1021",
+          "alternativer": [
+            "matematikk-1p",
+            "matematikk-1t"
+          ]
         },
         {
-          "id": "musikk-i-perspektiv-1",
-          "title": "Musikk i perspektiv 1",
+          "id": "naturfag",
           "timer": 140,
-          "fagkode": "MUS2014"
-        }
-      ],
-      "vg3": [
-        {
-          "id": "ergonomi-og-bevegelse-2",
-          "title": "Ergonomi og bevegelse 2",
-          "timer": 56,
-          "fagkode": "MUS2011"
+          "fagkode": "NAT1007"
         },
         {
-          "id": "instruksjon-og-ledelse",
-          "title": "Instruksjon og ledelse",
-          "timer": 140,
-          "fagkode": "MUS2018"
+          "id": "norsk-vg1",
+          "timer": 113,
+          "fagkode": "NOR1260"
         },
         {
-          "id": "instrument-kor-samspill-2",
-          "title": "Instrument, kor, samspill 2",
-          "timer": 140,
-          "fagkode": "MUS2013"
-        },
-        {
-          "id": "musikk-i-perspektiv-2",
-          "title": "Musikk i perspektiv 2",
-          "timer": 140,
-          "fagkode": "MUS2016"
+          "id": "samfunnskunnskap",
+          "timer": 84,
+          "fagkode": "SAK1001"
         }
       ]
     },
-    "medier-kommunikasjon": {
-      "vg1": [
+    "vg2": {
+      "totalt": 420,
+      "fag": [
         {
-          "id": "mediesamfunnet-1",
-          "title": "Mediesamfunnet 1",
-          "timer": 140,
-          "fagkode": "MOK2008"
+          "id": "fremmedsprak-vg2",
+          "timer": 112,
+          "fagkode": "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152"
         },
         {
-          "id": "medieuttrykk-1",
-          "title": "Medieuttrykk 1",
-          "timer": 140,
-          "fagkode": "MOK2012"
+          "id": "historie-vg2",
+          "timer": 56,
+          "fagkode": "HIS1009"
+        },
+        {
+          "id": "kroppsoving-vg2",
+          "timer": 56,
+          "fagkode": "KRO1018"
+        },
+        {
+          "id": "matematikk-2p",
+          "timer": 84,
+          "fagkode": "MAT1023",
+          "merknad": "Erstattes av R1/S1 hvis programfag velges"
+        },
+        {
+          "id": "norsk-vg2",
+          "timer": 112,
+          "fagkode": "NOR1264"
         }
-      ],
-      "vg2": [
+      ]
+    },
+    "vg3": {
+      "totalt": 421,
+      "fag": [
         {
-          "id": "mediesamfunnet-2",
-          "title": "Mediesamfunnet 2",
-          "timer": 140,
-          "fagkode": "MOK2009"
+          "id": "historie-vg3",
+          "timer": 113,
+          "fagkode": "HIS1010"
         },
         {
-          "id": "medieuttrykk-2",
-          "title": "Medieuttrykk 2",
-          "timer": 140,
-          "fagkode": "MOK2013"
-        }
-      ],
-      "vg3": [
-        {
-          "id": "mediesamfunnet-3",
-          "title": "Mediesamfunnet 3",
-          "timer": 140,
-          "fagkode": "MOK2010"
+          "id": "kroppsoving-vg3",
+          "timer": 56,
+          "fagkode": "KRO1019"
         },
         {
-          "id": "medieuttrykk-3",
-          "title": "Medieuttrykk 3",
-          "timer": 140,
-          "fagkode": "MOK2014"
+          "id": "norsk-vg3",
+          "timer": 168,
+          "fagkode": "NOR1267"
+        },
+        {
+          "id": "religion-og-etikk",
+          "timer": 84,
+          "fagkode": "REL1003"
         }
       ]
     }
   },
-  "vg1Valg": {
-    "matematikk": [
-      {
-        "id": "matematikk-1p",
-        "title": "Matematikk 1P",
-        "timer": 140,
-        "fagkode": "MAT1019"
-      },
-      {
-        "id": "matematikk-1t",
-        "title": "Matematikk 1T",
-        "timer": 140,
-        "fagkode": "MAT1021"
-      }
-    ],
-    "fremmedsprak": {
-      "harFremmedsprak": [
-        {
-          "id": "spansk-i",
-          "title": "Spansk I",
-          "timer": 113,
-          "fagkode": "FSP6215",
-          "merknad": "Nivå I - for de som vil starte nytt språk"
-        },
-        {
-          "id": "spansk-ii",
-          "title": "Spansk II",
-          "timer": 113,
-          "fagkode": "FSP6218"
-        },
-        {
-          "id": "tysk-ii",
-          "title": "Tysk II",
-          "timer": 113,
-          "fagkode": "FSP6224"
-        },
-        {
-          "id": "fransk-ii",
-          "title": "Fransk II",
-          "timer": 113,
-          "fagkode": "FSP6221"
-        }
-      ],
-      "ikkeHarFremmedsprak": [
-        {
-          "id": "spansk-i-ii",
-          "title": "Spansk I+II",
-          "timer": 113,
-          "fagkode": "FSP6237",
-          "merknad": "Spansk nivå I+II (VG1: 113t + VG2: 112t + VG3: 140t = 365t totalt)"
-        }
-      ]
-    }
-  },
+  "fellesProgramfag": {},
+  "vg1Valg": {},
   "valgregler": {
     "studiespesialisering": {
       "vg2": {
@@ -3471,28 +2443,6 @@
     }
   },
   "regler": {
-    "metadata": {
-      "versjon": "2.0.0",
-      "sistOppdatert": "2025-12-01",
-      "beskrivelse": "Maskinlesbar versjon av alle valideringsregler for curriculum",
-      "basertPa": [
-        {
-          "dokument": "vitnemalsregler-2025",
-          "url": "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/",
-          "verifisert": "2025-12-01"
-        },
-        {
-          "dokument": "udir-1-2025",
-          "url": "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/",
-          "verifisert": "2025-12-01"
-        },
-        {
-          "dokument": "privatskoleforskriften",
-          "url": "https://www.udir.no/regelverkstolkninger/Privatskole/forskrift-til-privatskolelova-privatskoleforskrifta/",
-          "verifisert": "2025-12-01"
-        }
-      ]
-    },
     "eksklusjoner": [
       {
         "id": "math-s-r-conflict",
@@ -3692,234 +2642,6 @@
         }
       }
     ],
-    "fagomrader": {
-      "MAT": {
-        "navn": "Matematikk",
-        "fag": [
-          "matematikk-r1",
-          "matematikk-r2",
-          "matematikk-s1",
-          "matematikk-s2",
-          "matematikk-2p",
-          "matematikk-x"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "FYS": {
-        "navn": "Fysikk",
-        "fag": [
-          "fysikk-1",
-          "fysikk-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "KJE": {
-        "navn": "Kjemi",
-        "fag": [
-          "kjemi-1",
-          "kjemi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "BIO": {
-        "navn": "Biologi",
-        "fag": [
-          "biologi-1",
-          "biologi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "GEO": {
-        "navn": "Geofag",
-        "fag": [
-          "geofag-1",
-          "geofag-2",
-          "geofag-x"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "IT": {
-        "navn": "Informasjonsteknologi",
-        "fag": [
-          "informasjonsteknologi-1",
-          "informasjonsteknologi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "TOF": {
-        "navn": "Teknologi og forskningslære",
-        "fag": [
-          "teknologi-og-forskningslare-1",
-          "teknologi-og-forskningslare-2",
-          "teknologi-og-forskningslare-x"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "SOK": {
-        "navn": "Samfunnsøkonomi",
-        "fag": [
-          "samfunnsokonomi-1",
-          "samfunnsokonomi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "OKO": {
-        "navn": "Økonomi og ledelse",
-        "fag": [
-          "okonomistyring",
-          "okonomi-og-ledelse"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "MOL": {
-        "navn": "Markedsføring og ledelse",
-        "fag": [
-          "markedsforing-og-ledelse-1",
-          "markedsforing-og-ledelse-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "ENT": {
-        "navn": "Entreprenørskap",
-        "fag": [
-          "entreprenorskap-og-bedriftsutvikling-1",
-          "entreprenorskap-og-bedriftsutvikling-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "POS": {
-        "navn": "Politikk og samfunn",
-        "fag": [
-          "politikk-og-menneskerettigheter",
-          "sosialkunnskap",
-          "sosiologi-og-sosialantropologi"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "PSY": {
-        "navn": "Psykologi",
-        "fag": [
-          "psykologi-1",
-          "psykologi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "RET": {
-        "navn": "Rettslære",
-        "fag": [
-          "rettslare-1",
-          "rettslare-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "HIF": {
-        "navn": "Historie og filosofi",
-        "fag": [
-          "historie-og-filosofi-1",
-          "historie-og-filosofi-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "ENG": {
-        "navn": "Engelsk",
-        "fag": [
-          "engelsk-1",
-          "engelsk-2",
-          "internasjonal-engelsk"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "FSP": {
-        "navn": "Fremmedspråk",
-        "merknad": "To ulike fremmedspråk teller som ett fagområde",
-        "fag": [
-          "spansk-1",
-          "spansk-2",
-          "spansk-3",
-          "tysk-1",
-          "tysk-2",
-          "tysk-3",
-          "fransk-1",
-          "fransk-2",
-          "fransk-3"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4",
-          "merknad": "Særregel for fremmedspråk"
-        }
-      },
-      "MUS": {
-        "navn": "Musikk",
-        "fag": [
-          "musikk-fordypning-1",
-          "musikk-fordypning-2"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      },
-      "KUN": {
-        "navn": "Kunst og design",
-        "fag": [
-          "bilde",
-          "grafisk-design"
-        ],
-        "kilde": {
-          "dokument": "vitnemalsregler-2025",
-          "seksjon": "4"
-        }
-      }
-    },
     "fordypning": {
       "studiespesialisering": {
         "minTimer": 560,
@@ -3959,53 +2681,158 @@
         }
       }
     },
-    "obligatoriskeFag": {
-      "alle": {
-        "vg3": [
-          {
-            "fag": "historie",
-            "beskrivelse": "Historie er obligatorisk fellesfag i VG3",
-            "timer": 113,
-            "kilde": {
-              "dokument": "udir-1-2025",
-              "seksjon": "4.3",
-              "merknad": "Gjelder alle studieforberedende programområder"
-            }
-          }
+    "fagomrader": {
+      "MAT": {
+        "navn": "Matematikk",
+        "fag": [
+          "matematikk-r1",
+          "matematikk-r2",
+          "matematikk-s1",
+          "matematikk-s2",
+          "matematikk-2p",
+          "matematikk-x",
+          "statistikk",
+          "matematikk-for-okonomifag"
         ]
       },
-      "studiespesialisering": {
-        "vg2": [
-          {
-            "fag": "matematikk",
-            "type": "kategori",
-            "alternativer": [
-              "matematikk-2p",
-              "matematikk-r1",
-              "matematikk-s1"
-            ],
-            "beskrivelse": "Må velge ett matematikkfag",
-            "kilde": {
-              "dokument": "udir-1-2025",
-              "seksjon": "4.3.1"
-            }
-          }
+      "FYS": {
+        "navn": "Fysikk",
+        "fag": [
+          "fysikk-1",
+          "fysikk-2"
         ]
       },
-      "betinget": [
-        {
-          "fag": "spansk-i-ii",
-          "betingelse": "harFremmedsprak == false",
-          "trinn": "vg3",
-          "beskrivelse": "Elever uten fremmedspråk fra ungdomsskolen må ta Spansk I+II",
-          "timer": 140,
-          "kilde": {
-            "dokument": "udir-1-2025",
-            "seksjon": "4.3",
-            "merknad": "Kravet om fremmedspråk over 3 år"
-          }
-        }
-      ]
+      "KJE": {
+        "navn": "Kjemi",
+        "fag": [
+          "kjemi-1",
+          "kjemi-2"
+        ]
+      },
+      "BIO": {
+        "navn": "Biologi",
+        "fag": [
+          "biologi-1",
+          "biologi-2"
+        ]
+      },
+      "GEO": {
+        "navn": "Geofag",
+        "fag": [
+          "geofag-1",
+          "geofag-2",
+          "geofag-x"
+        ]
+      },
+      "IT": {
+        "navn": "Informasjonsteknologi",
+        "fag": [
+          "informasjonsteknologi-1",
+          "informasjonsteknologi-2"
+        ]
+      },
+      "TOF": {
+        "navn": "Teknologi og forskningslære",
+        "fag": [
+          "teknologi-og-forskningslare-1",
+          "teknologi-og-forskningslare-2",
+          "teknologi-og-forskningslare-x"
+        ]
+      },
+      "SOK": {
+        "navn": "Samfunnsøkonomi",
+        "fag": [
+          "samfunnsokonomi-1",
+          "samfunnsokonomi-2"
+        ]
+      },
+      "OKO": {
+        "navn": "Økonomi og ledelse",
+        "fag": [
+          "okonomistyring",
+          "okonomi-og-ledelse"
+        ]
+      },
+      "MOL": {
+        "navn": "Markedsføring og ledelse",
+        "fag": [
+          "markedsforing-og-ledelse-1",
+          "markedsforing-og-ledelse-2"
+        ]
+      },
+      "ENT": {
+        "navn": "Entreprenørskap",
+        "fag": [
+          "entreprenorskap-og-bedriftsutvikling-1",
+          "entreprenorskap-og-bedriftsutvikling-2"
+        ]
+      },
+      "POS": {
+        "navn": "Politikk og samfunn",
+        "fag": [
+          "politikk-og-menneskerettigheter",
+          "sosialkunnskap",
+          "sosiologi-og-sosialantropologi"
+        ]
+      },
+      "PSY": {
+        "navn": "Psykologi",
+        "fag": [
+          "psykologi-1",
+          "psykologi-2"
+        ]
+      },
+      "RET": {
+        "navn": "Rettslære",
+        "fag": [
+          "rettslare-1",
+          "rettslare-2"
+        ]
+      },
+      "HIF": {
+        "navn": "Historie og filosofi",
+        "fag": [
+          "historie-og-filosofi-1",
+          "historie-og-filosofi-2"
+        ]
+      },
+      "ENG": {
+        "navn": "Engelsk",
+        "fag": [
+          "engelsk-1",
+          "engelsk-2",
+          "internasjonal-engelsk"
+        ]
+      },
+      "FSP": {
+        "navn": "Fremmedspråk",
+        "merknad": "To ulike fremmedspråk teller som ett fagområde",
+        "fag": [
+          "spansk-1",
+          "spansk-2",
+          "spansk-3",
+          "tysk-1",
+          "tysk-2",
+          "tysk-3",
+          "fransk-1",
+          "fransk-2",
+          "fransk-3"
+        ]
+      },
+      "MUS": {
+        "navn": "Musikk",
+        "fag": [
+          "musikk-fordypning-1",
+          "musikk-fordypning-2"
+        ]
+      },
+      "KUN": {
+        "navn": "Kunst og design",
+        "fag": [
+          "bilde",
+          "grafisk-design"
+        ]
+      }
     },
     "spesialregler": {
       "matematikkErstatter2P": {

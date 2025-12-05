@@ -1,0 +1,148 @@
+# UDIR - Medier og kommunikasjon
+# Timefordeling per trinn
+# Kilde: Fag- og timefordeling Kunnskapsløftet 2020
+
+metadata:
+  programomrade: medier-kommunikasjon
+  navn: "Medier og kommunikasjon"
+  sistOppdatert: "2025-12-05"
+  kilde: "UDIR - Fag_og_timefordeling_og_tilbudsstruktur_for_Kunnskapsløftet_Udir12025.pdf"
+
+# Timer per trinn
+totalTimer:
+  vg1: 982
+  vg2: 980
+  vg3: 981
+  totalt: 2943
+
+# Fellesfag per trinn
+fellesfag:
+  vg1:
+    totalt: 702
+    fag:
+      - id: engelsk
+        timer: 140
+        fagkode: ENG1007
+      - id: fremmedsprak-vg1
+        timer: 113
+        fagkode: "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151"
+      - id: kroppsoving-vg1
+        timer: 56
+        fagkode: KRO1017
+      - id: matematikk-vg1
+        timer: 140
+        fagkode: "MAT1019/MAT1021"
+        alternativer:
+          - matematikk-1p
+          - matematikk-1t
+      - id: naturfag
+        timer: 140
+        fagkode: NAT1007
+      - id: norsk-vg1
+        timer: 113
+        fagkode: NOR1260
+
+  vg2:
+    totalt: 504
+    fag:
+      - id: fremmedsprak-vg2
+        timer: 112
+        fagkode: "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152"
+      - id: geografi
+        timer: 56
+        fagkode: GEO1003
+      - id: historie-vg2
+        timer: 56
+        fagkode: HIS1009
+      - id: kroppsoving-vg2
+        timer: 56
+        fagkode: KRO1018
+      - id: matematikk-2p
+        timer: 84
+        fagkode: MAT1023
+        merknad: "Erstattes av R1/S1 hvis programfag velges"
+      - id: norsk-vg2
+        timer: 112
+        fagkode: NOR1264
+      - id: samfunnskunnskap
+        timer: 84
+        fagkode: SAK1001
+
+  vg3:
+    totalt: 421
+    fag:
+      - id: historie-vg3
+        timer: 113
+        fagkode: HIS1010
+      - id: kroppsoving-vg3
+        timer: 56
+        fagkode: KRO1019
+      - id: norsk-vg3
+        timer: 168
+        fagkode: NOR1267
+      - id: religion-og-etikk
+        timer: 84
+        fagkode: REL1003
+
+# Felles programfag (obligatoriske for programmet)
+fellesProgramfag:
+  vg1:
+    totalt: 280
+    fag:
+      - id: mediesamfunnet-1
+        timer: 140
+        fagkode: MOK2008
+      - id: medieuttrykk-1
+        timer: 140
+        fagkode: MOK2012
+
+  vg2:
+    totalt: 280
+    fag:
+      - id: mediesamfunnet-2
+        timer: 140
+        fagkode: MOK2009
+      - id: medieuttrykk-2
+        timer: 140
+        fagkode: MOK2013
+
+  vg3:
+    totalt: 280
+    fag:
+      - id: mediesamfunnet-3
+        timer: 140
+        fagkode: MOK2010
+      - id: medieuttrykk-3
+        timer: 140
+        fagkode: MOK2014
+
+# Valgfrie programfag
+programfag:
+  vg2:
+    totalt: 140
+    beskrivelse: "1 valgfritt programfag"
+  vg3:
+    totalt: 280
+    beskrivelse: "2 valgfrie programfag"
+
+# Tilgjengelige valgfrie programfag for medier og kommunikasjon
+valgfrieProgramfag:
+  - id: bilde
+    timer: 140
+  - id: grafisk-design
+    timer: 140
+  - id: lyddesign
+    timer: 140
+  - id: tekst
+    timer: 140
+  - id: medieutvikling
+    timer: 140
+  - id: mediespesialisering
+    timer: 140
+    merknad: "Bygger på ett av de andre valgfrie programfagene"
+
+# Fordypning
+fordypning:
+  minTimer: 0
+  minOmrader: 0
+  beskrivelse: "Medier og kommunikasjon har ikke fordypningskrav som studiespesialisering"

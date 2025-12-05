@@ -1,0 +1,102 @@
+# UDIR - Forutsetninger (fag som bygger på andre fag)
+# Kilde: Vitnemålsregler 2025, seksjon 3.11 og læreplanene
+# Single Source of Truth for curriculum validation
+#
+# VIKTIG: Kun fag med fast progresjon (nivå 1 → nivå 2) er listet her.
+# Andre fag (Biologi, Psykologi, Rettslære, etc.) kan tas uavhengig av
+# hverandre, men gir fordypning når begge nivåer velges.
+
+metadata:
+  versjon: "2.0.0"
+  sistOppdatert: "2025-12-05"
+  kilde:
+    dokument: vitnemalsregler-2025
+    url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/"
+
+forutsetninger:
+  # Realfag
+  - fag: fysikk-2
+    krever: [fysikk-1]
+    type: blocking
+    beskrivelse: "Fysikk 2 bygger på Fysikk 1"
+    feilmelding: "Du må ha Fysikk 1 i VG2 for å velge Fysikk 2"
+    forslag: "Legg til Fysikk 1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan FYS01-02"
+      merknad: "Bygger på kompetansemål fra Fysikk 1"
+
+  - fag: kjemi-2
+    krever: [kjemi-1]
+    type: blocking
+    beskrivelse: "Kjemi 2 bygger på Kjemi 1"
+    feilmelding: "Du må ha Kjemi 1 i VG2 for å velge Kjemi 2"
+    forslag: "Legg til Kjemi 1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan KJE01-02"
+
+  # Matematikk
+  - fag: matematikk-r2
+    krever: [matematikk-r1]
+    type: blocking
+    beskrivelse: "Matematikk R2 bygger på R1"
+    feilmelding: "Du må ha Matematikk R1 i VG2 for å velge R2"
+    forslag: "Legg til Matematikk R1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      merknad: "R-linja er et sammenhengende løp"
+
+  - fag: matematikk-s2
+    krever: [matematikk-s1]
+    type: blocking
+    beskrivelse: "Matematikk S2 bygger på S1"
+    feilmelding: "Du må ha Matematikk S1 i VG2 for å velge S2"
+    forslag: "Legg til Matematikk S1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      merknad: "S-linja er et sammenhengende løp"
+
+  # Samfunnsfag
+  - fag: markedsforing-og-ledelse-2
+    krever: [markedsforing-og-ledelse-1]
+    type: blocking
+    beskrivelse: "Markedsføring og ledelse 2 bygger på nivå 1"
+    feilmelding: "Du må ha Markedsføring og ledelse 1 for å velge nivå 2"
+    forslag: "Legg til Markedsføring og ledelse 1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan"
+
+  - fag: historie-og-filosofi-2
+    krever: [historie-og-filosofi-1]
+    type: blocking
+    beskrivelse: "Historie og filosofi 2 bygger på nivå 1"
+    feilmelding: "Du må ha Historie og filosofi 1 for å velge nivå 2"
+    forslag: "Legg til Historie og filosofi 1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan"
+
+  - fag: samfunnsokonomi-2
+    krever: [samfunnsokonomi-1]
+    type: blocking
+    beskrivelse: "Samfunnsøkonomi 2 bygger på nivå 1"
+    feilmelding: "Du må ha Samfunnsøkonomi 1 for å velge nivå 2"
+    forslag: "Legg til Samfunnsøkonomi 1 i VG2"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan"
+
+  # Språk
+  - fag: engelsk-2
+    krever: [engelsk-1]
+    type: blocking
+    beskrivelse: "Engelsk 2 bygger på Engelsk 1"
+    feilmelding: "Du må ha Engelsk 1 for å velge Engelsk 2"
+    forslag: "Legg til Engelsk 1"
+    kilde:
+      dokument: vitnemalsregler-2025
+      type: "Læreplan"

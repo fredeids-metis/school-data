@@ -1,0 +1,65 @@
+# UDIR Data - Metadata
+# Single Source of Truth for national curriculum data
+# This data applies to ALL Norwegian upper secondary schools
+
+metadata:
+  versjon: "2.0.0"
+  sistOppdatert: "2025-12-05"
+  beskrivelse: "Nasjonale data fra UDIR som gjelder alle videregående skoler i Norge"
+
+# Kilder og dokumentasjon
+kilder:
+  hovedkilder:
+    - id: vitnemalsregler-2025
+      tittel: "Føring av vitnemål og kompetansebevis for videregående opplæring i Kunnskapsløftet 2025"
+      url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/"
+      verifisert: "2025-12-01"
+
+    - id: udir-1-2025
+      tittel: "Udir-1-2025: Fag- og timefordeling og tilbudsstruktur"
+      url: "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/"
+      verifisert: "2025-12-01"
+
+    - id: privatskoleforskriften
+      tittel: "Forskrift til privatskolelova (privatskoleforskrifta)"
+      url: "https://www.udir.no/regelverkstolkninger/Privatskole/forskrift-til-privatskolelova-privatskoleforskrifta/"
+      verifisert: "2025-12-01"
+
+    - id: grep-api
+      tittel: "GREP - Grunnleggende Ressurser for Pedagoisk Praksis"
+      url: "https://www.udir.no/om-udir/data/kl06-grep/"
+      beskrivelse: "Maskinlesbare læreplaner og fagkoder"
+
+# Mappestruktur
+struktur:
+  programomrader:
+    beskrivelse: "Timefordeling per studieforberedende programområde"
+    filer:
+      - studiespesialisering.yml
+      - musikk-dans-drama.yml
+      - medier-kommunikasjon.yml
+
+  fag:
+    beskrivelse: "Fagdefinisjoner (.md-filer med læreplaner)"
+    undermapper:
+      - fellesfag
+      - obligatoriske-programfag
+      - valgfrie-programfag
+
+  regler:
+    beskrivelse: "Valideringsregler for curriculum"
+    filer:
+      - eksklusjoner.yml
+      - forutsetninger.yml
+      - fordypning.yml
+
+  kilder:
+    beskrivelse: "Master-lister for import fra UDIR"
+    undermapper:
+      - lk20
+
+# Skoleår
+skoleaar:
+  gjeldende: "2025-26"
+  neste: "2026-27"
+  merknad: "Statistikk og Matematikk for økonomifag er foreslått fra august 2026"

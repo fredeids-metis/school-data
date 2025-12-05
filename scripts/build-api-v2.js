@@ -23,13 +23,14 @@ const matter = require('gray-matter');
 const yaml = require('js-yaml');
 const { marked } = require('marked');
 
-// Paths
+// Paths - Updated for new structure
 const DATA_DIR = path.join(__dirname, '../data');
-const CURRICULUM_DIR = path.join(DATA_DIR, 'curriculum');
+const UDIR_DIR = path.join(DATA_DIR, 'udir');
+const CURRICULUM_DIR = path.join(UDIR_DIR, 'fag');  // New: data/udir/fag/
 const VALGFRIE_PROGRAMFAG_DIR = path.join(CURRICULUM_DIR, 'valgfrie-programfag');
 const OBLIGATORISKE_PROGRAMFAG_DIR = path.join(CURRICULUM_DIR, 'obligatoriske-programfag');
 const FELLESFAG_DIR = path.join(CURRICULUM_DIR, 'fellesfag');
-const SCHOOLS_DIR = path.join(DATA_DIR, 'schools');
+const SCHOOLS_DIR = path.join(DATA_DIR, 'skoler');  // Renamed from 'schools' to 'skoler'
 const OUTPUT_DIR = path.join(__dirname, '../docs/api/v2');
 
 // GitHub Pages base URL
@@ -258,10 +259,10 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     return;
   }
 
-  // Get blokkskjema versions from school config
+  // Get blokkskjema versions from school config (new folder structure)
   const blokkskjemaConfig = schoolConfig.blokkskjema || {};
-  const availableVersions = blokkskjemaConfig.versions || { v2: 'blokkskjema_v2.yml' };
-  let activeVersion = blokkskjemaConfig.activeVersion || 'v2';
+  const availableVersions = blokkskjemaConfig.versions || { '26-27_flex': 'blokkskjema/26-27_flex.yml' };
+  let activeVersion = blokkskjemaConfig.activeVersion || '26-27_flex';
 
   // Validate that activeVersion exists in availableVersions
   if (!availableVersions[activeVersion]) {
@@ -312,11 +313,11 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     console.log(`  ⚠️  Active version not found, using "${firstVersion}"`);
   }
 
-  // Load timefordeling (fellesfag and obligatoriske programfag) - separate file
-  const timefordelingPath = path.join(schoolDataDir, 'timefordeling.yml');
+  // Load timefordeling from UDIR (now centralized)
+  const timefordelingPath = path.join(UDIR_DIR, 'programomrader', 'studiespesialisering.yml');
   const timefordeling = loadYAML(timefordelingPath);
   if (timefordeling) {
-    console.log(`  📋 Loaded timefordeling.yml`);
+    console.log(`  📋 Loaded UDIR timefordeling (programomrader/studiespesialisering.yml)`);
   }
 
   // Load tilbud for enrichment
@@ -396,8 +397,19 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     // Validation rules per program (from primary blokkskjema)
     valgregler: primaryBlokkskjema.valgregler || {},
 
-    // Prerequisites and exclusions (from curriculum/regler.yml - complete validation rules)
-    regler: loadYAML(path.join(CURRICULUM_DIR, 'regler.yml')) || primaryBlokkskjema.regler || {},
+    // Prerequisites and exclusions (from udir/regler/ - split files)
+    regler: (() => {
+      const eksklusjoner = loadYAML(path.join(UDIR_DIR, 'regler', 'eksklusjoner.yml'));
+      const forutsetninger = loadYAML(path.join(UDIR_DIR, 'regler', 'forutsetninger.yml'));
+      const fordypning = loadYAML(path.join(UDIR_DIR, 'regler', 'fordypning.yml'));
+      return {
+        eksklusjoner: eksklusjoner?.eksklusjoner || [],
+        forutsetninger: forutsetninger?.forutsetninger || [],
+        fordypning: fordypning?.fordypning || {},
+        fagomrader: fordypning?.fagomrader || {},
+        spesialregler: fordypning?.spesialregler || {}
+      };
+    })(),
 
     // Time validation per program and grade (from primary blokkskjema)
     timevalidering: primaryBlokkskjema.timevalidering || {},

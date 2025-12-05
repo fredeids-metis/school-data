@@ -61,33 +61,29 @@ school:
 
 blokkskjema:
   # Hvilken versjon som er aktiv (brukes i produksjon)
-  activeVersion: "vanilla"  # Aktiv versjon - endre for å bytte
+  activeVersion: "26-27_flex"  # Aktiv versjon - endre for å bytte
 
-  # Tilgjengelige versjoner og deres filer
-  # Legg til nye versjoner her for å gjøre dem tilgjengelige for runtime-veksling
+  # Tilgjengelige versjoner og deres filer (i blokkskjema/ mappen)
   versions:
-    v2: "blokkskjema_v2.yml"           # Gjeldende versjon basert på faktisk fagtilbud
-    test: "blokkskjema_test.yml"       # Test-versjon med færre fag
-    vanilla: "blokkskjema_vanilla.yml" # 25-26 med Historie i alle blokker + trinnfleksibilitet
+    26-27_standard: "blokkskjema/26-27_standard.yml"   # Standard 26-27 blokkskjema
+    26-27_flex: "blokkskjema/26-27_flex.yml"           # Fleksibelt 26-27 med trinnfleksibilitet
 
   # Versjonsbeskrivelser (for dokumentasjon)
   descriptions:
-    v2: "Gjeldende versjon - Faktisk fagtilbud fra bilde med eksplisitt programtilgang og timer"
-    test: "Test-versjon med færre fag for raskere testing"
-    vanilla: "Basert på 25-26 med Historie i alle blokker og trinnfleksibilitet for fag uten forutsetning"
+    26-27_standard: "Standard blokkskjema for skoleåret 2026-27"
+    26-27_flex: "Fleksibelt blokkskjema 26-27 med Historie i alle blokker og trinnfleksibilitet"
 
   # Dokumentasjon for versjonsstyring
   documentation: |
+    NAVNEKONVENSJON:
+    {skoleår}_{variant}.yml - f.eks. 26-27_standard.yml
+
     RUNTIME-VEKSLING AV BLOKKSKJEMA:
     Alle versjoner definert under 'versions' bygges inn i API-responsen
     og kan velges runtime via URL-parameter eller admin-grensesnitt.
 
     LEGGE TIL NY VERSJON:
-    1. Opprett ny blokkskjema-fil (f.eks. blokkskjema_v3.yml)
-    2. Legg til i 'versions': v3: "blokkskjema_v3.yml"
+    1. Opprett ny blokkskjema-fil i blokkskjema/ mappen
+    2. Legg til i 'versions' med filstien
     3. Kjør 'npm run build'
     4. Ny versjon er nå tilgjengelig for runtime-veksling
-
-    ENDRE DEFAULT-VERSJON:
-    - Endre 'activeVersion' til ønsket versjon
-    - Dette påvirker hvilken versjon som lastes som standard

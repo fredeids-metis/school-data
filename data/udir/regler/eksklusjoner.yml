@@ -1,0 +1,72 @@
+# UDIR - Eksklusjoner (fag som IKKE kan kombineres)
+# Kilde: Vitnemålsregler 2025, seksjon 3.8
+# Single Source of Truth for curriculum validation
+
+metadata:
+  versjon: "2.0.0"
+  sistOppdatert: "2025-12-05"
+  kilde:
+    dokument: vitnemalsregler-2025
+    url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/"
+
+eksklusjoner:
+  # Matematikk S vs R (blokkerende) - S-linja og R-linja kan ikke kombineres
+  - id: math-s-r-conflict
+    type: blocking
+    konfliktGrupper:
+      - [matematikk-s1, matematikk-s2]   # S-linja
+      - [matematikk-r1, matematikk-r2]   # R-linja
+    beskrivelse: "Matematikk S-linja og R-linja kan ikke føres på samme vitnemål"
+    feilmelding: "Du kan ikke kombinere Matematikk S og R på samme vitnemål"
+    forslag: "Velg enten S-linja (S1/S2) eller R-linja (R1/R2)"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      tittel: "Føring av vurdering i realfag"
+      sitat: "Det er ikke mulig å ha både matematikk S og matematikk R på vitnemålet"
+      url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"
+
+  # Matematikk R/S vs 2P (blokkerende) - R1/S1 erstatter 2P
+  - id: math-programfag-2p-conflict
+    type: blocking
+    konfliktGrupper:
+      - [matematikk-r1, matematikk-s1]   # Programfag som erstatter 2P
+      - [matematikk-2p]                   # Fellesfag 2P
+    beskrivelse: "Matematikk R1 eller S1 erstatter fellesfaget 2P"
+    feilmelding: "Du kan ikke kombinere R1/S1 med 2P - programfaget erstatter fellesfaget"
+    forslag: "Matematikk R1 eller S1 erstatter 2P automatisk"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      tittel: "Føring av vurdering i realfag"
+      url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"
+
+  # Geofag X vs 1 (blokkerende)
+  - id: geofag-x-1-conflict
+    type: blocking
+    gruppe:
+      - geofag-x
+      - geofag-1
+    beskrivelse: "Geofag X og Geofag 1 kan ikke føres på samme vitnemål"
+    feilmelding: "Geofag X og Geofag 1 kan ikke kombineres"
+    forslag: "Velg enten Geofag X eller Geofag 1"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      tittel: "Føring av vurdering i realfag"
+      url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"
+
+  # Teknologi X vs 1 (blokkerende)
+  - id: tof-x-1-conflict
+    type: blocking
+    gruppe:
+      - teknologi-og-forskningslare-x
+      - teknologi-og-forskningslare-1
+    beskrivelse: "Teknologi X og Teknologi 1 kan ikke føres på samme vitnemål"
+    feilmelding: "Teknologi og forskningslære X og 1 kan ikke kombineres"
+    forslag: "Velg enten X-varianten eller nivå 1"
+    kilde:
+      dokument: vitnemalsregler-2025
+      seksjon: "3.8"
+      tittel: "Føring av vurdering i realfag"
+      url: "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"

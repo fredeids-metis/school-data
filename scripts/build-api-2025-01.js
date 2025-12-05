@@ -25,8 +25,9 @@ const { marked } = require('marked');
 // Configuration
 const API_VERSION = '2025-01';
 const DATA_DIR = path.join(__dirname, '../data');
-const CURRICULUM_DIR = path.join(DATA_DIR, 'curriculum');
-const SCHOOLS_DIR = path.join(DATA_DIR, 'schools');
+const UDIR_DIR = path.join(DATA_DIR, 'udir');
+const CURRICULUM_DIR = path.join(UDIR_DIR, 'fag');  // New structure: data/udir/fag/
+const SCHOOLS_DIR = path.join(DATA_DIR, 'skoler');  // Renamed from 'schools' to 'skoler'
 const OUTPUT_DIR = path.join(__dirname, '../docs/api', API_VERSION);
 
 // GitHub Pages base URL
@@ -221,20 +222,21 @@ function buildReglerJSON() {
   const outputDir = path.join(OUTPUT_DIR, 'curriculum');
   ensureDir(outputDir);
 
-  // Try to load regler from curriculum directory first
-  let regler = loadYAML(path.join(CURRICULUM_DIR, 'regler.yml'));
+  // Load regler from new UDIR structure (split files)
+  const eksklusjoner = loadYAML(path.join(UDIR_DIR, 'regler', 'eksklusjoner.yml'));
+  const forutsetninger = loadYAML(path.join(UDIR_DIR, 'regler', 'forutsetninger.yml'));
+  const fordypning = loadYAML(path.join(UDIR_DIR, 'regler', 'fordypning.yml'));
 
-  // Fallback to schools/bergen-private-gymnas if not found
-  if (!regler) {
-    const blokkskjema = loadYAML(path.join(SCHOOLS_DIR, 'bergen-private-gymnas', 'blokkskjema_v2.yml'));
-    if (blokkskjema?.regler) {
-      regler = blokkskjema.regler;
-    }
-  }
+  const regler = {
+    eksklusjoner: eksklusjoner?.eksklusjoner || [],
+    forutsetninger: forutsetninger?.forutsetninger || [],
+    fordypning: fordypning?.fordypning || {},
+    fagomrader: fordypning?.fagomrader || {},
+    spesialregler: fordypning?.spesialregler || {}
+  };
 
-  if (!regler) {
-    console.log('  [!] No regler found, creating empty regler.json');
-    regler = {};
+  if (!eksklusjoner && !forutsetninger && !fordypning) {
+    console.log('  [!] No regler found in udir/regler/, creating minimal regler.json');
   }
 
   const output = {
@@ -315,17 +317,23 @@ function buildStudieplanleggerJSON(skoleId, curriculumData) {
     return;
   }
 
-  // Load blokkskjema
-  const blokkskjema = loadYAML(path.join(skoleDir, 'blokkskjema_v2.yml')) ||
-                      loadYAML(path.join(skoleDir, 'blokkskjema.yml'));
+  // Load blokkskjema from new structure (blokkskjema/ folder)
+  let blokkskjemaFile = null;
+  if (config?.blokkskjema?.activeVersion) {
+    const activeVersion = config.blokkskjema.activeVersion;
+    blokkskjemaFile = path.join(skoleDir, 'blokkskjema', `${activeVersion}.yml`);
+  }
+  const blokkskjema = loadYAML(blokkskjemaFile) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_flex.yml')) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_standard.yml'));
 
   if (!blokkskjema) {
     console.log(`  [!] No blokkskjema found for ${skoleId}, skipping`);
     return;
   }
 
-  // Load timefordeling
-  const timefordeling = loadYAML(path.join(skoleDir, 'timefordeling.yml'));
+  // Load timefordeling from UDIR (now centralized)
+  const timefordeling = loadYAML(path.join(UDIR_DIR, 'programomrader', 'studiespesialisering.yml'));
 
   // Load tilbud for kategori mapping
   const tilbud = loadYAML(path.join(skoleDir, 'tilbud.yml'));
@@ -477,15 +485,16 @@ function buildTilbudteFagJSON(skoleId, curriculumData) {
   const config = loadYAML(path.join(skoleDir, 'school-config.yml')) ||
                  loadYAML(path.join(skoleDir, 'config.yml'));
 
-  // Determine which blokkskjema file to use
-  let blokkskjemaFile = 'blokkskjema.yml';
+  // Determine which blokkskjema file to use (new folder structure)
+  let blokkskjemaFile = null;
   if (config?.blokkskjema?.activeVersion) {
-    blokkskjemaFile = `blokkskjema_${config.blokkskjema.activeVersion}.yml`;
+    const activeVersion = config.blokkskjema.activeVersion;
+    blokkskjemaFile = path.join(skoleDir, 'blokkskjema', `${activeVersion}.yml`);
   }
 
-  const blokkskjema = loadYAML(path.join(skoleDir, blokkskjemaFile)) ||
-                      loadYAML(path.join(skoleDir, 'blokkskjema_v2.yml')) ||
-                      loadYAML(path.join(skoleDir, 'blokkskjema.yml'));
+  const blokkskjema = loadYAML(blokkskjemaFile) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_flex.yml')) ||
+                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_standard.yml'));
 
   if (!blokkskjema) {
     console.log(`  [!] No blokkskjema found for ${skoleId}, skipping tilbudt-fag`);

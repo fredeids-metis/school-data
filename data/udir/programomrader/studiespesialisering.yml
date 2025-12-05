@@ -1,0 +1,119 @@
+# UDIR - Studiespesialisering
+# Timefordeling per trinn
+# Kilde: Fag- og timefordeling Kunnskapsløftet 2020
+
+metadata:
+  programomrade: studiespesialisering
+  navn: "Studiespesialisering"
+  sistOppdatert: "2025-12-05"
+  kilde: "UDIR - Fag_og_timefordeling_og_tilbudsstruktur_for_Kunnskapsløftet_Udir12025.pdf"
+
+# Timer per trinn
+totalTimer:
+  vg1: 842
+  vg2: 840
+  vg3: 841
+  totalt: 2523
+
+# Fellesfag per trinn
+fellesfag:
+  vg1:
+    totalt: 842
+    fag:
+      - id: engelsk
+        timer: 140
+        fagkode: ENG1007
+      - id: fremmedsprak-vg1
+        timer: 113
+        fagkode: "FSP6218/FSP6221/FSP6224/FSP6241/FSP6151"
+        merknad: "Spansk II/Fransk II/Tysk II/Kinesisk II/Japansk II"
+      - id: geografi
+        timer: 56
+        fagkode: GEO1003
+      - id: kroppsoving-vg1
+        timer: 56
+        fagkode: KRO1017
+      - id: matematikk-vg1
+        timer: 140
+        fagkode: "MAT1019/MAT1021"
+        alternativer:
+          - matematikk-1p
+          - matematikk-1t
+      - id: naturfag
+        timer: 140
+        fagkode: NAT1007
+      - id: norsk-vg1
+        timer: 113
+        fagkode: NOR1260
+      - id: samfunnskunnskap
+        timer: 84
+        fagkode: SAK1001
+
+  vg2:
+    totalt: 420
+    fag:
+      - id: fremmedsprak-vg2
+        timer: 112
+        fagkode: "FSP6219/FSP6222/FSP6225/FSP6242/FSP6152"
+      - id: historie-vg2
+        timer: 56
+        fagkode: HIS1009
+      - id: kroppsoving-vg2
+        timer: 56
+        fagkode: KRO1018
+      - id: matematikk-2p
+        timer: 84
+        fagkode: MAT1023
+        merknad: "Erstattes av R1/S1 hvis programfag velges"
+      - id: norsk-vg2
+        timer: 112
+        fagkode: NOR1264
+
+  vg3:
+    totalt: 421
+    fag:
+      - id: historie-vg3
+        timer: 113
+        fagkode: HIS1010
+      - id: kroppsoving-vg3
+        timer: 56
+        fagkode: KRO1019
+      - id: norsk-vg3
+        timer: 168
+        fagkode: NOR1267
+      - id: religion-og-etikk
+        timer: 84
+        fagkode: REL1003
+
+# Programfag (valgfrie) per trinn
+programfag:
+  vg2:
+    totalt: 420
+    beskrivelse: "3 programfag à 140 timer"
+    krav:
+      - "Minst 2 fag som videreføres på VG3 (fordypning)"
+  vg3:
+    totalt: 420
+    beskrivelse: "3 programfag à 140 timer"
+    krav:
+      - "280 timer: Videreføring av 2 fag fra VG2"
+      - "140 timer: Fritt programfag"
+
+# Fordypningskrav
+fordypning:
+  minTimer: 560
+  minOmrader: 2
+  timerPerOmrade: 280
+  beskrivelse: "Minimum 560 timer fra 2 fagområder (280 timer hver)"
+
+# Spesialregler
+spesialregler:
+  matematikkErstatter2P:
+    beskrivelse: "R1 eller S1 erstatter 2P"
+    gjelder: [matematikk-r1, matematikk-s1]
+    erstatter: matematikk-2p
+    frigjorteTimer: 84
+  fremmedsprakKrav:
+    beskrivelse: "Elever uten fremmedspråk fra ungdomsskolen må ta nivå I+II over 3 år"
+    timer: 365
+    fordeling: "VG1: 113t + VG2: 112t + VG3: 140t"
