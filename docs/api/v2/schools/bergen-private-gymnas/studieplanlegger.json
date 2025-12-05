@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-05T10:06:08.884Z",
+    "generatedAt": "2025-12-05T10:30:52.636Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -36,6 +36,10 @@
   },
   "blokkskjema": {
     "activeVersion": "26-27_flex",
+    "descriptions": {
+      "26-27_standard": "Standard blokkskjema for skoleåret 2026-27",
+      "26-27_flex": "Fleksibelt blokkskjema 26-27 med Historie i alle blokker og trinnfleksibilitet"
+    },
     "versions": {
       "26-27_standard": {
         "versjon": "v2-experimental",

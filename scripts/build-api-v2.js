@@ -373,6 +373,7 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     // Blokkskjema structure with multi-version support
     blokkskjema: {
       activeVersion: activeVersion,
+      descriptions: blokkskjemaConfig.descriptions || {},
       versions: Object.fromEntries(
         Object.entries(enrichedVersions).map(([versionId, enriched]) => [
           versionId,
