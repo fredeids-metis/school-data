@@ -40,12 +40,29 @@ School-data har **to separate lag**:
 **PROGRAMOMRÅDE** (`data/udir/programomrader/`)
 - Timefordeling og krav for studieprogram (fra UDIR)
 - Fellesfag med timer per trinn, programfag-krav, fordypningskrav
+- **vg1Valg**: Matematikk og fremmedspråk-alternativer (nasjonal standard)
 - Eksempler: studiespesialisering.yml, musikk-dans-drama.yml
 
 **REGLER** (`data/udir/regler/`)
 - **eksklusjoner.yml**: Fag som ikke kan kombineres (f.eks. R1 og S1)
 - **forutsetninger.yml**: Fag som krever andre fag (f.eks. R2 krever R1)
-- **fordypning.yml**: Hvilke fag som teller som fordypning
+- **fordypning.yml**: Hvilke fag som teller som fordypning (fagområder)
+
+**FORDYPNING OG RELATED-FELTET**
+
+`related`-feltet i API-output beregnes automatisk i build-scriptet:
+
+1. **Standard**: Fag med samme læreplan grupperes (f.eks. Biologi 1 og 2 har begge BIO01-02)
+2. **Spesialtilfelle**: Fagområder med `merknad` i fordypning.yml håndteres separat
+
+POS-fagene er et slikt spesialtilfelle:
+- Politikk og menneskerettigheter (POS05-02)
+- Sosialkunnskap (POS02-02)
+- Sosiologi og sosialantropologi (POS04-01)
+- Samfunnsgeografi (POS03-01)
+
+Disse har **ulike læreplaner** men utgjør **ett fagområde** for fordypning per UDIR Tabell 6.
+For å legge til nye spesialtilfeller: Legg til `merknad`-felt på fagområdet i fordypning.yml.
 
 **SCHOOL-CONFIG** (`data/skoler/{skole}/school-config.yml`)
 - Skolens konfigurasjon: navn, kontaktinfo
@@ -54,7 +71,8 @@ School-data har **to separate lag**:
 
 **TILBUD** (`data/skoler/{skole}/tilbud.yml`)
 - **HVILKE fag** skolen tilbyr (filter fra 90+ nasjonale)
-- Brukes av: Fagkatalog
+- **fremmedsprakTilbud**: Hvilke fremmedspråk skolen tilbyr for VG1 (filtrerer UDIR-standard)
+- Brukes av: Fagkatalog, Studieplanlegger (fremmedspråk-valg)
 - Kan inneholde fag som ikke ennå er plassert i blokkskjema
 
 **BLOKKSKJEMA** (`data/skoler/{skole}/blokkskjema/`)
@@ -69,6 +87,26 @@ School-data har **to separate lag**:
 | Spørsmål | "Hvilke fag finnes?" | "Når kan jeg ta faget?" |
 | Brukes av | Fagkatalog | Studieplanlegger |
 | Versjonering | Én liste | Flere versjoner |
+
+**Dataflyt for VG1-valg (matematikk/fremmedspråk):**
+```
+UDIR (programomrader/*.yml)    →    Skole (tilbud.yml)    →    API
+─────────────────────────────       ──────────────────         ───
+vg1Valg:                            fremmedsprakTilbud:        vg1Valg:
+  matematikk: [1P, 1T]                harFremmedsprak:           matematikk: [1P, 1T]
+  fremmedsprak:                         - spansk-1               fremmedsprak:
+    harFremmedsprak:                    - spansk-2                 harFremmedsprak:
+      - spansk-1                        - tysk-2                     (filtrert)
+      - spansk-2                        - fransk-2                 ikkeHarFremmedsprak:
+      - tysk-1                        ikkeHarFremmedsprak:           (filtrert)
+      - tysk-2                          - spansk-1-2
+      - fransk-1
+      - fransk-2
+    ikkeHarFremmedsprak:
+      - spansk-1-2
+      - tysk-1-2
+      - fransk-1-2
+```
 
 ## Mappestruktur
 
@@ -117,7 +155,7 @@ Base: `https://fredeids-metis.github.io/school-data/api/`
 /2025-01/curriculum/fag.json              # Alle 90+ fag
 /2025-01/curriculum/regler.json           # Alle regler
 /2025-01/skoler/index.json                # Liste over skoler
-/2025-01/skoler/{skole}/tilbudt-fag.json  # Skolens fag (filtrert)
+/2025-01/skoler/{skole}/tilbud.json       # Skolens valgfrie programfag (fra tilbud.yml)
 /2025-01/skoler/{skole}/studieplanlegger.json
 ```
 
@@ -140,6 +178,11 @@ Base: `https://fredeids-metis.github.io/school-data/api/`
 1. Opprett `data/skoler/{skole-slug}/`
 2. Lag `school-config.yml`, `tilbud.yml`, `blokkskjema/{versjon}.yml`
 3. `npm run build`
+
+**Endre skolens fremmedspråk-tilbud**
+1. Rediger `data/skoler/{skole}/tilbud.yml` → `fremmedsprakTilbud`
+2. Legg til/fjern språk-IDer fra `harFremmedsprak` eller `ikkeHarFremmedsprak`
+3. `npm run build` - filtrerer UDIR-standard til kun skolens tilbud
 
 ## Build-kommandoer
 
