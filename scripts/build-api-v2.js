@@ -432,11 +432,12 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
           result[programId][trinn] = {
             totalt: trinnData.totalt || 0,
             fag: trinnData.fag.map(fag => {
-              // Try to find title from curriculum
+              // Try to find title from curriculum (prefer shortTitle)
               const curriculumFag = curriculumMap.get(fag.id);
               return {
                 id: fag.id,
-                title: curriculumFag?.title || formatFagId(fag.id),
+                title: curriculumFag?.shortTitle || curriculumFag?.title || formatFagId(fag.id),
+                fullTitle: curriculumFag?.title || null,
                 timer: fag.timer,
                 fagkode: fag.fagkode,
                 merknad: fag.merknad || null,
@@ -480,7 +481,29 @@ function buildStudieplanleggerAPI(schoolId, curriculumData) {
     })(),
 
     // VG1 valg (matematikk og fremmedspråk som elever velger)
-    vg1Valg: timefordeling?.vg1Valg || {},
+    // Fremmedspråk filtreres basert på skolens tilbud (tilbud.yml -> fremmedsprakTilbud)
+    vg1Valg: (() => {
+      const udirVg1Valg = timefordeling?.vg1Valg || {};
+      const skoleTilbud = tilbud?.fremmedsprakTilbud;
+
+      // If school has fremmedsprakTilbud, filter UDIR data
+      if (skoleTilbud && udirVg1Valg.fremmedsprak) {
+        const filteredFremmedsprak = {
+          harFremmedsprak: (udirVg1Valg.fremmedsprak.harFremmedsprak || [])
+            .filter(fag => !skoleTilbud.harFremmedsprak || skoleTilbud.harFremmedsprak.includes(fag.id)),
+          ikkeHarFremmedsprak: (udirVg1Valg.fremmedsprak.ikkeHarFremmedsprak || [])
+            .filter(fag => !skoleTilbud.ikkeHarFremmedsprak || skoleTilbud.ikkeHarFremmedsprak.includes(fag.id))
+        };
+
+        return {
+          ...udirVg1Valg,
+          fremmedsprak: filteredFremmedsprak
+        };
+      }
+
+      // No school-specific filter - return all UDIR options
+      return udirVg1Valg;
+    })(),
 
     // Validation rules per program (from primary blokkskjema)
     valgregler: primaryBlokkskjema.valgregler || {},

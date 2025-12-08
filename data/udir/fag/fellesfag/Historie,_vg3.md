@@ -1,6 +1,7 @@
 ---
 id: historie-vg3
 title: Historie Vg3
+shortTitle: Historie VG3
 fagkode: HIS1010
 lareplan: HIS01-03
 type: fellesfag

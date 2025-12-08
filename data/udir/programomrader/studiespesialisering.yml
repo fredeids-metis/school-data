@@ -118,24 +118,56 @@ vg1Valg:
       timer: 140
       fagkode: MAT1021
   fremmedsprak:
+    # ALLE mulige fremmedspråk-valg (nasjonal standard)
+    # Skoler filtrerer dette via tilbud.yml -> fremmedsprakTilbud
+    # Ref: https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/vedlegg-1/3vgo/#3.3.1.3fremmedsprak
+    #
+    # Elever som HAR fremmedspråk fra ungdomsskolen kan velge:
+    # - Nivå I (nytt språk) eller Nivå II (fortsette samme språk)
     harFremmedsprak:
+      - id: spansk-1
+        title: "Spansk I"
+        timer: 113
+        fagkode: FSP6215
+        merknad: "For elever som vil starte nytt språk"
       - id: spansk-2
         title: "Spansk II"
         timer: 113
         fagkode: FSP6218
+      - id: tysk-1
+        title: "Tysk I"
+        timer: 113
+        fagkode: FSP6212
+        merknad: "For elever som vil starte nytt språk"
       - id: tysk-2
         title: "Tysk II"
         timer: 113
         fagkode: FSP6224
+      - id: fransk-1
+        title: "Fransk I"
+        timer: 113
+        fagkode: FSP6209
+        merknad: "For elever som vil starte nytt språk"
       - id: fransk-2
         title: "Fransk II"
         timer: 113
         fagkode: FSP6221
+    # Elever som IKKE har fremmedspråk fra ungdomsskolen må ta nivå I+II
     ikkeHarFremmedsprak:
       - id: spansk-1-2
         title: "Spansk I+II"
         timer: 225
         fagkode: FSP6237
+        merknad: "For elever uten fremmedspråk fra ungdomsskolen (VG1: 113t + VG2: 112t + VG3: 140t)"
+      - id: tysk-1-2
+        title: "Tysk I+II"
+        timer: 225
+        fagkode: FSP6238
+        merknad: "For elever uten fremmedspråk fra ungdomsskolen"
+      - id: fransk-1-2
+        title: "Fransk I+II"
+        timer: 225
+        fagkode: FSP6239
         merknad: "For elever uten fremmedspråk fra ungdomsskolen"
 
 # Spesialregler
