@@ -14,6 +14,14 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet.
+
+Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen.
+
+Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre.
+
+## Om faget - fra læreplan
+
 Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv.
 
 ## Hvordan arbeider man i faget

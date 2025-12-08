@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser.
+
+## Om faget - fra læreplan
+
 Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.
 
 ## Hvordan arbeider man i faget

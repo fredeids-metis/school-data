@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Vil du studere sivilingenior, fysikk eller arkitektur? Da trenger du R2. Faget bygger videre på R1 og gir deg integralregning, vektorer i rommet, rekker og trigonometriske funksjoner. Du larer også å bruke programmering til å lose matematiske problemer. R2 er obligatorisk for de fleste teknologi- og ingeniorutdanninger, og NTNU krever karakter 4 eller bedre for opptak til sivilingeniorstudiene.
+
+## Om faget - fra læreplan
+
 Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.
 
 ## Hvordan arbeider man i faget

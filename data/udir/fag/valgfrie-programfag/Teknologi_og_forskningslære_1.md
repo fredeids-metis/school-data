@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+I teknologi og forskningslære 1 lærer du å jobbe som en forsker. Du planlegger og gjennomfører egne undersøkelser, bygger prototyper og dokumenterer arbeidet ditt. Faget kombinerer praktisk prosjektarbeid med forståelse for hvordan vitenskap og teknologi påvirker samfunnet. Du lærer også at feil er en naturlig del av forskningsprosessen.
+
+## Om faget - fra læreplan
+
 Teknologi og forskningslære handler om naturvitenskapelige metoder og teknologiens og vitenskapens rolle i samfunnet. Faget kombinerer praktiske prosjekter med teoretisk forståelse av hvordan vitenskap og teknologi utvikles og påvirker samfunnet. Elevene lærer å planlegge, gjennomføre og dokumentere egne forsknings- og utviklingsprosjekter.
 
 ## Hvordan arbeider man i faget

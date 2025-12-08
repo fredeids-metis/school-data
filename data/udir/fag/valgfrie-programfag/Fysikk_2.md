@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvordan kan tiden gå saktere for noen enn for andre? Hvorfor oppfører ikke elektroner seg som vanlige gjenstander? I Fysikk 2 utforsker du moderne fysikk som relativitetsteori og kvantefysikk. Du bruker matematikk og programmering til å modellere fenomener som ikke lar seg beskrive med enkle formler. Faget gir deg verktoy til a forutsi og forklare fysiske prosesser - fra partikler til elektromagnetiske felt.
+
+## Om faget - fra læreplan
+
 Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.
 
 ## Hvordan arbeider man i faget

@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Du leser en artikkel om presidentvalget i USA. Hva ligger bak retorikken? Hvilke historiske linjer påvirker debatten? I Engelsk 2 analyserer du tekster i lys av kultur og historie. Du trener på å uttrykke deg presist og nyansert, både muntlig og skriftlig. Faget gir deg fordypning i hvordan engelskspråklige land har påvirket verden politisk, kulturelt og språklig.
+
+## Om faget - fra læreplan
+
 Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.
 
 ## Hvordan arbeider man i faget

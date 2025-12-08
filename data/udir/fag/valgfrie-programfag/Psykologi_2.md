@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvorfor lar vi oss påvirke av grupper? Hva skiller psykiske vansker fra psykiske lidelser? I psykologi 2 fordyper du deg i sosial påvirkning, kommunikasjon og psykisk helse. Du lærer hvordan samspill med andre former holdninger og identitet, og hvordan konflikter kan løses gjennom god kommunikasjon. Faget gir deg også innsikt i hva som fremmer god psykisk helse og hvordan samfunnets syn på psykiske lidelser har endret seg over tid.
+
+## Om faget - fra læreplan
+
 Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.
 
 ## Hvordan arbeider man i faget

@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+I Geofag 1 lærer du hvordan jorden er bygget opp og hvordan geologiske prosesser former landskapet rundt deg. Du identifiserer bergarter og mineraler, tolker geologiske kart og undersøker landformer gjennom feltarbeid. Faget gir deg innsikt i naturressurser, naturkatastrofer og klimaendringer - kunnskap som er viktig for å forstå samfunnsutfordringer knyttet til miljø og bærekraft.
+
+## Om faget - fra læreplan
+
 Geofag handler om jordens oppbygning, prosesser og historie, samt samspillet mellom geosfærene og menneskets påvirkning på disse. Faget kombinerer naturvitenskap med forståelse av hvordan geologiske prosesser påvirker samfunnet og miljøet. Geofag gir innsikt i naturressurser, naturkatastrofer og klimaendringer.
 
 ## Hvordan arbeider man i faget

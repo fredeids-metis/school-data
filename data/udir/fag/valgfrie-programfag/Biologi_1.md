@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvordan holder kroppen temperaturen stabil? Hvorfor virker antibiotika mot bakterier, men ikke mot virus? Biologi 1 gir deg svar på slike spørsmål. Du lærer om celler, fysiologi og økosystemer, og du får forstå sammenhengen mellom helse og livsstil. Faget kombinerer teori med praktisk arbeid i laboratoriet og i felt.
+
+## Om faget - fra læreplan
+
 Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv.
 
 ## Hvordan arbeider man i faget

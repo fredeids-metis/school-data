@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Økonomi og ledelse gir deg praktisk kompetanse i å styre og lede virksomheter. Du lærer å sette opp budsjetter, vurdere lønnsomhet, analysere kostnader og forstå hvordan ledelse påvirker arbeidsmiljø og resultater. Faget kombinerer økonomisk analyse med organisasjonsteori og gir et godt grunnlag for videre studier innen økonomi og administrasjon.
+
+## Om faget - fra læreplan
+
 Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.
 
 ## Hvordan arbeider man i faget

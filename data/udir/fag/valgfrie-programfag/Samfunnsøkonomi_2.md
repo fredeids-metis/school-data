@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+I samfunnsøkonomi 2 går du dypere inn i økonomisk analyse og politikk. Du lærer å sammenligne ulike markedsformer, forstå hva som driver økonomisk vekst, og vurdere virkemidler mot arbeidsledighet. Faget tar opp sentrale utfordringer Norge står overfor, som bærekraftig utvikling, økonomisk ulikhet og konkurranseevne i en globalisert verden.
+
+## Om faget - fra læreplan
+
 Samfunnsøkonomi handler om å forstå det økonomiske samspillet mellom ulike aktører i privat og offentlig sektor i Norge, og mellom Norge og andre land. Økonomisk teori og tenkemåte gir grunnlag for å forstå sammenhenger i økonomien og økonomisk politikk. Samfunnsøkonomi skal bidra til en forståelse av hvordan politiske beslutninger påvirker økonomi, miljø og velferd. Faget handler også om hvordan verdier blir skapt og fordelt i offentlig og privat sektor. Faget forbereder elevene til videre studier og gir et grunnlag for å delta i samfunnsdebatt og arbeidsliv.
 
 ## Hvordan arbeider man i faget

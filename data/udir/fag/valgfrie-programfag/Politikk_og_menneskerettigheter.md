@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvordan påvirker politiske beslutninger hverdagen din? Hvem bestemmer egentlig, og hvordan kan du selv ha innflytelse? I politikk og menneskerettigheter lærer du hvordan samfunn styres, og hvilken rolle menneskerettighetene spiller lokalt, nasjonalt og globalt. Du utvikler evnen til å analysere politiske problemstillinger, forstå ulike synspunkter og delta aktivt i samfunnsdebatten.
+
+## Om faget - fra læreplan
+
 Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv.
 
 ## Hvordan arbeider man i faget

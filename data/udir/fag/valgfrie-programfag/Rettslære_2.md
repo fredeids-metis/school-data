@@ -15,6 +15,10 @@ generert: 2025-11-24
 
 ## Om faget
 
+Rettslære 2 gir deg kunnskap om forholdet mellom deg som borger og staten. Du lærer om personvern, offentlig forvaltning, strafferett og erstatningsrett. Faget handler om dine rettigheter når det gjelder innsyn i dokumenter, klageadgang og vern mot overgrep fra myndighetene. Du får også innsikt i hvordan straffesaker behandles og hva som skal til for at noen kan holdes ansvarlig.
+
+## Om faget - fra læreplan
+
 Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.
 
 ## Hvordan arbeider man i faget

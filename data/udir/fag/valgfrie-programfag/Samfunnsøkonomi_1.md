@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvorfor stiger prisene? Hva bestemmer hvor mange som får jobb? Samfunnsøkonomi 1 gir deg verktøy til å forstå hvordan økonomien fungerer. Du lærer om markeder, prisdannelse, inflasjon og arbeidsledighet. Faget viser hvordan politiske beslutninger påvirker økonomi, miljø og velferd, og hvordan Norge er koblet til den globale økonomien gjennom handel og valuta.
+
+## Om faget - fra læreplan
+
 Samfunnsøkonomi handler om å forstå det økonomiske samspillet mellom ulike aktører i privat og offentlig sektor i Norge, og mellom Norge og andre land. Økonomisk teori og tenkemåte gir grunnlag for å forstå sammenhenger i økonomien og økonomisk politikk. Samfunnsøkonomi skal bidra til en forståelse av hvordan politiske beslutninger påvirker økonomi, miljø og velferd. Faget handler også om hvordan verdier blir skapt og fordelt i offentlig og privat sektor. Faget forbereder elevene til videre studier og gir et grunnlag for å delta i samfunnsdebatt og arbeidsliv.
 
 ## Hvordan arbeider man i faget

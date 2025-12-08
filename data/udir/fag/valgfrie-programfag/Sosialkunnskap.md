@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Sosialkunnskap gir deg innsikt i hvordan velferdssamfunnet fungerer og hvilke utfordringer det står overfor. Du lærer om sosiale problemer, utenforskap og hva som skal til for at mennesker kan mestre livene sine. Faget handler om hvordan individer, grupper og institusjoner henger sammen, og gir deg verktøy til å forstå både deg selv og samfunnet du er en del av.
+
+## Om faget - fra læreplan
+
 Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv.
 
 ## Hvordan arbeider man i faget

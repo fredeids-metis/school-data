@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvordan kan en etablert bedrift vokse videre? Hva gjør en god leder? I Entreprenørskap og bedriftsutvikling 2 lærer du å analysere og videreutvikle virksomheter. Du arbeider med vekststrategier, ledelse og innovasjon, og du vurderer hvordan bedrifter kan ta samfunnsansvar. Faget kombinerer teori med praktiske oppgaver og prosjekter.
+
+## Om faget - fra læreplan
+
 Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.
 
 ## Hvordan arbeider man i faget

@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+Teknologi og forskningslære 2 gir deg mulighet til å fordype deg i et selvvalgt tema gjennom et større forsknings- eller utviklingsprosjekt. Du arbeider mer selvstendig enn i ToF 1, bruker avanserte metoder og lærer å formidle vitenskapelig kunnskap til ulike målgrupper. Faget bygger videre på ToF 1 og krever at du har fullført dette først.
+
+## Om faget - fra læreplan
+
 Teknologi og forskningslære 2 bygger videre på Teknologi og forskningslære 1 og gir dypere innsikt i vitenskapelige metoder og teknologiutvikling. Faget fokuserer på mer avanserte prosjekter og gir elevene mulighet til å fordype seg i et selvvalgt tema. Elevene utvikler kompetanse i å planlegge, gjennomføre og dokumentere komplekse forsknings- og utviklingsprosjekter.
 
 ## Hvordan arbeider man i faget

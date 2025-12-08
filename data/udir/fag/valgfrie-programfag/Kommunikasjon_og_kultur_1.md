@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+En reklame som fungerer i Norge, kan misforsta helt i et annet land. Hvorfor? I Kommunikasjon og kultur 1 utforsker du hvordan kulturelle faktorer pavirker kommunikasjon. Du analyserer tekster og medier, og du skaper egne kommunikasjonsuttrykk tilpasset ulike malgrupper. Faget gir deg kompetanse som er verdifull i alt fra journalistikk til markedsforing og kulturarbeid.
+
+## Om faget - fra læreplan
+
 Kommunikasjon og kultur fokuserer på hvordan elevene kan utvikle forståelse for kommunikasjon, språk og kulturelle perspektiver. Faget bidrar til at elevene utvikler bevissthet om hvordan kommunikasjon utformes og fortolkes i et kulturelt perspektiv. Kunnskapen ruster elevene til å bygge meningsfylte relasjoner, orientere seg i samfunnet og mestre framtidens arbeidsliv.
 
 ## Hvordan arbeider man i faget

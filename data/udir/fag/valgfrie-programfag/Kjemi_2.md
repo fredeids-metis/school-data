@@ -14,7 +14,11 @@ generert: 2025-11-14
 
 ## Om faget
 
-Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv. 
+Hvorfor løser noen stoffer seg i vann, men ikke andre? Hvordan virker en katalysator? I Kjemi 2 utforsker du likevektsreaksjoner, redoksreaksjoner og organiske reaksjonsmekanismer. Du tilbringer mye tid på laboratoriet, der du planlegger egne forsøk, gjennomfører synteser og analyserer resultater. Faget gir deg solid grunnlag for studier i medisin, farmasi og biokjemi.
+
+## Om faget - fra læreplan
+
+Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv.
 
 ## Hvordan arbeider man i faget
 
@@ -55,11 +59,11 @@ Kjerneelementet kjemiske bindinger og strukturer handler om krefter mellom parti
 
 ### Kjemiske reaksjoner
 
-Kjerneelementet kjemiske reaksjoner handler om hvordan og hvorfor stoffer reagerer. Det inkluderer reaksjonstyper, termodynamikk og kinetikk. Observasjoner og ulike typer data er, sammen med balanserte reaksjonsligninger, utgangspunkt for klassifisering, vurdering og beregning. 
+Kjerneelementet kjemiske reaksjoner handler om hvordan og hvorfor stoffer reagerer. Det inkluderer reaksjonstyper, termodynamikk og kinetikk. Observasjoner og ulike typer data er, sammen med balanserte reaksjonsligninger, utgangspunkt for klassifisering, vurdering og beregning.
 
 ### Anvendt kjemi
 
-Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å forstå virkningen av kjemiske stoffer og prosesser på individ og samfunn. Det handler også om kjemiske analyser og om nytteverdien av og ressursbruk knyttet til ulike stoffer, materialer, prosesser og kjemisk teknologi. Anvendt kjemi handler også om å bruke kjemiske prinsipper og teorier for kritisk å vurdere informasjon og få innsikt i betydningen kjemi har for menneskers velferd. Vurderinger knyttet til helse, miljø og sikkerhet er en del av dette kjerneelementet. 
+Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å forstå virkningen av kjemiske stoffer og prosesser på individ og samfunn. Det handler også om kjemiske analyser og om nytteverdien av og ressursbruk knyttet til ulike stoffer, materialer, prosesser og kjemisk teknologi. Anvendt kjemi handler også om å bruke kjemiske prinsipper og teorier for kritisk å vurdere informasjon og få innsikt i betydningen kjemi har for menneskers velferd. Vurderinger knyttet til helse, miljø og sikkerhet er en del av dette kjerneelementet.
 
 
 
@@ -68,6 +72,6 @@ Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å fors
 <!-- Legg til Vimeo-lenke her når den er klar -->
 
 ---
-*Hentet fra UDIR Grep API*  
-*Fagkode: REA3046*  
+*Hentet fra UDIR Grep API*
+*Fagkode: REA3046*
 *Generert: 2025-11-14 15:59:10*

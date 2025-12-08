@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+I Grafisk design larer du a skape visuelle losninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra forste skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du larer a bruke profesjonelle verktoy og a begrunne designvalgene dine.
+
+## Om faget - fra læreplan
+
 Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design.
 
 ## Hvordan arbeider man i faget

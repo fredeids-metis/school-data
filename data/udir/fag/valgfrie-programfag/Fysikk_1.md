@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Fysikk 1 gir deg verktøy til å forstå hvordan verden fungerer, fra krefter og bevegelse til energi og strålingsbalanse. Du lærer å bruke matematikk og modeller til å beskrive fysiske fenomener, og du gjennomfører forsøk der du tester teoriene i praksis. Faget utvikler evnen din til å tenke analytisk og løse problemer systematisk.
+
+## Om faget - fra læreplan
+
 Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.
 
 ## Hvordan arbeider man i faget

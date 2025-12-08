@@ -17,6 +17,10 @@ status: foreslatt
 
 ## Om faget
 
+Du ser en nyhetssak om renteokning og boligpriser. Hva betyr det egentlig for din fremtidige okonomi? Matematikk for okonomifag gir deg verktoyene til å forstå slike sammenhenger. Du larer om lan, renter, sparing og hvordan okonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå okonomi uten å ta full realfagsfordypning.
+
+## Om faget - fra læreplan
+
 Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi.
 
 Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.

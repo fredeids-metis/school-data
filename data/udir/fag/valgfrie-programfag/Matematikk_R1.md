@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Matematikk R1 gir deg verktoy for å forstå hvordan verden fungerer matematisk. Du larer derivasjon, funksjonsanalyse og vektorer, og bruker dette til å analysere alt fra fysiske fenomener til okonomiske modeller. Faget trener deg i å bryte ned komplekse problemer og tenke logisk. R1 er nodvendig for de fleste teknologi- og realfagsstudier, inkludert sivilingenior, informatikk og okonomi.
+
+## Om faget - fra læreplan
+
 Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.
 
 ## Hvordan arbeider man i faget

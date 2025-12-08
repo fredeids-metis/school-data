@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-05T10:06:08.972Z",
+    "generatedAt": "2025-12-08T12:45:03.455Z",
     "description": "Valideringsregler for curriculum"
   },
   "eksklusjoner": [
@@ -35,20 +35,23 @@
       "konfliktGrupper": [
         [
           "matematikk-r1",
-          "matematikk-s1"
+          "matematikk-s1",
+          "statistikk",
+          "matematikk-for-okonomifag"
         ],
         [
           "matematikk-2p"
         ]
       ],
-      "beskrivelse": "Matematikk R1 eller S1 erstatter fellesfaget 2P",
-      "feilmelding": "Du kan ikke kombinere R1/S1 med 2P - programfaget erstatter fellesfaget",
-      "forslag": "Matematikk R1 eller S1 erstatter 2P automatisk",
+      "beskrivelse": "Matematikk-programfag (R1, S1, Statistikk, Matematikk for økonomifag) erstatter fellesfaget 2P",
+      "feilmelding": "Du kan ikke kombinere dette matematikkfaget med 2P - programfaget erstatter fellesfaget",
+      "forslag": "Matematikk-programfag erstatter 2P automatisk",
       "kilde": {
         "dokument": "vitnemalsregler-2025",
         "seksjon": "3.8",
         "tittel": "Føring av vurdering i realfag",
-        "url": "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8"
+        "url": "https://www.udir.no/eksamen-og-prover/dokumentasjon/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-25/#3.8",
+        "merknad": "Statistikk og Matematikk for økonomifag gjelder fra skoleåret 2026/27"
       }
     },
     {
@@ -329,11 +332,18 @@
       ]
     },
     "POS": {
-      "navn": "Politikk og samfunn",
+      "navn": "Politikk, individ og samfunn",
+      "merknad": "Fire programfag med ulike læreplaner (POS02-05) utgjør ett fagområde for fordypning",
+      "kilde": {
+        "dokument": "udir-1-2025",
+        "tabell": 6,
+        "url": "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/vedlegg-1/3vgo/"
+      },
       "fag": [
         "politikk-og-menneskerettigheter",
         "sosialkunnskap",
-        "sosiologi-og-sosialantropologi"
+        "sosiologi-og-sosialantropologi",
+        "samfunnsgeografi"
       ]
     },
     "PSY": {
@@ -397,10 +407,12 @@
   },
   "spesialregler": {
     "matematikkErstatter2P": {
-      "beskrivelse": "Matematikk R1 eller S1 erstatter fellesfaget Matematikk 2P",
+      "beskrivelse": "Matematikk-programfag (R1, S1, Statistikk, Matematikk for økonomifag) erstatter fellesfaget Matematikk 2P",
       "gjelder": [
         "matematikk-r1",
-        "matematikk-s1"
+        "matematikk-s1",
+        "statistikk",
+        "matematikk-for-okonomifag"
       ],
       "erstatter": "matematikk-2p",
       "frigjorteTimer": 84,

@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt.
+
+## Om faget - fra læreplan
+
 Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.
 
 ## Hvordan arbeider man i faget

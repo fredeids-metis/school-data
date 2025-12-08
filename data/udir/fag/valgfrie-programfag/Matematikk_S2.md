@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 larer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå okonomiske og samfunnsmessige sammenhenger. Faget bygger pa S1 og gir deg solid matematikkompetanse for hoyre utdanning innen okonomi, administrasjon og samfunnsvitenskap.
+
+## Om faget - fra læreplan
+
 Matematikk S2 bygger videre på Matematikk S1 og gir dypere forståelse av matematiske metoder og modeller anvendt på samfunnsfaglige og økonomiske problemstillinger. Faget utvikler elevenes evne til å analysere komplekse sammenhenger og bruke avanserte matematiske verktøy for å forstå og løse problemer innen økonomi, samfunnsfag og helsefag.
 
 ## Hvordan arbeider man i faget

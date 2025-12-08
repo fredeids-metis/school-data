@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt.
+
+## Om faget - fra læreplan
+
 Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon.
 
 ## Hvordan arbeider man i faget

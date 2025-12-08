@@ -18,6 +18,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Matematikk 2P gir deg praktisk matematikkompetanse du kan bruke i hverdagen og arbeidslivet. Du larer å forstå personlig okonomi, tolke statistikk fra media og bruke matematikk til å beskrive sammenhenger i samfunnet. Faget legger vekt på problemlosning og kritisk tenkning, med digitale verktoy som GeoGebra og Excel.
+
+## Om faget - fra læreplan
+
 Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk.
 
 ## Hvordan arbeider man i faget

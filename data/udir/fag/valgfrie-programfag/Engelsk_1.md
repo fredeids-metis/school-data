@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden.
+
+## Om faget - fra læreplan
+
 Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.
 
 ## Hvordan arbeider man i faget

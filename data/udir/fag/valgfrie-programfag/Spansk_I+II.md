@@ -9,7 +9,11 @@ lareplan: FSP6-01
 
 ## Om faget
 
-Spansk I+II er et sammenhengende fremmedspråkfag over tre år (VG1-VG3) for elever som ikke har hatt fremmedspråk på ungdomstrinnet. Faget gir grunnleggende kompetanse i spansk språk og kultur.
+I spansk I+II lærer du språk fra grunnen av. Faget går over tre år og gir deg kompetanse til å kommunisere muntlig og skriftlig på spansk. Du utforsker også spansktalende kulturer gjennom film, musikk og litteratur. Faget er for deg som ikke hadde fremmedspråk på ungdomstrinnet.
+
+## Om faget - fra læreplan
+
+Spansk I+II er et sammenhengende fremmedspråkfag over tre år (VG1-VG3) for elever som ikke har hatt fremmedspråk på ungdomstrinnet. Dersom du ikke hadde fremmedspråk på ungdomstrinnet må du velge dette faget som et av dine programfag i VG3. Faget gir grunnleggende kompetanse i spansk språk og kultur.
 
 ## Timefordeling
 

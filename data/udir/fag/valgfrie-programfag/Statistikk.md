@@ -17,6 +17,10 @@ status: foreslatt
 
 ## Om faget
 
+Hvordan kan du vite om en undersøkelse er pålitelig? Når kan tall villede? I statistikk lærer du å analysere data, tolke resultater og vurdere påstandene du møter i media og forskning. Faget gir deg praktisk kompetanse i statistiske metoder som hypotesetesting, sannsynlighetsregning og regresjon. Vanskelighetsgraden ligger mellom matematikk P og R.
+
+## Om faget - fra læreplan
+
 Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet.
 
 Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.

@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til a legge merke til akkurat deres merkevare? I Markedsforing og ledelse 1 larer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen.
+
+## Om faget - fra læreplan
+
 Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter.
 
 ## Hvordan arbeider man i faget

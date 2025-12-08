@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hva er rettferdighet? Hvordan har makt vart fordelt gjennom historien? I Historie og filosofi 1 utforsker du ideer som har formet samfunn fra antikken til i dag. Den filosofiske samtalen star sentralt: du formulerer egne standpunkter, moter motargumenter og vurderer argumenters gyldighet. Faget gir trening i kritisk tenkning og historisk bevissthet.
+
+## Om faget - fra læreplan
+
 Historie og filosofi handler om å utvikle selvstendig filosofisk tenkning og forståelse av hvordan mennesket og samfunnet er formet av historie og selv skaper historie. Faget gir elevene trening i åpen dialog, filosofisk refleksjon og historisk bevissthet, slik at de kan møte nåtidens og framtidens utfordringer med en undersøkende og nysgjerrig holdning. Faget skal også forberede elevene på et samfunns- og arbeidsliv der det er viktig å tenke kritisk og kreativt og ha evne til å møte andre mennesker med åpenhet og respekt.
 
 ## Hvordan arbeider man i faget

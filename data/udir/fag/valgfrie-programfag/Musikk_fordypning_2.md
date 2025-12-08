@@ -14,6 +14,10 @@ generert: 2025-11-14
 
 ## Om faget
 
+Hva kjennetegner din musikalske stemme? I Musikk fordypning 2 utforsker du ditt eget uttrykk gjennom komposisjon, arrangering og improvisasjon. Du larer a bruke musikkteknologi til lydopptak og produksjon, og arbeider med prosjekter der du planlegger, gjennomforer og presenterer egne verk. Faget kan tas uavhengig av Musikk fordypning 1 og forbereder deg pa videre studier innen utovende musikk, komposisjon eller musikkproduksjon.
+
+## Om faget - fra læreplan
+
 Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.
 
 ## Hvordan arbeider man i faget

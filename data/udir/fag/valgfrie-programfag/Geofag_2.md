@@ -14,6 +14,10 @@ generert: 2025-12-02
 
 ## Om faget
 
+Du leser om ekstremvar, flom eller ras i nyhetene. Hvordan hangar dette sammen med klimaendringer og geologiske prosesser? I Geofag 2 fordyper du deg i klimasystemet, naturfare og ressursforvaltning. Du arbeider selvstendig med geofaglige undersokelser og prosjekter, og larer a analysere komplekse sammenhenger mellom geologi, klima og samfunn.
+
+## Om faget - fra læreplan
+
 Geofag 2 gir dypere forståelse av geologiske prosesser, jordens historie og klimasystemet. Faget fokuserer særlig på klimaendringer, naturfare og ressursforvaltning, og gir elevene kompetanse til å analysere komplekse geofaglige problemstillinger.
 
 ## Hvordan arbeider man i faget
