@@ -177,9 +177,37 @@ function loadCurriculumData() {
     }
   });
 
+  // Load fagområder som har ulike læreplaner men gir fordypning sammen (f.eks. POS)
+  // Dette er spesialtilfeller hvor UDIR har definert at fag med ulike læreplaner
+  // tilhører samme fagområde for fordypning
+  const fordypningPath = path.join(UDIR_DIR, 'regler', 'fordypning.yml');
+  const fordypningData = yaml.load(fs.readFileSync(fordypningPath, 'utf8'));
+
+  // Finn fagområder med merknad (indikerer spesialtilfelle med ulike læreplaner)
+  const spesialFagomrader = new Map();
+  if (fordypningData?.fagomrader) {
+    for (const [omradeId, omrade] of Object.entries(fordypningData.fagomrader)) {
+      if (omrade.merknad) {
+        // Dette er et spesialtilfelle - bygg mapping fra fag-id til andre fag i området
+        omrade.fag.forEach(fagId => {
+          const andreFag = omrade.fag.filter(id => id !== fagId);
+          spesialFagomrader.set(fagId, andreFag);
+        });
+      }
+    }
+  }
+
   // Add related subjects
   allFag.forEach(fag => {
-    if (fag.lareplan && lareplanMapping.has(fag.lareplan)) {
+    // Først: sjekk om faget er i et spesial-fagområde (f.eks. POS)
+    if (spesialFagomrader.has(fag.id)) {
+      const relatedIds = spesialFagomrader.get(fag.id);
+      fag.related = allFag
+        .filter(f => relatedIds.includes(f.id))
+        .map(f => f.title);
+    }
+    // Deretter: standard læreplan-basert related
+    else if (fag.lareplan && lareplanMapping.has(fag.lareplan)) {
       fag.related = lareplanMapping.get(fag.lareplan).filter(title => title !== fag.title);
     } else {
       fag.related = [];

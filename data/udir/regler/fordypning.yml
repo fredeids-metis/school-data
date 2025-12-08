@@ -119,11 +119,17 @@ fagomrader:
       - entreprenorskap-og-bedriftsutvikling-2
 
   POS:
-    navn: "Politikk og samfunn"
+    navn: "Politikk, individ og samfunn"
+    merknad: "Fire programfag med ulike læreplaner (POS02-05) utgjør ett fagområde for fordypning"
+    kilde:
+      dokument: udir-1-2025
+      tabell: 6
+      url: "https://www.udir.no/regelverkstolkninger/opplaring/Innhold-i-opplaringen/udir-1-2025/vedlegg-1/3vgo/"
     fag:
       - politikk-og-menneskerettigheter
       - sosialkunnskap
       - sosiologi-og-sosialantropologi
+      - samfunnsgeografi
 
   PSY:
     navn: "Psykologi"
