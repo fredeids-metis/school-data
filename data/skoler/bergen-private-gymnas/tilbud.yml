@@ -39,18 +39,18 @@ valgfrieProgramfag:
   # Naturfag - Biologi
   - fagId: biologi-1
     vimeo: ""
-    bilde: "bilder/biologi1.jpg"
+    bilde: "biologi-1.jpg"
     kategori: "naturfag"
 
   - fagId: biologi-2
     vimeo: ""
-    bilde: "bilder/biologi2.jpg"
+    bilde: "biologi-2.jpg"
     kategori: "naturfag"
 
   # Naturfag - Fysikk
   - fagId: fysikk-1
     vimeo: ""
-    bilde: "bilder/fysikk1.jpg"
+    bilde: "fysikk-1.jpg"
     kategori: "naturfag"
 
   - fagId: fysikk-2
@@ -166,7 +166,7 @@ valgfrieProgramfag:
   # Språk
   - fagId: engelsk-1
     vimeo: ""
-    bilde: "bilder/engelsk1.jpg"
+    bilde: "engelsk-1.jpg"
     kategori: "språk"
 
   - fagId: engelsk-2
@@ -188,7 +188,7 @@ valgfrieProgramfag:
   # Kunst og design
   - fagId: bilde
     vimeo: ""
-    bilde: "bilder/bilde.jpg"
+    bilde: "bilde.jpg"
     kategori: "kunst"
 
   - fagId: grafisk-design

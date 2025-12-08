@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-08T09:24:48.667Z",
+    "generatedAt": "2025-12-08T09:34:56.782Z",
     "school": "bergen-private-gymnas",
     "source": "tilbud.yml",
     "count": 35,
@@ -34,7 +34,7 @@
       "beskrivelseHTML": "<h1>Bilde</h1>\n<p><strong>Læreplan:</strong> Læreplan i bilde</p>\n<h2>Om faget</h2>\n<p>Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>Undervisningen kombinerer individuelt arbeid med samarbeidsprosjekter. Du starter med å bli kjent med kamerautstyr, lyssetting og bildebehandlingsprogrammer. Etter hvert arbeider du med større produksjoner der du utvikler idéer, planlegger gjennomføring og ferdigstiller produkter for ulike formater og kanaler. Gjennom hele prosessen får du veiledning og trening i å vurdere egne og andres arbeider med et kritisk blikk.</p>\n<h2>Fagets relevans</h2>\n<p>Bilde passer for deg som vil utforske visuell kommunikasjon i praksis. Faget gir kompetanse som er etterspurt i bransjer som reklame, medieproduksjon, forlagsvirksomhet og sosiale medier. Det er også relevant forberedelse til høyere utdanning innen design, kommunikasjon, journalistikk eller kunst- og kulturfag. I tillegg utvikler du ferdigheter i å analysere hvordan bilder påvirker holdninger og meninger, noe som er verdifullt uansett hvilken retning du velger.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>anvende ulike virkemidler og teknikker i egne billedproduksjoner for å formidle et budskap</li>\n<li>utforske tidligere og samtidige billeduttrykk og bruke disse som inspirasjonskilde for egne medieprodukter</li>\n<li>analysere innholdet i ulike billeduttrykk og drøfte hvordan billedframstillinger påvirker meninger og holdninger</li>\n<li>anvende hensiktsmessig verktøy og programvare for å oppnå ønsket kvalitet i egne billedproduksjoner</li>\n<li>anvende hensiktsmessig format og filtype for produksjon og publisering i ulike kanaler</li>\n<li>anvende regler for opphavsrett og personvern ved publisering av egne billedproduksjoner</li>\n<li>reflektere over og vurdere billedproduksjoner ved bruk av fagspråk</li>\n<li>anvende kreative teknikker for å utvikle et idémangfold</li>\n<li>utforske hvordan ulike teknologier og kanaler kan kombineres i billedframstillinger, og drøfte nye bruksområder for bilder</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Idéutvikling og kreativitet</h3>\n<p>Kjerneelementet idéutvikling og kreativitet handler om målrettede medieprodukter som gir mening og engasjerer. Videre handler det om at idéprosesser gir mangfold og grunnlag for målretting av produkter. Idéutvikling og kreativitet handler også om nysgjerrighet og vilje til å utforske ulike veier fram til ferdig produkt.</p>\n<h3>Kommunikasjon og etikk</h3>\n<p>Kjerneelementet kommunikasjon og etikk handler om å skape mening, forstå og bli forstått, og om å gjøre reflekterte og etiske valg som mediebruker og innholdsprodusent.</p>\n<h3>Billedproduksjon</h3>\n<p>Kjerneelementet billedproduksjon handler om ulike produksjonsteknikker og bruk av publiseringskanaler. Videre handler det om kunnskap om tekniske løsninger og kompetanse til å velge og bruke utstyr tilpasset ulike arbeidsoppgaver.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em><br><em>Fagkode: MOK3008</em><br><em>Generert: 2025-11-14 14:22:33</em></p>\n",
       "related": [],
       "kategori": "kunst",
-      "bilde": "bilder/bilde.jpg",
+      "bilde": "bilde.jpg",
       "vimeo": null
     },
     {
@@ -69,7 +69,7 @@
         "Biologi 2"
       ],
       "kategori": "naturfag",
-      "bilde": "bilder/biologi1.jpg",
+      "bilde": "biologi-1.jpg",
       "vimeo": null
     },
     {
@@ -104,7 +104,7 @@
         "Biologi 1"
       ],
       "kategori": "naturfag",
-      "bilde": "bilder/biologi2.jpg",
+      "bilde": "biologi-2.jpg",
       "vimeo": null
     },
     {
@@ -135,7 +135,7 @@
         "Engelsk 2"
       ],
       "kategori": "språk",
-      "bilde": "bilder/engelsk1.jpg",
+      "bilde": "engelsk-1.jpg",
       "vimeo": null
     },
     {
@@ -263,7 +263,7 @@
         "Fysikk 2"
       ],
       "kategori": "naturfag",
-      "bilde": "bilder/fysikk1.jpg",
+      "bilde": "fysikk-1.jpg",
       "vimeo": null
     },
     {
