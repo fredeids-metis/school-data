@@ -79,12 +79,6 @@ valgfrieProgramfag:
     bilde: ""
     kategori: "naturfag"
 
-  # Informasjonsteknologi
-  - fagId: informasjonsteknologi-1
-    vimeo: ""
-    bilde: ""
-    kategori: "teknologi"
-
   # Økonomi
   - fagId: okonomistyring
     vimeo: ""
@@ -97,11 +91,6 @@ valgfrieProgramfag:
     kategori: "økonomi"
 
   - fagId: samfunnsokonomi-1
-    vimeo: ""
-    bilde: ""
-    kategori: "økonomi"
-
-  - fagId: samfunnsokonomi-2
     vimeo: ""
     bilde: ""
     kategori: "økonomi"
@@ -148,11 +137,6 @@ valgfrieProgramfag:
     bilde: ""
     kategori: "samfunnsfag"
 
-  - fagId: historie-og-filosofi-2
-    vimeo: ""
-    bilde: ""
-    kategori: "samfunnsfag"
-
   - fagId: rettslaere-1
     vimeo: ""
     bilde: ""
@@ -177,11 +161,6 @@ valgfrieProgramfag:
   - fagId: engelsk-1
     vimeo: ""
     bilde: "engelsk-1.jpg"
-    kategori: "språk"
-
-  - fagId: engelsk-2
-    vimeo: ""
-    bilde: ""
     kategori: "språk"
 
   # Musikk fordypning (valgfri)
@@ -513,10 +492,10 @@ fremmedsprakTilbud:
 
 # Metadata
 metadata:
-  antallValgfrieProgramfag: 37
+  antallValgfrieProgramfag: 33
   antallObligatoriskeProgramfag: 16
   antallFellesfag: 29
-  totaltAntallFag: 82
+  totaltAntallFag: 78
   sistOppdatert: "2025-12-08"
   versjon: "v2"
-  kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama. Alle fellesfag basert på TIMEFORDELING.md. Fellesfag har program-felt for program-spesifikke fag (geografi, kroppsøving, samfunnskunnskap)"
+  kommentar: "Fjernet fag som ikke tilbys 2025-26: Samfunnsøkonomi 2, IT 1, Historie og filosofi 2, Engelsk 2"
