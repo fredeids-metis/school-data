@@ -71,7 +71,8 @@ function extractOmFaget(markdown) {
   const omFagetLines = [];
 
   for (const line of lines) {
-    if (line.startsWith('## Om faget')) {
+    // Exact match: "## Om faget" (not "## Om faget - fra læreplan")
+    if (line === '## Om faget' || line.startsWith('## Om faget\r')) {
       inOmFaget = true;
       continue;
     }
@@ -93,7 +94,8 @@ function extractSection(markdown, sectionName) {
   const sectionLines = [];
 
   for (const line of lines) {
-    if (line.startsWith(`## ${sectionName}`)) {
+    // Exact match: "## Section Name" (not "## Section Name - subsection")
+    if (line === `## ${sectionName}` || line.startsWith(`## ${sectionName}\r`)) {
       inSection = true;
       continue;
     }

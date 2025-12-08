@@ -58,7 +58,8 @@ function extractSection(markdown, sectionName) {
   const sectionLines = [];
 
   for (const line of lines) {
-    if (line.startsWith(`## ${sectionName}`)) {
+    // Exact match: "## Section Name" (not "## Section Name - subsection")
+    if (line === `## ${sectionName}` || line.startsWith(`## ${sectionName}\r`)) {
       inSection = true;
       continue;
     }
