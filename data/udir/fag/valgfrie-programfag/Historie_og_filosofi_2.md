@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Historie og filosofi 2 gir deg verktoy for a analysere kompleks informasjon og tenke kritisk om samfunnet. Du arbeider med ideologier, okonomiske teorier og moderne fenomener som desinformasjon og sosiale medier. Gjennom filosofisk samtale og arbeid med originaltekster larer du a vurdere argumenter, avsløre skjulte premisser og formidle innsikt pa en klar måte.
+Historie og filosofi 2 gir deg verktøy for å analysere kompleks informasjon og tenke kritisk om samfunnet. Du arbeider med ideologier, økonomiske teorier og moderne fenomener som desinformasjon og sosiale medier. Gjennom filosofisk samtale og arbeid med originaltekster lærer du å vurdere argumenter, avsløre skjulte premisser og formidle innsikt på en klar måte.
 
 ## Om faget - fra læreplan
 

@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Matematikk R1 gir deg verktoy for å forstå hvordan verden fungerer matematisk. Du larer derivasjon, funksjonsanalyse og vektorer, og bruker dette til å analysere alt fra fysiske fenomener til okonomiske modeller. Faget trener deg i å bryte ned komplekse problemer og tenke logisk. R1 er nodvendig for de fleste teknologi- og realfagsstudier, inkludert sivilingenior, informatikk og okonomi.
+Matematikk R1 gir deg verktøy for å forstå hvordan verden fungerer matematisk. Du lærer derivasjon, funksjonsanalyse og vektorer, og bruker dette til å analysere alt fra fysiske fenomener til økonomiske modeller. Faget trener deg i å bryte ned komplekse problemer og tenke logisk. R1 er nødvendig for de fleste teknologi- og realfagsstudier, inkludert sivilingeniør, informatikk og økonomi.
 
 ## Om faget - fra læreplan
 

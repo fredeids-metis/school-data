@@ -14,7 +14,7 @@ generert: 2025-11-13
 
 ## Om faget
 
-I Informasjonsteknologi 1 larer du a lage nettsider og programmer fra bunnen av. Du bruker HTML og CSS til a bygge nettsider, og du programmerer losninger pa konkrete problemer. Faget kombinerer praktisk arbeid med teori om hvordan datamaskiner og nettverk fungerer. Du diskuterer ogsa temaer som personvern, datasikkerhet og teknologiens plass i samfunnet.
+I Informasjonsteknologi 1 lærer du å lage nettsider og programmer fra bunnen av. Du bruker HTML og CSS til å bygge nettsider, og du programmerer løsninger på konkrete problemer. Faget kombinerer praktisk arbeid med teori om hvordan datamaskiner og nettverk fungerer. Du diskuterer også temaer som personvern, datasikkerhet og teknologiens plass i samfunnet.
 
 ## Om faget - fra læreplan
 

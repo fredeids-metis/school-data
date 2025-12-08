@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til a legge merke til akkurat deres merkevare? I Markedsforing og ledelse 1 larer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen.
+Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til å legge merke til akkurat deres merkevare? I Markedsføring og ledelse 1 lærer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen.
 
 ## Om faget - fra læreplan
 

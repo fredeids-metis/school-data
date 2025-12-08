@@ -17,7 +17,7 @@ status: foreslatt
 
 ## Om faget
 
-Du ser en nyhetssak om renteokning og boligpriser. Hva betyr det egentlig for din fremtidige okonomi? Matematikk for okonomifag gir deg verktoyene til å forstå slike sammenhenger. Du larer om lan, renter, sparing og hvordan okonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå okonomi uten å ta full realfagsfordypning.
+Du ser en nyhetssak om renteøkning og boligpriser. Hva betyr det egentlig for din fremtidige økonomi? Matematikk for økonomifag gir deg verktøyene til å forstå slike sammenhenger. Du lærer om lån, renter, sparing og hvordan økonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå økonomi uten å ta full realfagsfordypning.
 
 ## Om faget - fra læreplan
 

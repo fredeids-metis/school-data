@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-I Markedsforing og ledelse 2 larer du å utvikle helhetlige markedsstrategier for virksomheter. Du arbeider med merkevarebygging, prissetting, distribusjonskanaler og kommunikasjonskampanjer. Faget gir deg verktoy for å analysere hvordan bedrifter bor posisjonere seg i markedet, og du larer å ta strategiske beslutninger som tar hensyn til både lønnsomhet, etikk og barekraft.
+I Markedsføring og ledelse 2 lærer du å utvikle helhetlige markedsstrategier for virksomheter. Du arbeider med merkevarebygging, prissetting, distribusjonskanaler og kommunikasjonskampanjer. Faget gir deg verktøy for å analysere hvordan bedrifter bør posisjonere seg i markedet, og du lærer å ta strategiske beslutninger som tar hensyn til både lønnsomhet, etikk og bærekraft.
 
 ## Om faget - fra læreplan
 

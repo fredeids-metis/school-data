@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Musikk fordypning 1 gir deg kunnskap du trenger for a skape egen musikk. Du larer arrangeringsteknikker og komponering, og far erfaring med a skrive noter digitalt. Gehortrening er en viktig del av faget, der du over pa a lytte, lese noter fra bladet og skrive ned musikk du horer. Faget forbereder deg pa opptaksprover til hoyre musikkutdanning, der teori og gehor ofte testes.
+Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes.
 
 ## Om faget - fra læreplan
 

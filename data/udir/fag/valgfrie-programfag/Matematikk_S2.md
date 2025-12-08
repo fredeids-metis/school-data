@@ -14,7 +14,7 @@ generert: 2025-12-02
 
 ## Om faget
 
-Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 larer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå okonomiske og samfunnsmessige sammenhenger. Faget bygger pa S1 og gir deg solid matematikkompetanse for hoyre utdanning innen okonomi, administrasjon og samfunnsvitenskap.
+Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 lærer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå økonomiske og samfunnsmessige sammenhenger. Faget bygger på S1 og gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon og samfunnsvitenskap.
 
 ## Om faget - fra læreplan
 

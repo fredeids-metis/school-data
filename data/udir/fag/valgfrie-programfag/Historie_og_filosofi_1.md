@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Hva er rettferdighet? Hvordan har makt vart fordelt gjennom historien? I Historie og filosofi 1 utforsker du ideer som har formet samfunn fra antikken til i dag. Den filosofiske samtalen star sentralt: du formulerer egne standpunkter, moter motargumenter og vurderer argumenters gyldighet. Faget gir trening i kritisk tenkning og historisk bevissthet.
+Hva er rettferdighet? Hvordan har makt vært fordelt gjennom historien? I Historie og filosofi 1 utforsker du ideer som har formet samfunn fra antikken til i dag. Den filosofiske samtalen står sentralt: du formulerer egne standpunkter, møter motargumenter og vurderer argumenters gyldighet. Faget gir trening i kritisk tenkning og historisk bevissthet.
 
 ## Om faget - fra læreplan
 

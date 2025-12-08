@@ -14,7 +14,7 @@ generert: 2025-12-02
 
 ## Om faget
 
-I Lyddesign arbeider du praktisk med a produsere lyd for ulike medier. Du larer a bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering. Gjennom aret utvikler du egne prosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Faget gir deg kompetanse som er etterspurt i medieproduksjon, spillutvikling, film og podcastbransjen.
+I Lyddesign arbeider du praktisk med å produsere lyd for ulike medier. Du lærer å bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering. Gjennom året utvikler du egne prosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Faget gir deg kompetanse som er etterspurt i medieproduksjon, spillutvikling, film og podcastbransjen.
 
 ## Om faget - fra læreplan
 

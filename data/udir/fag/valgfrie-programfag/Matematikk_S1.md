@@ -14,7 +14,7 @@ generert: 2025-12-02
 
 ## Om faget
 
-Matematikk S1 gir deg matematikkompetanse rettet mot okonomi, samfunnsfag og helsefag. Du larer funksjoner, derivasjon og statistikk, med fokus på praktiske anvendelser. Faget passer for deg som vil ha mer matematikk enn P-matten gir, men som ikke trenger den teoretiske dybden i R-matematikk. S1 er et godt grunnlag for studier innen okonomi, sykepleie og samfunnsvitenskap.
+Matematikk S1 gir deg matematikkompetanse rettet mot økonomi, samfunnsfag og helsefag. Du lærer funksjoner, derivasjon og statistikk, med fokus på praktiske anvendelser. Faget passer for deg som vil ha mer matematikk enn P-matten gir, men som ikke trenger den teoretiske dybden i R-matematikk. S1 er et godt grunnlag for studier innen økonomi, sykepleie og samfunnsvitenskap.
 
 ## Om faget - fra læreplan
 

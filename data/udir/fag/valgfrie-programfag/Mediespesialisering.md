@@ -14,7 +14,7 @@ generert: 2025-12-02
 
 ## Om faget
 
-I Mediespesialisering fordyper du deg i den medieformen du brenner for. Du velger selv om du vil spesialisere deg i bilde, grafisk design, lyddesign, medieutvikling eller tekst. Gjennom selvstendige prosjekter utvikler du tekniske ferdigheter pa avansert niva og bygger en portefolje som viser hva du kan. Faget gir deg mulighet til å finne din egen stemme som medieprodusent.
+I Mediespesialisering fordyper du deg i den medieformen du brenner for. Du velger selv om du vil spesialisere deg i bilde, grafisk design, lyddesign, medieutvikling eller tekst. Gjennom selvstendige prosjekter utvikler du tekniske ferdigheter på avansert nivå og bygger en portefølje som viser hva du kan. Faget gir deg mulighet til å finne din egen stemme som medieprodusent.
 
 ## Om faget - fra læreplan
 

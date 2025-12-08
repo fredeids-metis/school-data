@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Hva kjennetegner din musikalske stemme? I Musikk fordypning 2 utforsker du ditt eget uttrykk gjennom komposisjon, arrangering og improvisasjon. Du larer a bruke musikkteknologi til lydopptak og produksjon, og arbeider med prosjekter der du planlegger, gjennomforer og presenterer egne verk. Faget kan tas uavhengig av Musikk fordypning 1 og forbereder deg pa videre studier innen utovende musikk, komposisjon eller musikkproduksjon.
+Hva kjennetegner din musikalske stemme? I Musikk fordypning 2 utforsker du ditt eget uttrykk gjennom komposisjon, arrangering og improvisasjon. Du lærer å bruke musikkteknologi til lydopptak og produksjon, og arbeider med prosjekter der du planlegger, gjennomfører og presenterer egne verk. Faget kan tas uavhengig av Musikk fordypning 1 og forbereder deg på videre studier innen utøvende musikk, komposisjon eller musikkproduksjon.
 
 ## Om faget - fra læreplan
 

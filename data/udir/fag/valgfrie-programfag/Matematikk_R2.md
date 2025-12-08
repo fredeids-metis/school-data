@@ -14,7 +14,7 @@ generert: 2025-11-14
 
 ## Om faget
 
-Vil du studere sivilingenior, fysikk eller arkitektur? Da trenger du R2. Faget bygger videre på R1 og gir deg integralregning, vektorer i rommet, rekker og trigonometriske funksjoner. Du larer også å bruke programmering til å lose matematiske problemer. R2 er obligatorisk for de fleste teknologi- og ingeniorutdanninger, og NTNU krever karakter 4 eller bedre for opptak til sivilingeniorstudiene.
+Vil du studere sivilingeniør, fysikk eller arkitektur? Da trenger du R2. Faget bygger videre på R1 og gir deg integralregning, vektorer i rommet, rekker og trigonometriske funksjoner. Du lærer også å bruke programmering til å løse matematiske problemer. R2 er obligatorisk for de fleste teknologi- og ingeniørutdanninger, og NTNU krever karakter 4 eller bedre for opptak til sivilingeniørstudiene.
 
 ## Om faget - fra læreplan
 
