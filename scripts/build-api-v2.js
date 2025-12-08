@@ -111,6 +111,28 @@ function extractSection(markdown, sectionName) {
   return content || null;
 }
 
+// Remove a section from markdown (used to exclude "Om faget - fra læreplan" from HTML)
+function removeSection(markdown, sectionName) {
+  const lines = markdown.split('\n');
+  const result = [];
+  let inSection = false;
+
+  for (const line of lines) {
+    if (line.startsWith(`## ${sectionName}`)) {
+      inSection = true;
+      continue;
+    }
+    if (inSection && line.startsWith('## ')) {
+      inSection = false;
+    }
+    if (!inSection) {
+      result.push(line);
+    }
+  }
+
+  return result.join('\n');
+}
+
 // Extract kjerneelementer as structured array
 function extractKjerneelementer(markdown) {
   const lines = markdown.split('\n');
@@ -165,8 +187,8 @@ function loadMarkdownFiles(directory, defaultType = 'programfag') {
       trinn: frontmatter.trinn || null,
       bilde: frontmatter.bilde || null,
       vimeo: frontmatter.vimeo || null,
-      beskrivelse: markdown.trim(),
-      beskrivelseHTML: marked(markdown.trim()),
+      beskrivelse: removeSection(markdown, 'Om faget - fra læreplan').trim(),
+      beskrivelseHTML: marked(removeSection(markdown, 'Om faget - fra læreplan').trim()),
       omFaget: extractOmFaget(markdown),
       hvordanArbeiderMan: extractSection(markdown, 'Hvordan arbeider man i faget'),
       fagetsRelevans: extractSection(markdown, 'Fagets relevans'),

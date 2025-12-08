@@ -73,6 +73,27 @@ function extractSection(markdown, sectionName) {
   return sectionLines.join(' ');
 }
 
+function removeSection(markdown, sectionName) {
+  const lines = markdown.split('\n');
+  const result = [];
+  let inSection = false;
+
+  for (const line of lines) {
+    if (line.startsWith(`## ${sectionName}`)) {
+      inSection = true;
+      continue;
+    }
+    if (inSection && line.startsWith('## ')) {
+      inSection = false;
+    }
+    if (!inSection) {
+      result.push(line);
+    }
+  }
+
+  return result.join('\n');
+}
+
 function extractKjerneelementer(markdown) {
   const lines = markdown.split('\n');
   let inKjerneelementer = false;
@@ -136,7 +157,7 @@ function loadMarkdownFiles(directory, defaultType = 'programfag') {
       hvordanArbeiderMan: extractSection(markdown, 'Hvordan arbeider man i faget'),
       fagetsRelevans: extractSection(markdown, 'Fagets relevans'),
       kjerneelementer: extractKjerneelementer(markdown),
-      beskrivelseHTML: marked(markdown.trim()),
+      beskrivelseHTML: marked(removeSection(markdown, 'Om faget - fra læreplan').trim()),
       generert: frontmatter.generert
     };
   });
