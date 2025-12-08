@@ -473,58 +473,69 @@ function buildStudieplanleggerJSON(skoleId, curriculumData) {
   console.log(`      ${blokkCount} blokker, ${fagCount} fag-oppforinger`);
 }
 
-// Build tilbudt-fag.json for a school (filtered curriculum based on blokkskjema)
-function buildTilbudteFagJSON(skoleId, curriculumData) {
-  console.log(`Building ${skoleId}/tilbudt-fag.json...`);
+// Build tilbud.json for a school (from tilbud.yml - kun valgfrie programfag)
+function buildTilbudJSON(skoleId, curriculumData) {
+  console.log(`Building ${skoleId}/tilbud.json...`);
 
   const skoleDir = path.join(SCHOOLS_DIR, skoleId);
   const outputDir = path.join(OUTPUT_DIR, 'skoler', skoleId);
   ensureDir(outputDir);
 
-  // Load school config to get active blokkskjema version
-  const config = loadYAML(path.join(skoleDir, 'school-config.yml')) ||
-                 loadYAML(path.join(skoleDir, 'config.yml'));
+  // Load tilbud.yml (NOT blokkskjema)
+  const tilbud = loadYAML(path.join(skoleDir, 'tilbud.yml'));
 
-  // Determine which blokkskjema file to use (new folder structure)
-  let blokkskjemaFile = null;
-  if (config?.blokkskjema?.activeVersion) {
-    const activeVersion = config.blokkskjema.activeVersion;
-    blokkskjemaFile = path.join(skoleDir, 'blokkskjema', `${activeVersion}.yml`);
-  }
-
-  const blokkskjema = loadYAML(blokkskjemaFile) ||
-                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_flex.yml')) ||
-                      loadYAML(path.join(skoleDir, 'blokkskjema', '26-27_standard.yml'));
-
-  if (!blokkskjema) {
-    console.log(`  [!] No blokkskjema found for ${skoleId}, skipping tilbudt-fag`);
+  if (!tilbud || !tilbud.valgfrieProgramfag) {
+    console.log(`  [!] No tilbud.yml or valgfrieProgramfag found for ${skoleId}, skipping`);
     return;
   }
 
-  // Extract unique fag IDs from blokkskjema
-  const tilbudteFagIds = new Set();
-  if (blokkskjema.blokker) {
-    Object.values(blokkskjema.blokker).forEach(blokk => {
-      if (blokk.fag && Array.isArray(blokk.fag)) {
-        blokk.fag.forEach(fag => tilbudteFagIds.add(fag.id));
-      }
-    });
-  }
-
-  // Build curriculum lookup
+  // Build curriculum lookup (kun valgfrie programfag)
   const curriculumMap = new Map();
   curriculumData.valgfrieProgramfag.forEach(fag => curriculumMap.set(fag.id, fag));
 
-  // Create filtered curriculum with full data
-  const tilbudteFag = Array.from(tilbudteFagIds)
-    .map(id => curriculumMap.get(id))
+  // Enrich valgfrieProgramfag from tilbud.yml with curriculum data
+  const enrichedFag = tilbud.valgfrieProgramfag
+    .map(tilbudFag => {
+      const curriculum = curriculumMap.get(tilbudFag.fagId);
+
+      if (!curriculum) {
+        return null;
+      }
+
+      return {
+        // ID og grunndata
+        id: tilbudFag.fagId,
+
+        // Fra curriculum (UDIR)
+        title: curriculum.title,
+        shortTitle: curriculum.shortTitle,
+        fagkode: curriculum.fagkode,
+        lareplan: curriculum.lareplan,
+        omFaget: curriculum.omFaget,
+        hvordanArbeiderMan: curriculum.hvordanArbeiderMan,
+        fagetsRelevans: curriculum.fagetsRelevans,
+        kjerneelementer: curriculum.kjerneelementer,
+        beskrivelseHTML: curriculum.beskrivelseHTML,
+        related: curriculum.related,
+
+        // Fra tilbud.yml (skolespesifikk)
+        kategori: tilbudFag.kategori || null,
+
+        // Bilde/video: prioriter tilbud.yml, fallback til curriculum
+        bilde: tilbudFag.bilde || curriculum.bilde || null,
+        vimeo: tilbudFag.vimeo || curriculum.vimeo || null
+      };
+    })
     .filter(Boolean)
     .sort((a, b) => a.title.localeCompare(b.title, 'nb'));
 
-  // Log any missing fag (in blokkskjema but not in curriculum)
-  const missingFag = Array.from(tilbudteFagIds).filter(id => !curriculumMap.has(id));
+  // Log missing fag
+  const missingFag = tilbud.valgfrieProgramfag
+    .filter(f => !curriculumMap.has(f.fagId))
+    .map(f => f.fagId);
+
   if (missingFag.length > 0) {
-    console.log(`  [!] Warning: ${missingFag.length} fag in blokkskjema not found in curriculum:`);
+    console.log(`  [!] Warning: ${missingFag.length} fag in tilbud.yml not found in curriculum:`);
     missingFag.forEach(id => console.log(`      - ${id}`));
   }
 
@@ -533,19 +544,19 @@ function buildTilbudteFagJSON(skoleId, curriculumData) {
       version: API_VERSION,
       generatedAt: new Date().toISOString(),
       school: skoleId,
-      blokkskjemaVersion: config?.blokkskjema?.activeVersion || 'default',
-      count: tilbudteFag.length,
-      description: 'Fag tilbudt ved skolen basert på aktivt blokkskjema'
+      source: 'tilbud.yml',
+      count: enrichedFag.length,
+      description: 'Valgfrie programfag tilbudt ved skolen (fra tilbud.yml)'
     },
-    valgfrieProgramfag: tilbudteFag
+    valgfrieProgramfag: enrichedFag
   };
 
   fs.writeFileSync(
-    path.join(outputDir, 'tilbudt-fag.json'),
+    path.join(outputDir, 'tilbud.json'),
     JSON.stringify(output, null, 2)
   );
 
-  console.log(`  [+] Created tilbudt-fag.json (${tilbudteFag.length} fag fra blokkskjema)`);
+  console.log(`  [+] Created tilbud.json (${enrichedFag.length} valgfrie programfag fra tilbud.yml)`);
 }
 
 // Main build
@@ -564,7 +575,7 @@ function build() {
 
   schools.forEach(skoleId => {
     buildStudieplanleggerJSON(skoleId, curriculumData);
-    buildTilbudteFagJSON(skoleId, curriculumData);
+    buildTilbudJSON(skoleId, curriculumData);
   });
 
   console.log(`\n${'='.repeat(60)}`);
@@ -577,7 +588,7 @@ function build() {
   console.log(`  ${BASE_URL}/skoler/index.json`);
   schools.forEach(skoleId => {
     console.log(`  ${BASE_URL}/skoler/${skoleId}/studieplanlegger.json`);
-    console.log(`  ${BASE_URL}/skoler/${skoleId}/tilbudt-fag.json`);
+    console.log(`  ${BASE_URL}/skoler/${skoleId}/tilbud.json`);
   });
   console.log('');
 }
