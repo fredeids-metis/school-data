@@ -539,6 +539,16 @@ function buildTilbudJSON(skoleId, curriculumData) {
     missingFag.forEach(id => console.log(`      - ${id}`));
   }
 
+  // Validate kategori field (required for filtering in Fagkatalog)
+  const missingKategori = tilbud.valgfrieProgramfag
+    .filter(f => !f.kategori)
+    .map(f => f.fagId);
+
+  if (missingKategori.length > 0) {
+    console.log(`  [!] Warning: ${missingKategori.length} fag mangler kategori-felt:`);
+    missingKategori.forEach(id => console.log(`      - ${id}`));
+  }
+
   const output = {
     metadata: {
       version: API_VERSION,

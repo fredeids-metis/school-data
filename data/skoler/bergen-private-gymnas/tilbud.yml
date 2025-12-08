@@ -36,6 +36,16 @@ valgfrieProgramfag:
     bilde: ""
     kategori: "matematikk"
 
+  - fagId: statistikk
+    vimeo: ""
+    bilde: "statistikk.jpg"
+    kategori: "matematikk"
+
+  - fagId: matematikk-for-okonomifag
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
   # Naturfag - Biologi
   - fagId: biologi-1
     vimeo: ""
@@ -503,10 +513,10 @@ fremmedsprakTilbud:
 
 # Metadata
 metadata:
-  antallValgfrieProgramfag: 35
+  antallValgfrieProgramfag: 37
   antallObligatoriskeProgramfag: 16
   antallFellesfag: 29
-  totaltAntallFag: 80
+  totaltAntallFag: 82
   sistOppdatert: "2025-12-08"
   versjon: "v2"
   kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama. Alle fellesfag basert på TIMEFORDELING.md. Fellesfag har program-felt for program-spesifikke fag (geografi, kroppsøving, samfunnskunnskap)"

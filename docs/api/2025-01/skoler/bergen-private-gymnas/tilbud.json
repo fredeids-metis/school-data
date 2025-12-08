@@ -1,10 +1,10 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-08T09:34:56.782Z",
+    "generatedAt": "2025-12-08T09:47:33.521Z",
     "school": "bergen-private-gymnas",
     "source": "tilbud.yml",
-    "count": 35,
+    "count": 37,
     "description": "Valgfrie programfag tilbudt ved skolen (fra tilbud.yml)"
   },
   "valgfrieProgramfag": [
@@ -603,6 +603,24 @@
       "vimeo": null
     },
     {
+      "id": "matematikk-for-okonomifag",
+      "title": "Matematikk for økonomifag",
+      "shortTitle": "Matematikk for økonomifag",
+      "fagkode": "TBA",
+      "lareplan": "TBA",
+      "omFaget": "Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
+      "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
+      "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Statistikk, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
+      "kjerneelementer": [],
+      "beskrivelseHTML": "<h1>Matematikk for økonomifag</h1>\n<p><strong>Læreplan:</strong> Foreslått fag - læreplan på høring hos UDIR</p>\n<blockquote>\n<p><strong>Merk:</strong> Dette faget er foreslått innført fra 1. august 2026. Fagkode og læreplan er ikke fastsatt ennå. Innholdet nedenfor er basert på UDIRs høringsutkast (oppdrag 2025-007) og kan bli endret.</p>\n</blockquote>\n<h2>Om faget</h2>\n<p>Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi.</p>\n<p>Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p><em>Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.</em></p>\n<h2>Fagets relevans</h2>\n<p>En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Statistikk, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.</p>\n<h2>Foreslått innhold (fra UDIRs høringsutkast)</h2>\n<p>Følgende innhold er foreslått av læreplangruppen. Det kan komme endringer før endelig læreplan fastsettes:</p>\n<ul>\n<li>Lineære budsjettbetingelser</li>\n<li>Ligninger med to ukjente</li>\n<li>Enhetspris, enhetskostnad, startkostnad</li>\n<li>Lineær optimering</li>\n<li>Potenser og logaritmer</li>\n<li>Grenseverdi og derivasjon</li>\n<li>Profittfunksjon</li>\n<li>Vendepunkt og konkavitet</li>\n<li>Polynomer, potensfunksjoner og logaritmefunksjoner</li>\n<li>Elastisitet</li>\n<li>Grensekostnader og grenseinntekter</li>\n<li>Profitt og pris som funksjon av kvantum</li>\n<li>Markedskryss for tilbud og etterspørsel</li>\n<li>Konsument-/produsentoverskudd for tilbud-/etterspørselkurver</li>\n<li>Nominell, effektiv og kontinuerlig rente</li>\n<li>Sparing, lån, kredittkort og avbetaling</li>\n<li>Nåverdier</li>\n</ul>\n<h2>Kompetansemål</h2>\n<p><em>Kompetansemål vil bli fastsatt av UDIR når læreplanen vedtas. Læreplanene kommer på høring i desember 2025.</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Kjerneelementer vil bli fastsatt av UDIR når læreplanen vedtas.</em></p>\n<h2>Ressurser</h2>\n<!-- Ressurser vil bli lagt til når faget er formelt etablert -->\n\n<hr>\n<p><em>Dette er et foreslått fag basert på UDIRs høringsutkast (oppdrag 2025-007).</em>\n<em>Foreslått ikrafttredelse: 1. august 2026</em>\n<em>Generert: 2025-12-05</em></p>\n",
+      "related": [
+        "Statistikk"
+      ],
+      "kategori": "matematikk",
+      "bilde": null,
+      "vimeo": null
+    },
+    {
       "id": "matematikk-r1",
       "title": "Matematikk R1",
       "shortTitle": "Matematikk R1",
@@ -1103,6 +1121,24 @@
       "related": [],
       "kategori": "samfunnsfag",
       "bilde": "sosiologi-og-sosialantropologi.jpg",
+      "vimeo": null
+    },
+    {
+      "id": "statistikk",
+      "title": "Statistikk",
+      "shortTitle": "Statistikk",
+      "fagkode": "TBA",
+      "lareplan": "TBA",
+      "omFaget": "Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
+      "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
+      "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Matematikk for økonomifag, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
+      "kjerneelementer": [],
+      "beskrivelseHTML": "<h1>Statistikk</h1>\n<p><strong>Læreplan:</strong> Foreslått fag - læreplan på høring hos UDIR</p>\n<blockquote>\n<p><strong>Merk:</strong> Dette faget er foreslått innført fra 1. august 2026. Fagkode og læreplan er ikke fastsatt ennå. Innholdet nedenfor er basert på UDIRs høringsutkast (oppdrag 2025-007) og kan bli endret.</p>\n</blockquote>\n<h2>Om faget</h2>\n<p>Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet.</p>\n<p>Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p><em>Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.</em></p>\n<h2>Fagets relevans</h2>\n<p>En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Matematikk for økonomifag, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.</p>\n<h2>Foreslått innhold (fra UDIRs høringsutkast)</h2>\n<p>Følgende innhold er foreslått av læreplangruppen. Det kan komme endringer før endelig læreplan fastsettes:</p>\n<ul>\n<li>Selvvalgt oppgave basert på reelle datasett</li>\n<li>Hvordan statistikk påvirker avgjørelser og oppfatninger, og hvordan statistikk kan manipuleres og misbrukes</li>\n<li>Stokastiske forsøk</li>\n<li>Vanlige begreper som snitt, union, utfallsrom og venndiagram</li>\n<li>Betinget sannsynlighet, Bayes teorem</li>\n<li>Forventningsverdi, varians og standardavvik</li>\n<li>Binomiske og Poisson-fordelinger</li>\n<li>Stokastiske variabler</li>\n<li>Normalfordelingen</li>\n<li>Hypotesetesting og p-verdier</li>\n<li>Pearsons korrelasjonskoeffisient</li>\n<li>Regresjon av reelle datasett (lineær, eksponentiell og logistisk)</li>\n</ul>\n<h2>Kompetansemål</h2>\n<p><em>Kompetansemål vil bli fastsatt av UDIR når læreplanen vedtas. Læreplanene kommer på høring i desember 2025.</em></p>\n<h2>Kjerneelementer</h2>\n<p><em>Kjerneelementer vil bli fastsatt av UDIR når læreplanen vedtas.</em></p>\n<h2>Ressurser</h2>\n<!-- Ressurser vil bli lagt til når faget er formelt etablert -->\n\n<hr>\n<p><em>Dette er et foreslått fag basert på UDIRs høringsutkast (oppdrag 2025-007).</em>\n<em>Foreslått ikrafttredelse: 1. august 2026</em>\n<em>Generert: 2025-12-05</em></p>\n",
+      "related": [
+        "Matematikk for økonomifag"
+      ],
+      "kategori": "matematikk",
+      "bilde": "statistikk.jpg",
       "vimeo": null
     },
     {
