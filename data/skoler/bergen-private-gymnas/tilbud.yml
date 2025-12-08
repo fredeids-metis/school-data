@@ -26,6 +26,16 @@ valgfrieProgramfag:
     bilde: ""
     kategori: "matematikk"
 
+  - fagId: matematikk-s1
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  - fagId: matematikk-s2
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
   # Naturfag - Biologi
   - fagId: biologi-1
     vimeo: ""
@@ -473,12 +483,30 @@ fellesfag:
     bilde: ""
     kategori: "språk"
 
+# ========================================
+# FREMMEDSPRÅK-TILBUD (VG1 valg)
+# ========================================
+# Hvilke fremmedspråk Bergen Private Gymnas tilbyr
+# Filtrerer fra UDIR-standard (alle mulige språk) ned til skolens faktiske tilbud
+# Brukes av Studieplanlegger for VG1 fremmedspråk-valg
+
+fremmedsprakTilbud:
+  # For elever som HAR hatt fremmedspråk på ungdomsskolen
+  harFremmedsprak:
+    - spansk-1    # Spansk I (for de som vil bytte til spansk)
+    - spansk-2    # Spansk II (fortsetter spansk)
+    - tysk-2      # Tysk II (fortsetter tysk)
+    - fransk-2    # Fransk II (fortsetter fransk)
+  # For elever som IKKE har hatt fremmedspråk på ungdomsskolen
+  ikkeHarFremmedsprak:
+    - spansk-1-2  # Spansk I+II (over 3 år)
+
 # Metadata
 metadata:
-  antallValgfrieProgramfag: 33
+  antallValgfrieProgramfag: 35
   antallObligatoriskeProgramfag: 16
   antallFellesfag: 29
-  totaltAntallFag: 78
-  sistOppdatert: "2025-11-20"
+  totaltAntallFag: 80
+  sistOppdatert: "2025-12-08"
   versjon: "v2"
   kommentar: "Ny struktur med valgfrie, obligatoriske og fellesfag separert. Inkluderer alle tre programmer: Studiespesialisering, Medier og kommunikasjon, Musikk dans og drama. Alle fellesfag basert på TIMEFORDELING.md. Fellesfag har program-felt for program-spesifikke fag (geografi, kroppsøving, samfunnskunnskap)"
