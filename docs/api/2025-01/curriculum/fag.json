@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-09T10:48:30.012Z",
+    "generatedAt": "2025-12-10T18:29:36.138Z",
     "description": "Alle fag for videregaende opplaring"
   },
   "valgfrieProgramfag": [
@@ -17,6 +17,7 @@
       "bilde": "bilde.jpg",
       "vimeo": null,
       "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt.",
+      "omFagetLareplan": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon.",
       "hvordanArbeiderMan": "Undervisningen kombinerer individuelt arbeid med samarbeidsprosjekter. Du starter med å bli kjent med kamerautstyr, lyssetting og bildebehandlingsprogrammer. Etter hvert arbeider du med større produksjoner der du utvikler idéer, planlegger gjennomføring og ferdigstiller produkter for ulike formater og kanaler. Gjennom hele prosessen får du veiledning og trening i å vurdere egne og andres arbeider med et kritisk blikk.",
       "fagetsRelevans": "Bilde passer for deg som vil utforske visuell kommunikasjon i praksis. Faget gir kompetanse som er etterspurt i bransjer som reklame, medieproduksjon, forlagsvirksomhet og sosiale medier. Det er også relevant forberedelse til høyere utdanning innen design, kommunikasjon, journalistikk eller kunst- og kulturfag. I tillegg utvikler du ferdigheter i å analysere hvordan bilder påvirker holdninger og meninger, noe som er verdifullt uansett hvilken retning du velger.",
       "kjerneelementer": [
@@ -49,6 +50,7 @@
       "bilde": "biologi-1.jpg",
       "vimeo": null,
       "omFaget": "Hvordan holder kroppen temperaturen stabil? Hvorfor virker antibiotika mot bakterier, men ikke mot virus? Biologi 1 gir deg svar på slike spørsmål. Du lærer om celler, fysiologi og økosystemer, og du får forstå sammenhengen mellom helse og livsstil. Faget kombinerer teori med praktisk arbeid i laboratoriet og i felt.",
+      "omFagetLareplan": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv.",
       "hvordanArbeiderMan": "Biologi kombinerer teori med praktisk arbeid. Undervisningen veksler mellom forelesninger, gruppearbeid og laboratorieaktiviteter. Du lærer å bruke mikroskop for å studere celler, dissekere organer for å forstå anatomi, og gjennomføre forsøk der du måler og analyserer fysiologiske prosesser. Ekskursjoner gir deg erfaring med feltarbeid og kartlegging av økosystemer. Visuell fremstilling er sentralt i faget hvor du lager skjematiske tegninger av celler, grafiske fremstillinger av biologiske prosesser, og skisser av strukturer i vev og organer. Gjennom varierte arbeidsmetoder utvikler du ferdigheter i naturvitenskapelig tenkning og utforskning.",
       "fagetsRelevans": "Biologi 1 gir deg innsikt i hvordan levende organismer fungerer, fra cellenivået til hele økosystemer. Du lærer om menneskekroppens fysiologi, sykdomsmekanismer og samspillet mellom arter og miljø. Faget er relevant for deg som interesserer deg for helse, natur eller miljøspørsmål. Biologi 1 er et godt grunnlag for videre studier innen medisin, sykepleie, odontologi, veterinærmedisin, ernæringsfysiologi og biologiske fag. Selv om faget ikke er opptakskrav til norske studier, kan det være det ved enkelte utenlandske universiteter. Faget gir realfagspoeng. Du bør trives med å lese fagtekster og lære nye begreper. Evne til å lage enkle skisser er nyttig, men du trenger ikke være flink til å tegne. Likte du økologi, fordøyelse og arv i naturfag, vil du sannsynligvis trives med biologi.",
       "kjerneelementer": [
@@ -87,6 +89,7 @@
       "bilde": "biologi-2.jpg",
       "vimeo": null,
       "omFaget": "Biologi 2 gir deg kunnskap om genetikk, evolusjon og bioteknologi. Du lærer hvordan gener styrer egenskaper, hvordan arter har utviklet seg over tid, og hvordan genteknologi brukes i medisin og matproduksjon. Faget kombinerer teori med laboratoriearbeid og feltarbeid. Du får også øving i å vurdere etiske spørsmål knyttet til bruk av bioteknologi.",
+      "omFagetLareplan": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv.",
       "hvordanArbeiderMan": "I Biologi 2 fordyper du deg i livets grunnleggende mekanismer. Faget kan tas uavhengig av Biologi 1 og gir deg solid kompetanse innen genetikk, evolusjon og bioteknologi. Du lærer om genetisk kode og hvordan genuttrykk reguleres i celler. Gjennom laboratoriearbeid undersøker du hvordan genteknikk kan styre og endre biologiske prosesser. Evolusjonsteori står sentralt, der du utforsker hvordan evolusjonære prosesser påvirker populasjoners genpool og hvilke mekanismer som driver artsdannelse. Undervisningen kombinerer teori med varierte praktiske og utforskende arbeidsmåter. Du gjennomfører feltarbeid for å dokumentere artsmangfold, samler inn data og presenterer funn kritisk. En viktig del av faget er å vurdere etiske problemstillinger knyttet til kommersiell bruk av genteknologi i medisin og matproduksjon.",
       "fagetsRelevans": "Biologi 2 gir deg et solid grunnlag for videre studier innen medisin, odontologi, veterinærmedisin, farmasi og bioteknologi. Faget er også relevant for studier i biologi, molekylærbiologi, genetikk og økologi. Kompetansen du tilegner deg er ettertraktet i mange yrker. Som biolog kan du arbeide med forskning på laboratorier eller ute i felt, innen spesialiseringer som mikrobiologi, marinbiologi, genetikk eller økologi. Biologer er ansatt i forskningsmiljøer, offentlig forvaltning, miljøorganisasjoner, konsulentfirmaer og industrien. Forståelse av genetikk og bioteknologi blir stadig viktigere i helsesektoren, der bioingeniører og forskere utvikler nye behandlingsmetoder og legemidler. Faget gir deg også grunnlag for arbeid med miljøovervåking, naturforvaltning og bærekraftig utvikling.",
       "kjerneelementer": [
@@ -125,6 +128,7 @@
       "bilde": "engelsk-1.jpg",
       "vimeo": null,
       "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden.",
+      "omFagetLareplan": "Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.",
       "hvordanArbeiderMan": "I engelsk 1 har du stor innflytelse på fagets innhold. Sammen med læreren velger dere temaer som er relevante for fremtidige studier og interesser. Du arbeider med varierte teksttyper: akademiske artikler, skjønnlitteratur, film og digitale medier. Undervisningen kombinerer individuelt arbeid med samarbeid, og du får øve på både muntlig og skriftlig formidling. Vurderingen legger vekt på prosess og utvikling, med mulighet for å fordype deg i selvvalgte emner.",
       "fagetsRelevans": "Engelsk er arbeidsspråket i høyere utdanning. Mer enn halvparten av masteroppgavene ved norske universiteter skrives på engelsk, og pensumlitteraturen på mange studieretninger er hovedsakelig engelskspråklig. I tillegg er engelsk det viktigste kommunikasjonsspråket i internasjonalt arbeidsliv og forskning. I dette faget utvikler du akademisk skriving, kritisk lesing og muntlig formidling på høyt nivå. Du lærer å bruke fagspesifikke begreper og å tilpasse språket til ulike situasjoner, enten du skal skrive en rapport, holde en presentasjon eller delta i en faglig debatt.",
       "kjerneelementer": [
@@ -159,6 +163,7 @@
       "bilde": "engelsk-2.jpg",
       "vimeo": null,
       "omFaget": "Du leser en artikkel om presidentvalget i USA. Hva ligger bak retorikken? Hvilke historiske linjer påvirker debatten? I Engelsk 2 analyserer du tekster i lys av kultur og historie. Du trener på å uttrykke deg presist og nyansert, både muntlig og skriftlig. Faget gir deg fordypning i hvordan engelskspråklige land har påvirket verden politisk, kulturelt og språklig.",
+      "omFagetLareplan": "Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.",
       "hvordanArbeiderMan": "I Engelsk 2 jobber du mye med å analysere og diskutere engelskspråklige tekster, alt fra klassisk litteratur til moderne medier og politiske taler. Du lærer å tolke tekster i lys av historiske og kulturelle sammenhenger, og du trener på å uttrykke deg presist og nyansert både muntlig og skriftlig. Forvent debatter, presentasjoner og dypere tekstanalyser enn du er vant med fra fellesfaget. En viktig del av faget er å utforske hvordan engelskspråklige land har påvirket verden politisk, kulturelt og språklig. Du sammenligner samfunnsforhold i ulike land og graver deg ned i historiske sammenhenger. I tillegg jobber du med et selvvalgt fordypningsemne der du bruker engelskspråklige kilder kritisk og presenterer funnene dine for klassen.",
       "fagetsRelevans": "Avanserte engelskferdigheter er etterspurt i de fleste bransjer. Faget er særlig relevant hvis du sikter mot studier i språk, litteratur, statsvitenskap, jus eller kommunikasjon. Mange internasjonale studieprogram krever at du behersker akademisk engelsk på høyt nivå, og Engelsk 2 gir deg akkurat denne treningen. I arbeidslivet åpner gode engelskkunnskaper dører til yrker som diplomat, journalist, oversetter eller kommunikasjonsrådgiver. Også innen næringsliv, forskning og internasjonale organisasjoner er evnen til å kommunisere presist på engelsk en nøkkelkompetanse. Uansett hvilken retning du velger, vil fordypningen i engelsk gi deg et fortrinn i en stadig mer globalisert verden.",
       "kjerneelementer": [
@@ -193,6 +198,7 @@
       "bilde": "entreprenorskap-1.jpg",
       "vimeo": null,
       "omFaget": "I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt.",
+      "omFagetLareplan": "Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.",
       "hvordanArbeiderMan": "I dette faget starter du en ungdomsbedrift sammen med fire til fem medelever. Dere utvikler en forretningsidé, etablerer bedriften, driver den gjennom skoleåret og avvikler den ved årets slutt. Forretningsidéen kan spenne fra produktutvikling til tjenesteyting. Undervisningen veksler mellom teori og praktisk arbeid. Du lærer om forretningsmodeller, markedsanalyse og økonomi, og anvender kunnskapen direkte i egen bedrift. Bærekraft er integrert i alle faser av arbeidet. Bedriften tildeles roller som daglig leder, økonomiansvarlig og markedsføringsansvarlig. Du deltar på kurs tilpasset din rolle, og samarbeider med eksterne aktører fra næringslivet. Arbeidet kulminerer med deltakelse på Fylkesmessen, der ungdomsbedrifter fra hele Vestland konkurrerer. De beste går videre til NM.",
       "fagetsRelevans": "Entreprenørskap og bedriftsutvikling 1 gir praktisk erfaring med å etablere og drive en virksomhet. Du utvikler ferdigheter innen kreativ problemløsning, økonomistyring og strategisk tenkning. Faget krever samarbeidsevne og evne til å overholde frister. Du tar ansvar for din del av bedriftens arbeid, og lærer hvordan teamarbeid fungerer i praksis. Dette er ferdigheter som er direkte overførbare til arbeidslivet. Faget er relevant for videre studier innen økonomi, markedsføring, ledelse og kreative fagområder. Det gir også et godt grunnlag for alle studieretninger der samarbeid, presentasjonsteknikk og prosjektarbeid står sentralt.",
       "kjerneelementer": [
@@ -227,6 +233,7 @@
       "bilde": "entreprenorskap-2.jpg",
       "vimeo": null,
       "omFaget": "Hvordan kan en etablert bedrift vokse videre? Hva gjør en god leder? I Entreprenørskap og bedriftsutvikling 2 lærer du å analysere og videreutvikle virksomheter. Du arbeider med vekststrategier, ledelse og innovasjon, og du vurderer hvordan bedrifter kan ta samfunnsansvar. Faget kombinerer teori med praktiske oppgaver og prosjekter.",
+      "omFagetLareplan": "Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.",
       "hvordanArbeiderMan": "I Entreprenørskap og bedriftsutvikling 2 arbeider du praktisk med å videreutvikle og analysere virksomheter. Du lærer å vurdere forretningsmodeller, utvikle vekststrategier og forstå hvordan ledelse påvirker en organisasjon. Undervisningen kombinerer teoretisk kunnskap med praktiske oppgaver der du anvender ulike markeds- og konkurransestrategier. Du utforsker innovasjonsprosesser og drøfter hvordan innovasjon bidrar til verdiskaping. Arbeid med prosjekter og nettverksbygging står sentralt, og du lærer å vurdere kapitalbehov og lønnsomhet for bedrifter. Faget gir også innsikt i samfunnsansvar og bærekraftig utvikling, samt internasjonale forretningskulturer og støtteordninger. Faget kan tas uavhengig av andre entreprenørskapsfag og passer for deg som vil fordype deg i hvordan etablerte virksomheter utvikles og ledes.",
       "fagetsRelevans": "Entreprenørskap og bedriftsutvikling 2 gir deg kompetanse som er verdifull i en rekke yrker og studieretninger. Faget forbereder deg for høyere utdanning innen økonomi og administrasjon, innovasjon og entreprenørskap, markedsføring eller ledelse. Med denne bakgrunnen kan du sikte mot karrierer som bedriftsrådgiver, prosjektleder, markedssjef eller økonomiansvarlig. Du kan også arbeide med forretningsutvikling i etablerte bedrifter eller i det offentlige virkemiddelapparatet som støtter næringslivet. Kunnskapen er særlig relevant dersom du ønsker å starte egen virksomhet senere, eller jobbe med innovasjon og strategisk utvikling. I en verden der omstilling og bærekraft blir stadig viktigere, er evnen til å forstå organisasjoner og utvikle nye løsninger en etterspurt kompetanse.",
       "kjerneelementer": [
@@ -261,6 +268,7 @@
       "bilde": "fysikk-1.jpg",
       "vimeo": null,
       "omFaget": "Fysikk 1 gir deg verktøy til å forstå hvordan verden fungerer, fra krefter og bevegelse til energi og strålingsbalanse. Du lærer å bruke matematikk og modeller til å beskrive fysiske fenomener, og du gjennomfører forsøk der du tester teoriene i praksis. Faget utvikler evnen din til å tenke analytisk og løse problemer systematisk.",
+      "omFagetLareplan": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.",
       "hvordanArbeiderMan": "I fysikk lærer du best gjennom praktisk anvendelse. Undervisningen kombinerer teorigjennomgang og diskusjon der vi utforsker fysiske prinsipper og modeller, oppgaveløsning med beregninger og matematisk analyse, og elevforsøk der du planlegger, gjennomfører og analyserer eksperimenter. Du vil også jobbe med demonstrasjoner som visualiserer fysiske fenomener, og programmering for å modellere bevegelse og fysiske systemer. Du vil jobbe både individuelt og i grupper, og du må være forberedt på å bruke matematikk aktivt som verktøy.",
       "fagetsRelevans": "Fysikk gir deg verktøy til å forstå alt fra mobilteknologi til klimaendringer. Faget passer for deg som er nysgjerrig på hvordan ting fungerer, liker å løse problemer gjennom logisk tenkning, og trives med matematikk. Du bør ha 1T (teoretisk matematikk) fra VG1. Elever med 1P kan ta faget, men vil møte en brattere læringskurve. Fysikk 1 er et viktig grunnlag for ingeniørutdanninger, medisin, odontologi, realfag og arkitektur, og er relevant for alle tekniske og naturvitenskapelige studier.",
       "kjerneelementer": [
@@ -299,6 +307,7 @@
       "bilde": "fysikk-2.jpg",
       "vimeo": null,
       "omFaget": "Hvordan kan tiden gå saktere for noen enn for andre? Hvorfor oppfører ikke elektroner seg som vanlige gjenstander? I Fysikk 2 utforsker du moderne fysikk som relativitetsteori og kvantefysikk. Du bruker matematikk og programmering til å modellere fenomener som ikke lar seg beskrive med enkle formler. Faget gir deg verktoy til a forutsi og forklare fysiske prosesser - fra partikler til elektromagnetiske felt.",
+      "omFagetLareplan": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.",
       "hvordanArbeiderMan": "Fysikk 2 bygger videre på Fysikk 1 og tar deg dypere inn i den matematiske beskrivelsen av naturen. Du arbeider med klassisk fysikk som bevegelse i to dimensjoner og elektromagnetiske felt, men også moderne fysikk som relativitetsteori og kvantefysikk. En sentral del av faget er numerisk modellering og programmering. Du bruker matematiske verktøy og kode til å simulere fysiske fenomena som ikke lar seg løse analytisk. I laboratoriet planlegger og gjennomfører du forsøk der du analyserer data og beregner usikkerhet for å vurdere gyldigheten av resultatene dine. Faget krever evne til abstrakt tenkning og systematisk arbeid. Du lærer å koble teori og eksperiment, og får mulighet til å fordype deg i en selvvalgt problemstilling.",
       "fagetsRelevans": "Fysikk 2 er grunnmuren for tekniske og naturvitenskapelige studier. Faget er ofte et opptakskrav til sivilingeniørutdanninger innen elektronikk, maskin, bygg og energi. Det gir også et solid fundament for universitetsstudier i fysikk, astrofysikk, geofysikk og materialvitenskap. Som fysiker eller ingeniør kan du jobbe med alt fra utvikling av medisinsk teknologi og miljøovervåkning til forskning på partikkelfysikk eller fornybar energi. Arbeidsmarkedet spenner fra teknologiselskaper og konsulentfirmaer til forskningsinstitusjoner og offentlig forvaltning. Faget trener deg i problemløsning, analytisk tenkning og matematisk modellering, som er ferdigheter etterspurt i et arbeidsliv preget av teknologisk utvikling og komplekse utfordringer.",
       "kjerneelementer": [
@@ -337,6 +346,7 @@
       "bilde": "geofag-1.jpg",
       "vimeo": null,
       "omFaget": "I Geofag 1 lærer du hvordan jorden er bygget opp og hvordan geologiske prosesser former landskapet rundt deg. Du identifiserer bergarter og mineraler, tolker geologiske kart og undersøker landformer gjennom feltarbeid. Faget gir deg innsikt i naturressurser, naturkatastrofer og klimaendringer - kunnskap som er viktig for å forstå samfunnsutfordringer knyttet til miljø og bærekraft.",
+      "omFagetLareplan": "Geofag handler om jordens oppbygning, prosesser og historie, samt samspillet mellom geosfærene og menneskets påvirkning på disse. Faget kombinerer naturvitenskap med forståelse av hvordan geologiske prosesser påvirker samfunnet og miljøet. Geofag gir innsikt i naturressurser, naturkatastrofer og klimaendringer.",
       "hvordanArbeiderMan": "I Geofag 1 arbeider du med en kombinasjon av teori, feltarbeid og laboratorieøvelser. Du lærer å identifisere bergarter og mineraler, tolke geologiske kart og forstå landformer. Feltarbeid er en viktig del av faget der du undersøker geologiske fenomener i naturen. Digitale verktøy som GIS (geografiske informasjonssystemer) brukes til å analysere og visualisere geodata.",
       "fagetsRelevans": "Geofag passer for deg som er interessert i naturen, miljøet og hvordan jorden fungerer. Faget er relevant for videre studier innen geologi, geografi, miljøvitenskap, ressursforvaltning og petroleumsfag. Kunnskapen er også verdifull for å forstå samfunnsutfordringer knyttet til klimaendringer, naturkatastrofer og bærekraftig ressursbruk.",
       "kjerneelementer": [
@@ -375,6 +385,7 @@
       "bilde": "geofag-2.jpg",
       "vimeo": null,
       "omFaget": "Du leser om ekstremvær, flom eller ras i nyhetene. Hvordan henger dette sammen med klimaendringer og geologiske prosesser? I Geofag 2 fordyper du deg i klimasystemet, naturfare og ressursforvaltning. Du arbeider selvstendig med geofaglige undersøkelser og prosjekter, og lærer å analysere komplekse sammenhenger mellom geologi, klima og samfunn.",
+      "omFagetLareplan": "Geofag 2 gir dypere forståelse av geologiske prosesser, jordens historie og klimasystemet. Faget fokuserer særlig på klimaendringer, naturfare og ressursforvaltning, og gir elevene kompetanse til å analysere komplekse geofaglige problemstillinger.",
       "hvordanArbeiderMan": "I Geofag 2 arbeider du mer selvstendig med geofaglige undersøkelser og prosjekter. Du fordyper deg i temaer som klimahistorie, naturfare og ressursgeologi. Feltarbeid og dataanalyse er sentrale arbeidsformer, og du lærer å bruke avanserte metoder og verktøy for å undersøke og forstå geologiske fenomener. Du vil også jobbe med å formidle geofaglig kunnskap til ulike målgrupper.",
       "fagetsRelevans": "Geofag 2 gir deg spisskompetanse som er etterspurt i mange sektorer - fra olje- og energibransjen til miljøforvaltning og klimaforskning. Faget er relevant for videre studier innen geologi, geofysikk, miljøvitenskap, ressursforvaltning og klimavitenskap. Sammen med Geofag 1 gir det et solid grunnlag for å forstå og bidra til løsninger på samfunnsutfordringer knyttet til klima og miljø.",
       "kjerneelementer": [
@@ -413,6 +424,7 @@
       "bilde": "grafisk-design.jpg",
       "vimeo": null,
       "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine.",
+      "omFagetLareplan": "Grafisk design handlar om kreativt arbeid og visuelle løysingar i ulike medium. Faget gir høve til å utvikle det visuelle språket og utforme sjølvstendige visuelle uttrykk. Grafisk design bidreg i samfunnet gjennom visualisering og tydeleggjering av bodskapar. Faget førebur elevane på vidare studium og eit arbeidsliv som stiller krav til kompetanse i visuell kommunikasjon og design.",
       "hvordanArbeiderMan": "Faget har en praktisk og prosjektbasert tilnærming. Du arbeider med realistiske oppdrag der du følger en designprosess fra idéutvikling til ferdig produkt. Arbeidet starter ofte med skisser for hånd, før du går over til digital utforming i profesjonelle verktøy som Adobe Illustrator, Photoshop og XD. Gjennom året jobber du med varierte prosjekter: plakater, logoer, grafiske profiler, magasinlayout, webdesign og enkel animasjon. Du lærer å begrunne valgene dine ved hjelp av fagterminologi, og presenterer arbeidene både skriftlig og muntlig. Underveis utvikler du ferdigheter i visuell kommunikasjon og kritisk vurdering av design.",
       "fagetsRelevans": "Grafisk design passer for deg som liker å kombinere kreativitet med problemløsning. Faget gir en praktisk motvekt til teoretiske fag, og du trenger ingen forkunnskaper. Det som kjennetegner elever i faget, er nysgjerrighet, vilje til å prøve ut idéer og evne til å arbeide grundig med detaljer. Kompetansen er relevant for videre studier innen visuell kommunikasjon, interaksjonsdesign, arkitektur, markedsføring, medievitenskap og kunstfag. I arbeidslivet er grafisk design etterspurt i bransjer som reklame, kommunikasjon, forlagsbransjen og digital produktutvikling.",
       "kjerneelementer": [
@@ -445,6 +457,7 @@
       "bilde": "historie-og-filosofi-1.jpg",
       "vimeo": null,
       "omFaget": "Hva er rettferdighet? Hvordan har makt vært fordelt gjennom historien? I Historie og filosofi 1 utforsker du ideer som har formet samfunn fra antikken til i dag. Den filosofiske samtalen står sentralt: du formulerer egne standpunkter, møter motargumenter og vurderer argumenters gyldighet. Faget gir trening i kritisk tenkning og historisk bevissthet.",
+      "omFagetLareplan": "Historie og filosofi handler om å utvikle selvstendig filosofisk tenkning og forståelse av hvordan mennesket og samfunnet er formet av historie og selv skaper historie. Faget gir elevene trening i åpen dialog, filosofisk refleksjon og historisk bevissthet, slik at de kan møte nåtidens og framtidens utfordringer med en undersøkende og nysgjerrig holdning. Faget skal også forberede elevene på et samfunns- og arbeidsliv der det er viktig å tenke kritisk og kreativt og ha evne til å møte andre mennesker med åpenhet og respekt.",
       "hvordanArbeiderMan": "Den filosofiske samtalen er fagets kjerne. Elevene trener på å formulere egne standpunkter, lytte til motargumenter og vurdere argumenters gyldighet. Arbeidet veksler mellom muntlige diskusjoner, tekstanalyse og skriftlige refleksjoner. Kildene spenner fra antikke filosofiske tekster til moderne samfunnsdebatt, og fra kunsthistoriske verk til vitenskapelige gjennombrudd. Elevene lærer å stille presise spørsmål, identifisere skjulte premisser og bygge begrunnede resonnementer.",
       "fagetsRelevans": "Historie og filosofi gir verktøy for å forstå hvordan idéer former samfunn og hvordan fortiden preger nåtiden. Faget utvikler evnen til kritisk lesning, presis argumentasjon og refleksjon over grunnleggende spørsmål om kunnskap, makt og verdier. Dette er ferdigheter som er verdifulle i videre studier innen humaniora, samfunnsvitenskap, jus og medisin, men også i yrker som krever analytisk tenkning og evne til å se saker fra flere perspektiver. Faget passer for elever som ønsker å utforske hvordan vestlig tenkning har utviklet seg fra antikken til i dag, og som er motivert for å delta aktivt i faglige samtaler.",
       "kjerneelementer": [
@@ -483,6 +496,7 @@
       "bilde": "historie-og-filosofi-2.jpg",
       "vimeo": null,
       "omFaget": "Historie og filosofi 2 gir deg verktøy for å analysere kompleks informasjon og tenke kritisk om samfunnet. Du arbeider med ideologier, økonomiske teorier og moderne fenomener som desinformasjon og sosiale medier. Gjennom filosofisk samtale og arbeid med originaltekster lærer du å vurdere argumenter, avsløre skjulte premisser og formidle innsikt på en klar måte.",
+      "omFagetLareplan": "Historie og filosofi handler om å utvikle selvstendig filosofisk tenkning og forståelse av hvordan mennesket og samfunnet er formet av historie og selv skaper historie. Faget gir elevene trening i åpen dialog, filosofisk refleksjon og historisk bevissthet, slik at de kan møte nåtidens og framtidens utfordringer med en undersøkende og nysgjerrig holdning. Faget skal også forberede elevene på et samfunns- og arbeidsliv der det er viktig å tenke kritisk og kreativt og ha evne til å møte andre mennesker med åpenhet og respekt.",
       "hvordanArbeiderMan": "I Historie og filosofi 2 står den filosofiske samtalen sentralt. Du deltar i åpne diskusjoner der du utforsker egne oppfatninger, møter motargumenter og lærer å vurdere gyldigheten av ulike påstander. En viktig del av faget er å jobbe med originaltekster fra filosofer og historiske kilder, der du øver på å lese kritisk og forstå hvordan ulike perspektiver preger fremstillinger av virkeligheten. Faget kombinerer teoretisk fordypning med praktisk anvendelse. Du analyserer ideologier, økonomiske teorier og moderne fenomener som sosiale medier og desinformasjon. Gjennom prosjektarbeid og drøftingsoppgaver undersøker du hvordan historiske prosesser har formet dagens samfunn, og du reflekterer over store spørsmål om frihet, ansvar og det gode liv. Mye av arbeidet handler om å se sammenhenger mellom fortid og nåtid, og å utvikle din egen historiebevissthet.",
       "fagetsRelevans": "Historie og filosofi 2 gir deg ferdigheter som er etterspurt i mange yrker og studier. Du lærer å tenke kritisk, analysere kompleks informasjon og formidle innsikt på en klar måte. Dette er verdifullt i utdanninger som juss, statsvitenskap, journalistikk, historie, filosofi og andre samfunnsvitenskapelige fag. Faget er også relevant for deg som vurderer lærerutdanning eller studier i kultur og kommunikasjon. I arbeidslivet er ferdighetene fra faget nyttige i yrker som journalist, rådgiver, arkivar, kulturhistoriker, museum- og kulturformidler, eller i offentlig forvaltning. Evnen til å forstå sammenhenger, vurdere kilder kritisk og kommunisere tydelig er også viktig i mange andre bransjer, fra organisasjonsarbeid til politikk og næringsliv. Faget gir deg et solid grunnlag for å forstå samfunnet rundt deg og ta del i demokratiske prosesser som en reflektert medborger.",
       "kjerneelementer": [
@@ -521,6 +535,7 @@
       "bilde": "informasjonsteknologi-1.jpg",
       "vimeo": null,
       "omFaget": "I Informasjonsteknologi 1 lærer du å lage nettsider og programmer fra bunnen av. Du bruker HTML og CSS til å bygge nettsider, og du programmerer løsninger på konkrete problemer. Faget kombinerer praktisk arbeid med teori om hvordan datamaskiner og nettverk fungerer. Du diskuterer også temaer som personvern, datasikkerhet og teknologiens plass i samfunnet.",
+      "omFagetLareplan": "Informasjonsteknologi handler om å forstå og utvikle informasjonssystemer. Programfaget skal gi elevene kunnskaper og ferdigheter innenfor informasjonsteknologi, og skal også bidra til forståelse av hvordan informasjonsteknologi påvirker individ og samfunn. Faget skal styrke elevenes digitale kompetanse og forberede dem til å ta begrunnede valg for å benytte informasjonsteknologi i videre studier og arbeidsliv. Faget skal videre forberede elevene til et framtidig samfunns- og arbeidsliv som krever at de kan forstå, bruke og utvikle informasjonsteknologi.",
       "hvordanArbeiderMan": "I Informasjonsteknologi 1 jobber du praktisk med å lage nettsider og programmer. Du lærer HTML og CSS for å bygge nettsider fra bunnen av, og du får prøve deg på programmering der du lager kode som løser konkrete problemer. Undervisningen veksler mellom teori om hvordan datamaskiner og nettverk fungerer, og praktiske prosjekter der du faktisk lager ting. Mye av arbeidet handler om kreativ problemløsning. Du får en oppgave eller et problem, og så må du finne ut hvordan du kan løse det med teknologi. Kanskje du skal lage en nettside for en fiktiv bedrift, eller et program som behandler data og viser resultatet på en oversiktlig måte. Du lærer også å tenke kritisk om teknologi og diskuterer temaer som personvern, datasikkerhet og hvordan IT påvirker samfunnet rundt oss.",
       "fagetsRelevans": "IT-kompetanse er etterspurt i nesten alle bransjer. Faget gir deg et solid grunnlag for studier innen informatikk, datavitenskap, informasjonsteknologi eller ingeniørfag ved universitet og høyskole. Du kan bli programvareutvikler, webutvikler, IT-konsulent, systemarkitekt eller jobbe med cybersikkerhet. Mange velger også å kombinere IT med andre fagfelt som helse, økonomi eller design. Selv om du ikke sikter mot en ren IT-karriere, er ferdighetene du lærer verdifulle. Evnen til å tenke systematisk, løse problemer og forstå hvordan digitale systemer fungerer er nyttig i de fleste yrker. I en verden der teknologi spiller en stadig viktigere rolle, gir faget deg verktøy til å forstå og påvirke den digitale utviklingen rundt deg.",
       "kjerneelementer": [
@@ -557,6 +572,7 @@
       "bilde": "kjemi-1.jpg",
       "vimeo": null,
       "omFaget": "Kjemi 1 gir deg kunnskap du trenger for å forstå hvordan stoffer er bygget opp og reagerer med hverandre. Du lærer om atomstruktur, kjemiske bindinger og periodesystemet som verktøy. På laboratoriet gjennomfører du forsøk som titreringer og spektroskopi. Faget kombinerer teori, beregninger og praktisk arbeid - og er grunnleggende for studier innen medisin, farmasi og ingeniørfag.",
+      "omFagetLareplan": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv.",
       "hvordanArbeiderMan": "Kjemi 1 kombinerer teori, beregninger og praktisk laboratoriearbeid. I teoridelen lærer du om atomers oppbygning, kjemiske bindinger og hvordan stoffer reagerer med hverandre. Du blir kjent med periodesystemet som et verktøy for å forstå stoffers egenskaper. Regning er en viktig del av faget. Du lærer å beregne konsentrasjoner, reaksjonsmengder og energiendringer. God forståelse av matematikk fra fellesfaget er derfor en fordel. På laboratoriet gjennomfører du forsøk som titreringer, spektroskopi og syntesereaksjoner. Her lærer du å planlegge forsøk, vurdere feilkilder og trekke konklusjoner basert på observasjoner og målinger.",
       "fagetsRelevans": "Kjemi er grunnleggende for å forstå verden rundt oss, fra kroppens biokjemi til klimaendringer og nye materialer. Faget gir innsikt i hvordan stoffer oppfører seg og hvordan vi kan utnytte denne kunnskapen til samfunnets beste. Kjemi 1 er et krav eller en sterk anbefaling for en rekke studier som medisin, odontologi, veterinærmedisin, farmasi, biologi, bioteknologi, kjemiingeniør og andre ingeniørstudier. Faget er også relevant for miljøvitenskap, matvitenskap, prosessindustri eller forskning. Gjennom arbeidet med grønn kjemi ser du hvordan kjemisk kompetanse bidrar til bærekraftig utvikling.",
       "kjerneelementer": [
@@ -595,6 +611,7 @@
       "bilde": "kjemi-2.jpg",
       "vimeo": null,
       "omFaget": "Hvorfor løser noen stoffer seg i vann, men ikke andre? Hvordan virker en katalysator? I Kjemi 2 utforsker du likevektsreaksjoner, redoksreaksjoner og organiske reaksjonsmekanismer. Du tilbringer mye tid på laboratoriet, der du planlegger egne forsøk, gjennomfører synteser og analyserer resultater. Faget gir deg solid grunnlag for studier i medisin, farmasi og biokjemi.",
+      "omFagetLareplan": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv.",
       "hvordanArbeiderMan": "I Kjemi 2 tilbringer du mye tid på laboratoriet. Du planlegger og gjennomfører egne forsøk, analyserer resultater og vurderer feilkilder. Faget bygger videre på Kjemi 1, og du lærer avanserte teknikker som kromatografi for å separere stoffblandinger. Du gjør beregninger på pH, løselighet og elektrokjemiske reaksjoner. Mye av arbeidet handler om å forstå hvorfor stoffer reagerer som de gjør. Du utforsker likevektsreaksjoner, redoksreaksjoner og organiske reaksjoner som addisjon og substitusjon. Undervisningen kombinerer teori med praktisk laboratoriearbeid, der du lærer å jobbe systematisk og nøyaktig. Du gjennomfører også egne synteser og vurderer hvordan du kan oppnå best mulig utbytte og renhet.",
       "fagetsRelevans": "Kjemi 2 er viktig for deg som vil studere medisin, farmasi, biokjemi, kjemiingeniør eller andre realfag. Faget gir deg et solid grunnlag for å forstå legemidler, materialer og kjemiske prosesser i kroppen og naturen. Mange universiteter og høyskoler krever eller anbefaler Kjemi 2 for opptak til disse studiene. Med kjemikompetanse kan du jobbe som kjemiker, farmasøyt, biokjemiker eller kjemiingeniør. Kjemikere jobber i industrien, på sykehus, i forskning og i offentlig sektor med alt fra legemiddelutvikling til miljøovervåking. Faget er også relevant for deg som er interessert i grønn kjemi og bærekraftig produksjon av materialer og energi.",
       "kjerneelementer": [
@@ -633,6 +650,7 @@
       "bilde": "kommunikasjon-og-kultur-1.jpg",
       "vimeo": null,
       "omFaget": "En reklame som fungerer i Norge, kan misforsta helt i et annet land. Hvorfor? I Kommunikasjon og kultur 1 utforsker du hvordan kulturelle faktorer pavirker kommunikasjon. Du analyserer tekster og medier, og du skaper egne kommunikasjonsuttrykk tilpasset ulike malgrupper. Faget gir deg kompetanse som er verdifull i alt fra journalistikk til markedsforing og kulturarbeid.",
+      "omFagetLareplan": "Kommunikasjon og kultur fokuserer på hvordan elevene kan utvikle forståelse for kommunikasjon, språk og kulturelle perspektiver. Faget bidrar til at elevene utvikler bevissthet om hvordan kommunikasjon utformes og fortolkes i et kulturelt perspektiv. Kunnskapen ruster elevene til å bygge meningsfylte relasjoner, orientere seg i samfunnet og mestre framtidens arbeidsliv.",
       "hvordanArbeiderMan": "I Kommunikasjon og kultur 1 arbeider du med å utforske, analysere og skape ulike former for kommunikasjon. Du undersøker hvordan kulturelle faktorer påvirker kommunikasjon, og hvordan kommunikasjon påvirker og formes av kultur. Undervisningen kombinerer teori med praktiske øvelser der du analyserer tekster, medier og kommunikasjonssituasjoner. Du lærer også å produsere egne tekster og kommunikasjonsuttrykk tilpasset ulike formål og målgrupper.",
       "fagetsRelevans": "Kommunikasjon og kultur passer for deg som er interessert i språk, kultur og hvordan mennesker kommuniserer. Faget gir kompetanse som er verdifull i mange sammenhenger - fra journalistikk og markedsføring til diplomati og kulturarbeid. Det er relevant for videre studier innen kommunikasjon, mediefag, kulturstudier, språkfag og samfunnsfag. Faget stimulerer kreativitet og utforskertrang gjennom møter med varierte tekstkulturer og medier.",
       "kjerneelementer": [
@@ -669,6 +687,7 @@
       "bilde": "lyddesign.jpg",
       "vimeo": null,
       "omFaget": "I Lyddesign arbeider du praktisk med å produsere lyd for ulike medier. Du lærer å bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering. Gjennom året utvikler du egne prosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Faget gir deg kompetanse som er etterspurt i medieproduksjon, spillutvikling, film og podcastbransjen.",
+      "omFagetLareplan": "Lyddesign handler om å arbeide med auditive uttrykk og lydproduksjon som en del av mediemangfoldet i samfunnet. Faget bidrar til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon, og gir innsikt i hvordan lyd kommuniserer og påvirker. Lyddesign forbereder elevene på videre studier og på et arbeidsliv der det stilles krav til produksjonskvalitet og auditiv kommunikasjon.",
       "hvordanArbeiderMan": "I Lyddesign arbeider du praktisk med lydproduksjon i ulike sjangre og formater. Du lærer å bruke profesjonelt utstyr og programvare for opptak, redigering, miksing og mastering av lyd. Undervisningen kombinerer teknisk opplæring med kreativt arbeid der du utvikler egne lydprosjekter - fra podcast og radiodrama til lydeffekter og musikkproduksjon. Du lærer også å analysere hvordan lyd brukes i ulike medier og hvordan lyddesign påvirker opplevelsen av et medieprodukt.",
       "fagetsRelevans": "Lyddesign passer for deg som er interessert i lyd, musikk og auditiv kommunikasjon. Faget gir kompetanse som er etterspurt i bransjer som medieproduksjon, spillutvikling, film og TV, reklame og podcastproduksjon. Det er også relevant forberedelse til høyere utdanning innen lydteknikk, musikkproduksjon, mediefag eller kommunikasjon. Lyd er en viktig del av de fleste medieproduksjoner, og kompetanse i lyddesign gjør deg til en mer komplett medieprodusent.",
       "kjerneelementer": [
@@ -701,6 +720,7 @@
       "bilde": "markedsforing-1.jpg",
       "vimeo": null,
       "omFaget": "Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til å legge merke til akkurat deres merkevare? I Markedsføring og ledelse 1 lærer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen.",
+      "omFagetLareplan": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter.",
       "hvordanArbeiderMan": "Undervisningen kombinerer teori og praksis. Du lærer sentrale modeller og begreper innen markedsføring og ledelse, og anvender dem på realistiske caseoppgaver. Arbeidet foregår både individuelt og i grupper, der du blant annet gjennomfører situasjonsanalyser og utvikler kreative løsninger på bedrifters utfordringer. Faget legger vekt på kontakt med næringslivet gjennom bedriftsbesøk og ekskursjoner.",
       "fagetsRelevans": "Markedsføring og ledelse gir deg innsikt i hvordan virksomheter når ut til kunder og tar strategiske beslutninger. Faget er relevant for deg som interesserer deg for kommunikasjon, salg, entreprenørskap eller kreative yrker. Det gir et godt grunnlag for videre studier innen markedsføring, økonomi, mediefag, ledelse eller andre samfunnsfaglige retninger.",
       "kjerneelementer": [
@@ -735,6 +755,7 @@
       "bilde": "markedsforing-2.jpg",
       "vimeo": null,
       "omFaget": "I Markedsføring og ledelse 2 lærer du å utvikle helhetlige markedsstrategier for virksomheter. Du arbeider med merkevarebygging, prissetting, distribusjonskanaler og kommunikasjonskampanjer. Faget gir deg verktøy for å analysere hvordan bedrifter bør posisjonere seg i markedet, og du lærer å ta strategiske beslutninger som tar hensyn til både lønnsomhet, etikk og bærekraft.",
+      "omFagetLareplan": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter.",
       "hvordanArbeiderMan": "I Markedsføring og ledelse 2 jobber du med strategisk tenkning og kreativ problemløsning. Du lærer å utvikle helhetlige markedsstrategier, fra å analysere markeder og målgrupper til å utforme konkrete tiltak som prissetting, merkevarebygging og kommunikasjonskampanjer. Mye av arbeidet handler om å bruke ulike analyseverktøy og modeller for å ta gode beslutninger. Undervisningen kombinerer teori med praktiske case fra næringslivet. Du kan for eksempel få i oppgave å utvikle en merkevare fra bunnen av, lage en mediestrategi for en kampanje, eller analysere hvordan en bedrift bør posisjonere seg i markedet. Gruppearbeid og presentasjoner er vanlig, siden samarbeid og kommunikasjon er sentralt i markedsføringsbransjen.",
       "fagetsRelevans": "Faget gir deg et solid grunnlag for studier innen markedsføring, økonomi, ledelse og kommunikasjon. Mange velger bachelorprogrammer i markedsføring, bedriftsøkonomi eller merkevareledelse, mens andre går videre til studier i innovasjon, digital markedsføring eller internasjonal business. Markedsføringskompetanse er etterspurt i nesten alle bransjer. Du kan jobbe som markedsfører, kommunikasjonsrådgiver, merkevareansvarlig eller digital markedsfører. Med erfaring kan du ta lederroller som markedssjef eller markedsdirektør. Faget er også relevant om du drømmer om å starte egen bedrift. Forståelse for markeder, kunder og konkurransemidler er avgjørende for å lykkes.",
       "kjerneelementer": [
@@ -772,6 +793,7 @@
       "bilde": "matematikk-2p.jpg",
       "vimeo": null,
       "omFaget": "Matematikk 2P gir deg praktisk matematikkompetanse du kan bruke i hverdagen og arbeidslivet. Du lærer å forstå personlig økonomi, tolke statistikk fra media og bruke matematikk til å beskrive sammenhenger i samfunnet. Faget legger vekt på problemløsning og kritisk tenkning, med digitale verktøy som GeoGebra og Excel.",
+      "omFagetLareplan": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk.",
       "hvordanArbeiderMan": "I Matematikk 2P jobber du mye med praktiske problemstillinger hentet fra hverdagen og samfunnet. Du lærer å bruke digitale verktøy som GeoGebra og Excel til å løse oppgaver, analysere data og lage grafiske fremstillinger. Faget legger stor vekt på at du skal forstå hvorfor matematikken fungerer, ikke bare huske formler. Undervisningen kombinerer tavlegjennomganger med eget arbeid, både individuelt og i grupper. Du vil jobbe med alt fra personlig økonomi og lånekalkulatorer til statistiske undersøkelser fra media og lokalsamfunnet. En viktig del av faget er å diskutere løsningsstrategier med medelever og begrunne valgene dine. Eksamen i Matematikk 2P er todelt: Først løser du oppgaver uten hjelpemidler, deretter får du bruke alle hjelpemidler unntatt kommunikasjon. Dette gjenspeiler hvordan faget balanserer grunnleggende forståelse med praktisk problemløsning.",
       "fagetsRelevans": "Matematikk 2P gir deg generell studiekompetanse sammen med 1P, noe som åpner dørene til de fleste studier ved høyskoler og universiteter. Faget passer spesielt godt hvis du ser for deg en fremtid innen samfunnsfag, jus, journalistikk, psykologi, pedagogikk eller økonomi. Også sykepleierutdanning og mange lærerutdanninger krever bare praktisk matematikk. Den praktiske tilnærmingen i faget gir deg ferdigheter du vil ha nytte av uansett hvilken vei du velger. Du lærer å tolke statistikk kritisk, forstå økonomiske sammenhenger og ta veloverveide beslutninger basert på tall og data. Dette er kompetanse som er etterspurt i alt fra markedsføring og HR til offentlig forvaltning og mediebransjen. Velger du derimot å bli ingeniør, lege, tannlege eller andre yrker med tunge realfag, bør du heller satse på R- eller S-matematikk. Men for deg som vet at fremtiden ligger i humanistiske fag, samfunnsvitenskap eller helsefag uten realfagskrav, er 2P et solid og relevant valg.",
       "kjerneelementer": [
@@ -812,6 +834,7 @@
       "bilde": "matematikk-r1.jpg",
       "vimeo": null,
       "omFaget": "Matematikk R1 gir deg verktøy for å forstå hvordan verden fungerer matematisk. Du lærer derivasjon, funksjonsanalyse og vektorer, og bruker dette til å analysere alt fra fysiske fenomener til økonomiske modeller. Faget trener deg i å bryte ned komplekse problemer og tenke logisk. R1 er nødvendig for de fleste teknologi- og realfagsstudier, inkludert sivilingeniør, informatikk og økonomi.",
+      "omFagetLareplan": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.",
       "hvordanArbeiderMan": "I R1 jobber du mye med problemløsning der du selv må finne strategien. Du møter oppgaver som ikke har en ferdig oppskrift, og lærer å bryte ned komplekse problemer i mindre deler du kan løse systematisk. Derivasjon, vektorer og funksjonsanalyse står sentralt, og du bruker disse verktøyene til å analysere alt fra fysiske fenomener til økonomiske modeller. En viktig del av faget er å jobbe med reelle datasett fra naturvitenskap og samfunn. Du lærer å lage matematiske modeller som beskriver virkeligheten, og å vurdere når modellene fungerer og når de kommer til kort. Digitale verktøy som GeoGebra og programmering brukes aktivt for å utforske sammenhenger og visualisere løsninger. Samarbeid og diskusjon er også viktig. Du jobber ofte sammen med andre for å finne løsninger, og må kunne forklare og begrunne tankegangen din matematisk. Det handler ikke bare om å få riktig svar, men om å forstå hvorfor løsningen fungerer.",
       "fagetsRelevans": "R1 er inngangsbilletten til de fleste teknologi- og realfagsstudier. Sivilingeniør, fysikk, informatikk, matematikk og økonomi krever alle R-matte fra videregående. Faget gir deg verktøyene for å forstå hvordan verden fungerer matematisk, fra hvordan broer tåler belastning til hvordan algoritmer optimaliserer søkeresultater. Yrker som sivilingeniør, forsker, dataforsker, aktuar og arkitekt bygger direkte på kunnskapen fra R1. Men den analytiske tenkemåten du utvikler er verdifull langt utover disse yrkene. Evnen til å bryte ned komplekse problemer, tenke logisk og modellere situasjoner matematisk er etterspurt i alt fra finans og konsulentbransjen til medisin og samfunnsplanlegging. Velger du R1, holder du mange dører åpne. Det er krevende, men gir deg et solid fundament uansett om du vil bygge bærekraftige byer, utvikle kunstig intelligens eller forstå universets lover.",
       "kjerneelementer": [
@@ -854,6 +877,7 @@
       "bilde": "matematikk-r2.jpg",
       "vimeo": null,
       "omFaget": "Vil du studere sivilingeniør, fysikk eller arkitektur? Da trenger du R2. Faget bygger videre på R1 og gir deg integralregning, vektorer i rommet, rekker og trigonometriske funksjoner. Du lærer også å bruke programmering til å løse matematiske problemer. R2 er obligatorisk for de fleste teknologi- og ingeniørutdanninger, og NTNU krever karakter 4 eller bedre for opptak til sivilingeniørstudiene.",
+      "omFagetLareplan": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.",
       "hvordanArbeiderMan": "I R2 jobber du mye med å utforske matematiske sammenhenger og utvikle egne løsningsmetoder. Du lærer integralregning, rekker, vektorer i rommet og trigonometriske funksjoner. En viktig del av faget handler om å bruke programmering til å løse matematiske problemer, for eksempel å lage algoritmer som beregner integraler numerisk. Undervisningen veksler mellom teori, oppgaveløsning og utforsking. Du jobber med reelle datasett og lager matematiske modeller som beskriver situasjoner fra naturvitenskap og samfunn. En god del tid går med til å forstå og utvikle matematiske bevis, noe som trener evnen til logisk tenkning og presis argumentasjon.",
       "fagetsRelevans": "R2 er obligatorisk for deg som vil studere til sivilingeniør, ingeniør eller arkitekt. Sammen med R1 og Fysikk 1 oppfyller du opptakskravene til de fleste teknologi- og realfagsutdanninger i Norge. NTNU krever i tillegg karakter 4 eller bedre i R2 for opptak til sivilingeniørstudiene. Faget åpner dører til yrker som sivilingeniør, dataingeniør, fysiker, matematiker og aktuar. Også innen økonomi, finans og forskning er avansert matematikkompetanse etterspurt. Som sivilingeniør vil du alltid være ettertraktet i industrien, og jobbmulighetene er mange og varierte.",
       "kjerneelementer": [
@@ -896,6 +920,7 @@
       "bilde": "matematikk-s1.jpg",
       "vimeo": null,
       "omFaget": "Matematikk S1 gir deg matematikkompetanse rettet mot økonomi, samfunnsfag og helsefag. Du lærer funksjoner, derivasjon og statistikk, med fokus på praktiske anvendelser. Faget passer for deg som vil ha mer matematikk enn P-matten gir, men som ikke trenger den teoretiske dybden i R-matematikk. S1 er et godt grunnlag for studier innen økonomi, sykepleie og samfunnsvitenskap.",
+      "omFagetLareplan": "Matematikk S fokuserer på å forstå moderne anvendelser av matematikk i samfunnsfaglige og økonomiske sammenhenger. Faget gir elevene evnen til å utvikle matematisk forståelse og løse problemstillinger knyttet til økonomi og samfunn. Kunnskapen forbereder dem til videre arbeid og utdanning som krever matematisk kompetanse innen samfunnsfag, økonomi og helsefag.",
       "hvordanArbeiderMan": "I Matematikk S1 arbeider du med matematiske modeller og metoder som er relevante for samfunnsfaglige og økonomiske problemstillinger. Undervisningen kombinerer teori med praktiske anvendelser der du lærer å bruke matematikk som verktøy for å analysere reelle situasjoner. Du vil jobbe med funksjoner, derivasjon, statistikk og sannsynlighetsregning, med fokus på anvendelser innen økonomi, samfunnsfag og helsefag. Digitale verktøy som regneark, CAS og GeoGebra brukes aktivt.",
       "fagetsRelevans": "Matematikk S1 passer for deg som ønsker matematikkompetanse rettet mot samfunnsfag, økonomi eller helsefag. Faget gir et solid grunnlag for studier innen økonomi, administrasjon, sykepleie, samfunnsvitenskap og lignende retninger. S-matematikken har et annet fokus enn R-matematikken - der R er rettet mot realfag og ingeniørfag, er S rettet mot samfunnsfag og økonomi.",
       "kjerneelementer": [
@@ -942,6 +967,7 @@
       "bilde": "matematikk-s2.jpg",
       "vimeo": null,
       "omFaget": "Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 lærer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå økonomiske og samfunnsmessige sammenhenger. Faget bygger på S1 og gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon og samfunnsvitenskap.",
+      "omFagetLareplan": "Matematikk S2 bygger videre på Matematikk S1 og gir dypere forståelse av matematiske metoder og modeller anvendt på samfunnsfaglige og økonomiske problemstillinger. Faget utvikler elevenes evne til å analysere komplekse sammenhenger og bruke avanserte matematiske verktøy for å forstå og løse problemer innen økonomi, samfunnsfag og helsefag.",
       "hvordanArbeiderMan": "I Matematikk S2 arbeider du med mer avanserte matematiske konsepter som integrasjon, differensiallikninger og statistiske metoder. Du vil anvende disse på realistiske problemstillinger fra økonomi og samfunnsfag, som optimalisering, vekstmodeller og statistisk analyse. Undervisningen legger vekt på å utvikle matematisk forståelse gjennom praktiske anvendelser og bruk av digitale verktøy.",
       "fagetsRelevans": "Matematikk S2 gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon, samfunnsvitenskap og helsefag. Faget er spesielt relevant for studier som krever statistisk analyse og matematisk modellering av samfunnsfenomener. Sammen med S1 gir S2 et fullverdig matematikkgrunnlag for mange universitetsstudier. Du må ha fullført Matematikk S1 for å ta dette faget.",
       "kjerneelementer": [
@@ -988,6 +1014,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Du ser en nyhetssak om renteøkning og boligpriser. Hva betyr det egentlig for din fremtidige økonomi? Matematikk for økonomifag gir deg verktøyene til å forstå slike sammenhenger. Du lærer om lån, renter, sparing og hvordan økonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå økonomi uten å ta full realfagsfordypning.",
+      "omFagetLareplan": "Matematikk for økonomifag er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget handler om å forstå moderne anvendelser av matematikk i økonomiske sammenhenger, og gir elevene matematiske verktøy for å analysere problemstillinger knyttet til økonomi. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Matematikk for økonomifag og Statistikk bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
       "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
       "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Statistikk, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
       "kjerneelementer": [],
@@ -1009,6 +1036,7 @@
       "bilde": "mediespesialisering.jpg",
       "vimeo": null,
       "omFaget": "I Mediespesialisering fordyper du deg i den medieformen du brenner for. Du velger selv om du vil spesialisere deg i bilde, grafisk design, lyddesign, medieutvikling eller tekst. Gjennom selvstendige prosjekter utvikler du tekniske ferdigheter på avansert nivå og bygger en portefølje som viser hva du kan. Faget gir deg mulighet til å finne din egen stemme som medieprodusent.",
+      "omFagetLareplan": "Mediespesialisering handler om å videreutvikle egen fagkompetanse, ferdigheter og holdninger i et selvvalgt medieuttrykk. Faget bidrar til å utvikle kreativ formidlingsevne, selvstendige uttrykk og tekniske ferdigheter på et avansert nivå. Mediespesialisering gir elevene mulighet til å fordype seg og spesialisere seg innenfor sitt valgte mediefelt.",
       "hvordanArbeiderMan": "I Mediespesialisering arbeider du selvstendig med å utvikle og gjennomføre egne medieprosjekter på et avansert nivå. Du velger selv hvilken medieform du vil spesialisere deg i - for eksempel bilde, grafisk design, lyddesign, medieutvikling eller tekst. Arbeidet er prosjektbasert og du får veiledning gjennom hele prosessen fra idéutvikling til ferdig produkt. Du lærer å reflektere kritisk over eget arbeid og utvikle din personlige stemme som medieprodusent.",
       "fagetsRelevans": "Mediespesialisering passer for deg som vil fordype deg i et mediefelt og utvikle et personlig uttrykk og en portefølje. Faget gir deg mulighet til å bygge spisskompetanse som er verdifull for videre studier innen mediefag, design, kommunikasjon eller kunst. Porteføljen du bygger opp kan brukes ved søknad til høyere utdanning eller i arbeidslivet. Du må ha fullført ett av de valgfrie programfagene i medier og kommunikasjon (bilde, grafisk design, lyddesign, medieutvikling eller tekst) for å ta mediespesialisering. Faget bygger videre på det faget du har tatt.",
       "kjerneelementer": [
@@ -1041,6 +1069,7 @@
       "bilde": "musikk-fordypning-1.jpg",
       "vimeo": null,
       "omFaget": "Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes.",
+      "omFagetLareplan": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.",
       "hvordanArbeiderMan": "Undervisningen kombinerer teori og praktisk arbeid. Du lærer arrangeringsteknikker og komponering gjennom prosjekter der du skaper egen musikk og fremfører den for medelever. Notasjonsprogrammet Sibelius brukes til å skrive og redigere noter digitalt. En vesentlig del av faget er gehørtrening, der du øver på prima vista-lesing (notelesing fra bladet), rytmetrening og melodisk diktat. Det vil si å lytte til musikk og skrive ned det du hører. Du arbeider både individuelt og i samarbeid med andre, og får erfaring med å gi og motta konstruktiv respons på kreativt arbeid.",
       "fagetsRelevans": "Faget passer for deg som har interesse for musikk og behersker grunnleggende notelære og musikkteori. Faget bygger videre på Musikk 1 (vg1-nivå), og denne eller tilsvarende bakgrunn anbefales. Musikk fordypning 1 er særlig relevant hvis du vurderer høyere utdanning innen utøvende musikk, musikkproduksjon eller musikkvitenskap, der opptaksprøver ofte inkluderer teori og gehør. Faget gir deg også et solid grunnlag for å jobbe med arrangering, komponering eller musikkformidling i kulturlivet.",
       "kjerneelementer": [
@@ -1071,6 +1100,7 @@
       "bilde": "musikk-fordypning-2.jpg",
       "vimeo": null,
       "omFaget": "Hva kjennetegner din musikalske stemme? I Musikk fordypning 2 utforsker du ditt eget uttrykk gjennom komposisjon, arrangering og improvisasjon. Du lærer å bruke musikkteknologi til lydopptak og produksjon, og arbeider med prosjekter der du planlegger, gjennomfører og presenterer egne verk. Faget kan tas uavhengig av Musikk fordypning 1 og forbereder deg på videre studier innen utøvende musikk, komposisjon eller musikkproduksjon.",
+      "omFagetLareplan": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.",
       "hvordanArbeiderMan": "I Musikk fordypning 2 arbeider du praktisk og skapende med musikk. Faget kan tas uavhengig av Musikk fordypning 1, og fokuserer på å utvikle dine ferdigheter innen komposisjon, arrangering og musikalsk uttrykk. Du lærer å komponere og arrangere musikk for ulike besetninger, og bruker moderne musikkteknologi til lydopptak, redigering og produksjon. Undervisningen veksler mellom individuelt arbeid og samspill med andre, der du improviserer, øver inn og presenterer egne verk. En sentral del av faget er å analysere musikk fra ulike kilder og reflektere over kunstnerisk intensjon. Du trener gehøret gjennom å lese notert musikk og notere musikalske forløp. Arbeidet kulminerer ofte i prosjekter der du planlegger, gjennomfører og presenterer kunstneriske prosesser. Gjennom faget utfordres du til å finne ditt eget musikalske uttrykk.",
       "fagetsRelevans": "Musikk fordypning 2 gir et solid grunnlag for videre studier innen musikk. Faget forbereder deg på høyere utdanning som utøvende musikk, komposisjon, musikkvitenskap eller musikkproduksjon ved musikkonservatorier og universiteter. Yrkesmulighetene spenner bredt. Som musiker kan du opptre som solist eller i ensemble, jobbe med studioinnspillinger eller turnere. Komponister skaper musikk for alt fra orkestre og kor til film, TV, dataspill og reklame. Andre karriereveier inkluderer musikkprodusent, lydtekniker, musikklærer eller arbeid med kulturformidling. Faget utvikler overførbare ferdigheter som kreativitet, prosjektarbeid og bruk av digital teknologi. Evnen til å samarbeide, ta kunstneriske valg og presentere eget arbeid er verdifull i mange yrker.",
       "kjerneelementer": [
@@ -1101,6 +1131,7 @@
       "bilde": "politikk-og-menneskerettigheter.jpg",
       "vimeo": null,
       "omFaget": "Hvordan påvirker politiske beslutninger hverdagen din? Hvem bestemmer egentlig, og hvordan kan du selv ha innflytelse? I politikk og menneskerettigheter lærer du hvordan samfunn styres, og hvilken rolle menneskerettighetene spiller lokalt, nasjonalt og globalt. Du utvikler evnen til å analysere politiske problemstillinger, forstå ulike synspunkter og delta aktivt i samfunnsdebatten.",
+      "omFagetLareplan": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv.",
       "hvordanArbeiderMan": "I politikk og menneskerettigheter jobber du mye med å analysere dagsaktuelle saker og politiske problemstillinger. Du lærer å bruke statsvitenskapelige teorier og modeller for å forstå hvordan makt fungerer og hvordan politiske beslutninger tas. Faget kombinerer teori med praktiske arbeidsformer som gruppearbeid, diskusjoner og prosjektarbeid. En sentral del av faget er å fordype seg i et tema over tid og presentere arbeidet både skriftlig og muntlig. Du vil også jobbe med akademisk skriving og kildebruk, og lære å vurdere informasjon kritisk. Ekskursjoner til Universitetet i Bergen, Bystyret, Stortinget eller organisasjoner kan være en del av undervisningen.",
       "fagetsRelevans": "Faget gir et solid grunnlag for studier innen statsvitenskap, jus, journalistikk, sosiologi og internasjonale relasjoner. Du utvikler ferdigheter i analyse, argumentasjon og akademisk skriving som er verdifulle på universitetet uansett studieretning. Yrker der denne kompetansen er relevant inkluderer politisk rådgiver, journalist, diplomat, saksbehandler i offentlig forvaltning, bistandsarbeider og forsker. Mange statsvitere jobber i departementer, kommuner, humanitære organisasjoner eller internasjonale organisasjoner som FN og EU. Faget passer for deg som er nysgjerrig på samfunnet og vil forstå hvordan politiske beslutninger påvirker hverdagen vår.",
       "kjerneelementer": [
@@ -1140,6 +1171,7 @@
       "bilde": "psykologi-1.jpg",
       "vimeo": null,
       "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser.",
+      "omFagetLareplan": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.",
       "hvordanArbeiderMan": "Undervisningen kombinerer teoretisk fordypning med praktisk utforskning. Du lærer sentrale psykologiske teorier og perspektiver, og anvender dem gjennom diskusjoner, case-analyser og egne undersøkelser. Faget legger vekt på vitenskapelig og kritisk tenkning der du gjennomfører mindre forskningsprosjekter, analyserer psykologiske studier og vurderer ulike forklaringsmodeller. Arbeidet veksler mellom individuelt arbeid og samarbeid i grupper, med vekt på muntlig refleksjon og faglig argumentasjon.",
       "fagetsRelevans": "Psykologi gir innsikt i menneskelig tenkning, følelser og atferd, og er relevant for et bredt spekter av utdanninger og yrker. Faget er særlig aktuelt for deg som ønsker å forstå hva som driver menneskelig handling, enten du sikter mot studier i psykologi, helse- og sosialfag, pedagogikk, jus eller andre samfunnsorienterte retninger. Fordi faget er teoritung og krever jevn innsats, passer det best for elever som trives med lesing, refleksjon og faglig fordypning over tid. Du utvikler analytiske ferdigheter og et begrepsapparat som er verdifullt i studier, arbeidsliv og som medborger.",
       "kjerneelementer": [
@@ -1174,6 +1206,7 @@
       "bilde": "psykologi-2.jpg",
       "vimeo": null,
       "omFaget": "Hvorfor lar vi oss påvirke av grupper? Hva skiller psykiske vansker fra psykiske lidelser? I psykologi 2 fordyper du deg i sosial påvirkning, kommunikasjon og psykisk helse. Du lærer hvordan samspill med andre former holdninger og identitet, og hvordan konflikter kan løses gjennom god kommunikasjon. Faget gir deg også innsikt i hva som fremmer god psykisk helse og hvordan samfunnets syn på psykiske lidelser har endret seg over tid.",
+      "omFagetLareplan": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.",
       "hvordanArbeiderMan": "I Psykologi 2 arbeider du praktisk og utforskende med sentrale psykologiske temaer. Du lærer å finne, vurdere og analysere faglig informasjon, og du får planlegge og gjennomføre egne psykologiske undersøkelser. Faget legger vekt på å sammenligne ulike vitenskapelige teorier og perspektiver for å forstå menneskelig atferd og utvikling. Undervisningen kombinerer teori med diskusjoner og refleksjon. Du utforsker hvordan gruppeinteraksjon påvirker holdninger og identitet, og hvordan kommunikasjon kan løse konflikter. Psykisk helse er et sentralt tema der du drøfter hva som er normalt, hvordan samfunnets syn på psykiske lidelser har endret seg, og hvordan biologiske, psykologiske og sosiale faktorer spiller sammen. Faget kan tas uavhengig av Psykologi 1, og gir deg verktøy til å forstå deg selv og andre bedre.",
       "fagetsRelevans": "Psykologi 2 er et verdifullt grunnlag for studier innen helse, samfunn og atferdsfag. Faget er særlig relevant dersom du vurderer profesjonsstudiet i psykologi, som er en seksårig utdanning med klinisk praksis. Andre aktuelle studieretninger inkluderer sykepleie, helsesykepleie, sosialt arbeid, pedagogikk og medisin. Kompetansen du tilegner deg er etterspurt i mange yrker der psykologer arbeider med behandling og forebyggende helsearbeid ved sykehus, i kommunehelsetjenesten eller i privat praksis. Helsesykepleiere veileder barn og unge om psykisk helse og utvikling. Andre relevante yrker er rådgiver, sosionom, lærer, personalarbeider og coach.",
       "kjerneelementer": [
@@ -1208,6 +1241,7 @@
       "bilde": "rettslare-1.jpg",
       "vimeo": null,
       "omFaget": "Du kjøper en mobil som slutter å virke etter to uker. Hva er rettighetene dine? I rettslære 1 lærer du hvordan lover og regler fungerer i praksis. Faget dekker områder som berører hverdagen: forbrukerkjøp, arbeidskontrakter, arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger, finne relevant lovgivning og argumentere for ulike standpunkter.",
+      "omFagetLareplan": "Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.",
       "hvordanArbeiderMan": "Undervisningen er case-basert der du analyserer konkrete juridiske konflikter, slik som tvister om arv, kjøpsrettigheter, arbeidsforhold eller foreldreansvar ved samlivsbrudd. Gjennom juridisk metode lærer du å identifisere partenes krav, finne relevant lovgivning og argumentere systematisk frem til en begrunnet konklusjon. Arbeidet veksler mellom individuelle oppgaver, gruppediskusjoner og muntlige drøftinger. I løpet av skoleåret legges det opp til besøk i tingretten, der du får se hvordan en reell rettssak gjennomføres.",
       "fagetsRelevans": "Rettslære 1 gir deg praktisk kunnskap om lover og regler som berører hverdagen, fra forbrukerrettigheter og arbeidskontrakter til arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger og argumentere saklig for ulike standpunkter. Denne kompetansen er verdifull uavhengig av videre studievalg, men er særlig relevant dersom du vurderer utdanning innen jus, økonomi, ledelse, eiendomsmegling eller ønsker å starte egen virksomhet. Faget gir et godt grunnlag for Rettslære 2, men kan også tas som et selvstendig fag.",
       "kjerneelementer": [
@@ -1242,6 +1276,7 @@
       "bilde": "rettslare-2.jpg",
       "vimeo": null,
       "omFaget": "Rettslære 2 gir deg kunnskap om forholdet mellom deg som borger og staten. Du lærer om personvern, offentlig forvaltning, strafferett og erstatningsrett. Faget handler om dine rettigheter når det gjelder innsyn i dokumenter, klageadgang og vern mot overgrep fra myndighetene. Du får også innsikt i hvordan straffesaker behandles og hva som skal til for at noen kan holdes ansvarlig.",
+      "omFagetLareplan": "Rettslære handler om å forstå hvordan rettsregler bidrar til å bygge opp og ivareta et demokratisk samfunn. Faget skal bidra til at elevene får kompetanse om gjeldende rett og om hvilke rettigheter og plikter den enkelte har. I tillegg skal faget bidra til at elevene kan se en sak fra flere sider og komme med relevante argumenter. Dette er kompetanse som elevene vil få bruk for i videre utdanning og i arbeidslivet.",
       "hvordanArbeiderMan": "I Rettslære 2 arbeider du med komplekse og samfunnsorienterte juridiske problemstillinger. Du analyserer case som involverer forholdet mellom enkeltpersoner og staten, for eksempel klagesaker mot offentlige vedtak, personvernskrenkelser på nettet eller straffesaker som volds- og vinningslovbrudd. Arbeidet følger en strukturert tilnærming der du identifiserer partene, klargjør det juridiske spørsmålet, finner relevante rettskilder og gjennomfører en systematisk drøfting som munner ut i en begrunnet konklusjon. Mye av undervisningen er dialogbasert, der du argumenterer for ulike standpunkter og vurderer motargumenter. Du jobber både individuelt og i grupper, og bruker digitale verktøy for å finne lover, forskrifter og relevante rettsavgjørelser. Faget har et sterkt aktualitetsfokus der du utforsker dagsaktuelle rettsspørsmål knyttet til personvern, overvåking, menneskerettigheter og miljørett. Gjennom året kan det legges opp til besøk i tingretten eller gjesteforelesninger fra praktiserende jurister.",
       "fagetsRelevans": "Rettslære 2 gir deg innsikt i hvordan rettsstaten fungerer og hvordan lovverket regulerer forholdet mellom deg som borger og myndighetene. Du lærer om dine rettigheter når det gjelder personvern, innsyn i offentlige dokumenter og klagemuligheter ved forvaltningsvedtak. I tillegg får du kompetanse i strafferett, erstatningsrett og miljørett, som er temaer stadig aktuelle i samfunnsdebatten. Faget kan tas uavhengig av Rettslære 1, da de to fagene dekker ulike rettsområder. Rettslære 2 fokuserer på offentlig rett, strafferett og personvern, mens Rettslære 1 handler mer om privatrett som arv, avtaler og arbeidsrett. Faget er særlig relevant hvis du vurderer å studere rettsvitenskap, som er et femårig masterstudium ved universiteter i Oslo, Bergen og Tromsø. Med en juridisk utdanning kan du arbeide som jurist i offentlig eller privat sektor, eller spesialisere deg videre som advokat, dommer eller politiadvokat. Ferdighetene du utvikler, som systematisk kildebruk, juridisk argumentasjon og evnen til å se en sak fra flere sider, er verdifulle i mange yrker. Faget er relevant for studier innen statsvitenskap, økonomi, kriminologi og politivitenskap, og gir et solid grunnlag for roller der du skal tolke regelverk, håndtere klager eller arbeide med personvern og compliance.",
       "kjerneelementer": [
@@ -1276,6 +1311,7 @@
       "bilde": "samfunnsokonomi-1.jpg",
       "vimeo": null,
       "omFaget": "Hvorfor stiger prisene? Hva bestemmer hvor mange som får jobb? Samfunnsøkonomi 1 gir deg verktøy til å forstå hvordan økonomien fungerer. Du lærer om markeder, prisdannelse, inflasjon og arbeidsledighet. Faget viser hvordan politiske beslutninger påvirker økonomi, miljø og velferd, og hvordan Norge er koblet til den globale økonomien gjennom handel og valuta.",
+      "omFagetLareplan": "Samfunnsøkonomi handler om å forstå det økonomiske samspillet mellom ulike aktører i privat og offentlig sektor i Norge, og mellom Norge og andre land. Økonomisk teori og tenkemåte gir grunnlag for å forstå sammenhenger i økonomien og økonomisk politikk. Samfunnsøkonomi skal bidra til en forståelse av hvordan politiske beslutninger påvirker økonomi, miljø og velferd. Faget handler også om hvordan verdier blir skapt og fordelt i offentlig og privat sektor. Faget forbereder elevene til videre studier og gir et grunnlag for å delta i samfunnsdebatt og arbeidsliv.",
       "hvordanArbeiderMan": "I samfunnsøkonomi kobles teori til virkeligheten gjennom analyse av dagsaktuelle økonomiske problemstillinger. Arbeidet innebærer bruk av økonomiske modeller og grafiske fremstillinger, kildevurdering, og diskusjoner om økonomisk politikk. Elevene arbeider både selvstendig med faglige analyser og i grupper med drøftingsoppgaver. Faget legger vekt på å forstå sammenhenger mellom markeder, politiske beslutninger og samfunnsøkonomiske konsekvenser.",
       "fagetsRelevans": "Samfunnsøkonomi gir et solid grunnlag for høyere utdanning innen økonomi, statsvitenskap, jus og ledelse, både i Norge og internasjonalt. Faget er relevant for elever som ønsker å forstå hvordan økonomiske mekanismer påvirker samfunnet, fra renter og inflasjon til arbeidsmarked og global handel. Kompetansen er etterspurt i næringsliv, offentlig forvaltning og organisasjoner. Det kreves ingen forkunnskaper, og faget vektlegger forståelse av sammenhenger fremfor avansert tallbehandling.",
       "kjerneelementer": [
@@ -1310,6 +1346,7 @@
       "bilde": "samfunnsokonomi-2.jpg",
       "vimeo": null,
       "omFaget": "I samfunnsøkonomi 2 går du dypere inn i økonomisk analyse og politikk. Du lærer å sammenligne ulike markedsformer, forstå hva som driver økonomisk vekst, og vurdere virkemidler mot arbeidsledighet. Faget tar opp sentrale utfordringer Norge står overfor, som bærekraftig utvikling, økonomisk ulikhet og konkurranseevne i en globalisert verden.",
+      "omFagetLareplan": "Samfunnsøkonomi handler om å forstå det økonomiske samspillet mellom ulike aktører i privat og offentlig sektor i Norge, og mellom Norge og andre land. Økonomisk teori og tenkemåte gir grunnlag for å forstå sammenhenger i økonomien og økonomisk politikk. Samfunnsøkonomi skal bidra til en forståelse av hvordan politiske beslutninger påvirker økonomi, miljø og velferd. Faget handler også om hvordan verdier blir skapt og fordelt i offentlig og privat sektor. Faget forbereder elevene til videre studier og gir et grunnlag for å delta i samfunnsdebatt og arbeidsliv.",
       "hvordanArbeiderMan": "I Samfunnsøkonomi 2 jobber du mye med å analysere økonomiske sammenhenger ved hjelp av teori, modeller og grafer. Du lærer å lese og tolke statistikk, diagrammer og tabeller, og bruker dette til å forstå hvordan økonomien faktisk fungerer. Det handler om å se de store linjene. Hva skjer når renta går opp? Hvorfor har noen land høy arbeidsledighet? Hvordan påvirker oljeprisen norsk økonomi? Undervisningen er variert. Du jobber med caseoppgaver der du analyserer aktuelle økonomiske problemstillinger, skriver drøftingsoppgaver og presenterer funn for klassen. Digitale verktøy brukes aktivt for å hente inn data fra kilder som SSB og Norges Bank. Du lærer også å vurdere kilder kritisk og argumentere faglig for dine konklusjoner. Faget krever at du er nysgjerrig på samfunnet rundt deg og liker å forstå hvorfor ting henger sammen.",
       "fagetsRelevans": "Samfunnsøkonomi 2 er et godt utgangspunkt hvis du vil studere økonomi, statsvitenskap, jus eller andre samfunnsvitenskapelige fag. Faget gir deg analytiske ferdigheter og økonomisk forståelse som er verdifullt i mange studieretninger. For deg som sikter mot siviløkonomstudier eller profesjonsstudiet i samfunnsøkonomi, gir faget et solid fundament. Som samfunnsøkonom kan du jobbe med å analysere økonomisk utvikling og gi faglige råd. Typiske arbeidsgivere er Finansdepartementet, Norges Bank, SSB, NAV, banker, konsulentfirmaer og forskningsinstitutter. Du kan bli finansanalytiker, økonomikonsulent eller rådgiver for politiske beslutningstakere. Omtrent halvparten av samfunnsøkonomene jobber i staten, mens resten fordeler seg mellom kommunal sektor og privat næringsliv. Det er sjelden vanskelig for samfunnsøkonomer å finne relevant jobb etter endt utdanning.",
       "kjerneelementer": [
@@ -1344,6 +1381,7 @@
       "bilde": "sosialkunnskap.jpg",
       "vimeo": null,
       "omFaget": "Sosialkunnskap gir deg innsikt i hvordan velferdssamfunnet fungerer og hvilke utfordringer det står overfor. Du lærer om sosiale problemer, utenforskap og hva som skal til for at mennesker kan mestre livene sine. Faget handler om hvordan individer, grupper og institusjoner henger sammen, og gir deg verktøy til å forstå både deg selv og samfunnet du er en del av.",
+      "omFagetLareplan": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv.",
       "hvordanArbeiderMan": "I sosialkunnskap jobber du mye med å utforske samfunnet rundt deg. Du lærer samfunnsvitenskapelige metoder og gjennomfører egne undersøkelser - kanskje intervjuer du folk i lokalmiljøet, analyserer statistikk om sosial ulikhet, eller undersøker hvordan velferdstjenester fungerer i praksis. Gruppearbeid og diskusjoner er sentralt, der dere drøfter temaer som marginalisering, identitet og menneskerettigheter. Faget kombinerer teori med praktiske case-studier. Du analyserer reelle samfunnsutfordringer som utenforskap blant ungdom, integrering i arbeidslivet eller hvordan kriser håndteres på ulike nivåer. Kritisk tenkning står sentralt - du lærer å finne og vurdere informasjon, stille gode spørsmål og se saker fra flere perspektiver",
       "fagetsRelevans": "Sosialkunnskap gir et solid grunnlag for studier innen sosialt arbeid, barnevern, vernepleie, sosiologi og statsvitenskap. Faget passer deg som vurderer utdanninger der du skal jobbe med mennesker i ulike livssituasjoner - enten det er på NAV, i barnevernet, på krisesenter, i rusomsorgen eller i psykisk helsevern. Yrkene du kan sikte mot inkluderer sosionom, barnevernspedagog, vernepleier, miljøterapeut eller rådgiver i offentlig forvaltning. Felles for disse er at du hjelper folk med å mestre livet sitt og navigere velferdssamfunnet. Sosialkunnskap gir deg også verdifull innsikt hvis du vil jobbe med politikk, humanitært arbeid eller i frivillige organisasjoner",
       "kjerneelementer": [
@@ -1383,6 +1421,7 @@
       "bilde": "sosiologi-og-sosialantropologi.jpg",
       "vimeo": null,
       "omFaget": "Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet. Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen. Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre.",
+      "omFagetLareplan": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv.",
       "hvordanArbeiderMan": "I sosiologi og sosialantropologi kombineres teori med praktisk utforskning av samfunnet. Undervisningen veksler mellom forelesninger, diskusjoner og selvstendig arbeid med faglige problemstillinger. Elevene lærer å anvende samfunnsvitenskapelige metoder og analyseverktøy, blant annet gjennom egne undersøkelser der de samler inn og vurderer informasjon fra ulike kilder. Feltarbeid og observasjon i lokalmiljøet kan inngå som en del av arbeidet. Faget legger vekt på kritisk tenkning og evnen til å se sammenhenger mellom individ, kultur og samfunn.",
       "fagetsRelevans": "Sosiologi og sosialantropologi gir innsikt i hvordan samfunn er organisert, hvordan mennesker påvirkes av sosiale strukturer, og hvordan kultur former våre liv. Denne kunnskapen er verdifull for å forstå aktuelle samfunnsutfordringer som sosial ulikhet, kulturelt mangfold og teknologiske endringer. Faget utvikler analytiske ferdigheter og interkulturell kompetanse som er etterspurt i mange yrker, blant annet innen offentlig forvaltning, medier, bistandsarbeid og personalarbeid. For videre studier gir faget et solid grunnlag for universitetsutdanninger som statsvitenskap, sosiologi, sosialantropologi, psykologi og sammenliknende politikk.",
       "kjerneelementer": [
@@ -1422,6 +1461,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "I spansk I+II lærer du språk fra grunnen av. Faget går over tre år og gir deg kompetanse til å kommunisere muntlig og skriftlig på spansk. Du utforsker også spansktalende kulturer gjennom film, musikk og litteratur. Faget er for deg som ikke hadde fremmedspråk på ungdomstrinnet.",
+      "omFagetLareplan": "Spansk I+II er et sammenhengende fremmedspråkfag over tre år (VG1-VG3) for elever som ikke har hatt fremmedspråk på ungdomstrinnet. Dersom du ikke hadde fremmedspråk på ungdomstrinnet må du velge dette faget som et av dine programfag i VG3. Faget gir grunnleggende kompetanse i spansk språk og kultur.",
       "hvordanArbeiderMan": "I spansk jobber du praktisk med språket fra første time. Du lærer å kommunisere muntlig og skriftlig gjennom samtaler, rollespill og presentasjoner. Undervisningen legger vekt på at du skal tørre å bruke språket aktivt, selv om du gjør feil underveis. Du utforsker også spansktalende kulturer gjennom film, musikk, nyheter og litteratur. Digitale verktøy og språkapper er en naturlig del av læringen, og du bruker ordbøker og oversettelsesverktøy som hjelpemidler. Gruppearbeid og parøvelser er vanlig, der dere øver på hverdagssituasjoner som å bestille mat, spørre om veien eller diskutere aktuelle temaer.",
       "fagetsRelevans": "Spansk er verdens fjerde mest talte språk, og språkkompetanse åpner dører i arbeidslivet. Med spansk kan du jobbe i internasjonale organisasjoner, næringsliv, reiseliv eller diplomati. Norge har økende forbindelser med spansktalende land, noe som gjør kompetansen verdifull i mange bransjer. Vil du studere videre, kan du bygge på med spansk på universitet eller høgskole. Kombinert med praktisk-pedagogisk utdanning kan du bli spansklærer, der etterspørselen er stor. Språkkunnskaper er også et fortrinn i yrker som journalist, oversetter, guide eller i bedrifter med internasjonalt samarbeid.",
       "kjerneelementer": [],
@@ -1440,6 +1480,7 @@
       "bilde": "statistikk.jpg",
       "vimeo": null,
       "omFaget": "Hvordan kan du vite om en undersøkelse er pålitelig? Når kan tall villede? I statistikk lærer du å analysere data, tolke resultater og vurdere påstandene du møter i media og forskning. Faget gir deg praktisk kompetanse i statistiske metoder som hypotesetesting, sannsynlighetsregning og regresjon. Vanskelighetsgraden ligger mellom matematikk P og R.",
+      "omFagetLareplan": "Statistikk er ett av to nye fag som foreslås å erstatte dagens matematikk S1 og S2. Faget gir elevene kompetanse i statistiske metoder og analyse, og handler om hvordan statistikk påvirker avgjørelser og oppfatninger i samfunnet. Faget ligger på et vanskenivå mellom matematikk P og matematikk R, og kan tas på både VG2 og VG3. Statistikk og Matematikk for økonomifag bygger ikke på hverandre og kan tas i vilkårlig rekkefølge.",
       "hvordanArbeiderMan": "*Detaljert beskrivelse av arbeidsmåter vil komme når læreplanen fastsettes.*",
       "fagetsRelevans": "En kombinasjon av to programfag i matematikk gir fordypning. Faget kan kombineres med Matematikk for økonomifag, matematikk R1, eller andre matematikkfag for å oppfylle fordypningskrav. I kombinasjon med enten matematikk 1T eller matematikk 1P kan faget oppfylle kravet om minimum 224 timer matematikk for elever i studieforberedende utdanningsprogram.",
       "kjerneelementer": [],
@@ -1461,6 +1502,7 @@
       "bilde": "teknologi-og-forskningslaere-1.jpg",
       "vimeo": null,
       "omFaget": "I teknologi og forskningslære 1 lærer du å jobbe som en forsker. Du planlegger og gjennomfører egne undersøkelser, bygger prototyper og dokumenterer arbeidet ditt. Faget kombinerer praktisk prosjektarbeid med forståelse for hvordan vitenskap og teknologi påvirker samfunnet. Du lærer også at feil er en naturlig del av forskningsprosessen.",
+      "omFagetLareplan": "Teknologi og forskningslære handler om naturvitenskapelige metoder og teknologiens og vitenskapens rolle i samfunnet. Faget kombinerer praktiske prosjekter med teoretisk forståelse av hvordan vitenskap og teknologi utvikles og påvirker samfunnet. Elevene lærer å planlegge, gjennomføre og dokumentere egne forsknings- og utviklingsprosjekter.",
       "hvordanArbeiderMan": "I Teknologi og forskningslære 1 arbeider du med praktiske prosjekter der du lærer å bruke vitenskapelige metoder. Du planlegger og gjennomfører egne undersøkelser, bygger prototyper og dokumenterer arbeidet ditt. Faget legger vekt på skaperglede, engasjement og utforskertrang gjennom praktiske og teoretiske utfordringer. Du lærer også at feil og det å lære av feil har like stor verdi som suksess i forskningsprosesser.",
       "fagetsRelevans": "Teknologi og forskningslære passer for deg som er nysgjerrig på hvordan ting fungerer og som liker å eksperimentere og bygge. Faget utvikler kritisk tenkning, etisk refleksjon og metodisk kompetanse som er verdifull i mange sammenhenger. Det er relevant for videre studier innen teknologi, naturvitenskap, ingeniørfag og andre felt der forskningsmetode og innovasjon er sentralt.",
       "kjerneelementer": [
@@ -1495,6 +1537,7 @@
       "bilde": "teknologi-og-forskningslaere-2.jpg",
       "vimeo": null,
       "omFaget": "Teknologi og forskningslære 2 gir deg mulighet til å fordype deg i et selvvalgt tema gjennom et større forsknings- eller utviklingsprosjekt. Du arbeider mer selvstendig enn i ToF 1, bruker avanserte metoder og lærer å formidle vitenskapelig kunnskap til ulike målgrupper. Faget bygger videre på ToF 1 og krever at du har fullført dette først.",
+      "omFagetLareplan": "Teknologi og forskningslære 2 bygger videre på Teknologi og forskningslære 1 og gir dypere innsikt i vitenskapelige metoder og teknologiutvikling. Faget fokuserer på mer avanserte prosjekter og gir elevene mulighet til å fordype seg i et selvvalgt tema. Elevene utvikler kompetanse i å planlegge, gjennomføre og dokumentere komplekse forsknings- og utviklingsprosjekter.",
       "hvordanArbeiderMan": "I Teknologi og forskningslære 2 arbeider du mer selvstendig med avanserte prosjekter. Du fordyper deg i et selvvalgt tema og gjennomfører et større forsknings- eller utviklingsprosjekt. Du bruker avanserte metoder og verktøy, og lærer å vurdere kritisk både egne og andres forskningsresultater. Faget legger vekt på å formidle vitenskapelig kunnskap og teknologiforståelse til ulike målgrupper.",
       "fagetsRelevans": "Teknologi og forskningslære 2 gir deg spisskompetanse i forskningsmetode og prosjektarbeid som er verdifull for høyere utdanning og arbeidsliv. Faget er relevant for alle som ønsker å arbeide systematisk med problemløsning og innovasjon, enten det er innen naturvitenskap, teknologi, samfunnsfag eller andre felt. Sammen med ToF 1 gir det et solid grunnlag for videre studier. Du må ha fullført Teknologi og forskningslære 1 for å ta dette faget.",
       "kjerneelementer": [
@@ -1529,6 +1572,7 @@
       "bilde": "okonomi-og-ledelse.jpg",
       "vimeo": null,
       "omFaget": "Økonomi og ledelse gir deg praktisk kompetanse i å styre og lede virksomheter. Du lærer å sette opp budsjetter, vurdere lønnsomhet, analysere kostnader og forstå hvordan ledelse påvirker arbeidsmiljø og resultater. Faget kombinerer økonomisk analyse med organisasjonsteori og gir et godt grunnlag for videre studier innen økonomi og administrasjon.",
+      "omFagetLareplan": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.",
       "hvordanArbeiderMan": "I økonomi og ledelse jobber du praktisk med tall, analyser og beslutninger. Du lærer å sette opp budsjetter, beregne om investeringer er lønnsomme, og analysere hvordan bedrifter kan tjene penger. Mye av arbeidet handler om å bruke regneark og økonomiske modeller til å løse reelle problemstillinger fra næringslivet. Faget kombinerer teori med praktiske caseoppgaver. Du kan for eksempel analysere en bedrifts kostnadsstruktur, vurdere om de bør lansere et nytt produkt, eller undersøke hvordan ulike lederstiler påvirker arbeidsmiljøet. Gruppearbeid og presentasjoner er vanlig, og du lærer å argumentere for økonomiske beslutninger basert på data og analyser.",
       "fagetsRelevans": "Økonomi og ledelse er et solid grunnlag for studier innen økonomi og administrasjon, som tilbys ved de fleste universiteter og høyskoler. Faget passer godt for deg som vurderer siviløkonom-utdanning, revisorstudier, eller bachelor i økonomi og ledelse. Du får også et forsprang hvis du vil studere markedsføring, finans eller bedriftsutvikling. Karrieremulighetene er mange og varierte. Økonomer jobber i banker, forsikringsselskaper, konsulentfirmaer og offentlig sektor. Du kan bli regnskapsfører, controller, økonomisk rådgiver eller jobbe med analyse og strategi. Ledelsesdelen av faget er også relevant hvis du drømmer om å starte egen bedrift eller jobbe med personalledelse.",
       "kjerneelementer": [
@@ -1563,6 +1607,7 @@
       "bilde": "okonomistyring.jpg",
       "vimeo": null,
       "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk.",
+      "omFagetLareplan": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.",
       "hvordanArbeiderMan": "Faget kombinerer teori med praktisk oppgaveløsning. Arbeidet er i stor grad databasert, og du lærer å bruke regneark og økonomiske modeller som verktøy for analyse og beregning. Fokus ligger på å tolke og forklare resultatene, ikke å pugge formler. Undervisningen veksler mellom individuelt arbeid, samarbeid i grupper og diskusjoner rundt reelle case fra næringslivet.",
       "fagetsRelevans": "Økonomistyring gir deg innsikt i hvordan virksomheter styres og hvordan økonomiske beslutninger tas. Du lærer å lese og analysere regnskap, utarbeide budsjetter og vurdere lønnsomhet. Kompetanse som er verdifull både i videre studier innen økonomi og i arbeidslivet. Faget passer for deg som er nysgjerrig på hvordan bedrifter fungerer, og som liker å arbeide systematisk med tall og modeller.",
       "kjerneelementer": [
@@ -1599,6 +1644,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Ergonomi og bevegelse handler om å styrke elevenes fysiske og motoriske grunnlag for utøvelse og opplevelse av musikk. Faget skal bidra til en aktiv og helsefremmende livsstil gjennom at elevene deltar i allsidig fysisk aktivitet, utvikler bevegelsesglede og utvikler kunnskap om arbeidsfysiologi. Videre skal faget gi elevene mulighet til å utvikle fysiske ferdigheter i ulike bevegelsesaktiviteter og til å kroppsliggjøre opplevelsen av musikk. Ergonomi og bevegelse skal også gi elevene mulighet til å forstå den samfunnsmessige betydningen av god fysisk og mental helse. Faget skal motivere til å tøye egne grenser, og forberede elevene på et arbeidsliv med krav til fysisk og mental utholdenhet.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1633,6 +1679,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Ergonomi og bevegelse handler om å styrke elevenes fysiske og motoriske grunnlag for utøvelse og opplevelse av musikk. Faget skal bidra til en aktiv og helsefremmende livsstil gjennom at elevene deltar i allsidig fysisk aktivitet, utvikler bevegelsesglede og utvikler kunnskap om arbeidsfysiologi. Videre skal faget gi elevene mulighet til å utvikle fysiske ferdigheter i ulike bevegelsesaktiviteter og til å kroppsliggjøre opplevelsen av musikk. Ergonomi og bevegelse skal også gi elevene mulighet til å forstå den samfunnsmessige betydningen av god fysisk og mental helse. Faget skal motivere til å tøye egne grenser, og forberede elevene på et arbeidsliv med krav til fysisk og mental utholdenhet.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1667,6 +1714,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Instruksjon og ledelse handler om å utvikle forståelse av og å øve på ulike lederroller som er relevante for det institusjonaliserte og frivillige musikklivet. Faget skal gi elevene praktisk erfaring med å lede og å bli ledet, i arbeid med innstudering og utøving av musikk, og i utvikling, tilrettelegging og markedsføring av prosjekter. Videre skal faget bidra til at elevene får erfaring med å ta kunstneriske valg. Aktiviteter i faget legger til rette for at elevene utvikler forståelse av hvordan musikk bidrar til å danne identitet og fellesskap på alle samfunnsnivåer. Gjennom å gi elevene mulighet til å utvikle ferdigheter i å lede musikalske og kunstneriske prosesser, forbereder faget dem til å delta aktivt i et mangfoldig kultur-, samfunns- og arbeidsliv. Instruksjon og ledelse forbereder elevene for videre studier.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1695,6 +1743,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Instrument, kor, samspill handler om utøvende dimensjoner ved musikk, musikalsk formidling og opplevelse av musikk. Faget gir elevene mulighet til å utøve musikk alene og sammen med andre, og til å utvikle identitet og personlig uttrykk gjennom musikk. Gjennom gjentatte mestringserfaringer med å utøve og formidle musikk legger faget til rette for at elevene i framtiden kan bidra kulturelt i samfunnet. Fagets vektlegging av øving for å nå langsiktige mål kan bidra til å styrke elevenes kompetanse og mulighet for videre studier og aktiv deltagelse i arbeidslivet.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1733,6 +1782,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Instrument, kor, samspill handler om utøvende dimensjoner ved musikk, musikalsk formidling og opplevelse av musikk. Faget gir elevene mulighet til å utøve musikk alene og sammen med andre, og til å utvikle identitet og personlig uttrykk gjennom musikk. Gjennom gjentatte mestringserfaringer med å utøve og formidle musikk legger faget til rette for at elevene i framtiden kan bidra kulturelt i samfunnet. Fagets vektlegging av øving for å nå langsiktige mål kan bidra til å styrke elevenes kompetanse og mulighet for videre studier og aktiv deltagelse i arbeidslivet.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1771,6 +1821,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Lytting handler om å utvikle forståelse av musikkens oppbygning, funksjon og betydning i ulike samfunn og kulturer. Faget skal gi elevene mulighet til å utvikle gehør, kunnskap i musikkteori og musikklitterasitet gjennom aktiv lytting i møte med klingende musikk. Faget legger vekt på musikkforståelse og auditiv analyse, og på at musikkteoretiske elementer skal høres og oppleves. Faget lytting ruster elevene til å delta i et mangfoldig musikkliv og i et samfunns- og arbeidsliv som stiller krav om gode kommunikasjonsevner og gode evner i å oppfatte og fortolke informasjon.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1799,6 +1850,7 @@
       "bilde": "mediesamfunnet-1.jpg",
       "vimeo": null,
       "omFaget": "Faget mediesamfunnet handler om kommunikasjon, kritisk tenkning og innholdsproduksjon innenfor ulike mediesjangre. Faget skal gi elevene praktisk erfaring med hvordan mediebudskap produseres og brukes, og forståelse av hvordan mediene kan påvirke individ og samfunnsutvikling. Mediesamfunnet ruster elevene til å bli deltakere på sentrale arenaer for meningsutveksling og demokratiske ytringer. Faget forbereder elevene på et arbeidsliv der bred kompetanse innenfor skriftlig, muntlig, visuell og auditiv kommunikasjon har stor betydning.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1842,6 +1894,7 @@
       "bilde": "mediesamfunnet-2.jpg",
       "vimeo": null,
       "omFaget": "Faget mediesamfunnet handler om kommunikasjon, kritisk tenkning og innholdsproduksjon innenfor ulike mediesjangre. Faget skal gi elevene praktisk erfaring med hvordan mediebudskap produseres og brukes, og forståelse av hvordan mediene kan påvirke individ og samfunnsutvikling. Mediesamfunnet ruster elevene til å bli deltakere på sentrale arenaer for meningsutveksling og demokratiske ytringer. Faget forbereder elevene på et arbeidsliv der bred kompetanse innenfor skriftlig, muntlig, visuell og auditiv kommunikasjon har stor betydning.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1885,6 +1938,7 @@
       "bilde": "mediesamfunnet-3.jpg",
       "vimeo": null,
       "omFaget": "Faget mediesamfunnet handler om kommunikasjon, kritisk tenkning og innholdsproduksjon innenfor ulike mediesjangre. Faget skal gi elevene praktisk erfaring med hvordan mediebudskap produseres og brukes, og forståelse av hvordan mediene kan påvirke individ og samfunnsutvikling. Mediesamfunnet ruster elevene til å bli deltakere på sentrale arenaer for meningsutveksling og demokratiske ytringer. Faget forbereder elevene på et arbeidsliv der bred kompetanse innenfor skriftlig, muntlig, visuell og auditiv kommunikasjon har stor betydning.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1928,6 +1982,7 @@
       "bilde": "medieuttrykk-1.jpg",
       "vimeo": null,
       "omFaget": "Medieuttrykk handler om medieproduksjon, kreativitet, samarbeid, kritisk tenkning og digital dømmekraft. Faget gir elevene mulighet til å kunne forstå medienes mangfoldige uttrykksformer og til å kunne produsere medieuttrykk til ulike formål med profesjonelt utstyr og profesjonell programvare. Gjennom arbeid med kreative prosesser, produksjon og analyse forbereder medieuttrykk elevene på et arbeidsliv med stadige endringer og rask teknologisk utvikling.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1963,6 +2018,7 @@
       "bilde": "medieuttrykk-2.jpg",
       "vimeo": null,
       "omFaget": "Medieuttrykk handler om medieproduksjon, kreativitet, samarbeid, kritisk tenkning og digital dømmekraft. Faget gir elevene mulighet til å kunne forstå medienes mangfoldige uttrykksformer og til å kunne produsere medieuttrykk til ulike formål med profesjonelt utstyr og profesjonell programvare. Gjennom arbeid med kreative prosesser, produksjon og analyse forbereder medieuttrykk elevene på et arbeidsliv med stadige endringer og rask teknologisk utvikling.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -1998,6 +2054,7 @@
       "bilde": "medieuttrykk-3.jpg",
       "vimeo": null,
       "omFaget": "Medieuttrykk handler om medieproduksjon, kreativitet, samarbeid, kritisk tenkning og digital dømmekraft. Faget gir elevene mulighet til å kunne forstå medienes mangfoldige uttrykksformer og til å kunne produsere medieuttrykk til ulike formål med profesjonelt utstyr og profesjonell programvare. Gjennom arbeid med kreative prosesser, produksjon og analyse forbereder medieuttrykk elevene på et arbeidsliv med stadige endringer og rask teknologisk utvikling.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2033,6 +2090,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Musikk, dans og drama handler om å forme og forstå tverrkunstneriske uttrykk. Faget skal bidra til at elevene utvikler egne uttrykk gjennom å utforske, utøve og formidle scenekunst. Gjennom sceniske prosesser og produksjoner skal elevene få mulighet til å bygge engasjement for kunst, kultur og samfunn. Musikk, dans og drama skal forberede elevene på et arbeidsliv som stiller krav om praktiske og estetiske ferdigheter, kreativ problemløsning og evne til samarbeid i skapende prosesser.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2069,6 +2127,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Faget musikk handler om å utvikle utøvende og skapende ferdigheter innenfor spill på instrumenter og sang. Faget skal bidra til at elevene får erfaring med å forme og forstå et mangfold av musikalske uttrykk og uttrykksformer. Ved å gi elevene kreativ, kulturell og estetisk kompetanse ruster faget elevene til å delta aktivt i ulike sosiale fellesskap. Faget forbereder elevene til utøvende og skapende virksomhet innenfor kunst-, kultur- og musikklivet.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2101,6 +2160,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Musikk i perspektiv handler om å forstå musikk i ulike sosiale, historiske og kulturelle kontekster. Faget skal gi elevene erfaring med sammenhenger mellom klingende musikk og musikalske praksiser, og å reflektere over egne musikkopplevelser. Faget skal også gi elevene mulighet til å utvikle gehør, evne til å notere musikk og orientere seg i ulike former for musikalsk notasjon. Gehøraktiviteter i faget gir verktøy for å oppfatte og forstå musikalske fenomener i lytteprosesser, og bidrar til innsikt i hvordan musikk kan skape gjenkjennelse av vår felles menneskelighet på tvers av kulturer. Videre skal faget bidra til forståelse av hvordan mangfold og identitet kommer til uttrykk i musikk, og ruste elevene til aktiv deltakelse i kultur, samfunn og arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2135,6 +2195,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Musikk i perspektiv handler om å forstå musikk i ulike sosiale, historiske og kulturelle kontekster. Faget skal gi elevene erfaring med sammenhenger mellom klingende musikk og musikalske praksiser, og å reflektere over egne musikkopplevelser. Faget skal også gi elevene mulighet til å utvikle gehør, evne til å notere musikk og orientere seg i ulike former for musikalsk notasjon. Gehøraktiviteter i faget gir verktøy for å oppfatte og forstå musikalske fenomener i lytteprosesser, og bidrar til innsikt i hvordan musikk kan skape gjenkjennelse av vår felles menneskelighet på tvers av kulturer. Videre skal faget bidra til forståelse av hvordan mangfold og identitet kommer til uttrykk i musikk, og ruste elevene til aktiv deltakelse i kultur, samfunn og arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2171,6 +2232,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Engelsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene et grunnlag for å kommunisere med andre lokalt og globalt, uavhengig av kulturell og språklig bakgrunn. Engelsk skal bidra til å utvikle elevenes interkulturelle forståelse av ulike levemåter, tenkesett og kommunikasjonsmønstre. Faget skal forberede elevene på en utdanning og et samfunns- og arbeidsliv som stiller krav om engelskspråklig kompetanse i lesing, skriving og muntlig kommunikasjon.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2203,6 +2265,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2250,6 +2313,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2297,6 +2361,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Geografi er et sentralt fag for å forstå samspillet mellom natur og mennesker. Faget skal bidra til at elevene ser sammenhenger mellom ressursbruk, natur, miljø og samfunn, og hvilke konsekvenser naturskapte endringer har for menneskene. I geografi skal elevene utforske og observere geografiske forhold og lære faget ved å reflektere over lokale og globale problemstillinger. Faget skal bidra til at elevene utvikler miljøbevissthet og tar ansvarlige valg nå og i framtiden.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2329,6 +2394,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2368,6 +2434,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2407,6 +2474,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Historie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [],
@@ -2429,6 +2497,7 @@
       "bilde": "kroppsoving-1.jpg",
       "vimeo": null,
       "omFaget": "Kroppsøving er et sentralt fag for å stimulere til livslang bevegelsesglede og til en fysisk aktiv livsstil ut fra egne forutsetninger. Faget skal bidra til at elevene lærer, sanser, opplever og skaper med kroppen. Gjennom bevegelsesaktivitet og naturferdsel sammen med andre fremmer kroppsøving samarbeid, forståelse og respekt for hverandre. Faget skal bidra til at elevene utvikler kompetanse om trening, livsstil og helse og erfarer hva egen innsats betyr for å oppnå mål. Innsatsen til elevene er derfor en del av kompetansen i kroppsøving. Faget skal motivere elevene til å holde ved like en fysisk aktiv og helsefremmende livsstil etter avsluttet skolegang og i framtidig arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2463,6 +2532,7 @@
       "bilde": "kroppsoving-2.jpg",
       "vimeo": null,
       "omFaget": "Kroppsøving er et sentralt fag for å stimulere til livslang bevegelsesglede og til en fysisk aktiv livsstil ut fra egne forutsetninger. Faget skal bidra til at elevene lærer, sanser, opplever og skaper med kroppen. Gjennom bevegelsesaktivitet og naturferdsel sammen med andre fremmer kroppsøving samarbeid, forståelse og respekt for hverandre. Faget skal bidra til at elevene utvikler kompetanse om trening, livsstil og helse og erfarer hva egen innsats betyr for å oppnå mål. Innsatsen til elevene er derfor en del av kompetansen i kroppsøving. Faget skal motivere elevene til å holde ved like en fysisk aktiv og helsefremmende livsstil etter avsluttet skolegang og i framtidig arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2497,6 +2567,7 @@
       "bilde": "kroppsoving-3.jpg",
       "vimeo": null,
       "omFaget": "Kroppsøving er et sentralt fag for å stimulere til livslang bevegelsesglede og til en fysisk aktiv livsstil ut fra egne forutsetninger. Faget skal bidra til at elevene lærer, sanser, opplever og skaper med kroppen. Gjennom bevegelsesaktivitet og naturferdsel sammen med andre fremmer kroppsøving samarbeid, forståelse og respekt for hverandre. Faget skal bidra til at elevene utvikler kompetanse om trening, livsstil og helse og erfarer hva egen innsats betyr for å oppnå mål. Innsatsen til elevene er derfor en del av kompetansen i kroppsøving. Faget skal motivere elevene til å holde ved like en fysisk aktiv og helsefremmende livsstil etter avsluttet skolegang og i framtidig arbeidsliv.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2529,6 +2600,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Matematikk P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk P skal forberede elevene på et samfunn og arbeidsliv i utvikling gjennom praktisk bruk av matematikk.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2569,6 +2641,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Matematikk T er et sentralt fag for å tilegne seg verktøy for å kunne forstå matematiske sammenhenger. Faget skal gi elevene mulighet til å utvikle problemløsingsstrategier som forbereder dem til videre arbeid i andre fag som krever matematikk. Matematikk T skal forberede elevene på en utdanning og et arbeidsliv som stiller krav om matematisk forståelse, gjennom teoretisk bruk av matematikk.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2609,6 +2682,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2649,6 +2723,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Naturfag er et sentralt fag for å beskrive og forstå hvordan vår fysiske verden er bygget opp. Faget skal bidra til at elevene får naturopplevelser og et faglig grunnlag for å verne om naturressurser, bevare biologisk mangfold og bidra til en bærekraftig utvikling. Naturfag skal også bidra til at elevene utvikler kompetanse til å ivareta egen og andres helse. Når elevene tar i bruk naturfaglig språk og naturfaglige metoder, praksiser og tenkemåter i arbeid med faglige emner, vil de få grunnlag for å forstå hvordan naturfaglig kunnskap brukes og utvikles. Kunnskap om samspillet mellom natur, individ, teknologi og samfunn kan fremme elevenes evne til kritisk tenkning og bidra til at de tar bevisste valg i hverdagen. Naturfag skal forberede elevene på et arbeids- og samfunnsliv som vil stille krav til en utforskende tilnærming og teknologisk kompetanse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2689,6 +2764,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Norsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene tilgang til kulturens tekster, sjangre og språklige mangfold og skal bidra til at de utvikler språk for å tenke, kommunisere og lære. Faget norsk skal ruste elevene til å delta i demokratiske prosesser og skal forberede dem på et arbeidsliv som stiller krav om variert kompetanse i lesing, skriving og muntlig kommunikasjon.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2736,6 +2812,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Norsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene tilgang til kulturens tekster, sjangre og språklige mangfold og skal bidra til at de utvikler språk for å tenke, kommunisere og lære. Faget norsk skal ruste elevene til å delta i demokratiske prosesser og skal forberede dem på et arbeidsliv som stiller krav om variert kompetanse i lesing, skriving og muntlig kommunikasjon.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2783,6 +2860,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Norsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene tilgang til kulturens tekster, sjangre og språklige mangfold og skal bidra til at de utvikler språk for å tenke, kommunisere og lære. Faget norsk skal ruste elevene til å delta i demokratiske prosesser og skal forberede dem på et arbeidsliv som stiller krav om variert kompetanse i lesing, skriving og muntlig kommunikasjon.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2830,6 +2908,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Religion og etikk er et sentralt fag for å forstå seg selv, andre og verden rundt seg. Gjennom arbeidet med et bredt utvalg av religioner og livssyn skal elevene utvikle kunnskaper, ferdigheter og holdninger som gjør dem i stand til å håndtere mangfold i hverdags-, samfunns- og arbeidslivet. Faget skal åpne for undring og motivere til å utforske filosofiske spørsmål. Gjennom etisk refleksjon gir faget rammer for å undersøke og klargjøre hva som er godt og rett for individ og samfunn i dag og i framtiden. Slik fremmer faget danning og bidrar til å gjøre elevene i stand til å mestre livet, være ansvarlige medborgere og bidra til et bærekraftig samfunn.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2870,6 +2949,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Samfunnskunnskap er et sentralt fag for at elevene skal utvikle seg som engasjerte og kritisk tenkende deltakere i samfunnet. I samfunnskunnskap skal elevene få drøfte og reflektere i fellesskap og vise respekt for meningsmangfold. Faget skal bidra til at elevene forstår hva som påvirker identitet og selvfølelse, og gi dem mulighet til å utforske lokalsamfunnet de lever i, og nasjonale og globale forhold og problemstillinger. Slik skal samfunnskunnskap bidra til å styrke elevenes forståelse av samfunnet de lever i, og hvordan samfunnet former dem som mennesker. Elevene skal forstå at de kan bidra til en bærekraftig samfunnsutvikling gjennom å være aktive medborgere og påvirke samfunn og arbeidsliv nå og i framtiden.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2906,6 +2986,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -2953,6 +3034,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3000,6 +3082,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3047,6 +3130,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Spansk I+II er et programfag som er obligatorisk for elever som ikke har hatt fremmedspråk på ungdomsskolen. Faget erstatter ett av de tre valgfrie programfagene i VG3 studiespesialisering. Elever med Spansk I+II skal ha: - Historie (obligatorisk fellesfag) - Spansk I+II (obligatorisk programfag) - 2 andre valgfrie programfag = Totalt 4 fag",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [],
@@ -3066,6 +3150,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3113,6 +3198,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3160,6 +3246,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3207,6 +3294,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3254,6 +3342,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
@@ -3301,6 +3390,7 @@
       "bilde": null,
       "vimeo": null,
       "omFaget": "Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.",
+      "omFagetLareplan": "",
       "hvordanArbeiderMan": "",
       "fagetsRelevans": "",
       "kjerneelementer": [
