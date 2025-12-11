@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Samfunnskunnskap er et sentralt fag for at elevene skal utvikle seg som engasjerte og kritisk tenkende deltakere i samfunnet. I samfunnskunnskap skal elevene få drøfte og reflektere i fellesskap og vise respekt for meningsmangfold. Faget skal bidra til at elevene forstår hva som påvirker identitet og selvfølelse, og gi dem mulighet til å utforske lokalsamfunnet de lever i, og nasjonale og globale forhold og problemstillinger. Slik skal samfunnskunnskap bidra til å styrke elevenes forståelse av samfunnet de lever i, og hvordan samfunnet former dem som mennesker. Elevene skal forstå at de kan bidra til en bærekraftig samfunnsutvikling gjennom å være aktive medborgere og påvirke samfunn og arbeidsliv nå og i framtiden.
 
+## Om faget - fra læreplan
+
+Samfunnskunnskap er et sentralt fag for at elevene skal utvikle seg som engasjerte og kritisk tenkende deltakere i samfunnet. I samfunnskunnskap skal elevene få drøfte og reflektere i fellesskap og vise respekt for meningsmangfold. Faget skal bidra til at elevene forstår hva som påvirker identitet og selvfølelse, og gi dem mulighet til å utforske lokalsamfunnet de lever i, og nasjonale og globale forhold og problemstillinger. Slik skal samfunnskunnskap bidra til å styrke elevenes forståelse av samfunnet de lever i, og hvordan samfunnet former dem som mennesker. Elevene skal forstå at de kan bidra til en bærekraftig samfunnsutvikling gjennom å være aktive medborgere og påvirke samfunn og arbeidsliv nå og i framtiden.
+
 ## Kompetansemål
 
 - utforske og presentere dagsaktuelle temaer eller debatter ved å bruke samfunnsfaglige metoder, kilder og digitale ressurser, og argumentere for egne og andres meninger og verdier

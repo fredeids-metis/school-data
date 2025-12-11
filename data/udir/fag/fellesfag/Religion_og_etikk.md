@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Religion og etikk er et sentralt fag for å forstå seg selv, andre og verden rundt seg. Gjennom arbeidet med et bredt utvalg av religioner og livssyn skal elevene utvikle kunnskaper, ferdigheter og holdninger som gjør dem i stand til å håndtere mangfold i hverdags-, samfunns- og arbeidslivet. Faget skal åpne for undring og motivere til å utforske filosofiske spørsmål. Gjennom etisk refleksjon gir faget rammer for å undersøke og klargjøre hva som er godt og rett for individ og samfunn i dag og i framtiden. Slik fremmer faget danning og bidrar til å gjøre elevene i stand til å mestre livet, være ansvarlige medborgere og bidra til et bærekraftig samfunn.
 
+## Om faget - fra læreplan
+
+Religion og etikk er et sentralt fag for å forstå seg selv, andre og verden rundt seg. Gjennom arbeidet med et bredt utvalg av religioner og livssyn skal elevene utvikle kunnskaper, ferdigheter og holdninger som gjør dem i stand til å håndtere mangfold i hverdags-, samfunns- og arbeidslivet. Faget skal åpne for undring og motivere til å utforske filosofiske spørsmål. Gjennom etisk refleksjon gir faget rammer for å undersøke og klargjøre hva som er godt og rett for individ og samfunn i dag og i framtiden. Slik fremmer faget danning og bidrar til å gjøre elevene i stand til å mestre livet, være ansvarlige medborgere og bidra til et bærekraftig samfunn.
+
 ## Kompetansemål
 
 - presentere og sammenligne noen sentrale trekk ved østlige og vestlige religions- og livssynstradisjoner, inkludert kristendom og islam

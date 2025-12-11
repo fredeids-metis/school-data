@@ -18,6 +18,10 @@ generert: 2025-11-24
 
 Kroppsøving er et sentralt fag for å stimulere til livslang bevegelsesglede og til en fysisk aktiv livsstil ut fra egne forutsetninger. Faget skal bidra til at elevene lærer, sanser, opplever og skaper med kroppen. Gjennom bevegelsesaktivitet og naturferdsel sammen med andre fremmer kroppsøving samarbeid, forståelse og respekt for hverandre. Faget skal bidra til at elevene utvikler kompetanse om trening, livsstil og helse og erfarer hva egen innsats betyr for å oppnå mål. Innsatsen til elevene er derfor en del av kompetansen i kroppsøving. Faget skal motivere elevene til å holde ved like en fysisk aktiv og helsefremmende livsstil etter avsluttet skolegang og i framtidig arbeidsliv.
 
+## Om faget - fra læreplan
+
+Kroppsøving er et sentralt fag for å stimulere til livslang bevegelsesglede og til en fysisk aktiv livsstil ut fra egne forutsetninger. Faget skal bidra til at elevene lærer, sanser, opplever og skaper med kroppen. Gjennom bevegelsesaktivitet og naturferdsel sammen med andre fremmer kroppsøving samarbeid, forståelse og respekt for hverandre. Faget skal bidra til at elevene utvikler kompetanse om trening, livsstil og helse og erfarer hva egen innsats betyr for å oppnå mål. Innsatsen til elevene er derfor en del av kompetansen i kroppsøving. Faget skal motivere elevene til å holde ved like en fysisk aktiv og helsefremmende livsstil etter avsluttet skolegang og i framtidig arbeidsliv.
+
 ## Kompetansemål
 
 - øve på og utvikle kunnskaper og ferdigheter i ulike bevegelsesaktiviteter ut fra egne forutsetninger

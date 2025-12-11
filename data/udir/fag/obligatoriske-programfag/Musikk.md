@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Faget musikk handler om å utvikle utøvende og skapende ferdigheter innenfor spill på instrumenter og sang. Faget skal bidra til at elevene får erfaring med å forme og forstå et mangfold av musikalske uttrykk og uttrykksformer. Ved å gi elevene kreativ, kulturell og estetisk kompetanse ruster faget elevene til å delta aktivt i ulike sosiale fellesskap. Faget forbereder elevene til utøvende og skapende virksomhet innenfor kunst-, kultur- og musikklivet.
 
+## Om faget - fra læreplan
+
+Faget musikk handler om å utvikle utøvende og skapende ferdigheter innenfor spill på instrumenter og sang. Faget skal bidra til at elevene får erfaring med å forme og forstå et mangfold av musikalske uttrykk og uttrykksformer. Ved å gi elevene kreativ, kulturell og estetisk kompetanse ruster faget elevene til å delta aktivt i ulike sosiale fellesskap. Faget forbereder elevene til utøvende og skapende virksomhet innenfor kunst-, kultur- og musikklivet.
+
 ## Kompetansemål
 
 - øve inn, framføre og formidle musikk etter gehør og notasjon

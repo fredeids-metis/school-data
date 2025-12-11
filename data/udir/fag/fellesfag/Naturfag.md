@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Naturfag er et sentralt fag for å beskrive og forstå hvordan vår fysiske verden er bygget opp. Faget skal bidra til at elevene får naturopplevelser og et faglig grunnlag for å verne om naturressurser, bevare biologisk mangfold og bidra til en bærekraftig utvikling. Naturfag skal også bidra til at elevene utvikler kompetanse til å ivareta egen og andres helse. Når elevene tar i bruk naturfaglig språk og naturfaglige metoder, praksiser og tenkemåter i arbeid med faglige emner, vil de få grunnlag for å forstå hvordan naturfaglig kunnskap brukes og utvikles. Kunnskap om samspillet mellom natur, individ, teknologi og samfunn kan fremme elevenes evne til kritisk tenkning og bidra til at de tar bevisste valg i hverdagen. Naturfag skal forberede elevene på et arbeids- og samfunnsliv som vil stille krav til en utforskende tilnærming og teknologisk kompetanse.
 
+## Om faget - fra læreplan
+
+Naturfag er et sentralt fag for å beskrive og forstå hvordan vår fysiske verden er bygget opp. Faget skal bidra til at elevene får naturopplevelser og et faglig grunnlag for å verne om naturressurser, bevare biologisk mangfold og bidra til en bærekraftig utvikling. Naturfag skal også bidra til at elevene utvikler kompetanse til å ivareta egen og andres helse. Når elevene tar i bruk naturfaglig språk og naturfaglige metoder, praksiser og tenkemåter i arbeid med faglige emner, vil de få grunnlag for å forstå hvordan naturfaglig kunnskap brukes og utvikles. Kunnskap om samspillet mellom natur, individ, teknologi og samfunn kan fremme elevenes evne til kritisk tenkning og bidra til at de tar bevisste valg i hverdagen. Naturfag skal forberede elevene på et arbeids- og samfunnsliv som vil stille krav til en utforskende tilnærming og teknologisk kompetanse.
+
 ## Kompetansemål
 
 - utforske en selvvalgt naturfaglig problemstilling, presentere funn og argumentere for valg av metoder

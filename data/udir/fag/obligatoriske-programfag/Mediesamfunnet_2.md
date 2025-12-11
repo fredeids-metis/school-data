@@ -18,6 +18,10 @@ generert: 2025-11-24
 
 Faget mediesamfunnet handler om kommunikasjon, kritisk tenkning og innholdsproduksjon innenfor ulike mediesjangre. Faget skal gi elevene praktisk erfaring med hvordan mediebudskap produseres og brukes, og forståelse av hvordan mediene kan påvirke individ og samfunnsutvikling. Mediesamfunnet ruster elevene til å bli deltakere på sentrale arenaer for meningsutveksling og demokratiske ytringer. Faget forbereder elevene på et arbeidsliv der bred kompetanse innenfor skriftlig, muntlig, visuell og auditiv kommunikasjon har stor betydning.
 
+## Om faget - fra læreplan
+
+Faget mediesamfunnet handler om kommunikasjon, kritisk tenkning og innholdsproduksjon innenfor ulike mediesjangre. Faget skal gi elevene praktisk erfaring med hvordan mediebudskap produseres og brukes, og forståelse av hvordan mediene kan påvirke individ og samfunnsutvikling. Mediesamfunnet ruster elevene til å bli deltakere på sentrale arenaer for meningsutveksling og demokratiske ytringer. Faget forbereder elevene på et arbeidsliv der bred kompetanse innenfor skriftlig, muntlig, visuell og auditiv kommunikasjon har stor betydning.
+
 ## Kompetansemål
 
 - produsere publiseringsklart innhold tilpasset ulike målgrupper, innenfor journalistikk, markedskommunikasjon, informasjon og underholdning

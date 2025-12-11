@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Instrument, kor, samspill handler om utøvende dimensjoner ved musikk, musikalsk formidling og opplevelse av musikk. Faget gir elevene mulighet til å utøve musikk alene og sammen med andre, og til å utvikle identitet og personlig uttrykk gjennom musikk. Gjennom gjentatte mestringserfaringer med å utøve og formidle musikk legger faget til rette for at elevene i framtiden kan bidra kulturelt i samfunnet. Fagets vektlegging av øving for å nå langsiktige mål kan bidra til å styrke elevenes kompetanse og mulighet for videre studier og aktiv deltagelse i arbeidslivet.
 
+## Om faget - fra læreplan
+
+Instrument, kor, samspill handler om utøvende dimensjoner ved musikk, musikalsk formidling og opplevelse av musikk. Faget gir elevene mulighet til å utøve musikk alene og sammen med andre, og til å utvikle identitet og personlig uttrykk gjennom musikk. Gjennom gjentatte mestringserfaringer med å utøve og formidle musikk legger faget til rette for at elevene i framtiden kan bidra kulturelt i samfunnet. Fagets vektlegging av øving for å nå langsiktige mål kan bidra til å styrke elevenes kompetanse og mulighet for videre studier og aktiv deltagelse i arbeidslivet.
+
 ## Kompetansemål
 
 - innstudere et variert repertoar på fordypnings- og bruksinstrumenter ved å bruke metoder tilpasset repertoaret

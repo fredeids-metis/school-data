@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Norsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene tilgang til kulturens tekster, sjangre og språklige mangfold og skal bidra til at de utvikler språk for å tenke, kommunisere og lære. Faget norsk skal ruste elevene til å delta i demokratiske prosesser og skal forberede dem på et arbeidsliv som stiller krav om variert kompetanse i lesing, skriving og muntlig kommunikasjon.
 
+## Om faget - fra læreplan
+
+Norsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene tilgang til kulturens tekster, sjangre og språklige mangfold og skal bidra til at de utvikler språk for å tenke, kommunisere og lære. Faget norsk skal ruste elevene til å delta i demokratiske prosesser og skal forberede dem på et arbeidsliv som stiller krav om variert kompetanse i lesing, skriving og muntlig kommunikasjon.
+
 ## Kompetansemål
 
 - analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid

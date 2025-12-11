@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Musikk i perspektiv handler om å forstå musikk i ulike sosiale, historiske og kulturelle kontekster. Faget skal gi elevene erfaring med sammenhenger mellom klingende musikk og musikalske praksiser, og å reflektere over egne musikkopplevelser. Faget skal også gi elevene mulighet til å utvikle gehør, evne til å notere musikk og orientere seg i ulike former for musikalsk notasjon. Gehøraktiviteter i faget gir verktøy for å oppfatte og forstå musikalske fenomener i lytteprosesser, og bidrar til innsikt i hvordan musikk kan skape gjenkjennelse av vår felles menneskelighet på tvers av kulturer. Videre skal faget bidra til forståelse av hvordan mangfold og identitet kommer til uttrykk i musikk, og ruste elevene til aktiv deltakelse i kultur, samfunn og arbeidsliv.
 
+## Om faget - fra læreplan
+
+Musikk i perspektiv handler om å forstå musikk i ulike sosiale, historiske og kulturelle kontekster. Faget skal gi elevene erfaring med sammenhenger mellom klingende musikk og musikalske praksiser, og å reflektere over egne musikkopplevelser. Faget skal også gi elevene mulighet til å utvikle gehør, evne til å notere musikk og orientere seg i ulike former for musikalsk notasjon. Gehøraktiviteter i faget gir verktøy for å oppfatte og forstå musikalske fenomener i lytteprosesser, og bidrar til innsikt i hvordan musikk kan skape gjenkjennelse av vår felles menneskelighet på tvers av kulturer. Videre skal faget bidra til forståelse av hvordan mangfold og identitet kommer til uttrykk i musikk, og ruste elevene til aktiv deltakelse i kultur, samfunn og arbeidsliv.
+
 ## Kompetansemål
 
 - beskrive kjennetegn og virkemidler i musikkeksempler fra ulike sjangre, inkludert norsk og samisk folkemusikk

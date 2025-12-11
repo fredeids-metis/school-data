@@ -21,6 +21,16 @@ Elever med Spansk I+II skal ha:
 - 2 andre valgfrie programfag
 = Totalt 4 fag
 
+## Om faget - fra læreplan
+
+Spansk I+II er et programfag som er obligatorisk for elever som ikke har hatt fremmedspråk på ungdomsskolen. Faget erstatter ett av de tre valgfrie programfagene i VG3 studiespesialisering.
+
+Elever med Spansk I+II skal ha:
+- Historie (obligatorisk fellesfag)
+- Spansk I+II (obligatorisk programfag)
+- 2 andre valgfrie programfag
+= Totalt 4 fag
+
 ## Kompetansemål
 
 *Dette er et obligatorisk programfag for elever uten fremmedspråk fra ungdomsskolen. Kompetansemål er definert i læreplanen for fremmedspråk nivå I+II (FSP1-01).*

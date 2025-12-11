@@ -18,6 +18,10 @@ generert: 2025-11-24
 
 Medieuttrykk handler om medieproduksjon, kreativitet, samarbeid, kritisk tenkning og digital dømmekraft. Faget gir elevene mulighet til å kunne forstå medienes mangfoldige uttrykksformer og til å kunne produsere medieuttrykk til ulike formål med profesjonelt utstyr og profesjonell programvare. Gjennom arbeid med kreative prosesser, produksjon og analyse forbereder medieuttrykk elevene på et arbeidsliv med stadige endringer og rask teknologisk utvikling.
 
+## Om faget - fra læreplan
+
+Medieuttrykk handler om medieproduksjon, kreativitet, samarbeid, kritisk tenkning og digital dømmekraft. Faget gir elevene mulighet til å kunne forstå medienes mangfoldige uttrykksformer og til å kunne produsere medieuttrykk til ulike formål med profesjonelt utstyr og profesjonell programvare. Gjennom arbeid med kreative prosesser, produksjon og analyse forbereder medieuttrykk elevene på et arbeidsliv med stadige endringer og rask teknologisk utvikling.
+
 ## Kompetansemål
 
 - produsere ulike målgrupperettede medieuttrykk individuelt og i samarbeid med andre

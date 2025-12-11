@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Lytting handler om å utvikle forståelse av musikkens oppbygning, funksjon og betydning i ulike samfunn og kulturer. Faget skal gi elevene mulighet til å utvikle gehør, kunnskap i musikkteori og musikklitterasitet gjennom aktiv lytting i møte med klingende musikk. Faget legger vekt på musikkforståelse og auditiv analyse, og på at musikkteoretiske elementer skal høres og oppleves. Faget lytting ruster elevene til å delta i et mangfoldig musikkliv og i et samfunns- og arbeidsliv som stiller krav om gode kommunikasjonsevner og gode evner i å oppfatte og fortolke informasjon.
 
+## Om faget - fra læreplan
+
+Lytting handler om å utvikle forståelse av musikkens oppbygning, funksjon og betydning i ulike samfunn og kulturer. Faget skal gi elevene mulighet til å utvikle gehør, kunnskap i musikkteori og musikklitterasitet gjennom aktiv lytting i møte med klingende musikk. Faget legger vekt på musikkforståelse og auditiv analyse, og på at musikkteoretiske elementer skal høres og oppleves. Faget lytting ruster elevene til å delta i et mangfoldig musikkliv og i et samfunns- og arbeidsliv som stiller krav om gode kommunikasjonsevner og gode evner i å oppfatte og fortolke informasjon.
+
 ## Kompetansemål
 
 - bruke fagbegreper og vise grunnleggende musikkteoretisk forståelse i beskrivelse av klingende musikk

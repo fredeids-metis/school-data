@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Matematikk T er et sentralt fag for å tilegne seg verktøy for å kunne forstå matematiske sammenhenger. Faget skal gi elevene mulighet til å utvikle problemløsingsstrategier som forbereder dem til videre arbeid i andre fag som krever matematikk. Matematikk T skal forberede elevene på en utdanning og et arbeidsliv som stiller krav om matematisk forståelse, gjennom teoretisk bruk av matematikk.
 
+## Om faget - fra læreplan
+
+Matematikk T er et sentralt fag for å tilegne seg verktøy for å kunne forstå matematiske sammenhenger. Faget skal gi elevene mulighet til å utvikle problemløsingsstrategier som forbereder dem til videre arbeid i andre fag som krever matematikk. Matematikk T skal forberede elevene på en utdanning og et arbeidsliv som stiller krav om matematisk forståelse, gjennom teoretisk bruk av matematikk.
+
 ## Kompetansemål
 
 - formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering

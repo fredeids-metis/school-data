@@ -14,6 +14,10 @@ trinn: vg3
 
 Historie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.
 
+## Om faget - fra læreplan
+
+Historie er et obligatorisk fellesfag i VG3 som gir elevene innsikt i historiske hendelser, utviklingstrekk og sammenhenger. Faget bidrar til å forstå samtiden gjennom kunnskap om fortiden.
+
 ## Kompetansemål
 
 *Dette er et obligatorisk fellesfag. Kompetansemål er definert i læreplanen for Historie (HIS01-03).*

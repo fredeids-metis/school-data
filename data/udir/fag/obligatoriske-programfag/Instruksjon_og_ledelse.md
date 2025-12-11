@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Instruksjon og ledelse handler om å utvikle forståelse av og å øve på ulike lederroller som er relevante for det institusjonaliserte og frivillige musikklivet. Faget skal gi elevene praktisk erfaring med å lede og å bli ledet, i arbeid med innstudering og utøving av musikk, og i utvikling, tilrettelegging og markedsføring av prosjekter. Videre skal faget bidra til at elevene får erfaring med å ta kunstneriske valg. Aktiviteter i faget legger til rette for at elevene utvikler forståelse av hvordan musikk bidrar til å danne identitet og fellesskap på alle samfunnsnivåer. Gjennom å gi elevene mulighet til å utvikle ferdigheter i å lede musikalske og kunstneriske prosesser, forbereder faget dem til å delta aktivt i et mangfoldig kultur-, samfunns- og arbeidsliv. Instruksjon og ledelse forbereder elevene for videre studier.
 
+## Om faget - fra læreplan
+
+Instruksjon og ledelse handler om å utvikle forståelse av og å øve på ulike lederroller som er relevante for det institusjonaliserte og frivillige musikklivet. Faget skal gi elevene praktisk erfaring med å lede og å bli ledet, i arbeid med innstudering og utøving av musikk, og i utvikling, tilrettelegging og markedsføring av prosjekter. Videre skal faget bidra til at elevene får erfaring med å ta kunstneriske valg. Aktiviteter i faget legger til rette for at elevene utvikler forståelse av hvordan musikk bidrar til å danne identitet og fellesskap på alle samfunnsnivåer. Gjennom å gi elevene mulighet til å utvikle ferdigheter i å lede musikalske og kunstneriske prosesser, forbereder faget dem til å delta aktivt i et mangfoldig kultur-, samfunns- og arbeidsliv. Instruksjon og ledelse forbereder elevene for videre studier.
+
 ## Kompetansemål
 
 - lede musikalske prosesser og vise forståelse av hvordan musikalsk materiale kan innstuderes, utvikles og framføres

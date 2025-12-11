@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.
 
+## Om faget - fra læreplan
+
+Fremmedspråk handler om å forstå og bli forstått. Faget skal bidra til å fremme elevenes personlige utvikling og legge til rette for at de kan samhandle med og oppleve glede i møte med andre mennesker og kulturer. I en globalisert verden har vi behov for å kommunisere på flere språk. Formell og uformell kommunikasjon lokalt, nasjonalt og internasjonalt krever språkkunnskaper og kunnskap om andre kulturer og levesett. Dette gjelder ikke minst i studier og i arbeidslivet. Faget kan bidra til å utvikle elevenes interkulturelle forståelse.
+
 ## Kompetansemål
 
 - lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner

@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Geografi er et sentralt fag for å forstå samspillet mellom natur og mennesker. Faget skal bidra til at elevene ser sammenhenger mellom ressursbruk, natur, miljø og samfunn, og hvilke konsekvenser naturskapte endringer har for menneskene. I geografi skal elevene utforske og observere geografiske forhold og lære faget ved å reflektere over lokale og globale problemstillinger. Faget skal bidra til at elevene utvikler miljøbevissthet og tar ansvarlige valg nå og i framtiden.
 
+## Om faget - fra læreplan
+
+Geografi er et sentralt fag for å forstå samspillet mellom natur og mennesker. Faget skal bidra til at elevene ser sammenhenger mellom ressursbruk, natur, miljø og samfunn, og hvilke konsekvenser naturskapte endringer har for menneskene. I geografi skal elevene utforske og observere geografiske forhold og lære faget ved å reflektere over lokale og globale problemstillinger. Faget skal bidra til at elevene utvikler miljøbevissthet og tar ansvarlige valg nå og i framtiden.
+
 ## Kompetansemål
 
 - utforske og presentere geografiske forhold og prosesser ved å bruke ulike kilder, inkludert kart

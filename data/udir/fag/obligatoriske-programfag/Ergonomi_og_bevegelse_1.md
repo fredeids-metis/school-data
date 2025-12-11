@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Ergonomi og bevegelse handler om å styrke elevenes fysiske og motoriske grunnlag for utøvelse og opplevelse av musikk. Faget skal bidra til en aktiv og helsefremmende livsstil gjennom at elevene deltar i allsidig fysisk aktivitet, utvikler bevegelsesglede og utvikler kunnskap om arbeidsfysiologi. Videre skal faget gi elevene mulighet til å utvikle fysiske ferdigheter i ulike bevegelsesaktiviteter og til å kroppsliggjøre opplevelsen av musikk. Ergonomi og bevegelse skal også gi elevene mulighet til å forstå den samfunnsmessige betydningen av god fysisk og mental helse. Faget skal motivere til å tøye egne grenser, og forberede elevene på et arbeidsliv med krav til fysisk og mental utholdenhet.
 
+## Om faget - fra læreplan
+
+Ergonomi og bevegelse handler om å styrke elevenes fysiske og motoriske grunnlag for utøvelse og opplevelse av musikk. Faget skal bidra til en aktiv og helsefremmende livsstil gjennom at elevene deltar i allsidig fysisk aktivitet, utvikler bevegelsesglede og utvikler kunnskap om arbeidsfysiologi. Videre skal faget gi elevene mulighet til å utvikle fysiske ferdigheter i ulike bevegelsesaktiviteter og til å kroppsliggjøre opplevelsen av musikk. Ergonomi og bevegelse skal også gi elevene mulighet til å forstå den samfunnsmessige betydningen av god fysisk og mental helse. Faget skal motivere til å tøye egne grenser, og forberede elevene på et arbeidsliv med krav til fysisk og mental utholdenhet.
+
 ## Kompetansemål
 
 - øve på og utføre varierte bevegelsesaktiviteter alene og sammen med andre

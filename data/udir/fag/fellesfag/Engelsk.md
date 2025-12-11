@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Engelsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene et grunnlag for å kommunisere med andre lokalt og globalt, uavhengig av kulturell og språklig bakgrunn. Engelsk skal bidra til å utvikle elevenes interkulturelle forståelse av ulike levemåter, tenkesett og kommunikasjonsmønstre. Faget skal forberede elevene på en utdanning og et samfunns- og arbeidsliv som stiller krav om engelskspråklig kompetanse i lesing, skriving og muntlig kommunikasjon.
 
+## Om faget - fra læreplan
+
+Engelsk er et sentralt fag for kulturforståelse, kommunikasjon, danning og identitetsutvikling. Faget skal gi elevene et grunnlag for å kommunisere med andre lokalt og globalt, uavhengig av kulturell og språklig bakgrunn. Engelsk skal bidra til å utvikle elevenes interkulturelle forståelse av ulike levemåter, tenkesett og kommunikasjonsmønstre. Faget skal forberede elevene på en utdanning og et samfunns- og arbeidsliv som stiller krav om engelskspråklig kompetanse i lesing, skriving og muntlig kommunikasjon.
+
 ## Kompetansemål
 
 - bruke egnede strategier i språklæring, tekstskaping og kommunikasjon

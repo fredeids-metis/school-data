@@ -16,6 +16,10 @@ generert: 2025-11-24
 
 Matematikk P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk P skal forberede elevene på et samfunn og arbeidsliv i utvikling gjennom praktisk bruk av matematikk.
 
+## Om faget - fra læreplan
+
+Matematikk P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk P skal forberede elevene på et samfunn og arbeidsliv i utvikling gjennom praktisk bruk av matematikk.
+
 ## Kompetansemål
 
 - lese, hente ut og vurdere matematikk i tekster om situasjoner fra lokalmiljøet, gjøre beregninger knyttet til dette og presentere og argumentere for resultatene

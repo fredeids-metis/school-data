@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Musikk, dans og drama handler om å forme og forstå tverrkunstneriske uttrykk. Faget skal bidra til at elevene utvikler egne uttrykk gjennom å utforske, utøve og formidle scenekunst. Gjennom sceniske prosesser og produksjoner skal elevene få mulighet til å bygge engasjement for kunst, kultur og samfunn. Musikk, dans og drama skal forberede elevene på et arbeidsliv som stiller krav om praktiske og estetiske ferdigheter, kreativ problemløsning og evne til samarbeid i skapende prosesser.
 
+## Om faget - fra læreplan
+
+Musikk, dans og drama handler om å forme og forstå tverrkunstneriske uttrykk. Faget skal bidra til at elevene utvikler egne uttrykk gjennom å utforske, utøve og formidle scenekunst. Gjennom sceniske prosesser og produksjoner skal elevene få mulighet til å bygge engasjement for kunst, kultur og samfunn. Musikk, dans og drama skal forberede elevene på et arbeidsliv som stiller krav om praktiske og estetiske ferdigheter, kreativ problemløsning og evne til samarbeid i skapende prosesser.
+
 ## Kompetansemål
 
 - planlegge, gjennomføre og vurdere tverrkunstneriske sceniske prosesser og framføringer

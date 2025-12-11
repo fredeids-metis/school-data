@@ -17,6 +17,10 @@ generert: 2025-11-24
 
 Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv.
 
+## Om faget - fra læreplan
+
+Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv.
+
 ## Kompetansemål
 
 - reflektere over hvordan fortolkninger av fortiden er preget av nåtidsforståelse og forventninger til framtiden
