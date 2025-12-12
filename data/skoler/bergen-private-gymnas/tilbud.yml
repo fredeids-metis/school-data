@@ -132,11 +132,6 @@ valgfrieProgramfag:
     bilde: ""
     kategori: "samfunnsfag"
 
-  - fagId: historie-og-filosofi-1
-    vimeo: ""
-    bilde: ""
-    kategori: "samfunnsfag"
-
   - fagId: rettslaere-1
     vimeo: ""
     bilde: ""
@@ -492,10 +487,10 @@ fremmedsprakTilbud:
 
 # Metadata
 metadata:
-  antallValgfrieProgramfag: 33
+  antallValgfrieProgramfag: 32
   antallObligatoriskeProgramfag: 16
   antallFellesfag: 29
-  totaltAntallFag: 78
-  sistOppdatert: "2025-12-08"
+  totaltAntallFag: 77
+  sistOppdatert: "2025-12-12"
   versjon: "v2"
-  kommentar: "Fjernet fag som ikke tilbys 2025-26: Samfunnsøkonomi 2, IT 1, Historie og filosofi 2, Engelsk 2"
+  kommentar: "Fjernet fag som ikke tilbys 2025-26: Samfunnsøkonomi 2, IT 1, Historie og filosofi 1, Historie og filosofi 2, Engelsk 2"
