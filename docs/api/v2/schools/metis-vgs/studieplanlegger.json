@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2025-12-12T11:57:39.183Z",
+    "generatedAt": "2025-12-17T10:15:25.019Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -73,7 +73,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk 2P",
                 "fagkode": "MAT1023",
                 "lareplan": "MAT05-04",
@@ -89,7 +89,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Erstatter Matematikk 2P hvis valgt",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk R1",
                 "fagkode": "REA3056",
                 "lareplan": "MAT03-02",
@@ -104,7 +104,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 1",
                 "fagkode": "REA3035",
                 "lareplan": "BIO01-02",
@@ -119,7 +119,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "økonomi",
                 "title": "Økonomistyring",
                 "fagkode": "SAM3068",
                 "lareplan": "NOK02-03",
@@ -134,7 +134,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 1",
                 "fagkode": "SAM3045",
                 "lareplan": "MFL01-04",
@@ -149,7 +149,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Sosiologi og sosialantropologi",
                 "fagkode": "SAM3054",
                 "lareplan": "POS04-01",
@@ -167,7 +167,7 @@
                 "anbefaltForutsetning": [
                   "rettslaere-1"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 2",
                 "fagkode": "SAM3058",
                 "lareplan": "RTL01-05",
@@ -182,7 +182,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 1",
                 "fagkode": "SAM3072",
                 "lareplan": "PSY01‑04",
@@ -197,7 +197,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Bilde",
                 "fagkode": "MOK3008",
                 "lareplan": "MOK04‑02",
@@ -213,7 +213,7 @@
                 "krever": [
                   "matematikk-r1"
                 ],
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk R2",
                 "fagkode": "REA3058",
                 "lareplan": "MAT03-02",
@@ -241,7 +241,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 1",
                 "fagkode": "REA3035",
                 "lareplan": "BIO01-02",
@@ -255,7 +255,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "økonomi",
                 "title": "Økonomistyring",
                 "fagkode": "SAM3068",
                 "lareplan": "NOK02-03",
@@ -269,7 +269,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 1",
                 "fagkode": "SAM3045",
                 "lareplan": "MFL01-04",
@@ -283,7 +283,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Sosiologi og sosialantropologi",
                 "fagkode": "SAM3054",
                 "lareplan": "POS04-01",
@@ -297,7 +297,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 1",
                 "fagkode": "SAM3072",
                 "lareplan": "PSY01‑04",
@@ -311,7 +311,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Bilde",
                 "fagkode": "MOK3008",
                 "lareplan": "MOK04‑02",
@@ -340,7 +340,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk 2P",
                 "fagkode": "MAT1023",
                 "lareplan": "MAT05-04",
@@ -354,7 +354,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Erstatter Matematikk 2P hvis valgt",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk R1",
                 "fagkode": "REA3056",
                 "lareplan": "MAT03-02",
@@ -367,7 +367,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Kjemi 1",
                 "fagkode": "REA3045",
                 "lareplan": "KJE01-02",
@@ -380,7 +380,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Entreprenørskap og bedriftsutvikling 1",
                 "fagkode": "SAM3063",
                 "lareplan": "ENT01-04",
@@ -393,7 +393,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Politikk og menneskerettigheter",
                 "fagkode": "SAM3055",
                 "lareplan": "POS05-02",
@@ -406,7 +406,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 1",
                 "fagkode": "SAM3057",
                 "lareplan": "RTL01-05",
@@ -419,7 +419,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Grafisk design",
                 "fagkode": "MOK3010",
                 "lareplan": "MOK06-02",
@@ -433,7 +433,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Kan tas samtidig med Biologi 1 - ingen forutsetning kreves",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 2",
                 "fagkode": "REA3036",
                 "lareplan": "BIO01-02",
@@ -450,7 +450,7 @@
                 "anbefaltForutsetning": [
                   "biologi-1"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 2",
                 "fagkode": "REA3036",
                 "lareplan": "BIO01-02",
@@ -467,7 +467,7 @@
                 "krever": [
                   "markedsforing-og-ledelse-1"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 2",
                 "fagkode": "SAM3046",
                 "lareplan": "MFL01-04",
@@ -484,7 +484,7 @@
                 "anbefaltForutsetning": [
                   "psykologi-1"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 2",
                 "fagkode": "SAM3073",
                 "lareplan": "PSY01‑04",
@@ -531,7 +531,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Kjemi 1",
                 "fagkode": "REA3045",
                 "lareplan": "KJE01-02",
@@ -546,7 +546,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Entreprenørskap og bedriftsutvikling 1",
                 "fagkode": "SAM3063",
                 "lareplan": "ENT01-04",
@@ -561,7 +561,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Politikk og menneskerettigheter",
                 "fagkode": "SAM3055",
                 "lareplan": "POS05-02",
@@ -576,7 +576,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 1",
                 "fagkode": "SAM3057",
                 "lareplan": "RTL01-05",
@@ -591,7 +591,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Grafisk design",
                 "fagkode": "MOK3010",
                 "lareplan": "MOK06-02",
@@ -625,7 +625,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk 2P",
                 "fagkode": "MAT1023",
                 "lareplan": "MAT05-04",
@@ -640,7 +640,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Fysikk 1",
                 "fagkode": "REA3038",
                 "lareplan": "FYS01-02",
@@ -655,7 +655,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 1",
                 "fagkode": "SAM3045",
                 "lareplan": "MFL01-04",
@@ -670,7 +670,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Sosialkunnskap",
                 "fagkode": "SAM3051",
                 "lareplan": "POS02-02",
@@ -685,7 +685,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 1",
                 "fagkode": "SAM3057",
                 "lareplan": "RTL01-05",
@@ -714,7 +714,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Grafisk design",
                 "fagkode": "MOK3010",
                 "lareplan": "MOK06-02",
@@ -732,7 +732,7 @@
                 "krever": [
                   "fysikk-1"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Fysikk 2",
                 "fagkode": "REA3039",
                 "lareplan": "FYS01-02",
@@ -750,7 +750,7 @@
                 "anbefaltForutsetning": [
                   "entreprenorskap-og-bedriftsutvikling-1"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Entreprenørskap og bedriftsutvikling 2",
                 "fagkode": "SAM3064",
                 "lareplan": "ENT01-04",
@@ -768,7 +768,7 @@
                 "anbefaltForutsetning": [
                   "psykologi-1"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 2",
                 "fagkode": "SAM3073",
                 "lareplan": "PSY01‑04",
@@ -835,7 +835,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Fysikk 1",
                 "fagkode": "REA3038",
                 "lareplan": "FYS01-02",
@@ -851,7 +851,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 1",
                 "fagkode": "SAM3045",
                 "lareplan": "MFL01-04",
@@ -867,7 +867,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Sosialkunnskap",
                 "fagkode": "SAM3051",
                 "lareplan": "POS02-02",
@@ -883,7 +883,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 1",
                 "fagkode": "SAM3057",
                 "lareplan": "RTL01-05",
@@ -899,7 +899,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "kunst",
                 "title": "Grafisk design",
                 "fagkode": "MOK3010",
                 "lareplan": "MOK06-02",
@@ -929,7 +929,7 @@
                   "studiespesialisering"
                 ],
                 "merknad": "Fellesfag som kan erstattes av R1",
-                "kategori": null,
+                "kategori": "matematikk",
                 "title": "Matematikk 2P",
                 "fagkode": "MAT1023",
                 "lareplan": "MAT05-04",
@@ -942,7 +942,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Fysikk 1",
                 "fagkode": "REA3038",
                 "lareplan": "FYS01-02",
@@ -955,7 +955,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 1",
                 "fagkode": "REA3035",
                 "lareplan": "BIO01-02",
@@ -968,7 +968,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "økonomi",
                 "title": "Økonomi og ledelse",
                 "fagkode": "SAM3070",
                 "lareplan": "NOK02-03",
@@ -981,7 +981,7 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 1",
                 "fagkode": "SAM3072",
                 "lareplan": "PSY01‑04",
@@ -999,7 +999,7 @@
                 "krever": [
                   "kjemi-1"
                 ],
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Kjemi 2",
                 "fagkode": "REA3046",
                 "lareplan": "KJE01-02",
@@ -1017,7 +1017,7 @@
                 "krever": [
                   "markedsforing-og-ledelse-1"
                 ],
-                "kategori": null,
+                "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 2",
                 "fagkode": "SAM3046",
                 "lareplan": "MFL01-04",
@@ -1032,7 +1032,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Sosiologi og sosialantropologi",
                 "fagkode": "SAM3054",
                 "lareplan": "POS04-01",
@@ -1050,7 +1050,7 @@
                 "anbefaltForutsetning": [
                   "rettslaere-1"
                 ],
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Rettslære 2",
                 "fagkode": "SAM3058",
                 "lareplan": "RTL01-05",
@@ -1065,7 +1065,7 @@
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
-                "kategori": null,
+                "kategori": "språk",
                 "title": "Engelsk 1",
                 "fagkode": "SPR3029",
                 "lareplan": "ENG04‑02",
@@ -1097,7 +1097,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Fysikk 1",
                 "fagkode": "REA3038",
                 "lareplan": "FYS01-02",
@@ -1113,7 +1113,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "naturfag",
                 "title": "Biologi 1",
                 "fagkode": "REA3035",
                 "lareplan": "BIO01-02",
@@ -1129,7 +1129,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "økonomi",
                 "title": "Økonomi og ledelse",
                 "fagkode": "SAM3070",
                 "lareplan": "NOK02-03",
@@ -1145,7 +1145,7 @@
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": null,
+                "kategori": "samfunnsfag",
                 "title": "Psykologi 1",
                 "fagkode": "SAM3072",
                 "lareplan": "PSY01‑04",
@@ -3840,6 +3840,38 @@
         "fagetsRelevans": "Spansk er verdens fjerde mest talte språk, og språkkompetanse åpner dører i arbeidslivet. Med spansk kan du jobbe i internasjonale organisasjoner, næringsliv, reiseliv eller diplomati. Norge har økende forbindelser med spansktalende land, noe som gjør kompetansen verdifull i mange bransjer.\nVil du studere videre, kan du bygge på med spansk på universitet eller høgskole. Kombinert med praktisk-pedagogisk utdanning kan du bli spansklærer, der etterspørselen er stor. Språkkunnskaper er også et fortrinn i yrker som journalist, oversetter, guide eller i bedrifter med internasjonalt samarbeid.",
         "beskrivelseHTML": "<h1>Spansk I+II</h1>\n<h2>Om faget</h2>\n<p>I spansk I+II lærer du språk fra grunnen av. Faget går over tre år og gir deg kompetanse til å kommunisere muntlig og skriftlig på spansk. Du utforsker også spansktalende kulturer gjennom film, musikk og litteratur. Faget er for deg som ikke hadde fremmedspråk på ungdomstrinnet.</p>\n<h2>Timefordeling</h2>\n<ul>\n<li><strong>VG1</strong>: 113 timer</li>\n<li><strong>VG2</strong>: 112 timer</li>\n<li><strong>VG3</strong>: 140 timer</li>\n<li><strong>Totalt</strong>: 365 timer</li>\n</ul>\n<h2>Målgruppe</h2>\n<p>Dette faget er <strong>betinget obligatorisk</strong> for elever som ikke har hatt fremmedspråk (nivå I eller II) fra ungdomsskolen.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I spansk jobber du praktisk med språket fra første time. Du lærer å kommunisere muntlig og skriftlig gjennom samtaler, rollespill og presentasjoner. Undervisningen legger vekt på at du skal tørre å bruke språket aktivt, selv om du gjør feil underveis.</p>\n<p>Du utforsker også spansktalende kulturer gjennom film, musikk, nyheter og litteratur. Digitale verktøy og språkapper er en naturlig del av læringen, og du bruker ordbøker og oversettelsesverktøy som hjelpemidler. Gruppearbeid og parøvelser er vanlig, der dere øver på hverdagssituasjoner som å bestille mat, spørre om veien eller diskutere aktuelle temaer.</p>\n<h2>Fagets relevans</h2>\n<p>Spansk er verdens fjerde mest talte språk, og språkkompetanse åpner dører i arbeidslivet. Med spansk kan du jobbe i internasjonale organisasjoner, næringsliv, reiseliv eller diplomati. Norge har økende forbindelser med spansktalende land, noe som gjør kompetansen verdifull i mange bransjer.</p>\n<p>Vil du studere videre, kan du bygge på med spansk på universitet eller høgskole. Kombinert med praktisk-pedagogisk utdanning kan du bli spansklærer, der etterspørselen er stor. Språkkunnskaper er også et fortrinn i yrker som journalist, oversetter, guide eller i bedrifter med internasjonalt samarbeid.</p>\n<h2>Kompetansemål</h2>\n<p>Faget følger læreplanen for fremmedspråk nivå I og II, med progresjon over tre år.</p>\n<h3>Språklæring</h3>\n<ul>\n<li>kunne beskrive og vurdere egne valg av læringsstrategier og variere disse etter behov</li>\n<li>kunne identifisere språklige strukturer i tekst og sammenligne dem med strukturer i eget morsmål eller andre språk</li>\n<li>vurdere egne fremskritt i å forstå og bruke fremmedspråket</li>\n</ul>\n<h3>Kommunikasjon</h3>\n<ul>\n<li>forstå hovedinnholdet i tekster med ulikt innhold og ulike sjangere</li>\n<li>forstå instruksjoner og beskjeder</li>\n<li>lytte til og forstå talespr åk med noe variasjon i taletempo</li>\n<li>mestre et ordforråd som dekker hverdagssituasjoner</li>\n<li>uttale fremmedspråket på en forståelig måte</li>\n<li>uttrykke seg skriftlig og muntlig på en forståelig måte med sammenheng i presentasjon av et emne</li>\n<li>delta i spontane, dagligdagse samtaler</li>\n<li>tilpasse språket etter formelle og uformelle situasjoner</li>\n<li>bruke digitale verktøy og ordbøker som hjelpemidler i egen språklæring, i språklig samhandling og tekstskaping</li>\n</ul>\n<h3>Kultur, samfunn og litteratur</h3>\n<ul>\n<li>presentere ulike sider ved livet i områder der fremmedspråket brukes og drøfte identitet og kulturell tilhørighet</li>\n<li>gjenkjenne og bruke uttrykk for høflighet og uskrevne regler i målspråklandene</li>\n<li>beskrive og vurdere levemåter, samfunnsspørsmål og verdier i områder der fremmedspråket brukes og gjøre sammenligninger med eget lokalsamfunn</li>\n<li>lese, diskutere og presentere innholdet i tekster fra ulike sjangere, epoker og emner</li>\n<li>formidle innholdet i autentiske tekster</li>\n</ul>\n",
         "kjerneelementer": null,
+        "related": []
+      },
+      {
+        "id": "spansk-iii",
+        "title": "Spansk III",
+        "shortTitle": null,
+        "fagkode": "PSP5830",
+        "lareplan": "PSP01‑04",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "Spansk III er for deg som allerede har hatt spansk på nivå I og II, og som vil fordype deg videre i språket. I dette faget utvikler du språkferdighetene dine til et høyere nivå, slik at du kan diskutere komplekse temaer, forstå autentiske tekster og kommunisere mer nyansert. Du utforsker spansktalende kulturer i dybden og lærer å bruke språket i faglige og profesjonelle sammenhenger.",
+        "hvordanArbeiderMan": "I spansk III arbeider du med avanserte tekster og temaer. Du leser autentiske materialer som aviser, litteratur og fagartikler, og du diskuterer aktuelle samfunnsspørsmål på spansk. Muntlig kommunikasjon vektlegges sterkt, og du øver på å argumentere, presentere og delta i spontane samtaler om komplekse emner. Digitale verktøy og språkteknologi brukes aktivt for å utvide læringsarenaen. Undervisningen legger vekt på selvstendig arbeid og kritisk tenkning, og du får mulighet til å fordype deg i selvvalgte temaer.",
+        "fagetsRelevans": "Spansk er verdens fjerde mest talte språk og offisielt språk i over 20 land. Med avanserte spanskkunnskaper åpner du dører til høyere utdanning, internasjonalt næringsliv, diplomati og kulturarbeid. Språkkompetanse på dette nivået er etterspurt i mange bransjer, fra oversettelse og journalistikk til internasjonal handel og turisme. Faget gir deg også et grunnlag for å studere spansk på universitetsnivå eller kombinere språket med andre fagområder.",
+        "beskrivelseHTML": "<h1>Spansk III</h1>\n<p><strong>Læreplan:</strong> Læreplan i fremmedspråk programfag</p>\n<h2>Om faget</h2>\n<p>Spansk III er for deg som allerede har hatt spansk på nivå I og II, og som vil fordype deg videre i språket. I dette faget utvikler du språkferdighetene dine til et høyere nivå, slik at du kan diskutere komplekse temaer, forstå autentiske tekster og kommunisere mer nyansert. Du utforsker spansktalende kulturer i dybden og lærer å bruke språket i faglige og profesjonelle sammenhenger.</p>\n<h2>Hvordan arbeider man i faget</h2>\n<p>I spansk III arbeider du med avanserte tekster og temaer. Du leser autentiske materialer som aviser, litteratur og fagartikler, og du diskuterer aktuelle samfunnsspørsmål på spansk. Muntlig kommunikasjon vektlegges sterkt, og du øver på å argumentere, presentere og delta i spontane samtaler om komplekse emner. Digitale verktøy og språkteknologi brukes aktivt for å utvide læringsarenaen. Undervisningen legger vekt på selvstendig arbeid og kritisk tenkning, og du får mulighet til å fordype deg i selvvalgte temaer.</p>\n<h2>Fagets relevans</h2>\n<p>Spansk er verdens fjerde mest talte språk og offisielt språk i over 20 land. Med avanserte spanskkunnskaper åpner du dører til høyere utdanning, internasjonalt næringsliv, diplomati og kulturarbeid. Språkkompetanse på dette nivået er etterspurt i mange bransjer, fra oversettelse og journalistikk til internasjonal handel og turisme. Faget gir deg også et grunnlag for å studere spansk på universitetsnivå eller kombinere språket med andre fagområder.</p>\n<h2>Kompetansemål</h2>\n<ul>\n<li>lytte til og forstå språklig mer kompleks tale om faglig relevante emner</li>\n<li>samtale om kjente emner og faglig relevante emner</li>\n<li>presentere faglig relevante emner muntlig med noe spontan argumentasjon</li>\n<li>lese og forstå et bredt utvalg tekster, inkludert autentiske materialer</li>\n<li>skrive klare, detaljerte tekster om faglige emner og drøfte ulike perspektiver</li>\n<li>bruke hensiktsmessige språklige strukturer og kommunikasjonsstrategier</li>\n<li>bruke digitale ressurser og læringsstrategier effektivt</li>\n<li>utforske historiske, sosiale, miljømessige og politiske forhold i spansktalende områder</li>\n<li>analysere kunstneriske og kulturelle uttrykk og diskutere stiler og trender</li>\n<li>reflektere over egne erfaringer med kulturer og kunstneriske uttrykk</li>\n</ul>\n<h2>Kjerneelementer</h2>\n<h3>Kommunikasjon</h3>\n<p>Kommunikasjon er selve hovedkjernen i faget. Å lære fremmedspråk handler om å forstå og bli forstått. Elevene utvikler kompetanse til å kommunisere hensiktsmessig både muntlig og skriftlig, ved hjelp av ulike medier og verktøy.</p>\n<h3>Interkulturell kompetanse</h3>\n<p>Kunnskap om og en utforskende tilnærming til andre språk, kulturer, levesett og tenkemåter åpner for nye perspektiver. Dette kjerneelementet vektlegger utvikling av nysgjerrighet og forståelse for kulturelt og språklig mangfold for å samhandle effektivt med andre.</p>\n<h3>Språklæring og flerspråklighet</h3>\n<p>Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i stand til å lære og forstå språk i et livslangt perspektiv. Elevene utnytter sin flerspråklige bakgrunn og tidligere språklæringserfaringer for å gjøre ny språktilegnelse mer meningsfull og effektiv.</p>\n<h3>Språk og teknologi</h3>\n<p>Å utforske og utnytte faglig relevant språkteknologi og nye medier gir utvidede muligheter for kreativ og kritisk læring. Dette kjerneelementet fremhever hvordan språkteknologi og digitale ressurser utvider kreativt og kritisk engasjement med språk, kommunikasjon og interkulturell kompetanse.</p>\n<h2>Ressurser</h2>\n<!-- Legg til Vimeo-lenke her når den er klar -->\n\n<hr>\n<p><em>Hentet fra UDIR Grep API</em>\n<em>Fagkode: PSP5830</em>\n<em>Generert: 2025-12-17</em></p>\n",
+        "kjerneelementer": [
+          {
+            "title": "Kommunikasjon",
+            "content": "Kommunikasjon er selve hovedkjernen i faget. Å lære fremmedspråk handler om å forstå og bli forstått. Elevene utvikler kompetanse til å kommunisere hensiktsmessig både muntlig og skriftlig, ved hjelp av ulike medier og verktøy."
+          },
+          {
+            "title": "Interkulturell kompetanse",
+            "content": "Kunnskap om og en utforskende tilnærming til andre språk, kulturer, levesett og tenkemåter åpner for nye perspektiver. Dette kjerneelementet vektlegger utvikling av nysgjerrighet og forståelse for kulturelt og språklig mangfold for å samhandle effektivt med andre."
+          },
+          {
+            "title": "Språklæring og flerspråklighet",
+            "content": "Kunnskap om språk og utforsking av egen språklæring gjør elevene bedre i stand til å lære og forstå språk i et livslangt perspektiv. Elevene utnytter sin flerspråklige bakgrunn og tidligere språklæringserfaringer for å gjøre ny språktilegnelse mer meningsfull og effektiv."
+          },
+          {
+            "title": "Språk og teknologi",
+            "content": "Å utforske og utnytte faglig relevant språkteknologi og nye medier gir utvidede muligheter for kreativ og kritisk læring. Dette kjerneelementet fremhever hvordan språkteknologi og digitale ressurser utvider kreativt og kritisk engasjement med språk, kommunikasjon og interkulturell kompetanse."
+          }
+        ],
         "related": []
       },
       {

@@ -1,0 +1,220 @@
+# Metis Videregående Skole - Fagtilbud
+# Sist oppdatert: 2025-12-17
+# Struktur: v2 - Nested categories (valgfrieProgramfag)
+
+school: metis-vgs
+
+# ========================================
+# VALGFRIE PROGRAMFAG
+# ========================================
+# Programfag som elever kan velge innenfor studiespesialisering
+
+valgfrieProgramfag:
+  # Matematikk
+  - fagId: matematikk-r1
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  - fagId: matematikk-r2
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  - fagId: matematikk-s1
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  - fagId: matematikk-s2
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  - fagId: matematikk-2p
+    vimeo: ""
+    bilde: ""
+    kategori: "matematikk"
+
+  # Naturfag - Biologi
+  - fagId: biologi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  - fagId: biologi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  # Naturfag - Fysikk
+  - fagId: fysikk-1
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  - fagId: fysikk-2
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  # Naturfag - Kjemi
+  - fagId: kjemi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  - fagId: kjemi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  # Naturfag - Geofag
+  - fagId: geofag-1
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  - fagId: geofag-2
+    vimeo: ""
+    bilde: ""
+    kategori: "naturfag"
+
+  # Teknologi
+  - fagId: teknologi-og-forskningslaere-1
+    vimeo: ""
+    bilde: ""
+    kategori: "teknologi"
+
+  # Økonomi
+  - fagId: okonomistyring
+    vimeo: ""
+    bilde: ""
+    kategori: "økonomi"
+
+  - fagId: okonomi-og-ledelse
+    vimeo: ""
+    bilde: ""
+    kategori: "økonomi"
+
+  - fagId: samfunnsokonomi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "økonomi"
+
+  - fagId: samfunnsokonomi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "økonomi"
+
+  # Bedriftsledelse
+  - fagId: entreprenorskap-og-bedriftsutvikling-1
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: entreprenorskap-og-bedriftsutvikling-2
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: markedsforing-og-ledelse-1
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  - fagId: markedsforing-og-ledelse-2
+    vimeo: ""
+    bilde: ""
+    kategori: "bedriftsledelse"
+
+  # Samfunnsfag
+  - fagId: sosiologi-og-sosialantropologi
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: sosialkunnskap
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: politikk-og-menneskerettigheter
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: rettslaere-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: rettslaere-2
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: psykologi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: psykologi-2
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  - fagId: historie-og-filosofi-1
+    vimeo: ""
+    bilde: ""
+    kategori: "samfunnsfag"
+
+  # Språk
+  - fagId: engelsk-1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: engelsk-2
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: kommunikasjon-og-kultur-1
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  - fagId: spansk-iii
+    vimeo: ""
+    bilde: ""
+    kategori: "språk"
+
+  # Kunst og design
+  - fagId: bilde
+    vimeo: ""
+    bilde: ""
+    kategori: "kunst"
+
+  - fagId: grafisk-design
+    vimeo: ""
+    bilde: ""
+    kategori: "kunst"
+
+  - fagId: lyddesign
+    vimeo: ""
+    bilde: ""
+    kategori: "kunst"
+
+  # Medier
+  - fagId: mediespesialisering
+    vimeo: ""
+    bilde: ""
+    kategori: "medier"
+
+# Metadata
+metadata:
+  antallValgfrieProgramfag: 38
+  sistOppdatert: "2025-12-17"
+  versjon: "v2"
+  kommentar: "Basert på blokkskjema 2026-2027"
