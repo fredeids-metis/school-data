@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "2025-01",
-    "generatedAt": "2025-12-17T10:15:25.106Z",
+    "generatedAt": "2026-01-06T12:59:29.175Z",
     "school": "bergen-private-gymnas",
     "description": "Komplett data for Studieplanlegger widget"
   },
@@ -31,7 +31,7 @@
     ]
   },
   "blokkskjema": {
-    "versjon": "vanilla",
+    "versjon": "26-27_vedtatt",
     "struktur": {
       "antallBlokker": 4,
       "navnBlokker": [
@@ -73,6 +73,22 @@
             "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk."
           },
           {
+            "id": "matematikk-s1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Erstatter Matematikk 2P hvis valgt",
+            "kategori": "matematikk",
+            "title": "Matematikk S1",
+            "fagkode": "REA3060",
+            "lareplan": "MAT04-02",
+            "omFaget": "Matematikk S1 gir deg matematikkompetanse rettet mot økonomi, samfunnsfag og helsefag. Du lærer funksjoner, derivasjon og statistikk, med fokus på praktiske anvendelser. Faget passer for deg som vil ha mer matematikk enn P-matten gir, men som ikke trenger den teoretiske dybden i R-matematikk. S1 er et godt grunnlag for studier innen økonomi, sykepleie og samfunnsvitenskap."
+          },
+          {
             "id": "matematikk-r1",
             "timer": 140,
             "trinn": "vg2",
@@ -89,66 +105,6 @@
             "omFaget": "Matematikk R1 gir deg verktøy for å forstå hvordan verden fungerer matematisk. Du lærer derivasjon, funksjonsanalyse og vektorer, og bruker dette til å analysere alt fra fysiske fenomener til økonomiske modeller. Faget trener deg i å bryte ned komplekse problemer og tenke logisk. R1 er nødvendig for de fleste teknologi- og realfagsstudier, inkludert sivilingeniør, informatikk og økonomi."
           },
           {
-            "id": "statistikk",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Nytt fag fra 2026 - erstatter Matematikk S",
-            "kategori": "matematikk",
-            "title": "Statistikk",
-            "fagkode": "TBA",
-            "lareplan": "TBA",
-            "omFaget": "Hvordan kan du vite om en undersøkelse er pålitelig? Når kan tall villede? I statistikk lærer du å analysere data, tolke resultater og vurdere påstandene du møter i media og forskning. Faget gir deg praktisk kompetanse i statistiske metoder som hypotesetesting, sannsynlighetsregning og regresjon. Vanskelighetsgraden ligger mellom matematikk P og R."
-          },
-          {
-            "id": "statistikk",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "merknad": "Nytt fag fra 2026 - erstatter Matematikk S",
-            "kategori": "matematikk",
-            "title": "Statistikk",
-            "fagkode": "TBA",
-            "lareplan": "TBA",
-            "omFaget": "Hvordan kan du vite om en undersøkelse er pålitelig? Når kan tall villede? I statistikk lærer du å analysere data, tolke resultater og vurdere påstandene du møter i media og forskning. Faget gir deg praktisk kompetanse i statistiske metoder som hypotesetesting, sannsynlighetsregning og regresjon. Vanskelighetsgraden ligger mellom matematikk P og R."
-          },
-          {
-            "id": "matematikk-for-okonomifag",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Nytt fag fra 2026 - erstatter Matematikk S",
-            "kategori": "matematikk",
-            "title": "Matematikk for økonomifag",
-            "fagkode": "TBA",
-            "lareplan": "TBA",
-            "omFaget": "Du ser en nyhetssak om renteøkning og boligpriser. Hva betyr det egentlig for din fremtidige økonomi? Matematikk for økonomifag gir deg verktøyene til å forstå slike sammenhenger. Du lærer om lån, renter, sparing og hvordan økonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå økonomi uten å ta full realfagsfordypning."
-          },
-          {
-            "id": "matematikk-for-okonomifag",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "merknad": "Nytt fag fra 2026 - erstatter Matematikk S",
-            "kategori": "matematikk",
-            "title": "Matematikk for økonomifag",
-            "fagkode": "TBA",
-            "lareplan": "TBA",
-            "omFaget": "Du ser en nyhetssak om renteøkning og boligpriser. Hva betyr det egentlig for din fremtidige økonomi? Matematikk for økonomifag gir deg verktøyene til å forstå slike sammenhenger. Du lærer om lån, renter, sparing og hvordan økonomiske modeller fungerer. Faget ligger mellom praktisk matematikk og R-matematikk i vanskegrad, og passer for deg som vil forstå økonomi uten å ta full realfagsfordypning."
-          },
-          {
             "id": "matematikk-r2",
             "timer": 140,
             "trinn": "vg3",
@@ -163,6 +119,22 @@
             "fagkode": "REA3058",
             "lareplan": "MAT03-02",
             "omFaget": "Vil du studere sivilingeniør, fysikk eller arkitektur? Da trenger du R2. Faget bygger videre på R1 og gir deg integralregning, vektorer i rommet, rekker og trigonometriske funksjoner. Du lærer også å bruke programmering til å løse matematiske problemer. R2 er obligatorisk for de fleste teknologi- og ingeniørutdanninger, og NTNU krever karakter 4 eller bedre for opptak til sivilingeniørstudiene."
+          },
+          {
+            "id": "matematikk-s2",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "krever": [
+              "matematikk-s1"
+            ],
+            "kategori": "matematikk",
+            "title": "Matematikk S2",
+            "fagkode": "REA3062",
+            "lareplan": "MAT04-02",
+            "omFaget": "Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 lærer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå økonomiske og samfunnsmessige sammenhenger. Faget bygger på S1 og gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon og samfunnsvitenskap."
           },
           {
             "id": "historie-vg3",
@@ -183,7 +155,7 @@
       },
       "blokk2": {
         "navn": "Blokk 2",
-        "beskrivelse": "Realfag, Økonomi, Samfunnsfag, Språk",
+        "beskrivelse": "Realfag, Økonomi, Samfunnsfag, Kunst",
         "tilgjengeligFor": {
           "vg2": [
             "studiespesialisering"
@@ -209,6 +181,58 @@
             "omFaget": "Kjemi 1 gir deg kunnskap du trenger for å forstå hvordan stoffer er bygget opp og reagerer med hverandre. Du lærer om atomstruktur, kjemiske bindinger og periodesystemet som verktøy. På laboratoriet gjennomfører du forsøk som titreringer og spektroskopi. Faget kombinerer teori, beregninger og praktisk arbeid - og er grunnleggende for studier innen medisin, farmasi og ingeniørfag."
           },
           {
+            "id": "rettslaere-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "samfunnsfag",
+            "title": "Rettslære 1",
+            "fagkode": "SAM3057",
+            "lareplan": "RTL01-05",
+            "omFaget": "Du kjøper en mobil som slutter å virke etter to uker. Hva er rettighetene dine? I rettslære 1 lærer du hvordan lover og regler fungerer i praksis. Faget dekker områder som berører hverdagen: forbrukerkjøp, arbeidskontrakter, arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger, finne relevant lovgivning og argumentere for ulike standpunkter."
+          },
+          {
+            "id": "okonomistyring",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "økonomi",
+            "title": "Økonomistyring",
+            "fagkode": "SAM3068",
+            "lareplan": "NOK02-03",
+            "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk."
+          },
+          {
+            "id": "samfunnsokonomi-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "økonomi",
+            "title": "Samfunnsøkonomi 1",
+            "fagkode": "SAM3060",
+            "lareplan": "SOK01‑03",
+            "omFaget": "Hvorfor stiger prisene? Hva bestemmer hvor mange som får jobb? Samfunnsøkonomi 1 gir deg verktøy til å forstå hvordan økonomien fungerer. Du lærer om markeder, prisdannelse, inflasjon og arbeidsledighet. Faget viser hvordan politiske beslutninger påvirker økonomi, miljø og velferd, og hvordan Norge er koblet til den globale økonomien gjennom handel og valuta."
+          },
+          {
+            "id": "grafisk-design",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "kunst",
+            "title": "Grafisk design",
+            "fagkode": "MOK3010",
+            "lareplan": "MOK06-02",
+            "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
+          },
+          {
             "id": "kjemi-1",
             "timer": 140,
             "trinn": "vg3",
@@ -225,48 +249,6 @@
             "omFaget": "Kjemi 1 gir deg kunnskap du trenger for å forstå hvordan stoffer er bygget opp og reagerer med hverandre. Du lærer om atomstruktur, kjemiske bindinger og periodesystemet som verktøy. På laboratoriet gjennomfører du forsøk som titreringer og spektroskopi. Faget kombinerer teori, beregninger og praktisk arbeid - og er grunnleggende for studier innen medisin, farmasi og ingeniørfag."
           },
           {
-            "id": "okonomistyring",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "økonomi",
-            "title": "Økonomistyring",
-            "fagkode": "SAM3068",
-            "lareplan": "NOK02-03",
-            "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk."
-          },
-          {
-            "id": "okonomistyring",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "økonomi",
-            "title": "Økonomistyring",
-            "fagkode": "SAM3068",
-            "lareplan": "NOK02-03",
-            "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk."
-          },
-          {
-            "id": "rettslaere-1",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "samfunnsfag",
-            "title": "Rettslære 1",
-            "fagkode": "SAM3057",
-            "lareplan": "RTL01-05",
-            "omFaget": "Du kjøper en mobil som slutter å virke etter to uker. Hva er rettighetene dine? I rettslære 1 lærer du hvordan lover og regler fungerer i praksis. Faget dekker områder som berører hverdagen: forbrukerkjøp, arbeidskontrakter, arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger, finne relevant lovgivning og argumentere for ulike standpunkter."
-          },
-          {
             "id": "rettslaere-1",
             "timer": 140,
             "trinn": "vg3",
@@ -283,20 +265,7 @@
             "omFaget": "Du kjøper en mobil som slutter å virke etter to uker. Hva er rettighetene dine? I rettslære 1 lærer du hvordan lover og regler fungerer i praksis. Faget dekker områder som berører hverdagen: forbrukerkjøp, arbeidskontrakter, arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger, finne relevant lovgivning og argumentere for ulike standpunkter."
           },
           {
-            "id": "engelsk-1",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "språk",
-            "title": "Engelsk 1",
-            "fagkode": "SPR3029",
-            "lareplan": "ENG04‑02",
-            "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden."
-          },
-          {
-            "id": "engelsk-1",
+            "id": "okonomistyring",
             "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
@@ -305,25 +274,43 @@
               "medier-kommunikasjon"
             ],
             "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "språk",
-            "title": "Engelsk 1",
-            "fagkode": "SPR3029",
-            "lareplan": "ENG04‑02",
-            "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden."
+            "kategori": "økonomi",
+            "title": "Økonomistyring",
+            "fagkode": "SAM3068",
+            "lareplan": "NOK02-03",
+            "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk."
           },
           {
-            "id": "psykologi-2",
+            "id": "samfunnsokonomi-1",
             "timer": 140,
-            "trinn": "vg2",
+            "trinn": "vg3",
             "tilgjengeligFor": [
-              "studiespesialisering"
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
             ],
-            "merknad": "Bygger ikke på Psykologi 1",
-            "kategori": "samfunnsfag",
-            "title": "Psykologi 2",
-            "fagkode": "SAM3073",
-            "lareplan": "PSY01‑04",
-            "omFaget": "Hvorfor lar vi oss påvirke av grupper? Hva skiller psykiske vansker fra psykiske lidelser? I psykologi 2 fordyper du deg i sosial påvirkning, kommunikasjon og psykisk helse. Du lærer hvordan samspill med andre former holdninger og identitet, og hvordan konflikter kan løses gjennom god kommunikasjon. Faget gir deg også innsikt i hva som fremmer god psykisk helse og hvordan samfunnets syn på psykiske lidelser har endret seg over tid."
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "økonomi",
+            "title": "Samfunnsøkonomi 1",
+            "fagkode": "SAM3060",
+            "lareplan": "SOK01‑03",
+            "omFaget": "Hvorfor stiger prisene? Hva bestemmer hvor mange som får jobb? Samfunnsøkonomi 1 gir deg verktøy til å forstå hvordan økonomien fungerer. Du lærer om markeder, prisdannelse, inflasjon og arbeidsledighet. Faget viser hvordan politiske beslutninger påvirker økonomi, miljø og velferd, og hvordan Norge er koblet til den globale økonomien gjennom handel og valuta."
+          },
+          {
+            "id": "grafisk-design",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "kunst",
+            "title": "Grafisk design",
+            "fagkode": "MOK3010",
+            "lareplan": "MOK06-02",
+            "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
           },
           {
             "id": "psykologi-2",
@@ -344,75 +331,18 @@
           {
             "id": "entreprenorskap-og-bedriftsutvikling-2",
             "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "merknad": "Bygger ikke på Entreprenørskap 1",
-            "kategori": "bedriftsledelse",
-            "title": "Entreprenørskap og bedriftsutvikling 2",
-            "fagkode": "SAM3064",
-            "lareplan": "ENT01-04",
-            "omFaget": "Hvordan kan en etablert bedrift vokse videre? Hva gjør en god leder? I Entreprenørskap og bedriftsutvikling 2 lærer du å analysere og videreutvikle virksomheter. Du arbeider med vekststrategier, ledelse og innovasjon, og du vurderer hvordan bedrifter kan ta samfunnsansvar. Faget kombinerer teori med praktiske oppgaver og prosjekter."
-          },
-          {
-            "id": "entreprenorskap-og-bedriftsutvikling-2",
-            "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
               "studiespesialisering",
               "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "merknad": "Bygger ikke på Entreprenørskap 1",
+            "merknad": "Bygger ikke på Entreprenorskap 1",
             "kategori": "bedriftsledelse",
             "title": "Entreprenørskap og bedriftsutvikling 2",
             "fagkode": "SAM3064",
             "lareplan": "ENT01-04",
             "omFaget": "Hvordan kan en etablert bedrift vokse videre? Hva gjør en god leder? I Entreprenørskap og bedriftsutvikling 2 lærer du å analysere og videreutvikle virksomheter. Du arbeider med vekststrategier, ledelse og innovasjon, og du vurderer hvordan bedrifter kan ta samfunnsansvar. Faget kombinerer teori med praktiske oppgaver og prosjekter."
-          },
-          {
-            "id": "grafisk-design",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "kunst",
-            "title": "Grafisk design",
-            "fagkode": "MOK3010",
-            "lareplan": "MOK06-02",
-            "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
-          },
-          {
-            "id": "grafisk-design",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "kunst",
-            "title": "Grafisk design",
-            "fagkode": "MOK3010",
-            "lareplan": "MOK06-02",
-            "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
-          },
-          {
-            "id": "musikk-fordypning-2",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "merknad": "Bygger ikke på Musikk fordypning 1",
-            "kategori": "musikk",
-            "title": "Musikk fordypning 2",
-            "fagkode": "MUS3008",
-            "lareplan": "MUS08‑02",
-            "omFaget": "Hva kjennetegner din musikalske stemme? I Musikk fordypning 2 utforsker du ditt eget uttrykk gjennom komposisjon, arrangering og improvisasjon. Du lærer å bruke musikkteknologi til lydopptak og produksjon, og arbeider med prosjekter der du planlegger, gjennomfører og presenterer egne verk. Faget kan tas uavhengig av Musikk fordypning 1 og forbereder deg på videre studier innen utøvende musikk, komposisjon eller musikkproduksjon."
           },
           {
             "id": "musikk-fordypning-2",
@@ -458,9 +388,9 @@
               "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "merknad": "BETINGET OBLIGATORISK for elever uten fremmedspråk fra ungdomsskolen",
+            "merknad": "BETINGET OBLIGATORISK for elever uten fremmedsprak fra ungdomsskolen",
             "betingetObligatorisk": true,
-            "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet",
+            "betingelse": "Elev har ikke hatt fremmedsprak pa ungdomstrinnet",
             "kategori": null,
             "title": "Spansk I+II",
             "lareplan": "FSP6-01",
@@ -487,7 +417,7 @@
       },
       "blokk3": {
         "navn": "Blokk 3",
-        "beskrivelse": "Realfag, Bedriftsledelse, Samfunnsfag, Musikk",
+        "beskrivelse": "Realfag, Bedriftsledelse, Samfunnsfag, Musikk, Kunst",
         "tilgjengeligFor": {
           "vg2": [
             "studiespesialisering",
@@ -516,6 +446,81 @@
             "omFaget": "Fysikk 1 gir deg verktøy til å forstå hvordan verden fungerer, fra krefter og bevegelse til energi og strålingsbalanse. Du lærer å bruke matematikk og modeller til å beskrive fysiske fenomener, og du gjennomfører forsøk der du tester teoriene i praksis. Faget utvikler evnen din til å tenke analytisk og løse problemer systematisk."
           },
           {
+            "id": "entreprenorskap-og-bedriftsutvikling-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "bedriftsledelse",
+            "title": "Entreprenørskap og bedriftsutvikling 1",
+            "fagkode": "SAM3063",
+            "lareplan": "ENT01-04",
+            "omFaget": "I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt."
+          },
+          {
+            "id": "psykologi-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "samfunnsfag",
+            "title": "Psykologi 1",
+            "fagkode": "SAM3072",
+            "lareplan": "PSY01‑04",
+            "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser."
+          },
+          {
+            "id": "engelsk-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "språk",
+            "title": "Engelsk 1",
+            "fagkode": "SPR3029",
+            "lareplan": "ENG04‑02",
+            "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden."
+          },
+          {
+            "id": "musikk-fordypning-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "musikk",
+            "title": "Musikk fordypning 1",
+            "fagkode": "MUS3006",
+            "lareplan": "MUS08‑02",
+            "omFaget": "Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes."
+          },
+          {
+            "id": "bilde",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "musikk-dans-drama",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "kunst",
+            "title": "Bilde",
+            "fagkode": "MOK3008",
+            "lareplan": "MOK04‑02",
+            "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
+          },
+          {
             "id": "fysikk-1",
             "timer": 140,
             "trinn": "vg3",
@@ -531,51 +536,6 @@
             "omFaget": "Fysikk 1 gir deg verktøy til å forstå hvordan verden fungerer, fra krefter og bevegelse til energi og strålingsbalanse. Du lærer å bruke matematikk og modeller til å beskrive fysiske fenomener, og du gjennomfører forsøk der du tester teoriene i praksis. Faget utvikler evnen din til å tenke analytisk og løse problemer systematisk."
           },
           {
-            "id": "psykologi-1",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "kategori": "samfunnsfag",
-            "title": "Psykologi 1",
-            "fagkode": "SAM3072",
-            "lareplan": "PSY01‑04",
-            "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser."
-          },
-          {
-            "id": "psykologi-1",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "samfunnsfag",
-            "title": "Psykologi 1",
-            "fagkode": "SAM3072",
-            "lareplan": "PSY01‑04",
-            "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser."
-          },
-          {
-            "id": "entreprenorskap-og-bedriftsutvikling-1",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "kategori": "bedriftsledelse",
-            "title": "Entreprenørskap og bedriftsutvikling 1",
-            "fagkode": "SAM3063",
-            "lareplan": "ENT01-04",
-            "omFaget": "I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt."
-          },
-          {
             "id": "entreprenorskap-og-bedriftsutvikling-1",
             "timer": 140,
             "trinn": "vg3",
@@ -591,22 +551,7 @@
             "omFaget": "I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt."
           },
           {
-            "id": "bilde",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "kategori": "kunst",
-            "title": "Bilde",
-            "fagkode": "MOK3008",
-            "lareplan": "MOK04‑02",
-            "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
-          },
-          {
-            "id": "bilde",
+            "id": "psykologi-1",
             "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
@@ -614,26 +559,26 @@
               "medier-kommunikasjon"
             ],
             "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "kunst",
-            "title": "Bilde",
-            "fagkode": "MOK3008",
-            "lareplan": "MOK04‑02",
-            "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
+            "kategori": "samfunnsfag",
+            "title": "Psykologi 1",
+            "fagkode": "SAM3072",
+            "lareplan": "PSY01‑04",
+            "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser."
           },
           {
-            "id": "musikk-fordypning-1",
+            "id": "engelsk-1",
             "timer": 140,
-            "trinn": "vg2",
+            "trinn": "vg3",
             "tilgjengeligFor": [
               "studiespesialisering",
-              "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "kategori": "musikk",
-            "title": "Musikk fordypning 1",
-            "fagkode": "MUS3006",
-            "lareplan": "MUS08‑02",
-            "omFaget": "Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes."
+            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
+            "kategori": "språk",
+            "title": "Engelsk 1",
+            "fagkode": "SPR3029",
+            "lareplan": "ENG04‑02",
+            "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden."
           },
           {
             "id": "musikk-fordypning-1",
@@ -651,53 +596,7 @@
             "omFaget": "Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes."
           },
           {
-            "id": "biologi-2",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Bygger ikke på Biologi 1",
-            "kategori": "naturfag",
-            "title": "Biologi 2",
-            "fagkode": "REA3036",
-            "lareplan": "BIO01-02",
-            "omFaget": "Biologi 2 gir deg kunnskap om genetikk, evolusjon og bioteknologi. Du lærer hvordan gener styrer egenskaper, hvordan arter har utviklet seg over tid, og hvordan genteknologi brukes i medisin og matproduksjon. Faget kombinerer teori med laboratoriearbeid og feltarbeid. Du får også øving i å vurdere etiske spørsmål knyttet til bruk av bioteknologi."
-          },
-          {
-            "id": "biologi-2",
-            "timer": 140,
-            "trinn": "vg3",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "medier-kommunikasjon"
-            ],
-            "merknad": "Bygger ikke på Biologi 1",
-            "kategori": "naturfag",
-            "title": "Biologi 2",
-            "fagkode": "REA3036",
-            "lareplan": "BIO01-02",
-            "omFaget": "Biologi 2 gir deg kunnskap om genetikk, evolusjon og bioteknologi. Du lærer hvordan gener styrer egenskaper, hvordan arter har utviklet seg over tid, og hvordan genteknologi brukes i medisin og matproduksjon. Faget kombinerer teori med laboratoriearbeid og feltarbeid. Du får også øving i å vurdere etiske spørsmål knyttet til bruk av bioteknologi."
-          },
-          {
-            "id": "sosialkunnskap",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering",
-              "musikk-dans-drama",
-              "medier-kommunikasjon"
-            ],
-            "kategori": "samfunnsfag",
-            "title": "Sosialkunnskap",
-            "fagkode": "SAM3051",
-            "lareplan": "POS02-02",
-            "omFaget": "Sosialkunnskap gir deg innsikt i hvordan velferdssamfunnet fungerer og hvilke utfordringer det står overfor. Du lærer om sosiale problemer, utenforskap og hva som skal til for at mennesker kan mestre livene sine. Faget handler om hvordan individer, grupper og institusjoner henger sammen, og gir deg verktøy til å forstå både deg selv og samfunnet du er en del av."
-          },
-          {
-            "id": "sosialkunnskap",
+            "id": "bilde",
             "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
@@ -705,26 +604,26 @@
               "medier-kommunikasjon"
             ],
             "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-            "kategori": "samfunnsfag",
-            "title": "Sosialkunnskap",
-            "fagkode": "SAM3051",
-            "lareplan": "POS02-02",
-            "omFaget": "Sosialkunnskap gir deg innsikt i hvordan velferdssamfunnet fungerer og hvilke utfordringer det står overfor. Du lærer om sosiale problemer, utenforskap og hva som skal til for at mennesker kan mestre livene sine. Faget handler om hvordan individer, grupper og institusjoner henger sammen, og gir deg verktøy til å forstå både deg selv og samfunnet du er en del av."
+            "kategori": "kunst",
+            "title": "Bilde",
+            "fagkode": "MOK3008",
+            "lareplan": "MOK04‑02",
+            "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
           },
           {
-            "id": "politikk-og-menneskerettigheter",
+            "id": "biologi-2",
             "timer": 140,
-            "trinn": "vg2",
+            "trinn": "vg3",
             "tilgjengeligFor": [
               "studiespesialisering",
-              "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "kategori": "samfunnsfag",
-            "title": "Politikk og menneskerettigheter",
-            "fagkode": "SAM3055",
-            "lareplan": "POS05-02",
-            "omFaget": "Hvordan påvirker politiske beslutninger hverdagen din? Hvem bestemmer egentlig, og hvordan kan du selv ha innflytelse? I politikk og menneskerettigheter lærer du hvordan samfunn styres, og hvilken rolle menneskerettighetene spiller lokalt, nasjonalt og globalt. Du utvikler evnen til å analysere politiske problemstillinger, forstå ulike synspunkter og delta aktivt i samfunnsdebatten."
+            "merknad": "Bygger ikke pa Biologi 1",
+            "kategori": "naturfag",
+            "title": "Biologi 2",
+            "fagkode": "REA3036",
+            "lareplan": "BIO01-02",
+            "omFaget": "Biologi 2 gir deg kunnskap om genetikk, evolusjon og bioteknologi. Du lærer hvordan gener styrer egenskaper, hvordan arter har utviklet seg over tid, og hvordan genteknologi brukes i medisin og matproduksjon. Faget kombinerer teori med laboratoriearbeid og feltarbeid. Du får også øving i å vurdere etiske spørsmål knyttet til bruk av bioteknologi."
           },
           {
             "id": "politikk-og-menneskerettigheter",
@@ -734,12 +633,25 @@
               "studiespesialisering",
               "medier-kommunikasjon"
             ],
-            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
             "kategori": "samfunnsfag",
             "title": "Politikk og menneskerettigheter",
             "fagkode": "SAM3055",
             "lareplan": "POS05-02",
             "omFaget": "Hvordan påvirker politiske beslutninger hverdagen din? Hvem bestemmer egentlig, og hvordan kan du selv ha innflytelse? I politikk og menneskerettigheter lærer du hvordan samfunn styres, og hvilken rolle menneskerettighetene spiller lokalt, nasjonalt og globalt. Du utvikler evnen til å analysere politiske problemstillinger, forstå ulike synspunkter og delta aktivt i samfunnsdebatten."
+          },
+          {
+            "id": "sosialkunnskap",
+            "timer": 140,
+            "trinn": "vg3",
+            "tilgjengeligFor": [
+              "studiespesialisering",
+              "medier-kommunikasjon"
+            ],
+            "kategori": "samfunnsfag",
+            "title": "Sosialkunnskap",
+            "fagkode": "SAM3051",
+            "lareplan": "POS02-02",
+            "omFaget": "Sosialkunnskap gir deg innsikt i hvordan velferdssamfunnet fungerer og hvilke utfordringer det står overfor. Du lærer om sosiale problemer, utenforskap og hva som skal til for at mennesker kan mestre livene sine. Faget handler om hvordan individer, grupper og institusjoner henger sammen, og gir deg verktøy til å forstå både deg selv og samfunnet du er en del av."
           },
           {
             "id": "markedsforing-og-ledelse-2",
@@ -804,6 +716,32 @@
             "omFaget": "Hvordan holder kroppen temperaturen stabil? Hvorfor virker antibiotika mot bakterier, men ikke mot virus? Biologi 1 gir deg svar på slike spørsmål. Du lærer om celler, fysiologi og økosystemer, og du får forstå sammenhengen mellom helse og livsstil. Faget kombinerer teori med praktisk arbeid i laboratoriet og i felt."
           },
           {
+            "id": "sosiologi-og-sosialantropologi",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "samfunnsfag",
+            "title": "Sosiologi og sosialantropologi",
+            "fagkode": "SAM3054",
+            "lareplan": "POS04-01",
+            "omFaget": "Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet. Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen. Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre."
+          },
+          {
+            "id": "markedsforing-og-ledelse-1",
+            "timer": 140,
+            "trinn": "vg2",
+            "tilgjengeligFor": [
+              "studiespesialisering"
+            ],
+            "kategori": "bedriftsledelse",
+            "title": "Markedsføring og ledelse 1",
+            "fagkode": "SAM3045",
+            "lareplan": "MFL01-04",
+            "omFaget": "Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til å legge merke til akkurat deres merkevare? I Markedsføring og ledelse 1 lærer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen."
+          },
+          {
             "id": "biologi-1",
             "timer": 140,
             "trinn": "vg3",
@@ -822,19 +760,6 @@
           {
             "id": "sosiologi-og-sosialantropologi",
             "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "samfunnsfag",
-            "title": "Sosiologi og sosialantropologi",
-            "fagkode": "SAM3054",
-            "lareplan": "POS04-01",
-            "omFaget": "Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet. Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen. Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre."
-          },
-          {
-            "id": "sosiologi-og-sosialantropologi",
-            "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
               "studiespesialisering",
@@ -847,19 +772,6 @@
             "fagkode": "SAM3054",
             "lareplan": "POS04-01",
             "omFaget": "Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet. Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen. Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre."
-          },
-          {
-            "id": "markedsforing-og-ledelse-1",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "bedriftsledelse",
-            "title": "Markedsføring og ledelse 1",
-            "fagkode": "SAM3045",
-            "lareplan": "MFL01-04",
-            "omFaget": "Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til å legge merke til akkurat deres merkevare? I Markedsføring og ledelse 1 lærer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen."
           },
           {
             "id": "markedsforing-og-ledelse-1",
@@ -880,45 +792,17 @@
           {
             "id": "okonomi-og-ledelse",
             "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "kategori": "økonomi",
-            "title": "Økonomi og ledelse",
-            "fagkode": "SAM3070",
-            "lareplan": "NOK02-03",
-            "omFaget": "Økonomi og ledelse gir deg praktisk kompetanse i å styre og lede virksomheter. Du lærer å sette opp budsjetter, vurdere lønnsomhet, analysere kostnader og forstå hvordan ledelse påvirker arbeidsmiljø og resultater. Faget kombinerer økonomisk analyse med organisasjonsteori og gir et godt grunnlag for videre studier innen økonomi og administrasjon."
-          },
-          {
-            "id": "okonomi-og-ledelse",
-            "timer": 140,
             "trinn": "vg3",
             "tilgjengeligFor": [
               "studiespesialisering",
               "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
             "kategori": "økonomi",
             "title": "Økonomi og ledelse",
             "fagkode": "SAM3070",
             "lareplan": "NOK02-03",
             "omFaget": "Økonomi og ledelse gir deg praktisk kompetanse i å styre og lede virksomheter. Du lærer å sette opp budsjetter, vurdere lønnsomhet, analysere kostnader og forstå hvordan ledelse påvirker arbeidsmiljø og resultater. Faget kombinerer økonomisk analyse med organisasjonsteori og gir et godt grunnlag for videre studier innen økonomi og administrasjon."
-          },
-          {
-            "id": "rettslaere-2",
-            "timer": 140,
-            "trinn": "vg2",
-            "tilgjengeligFor": [
-              "studiespesialisering"
-            ],
-            "merknad": "Bygger ikke på Rettslære 1",
-            "kategori": "samfunnsfag",
-            "title": "Rettslære 2",
-            "fagkode": "SAM3058",
-            "lareplan": "RTL01-05",
-            "omFaget": "Rettslære 2 gir deg kunnskap om forholdet mellom deg som borger og staten. Du lærer om personvern, offentlig forvaltning, strafferett og erstatningsrett. Faget handler om dine rettigheter når det gjelder innsyn i dokumenter, klageadgang og vern mot overgrep fra myndighetene. Du får også innsikt i hvordan straffesaker behandles og hva som skal til for at noen kan holdes ansvarlig."
           },
           {
             "id": "rettslaere-2",
@@ -929,7 +813,7 @@
               "musikk-dans-drama",
               "medier-kommunikasjon"
             ],
-            "merknad": "Bygger ikke på Rettslære 1",
+            "merknad": "Bygger ikke pa Rettslaere 1",
             "kategori": "samfunnsfag",
             "title": "Rettslære 2",
             "fagkode": "SAM3058",
@@ -1183,12 +1067,12 @@
             "type": "minimum-timer-uten-matte",
             "timer": 420,
             "beskrivelse": "Totalt 420 timer programfag (ikke medregnet matematikk)",
-            "feilmelding": "Du må velge 3 programfag (420 timer) i tillegg til matematikk"
+            "feilmelding": "Du ma velge 3 programfag (420 timer) i tillegg til matematikk"
           },
           {
             "type": "matematikk-obligatorisk",
-            "beskrivelse": "Du MÅ velge enten Matematikk 2P eller R1",
-            "feilmelding": "Du må velge matematikk: enten 2P eller R1",
+            "beskrivelse": "Du MA velge enten Matematikk 2P, R1 eller S1",
+            "feilmelding": "Du ma velge matematikk: enten 2P, R1 eller S1",
             "valg": [
               {
                 "id": "matematikk-2p",
@@ -1200,15 +1084,20 @@
                 "timer": 140,
                 "type": "programfag",
                 "erstatter": "matematikk-2p"
+              },
+              {
+                "id": "matematikk-s1",
+                "timer": 140,
+                "type": "programfag",
+                "erstatter": "matematikk-2p"
               }
             ]
           }
         ],
         "infomeldinger": [
           "Velg 3 programfag (420 timer) + matematikk",
-          "Matematikk: Velg enten 2P (84t) eller R1 (140t)",
-          "Statistikk og Matematikk for økonomifag er valgfrie programfag",
-          "Du bør planlegge for fordypning (to fag fra samme fagområde)"
+          "Matematikk: Velg enten 2P (84t), R1 (140t) eller S1 (140t)",
+          "Du bor planlegge for fordypning (to fag fra samme fagomrade)"
         ]
       },
       "vg3": {
@@ -1231,24 +1120,24 @@
             "type": "obligatorisk-fag",
             "fagId": "historie-vg3",
             "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du må velge Historie VG3"
+            "feilmelding": "Du ma velge Historie VG3"
           },
           {
             "type": "fordypning-krav",
-            "beskrivelse": "Du må ha fordypning i to fagområder",
+            "beskrivelse": "Du ma ha fordypning i to fagomrader",
             "minimer": 280,
             "fagtype": "fordypning-niva-2"
           },
           {
             "type": "spansk-betinget",
             "fagId": "spansk-i-ii",
-            "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
+            "betingelse": "Elev har ikke hatt fremmedsprak pa ungdomstrinnet"
           }
         ],
         "infomeldinger": [
           "Velg 3 programfag + Historie (obligatorisk)",
-          "Du må ha fordypning: 2 fagområder med nivå 1+2",
-          "Hvis du ikke hadde fremmedspråk på ungdomsskolen, må du velge Spansk I+II"
+          "Du ma ha fordypning: 2 fagomrader med niva 1+2",
+          "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
     },
@@ -1266,12 +1155,12 @@
             "type": "minimum-timer-uten-matte",
             "timer": 140,
             "beskrivelse": "Totalt 140 timer valgfritt programfag",
-            "feilmelding": "Du må velge 1 valgfritt programfag (140 timer)"
+            "feilmelding": "Du ma velge 1 valgfritt programfag (140 timer)"
           },
           {
             "type": "matematikk-obligatorisk",
-            "beskrivelse": "Du MÅ velge enten Matematikk 2P eller R1",
-            "feilmelding": "Du må velge matematikk",
+            "beskrivelse": "Du MA velge enten Matematikk 2P, R1 eller S1",
+            "feilmelding": "Du ma velge matematikk",
             "valg": [
               {
                 "id": "matematikk-2p",
@@ -1280,6 +1169,12 @@
               },
               {
                 "id": "matematikk-r1",
+                "timer": 140,
+                "type": "programfag",
+                "erstatter": "matematikk-2p"
+              },
+              {
+                "id": "matematikk-s1",
                 "timer": 140,
                 "type": "programfag",
                 "erstatter": "matematikk-2p"
@@ -1309,17 +1204,17 @@
             "type": "obligatorisk-fag",
             "fagId": "historie-vg3",
             "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du må velge Historie VG3"
+            "feilmelding": "Du ma velge Historie VG3"
           },
           {
             "type": "spansk-betinget",
             "fagId": "spansk-i-ii",
-            "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
+            "betingelse": "Elev har ikke hatt fremmedsprak pa ungdomstrinnet"
           }
         ],
         "infomeldinger": [
           "Velg 1 valgfritt programfag + Historie (obligatorisk)",
-          "Hvis du ikke hadde fremmedspråk på ungdomsskolen, må du velge Spansk I+II"
+          "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
     },
@@ -1337,12 +1232,12 @@
             "type": "minimum-timer-uten-matte",
             "timer": 140,
             "beskrivelse": "Totalt 140 timer valgfritt programfag",
-            "feilmelding": "Du må velge 1 valgfritt programfag (140 timer)"
+            "feilmelding": "Du ma velge 1 valgfritt programfag (140 timer)"
           },
           {
             "type": "matematikk-obligatorisk",
-            "beskrivelse": "Du MÅ velge enten Matematikk 2P eller R1",
-            "feilmelding": "Du må velge matematikk",
+            "beskrivelse": "Du MA velge enten Matematikk 2P, R1 eller S1",
+            "feilmelding": "Du ma velge matematikk",
             "valg": [
               {
                 "id": "matematikk-2p",
@@ -1351,6 +1246,12 @@
               },
               {
                 "id": "matematikk-r1",
+                "timer": 140,
+                "type": "programfag",
+                "erstatter": "matematikk-2p"
+              },
+              {
+                "id": "matematikk-s1",
                 "timer": 140,
                 "type": "programfag",
                 "erstatter": "matematikk-2p"
@@ -1381,17 +1282,17 @@
             "type": "obligatorisk-fag",
             "fagId": "historie-vg3",
             "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du må velge Historie VG3"
+            "feilmelding": "Du ma velge Historie VG3"
           },
           {
             "type": "spansk-betinget",
             "fagId": "spansk-i-ii",
-            "betingelse": "Elev har ikke hatt fremmedspråk på ungdomstrinnet"
+            "betingelse": "Elev har ikke hatt fremmedsprak pa ungdomstrinnet"
           }
         ],
         "infomeldinger": [
           "Velg 2 valgfrie programfag + Historie (obligatorisk)",
-          "Hvis du ikke hadde fremmedspråk på ungdomsskolen, må du velge Spansk I+II"
+          "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
     }
@@ -1404,7 +1305,15 @@
           "matematikk-r1"
         ],
         "beskrivelse": "Matematikk R2 krever R1",
-        "feilmelding": "For å velge Matematikk R2 må du ha hatt R1"
+        "feilmelding": "For a velge Matematikk R2 ma du ha hatt R1"
+      },
+      {
+        "fag": "matematikk-s2",
+        "krever": [
+          "matematikk-s1"
+        ],
+        "beskrivelse": "Matematikk S2 krever S1",
+        "feilmelding": "For a velge Matematikk S2 ma du ha hatt S1"
       },
       {
         "fag": "fysikk-2",
@@ -1412,7 +1321,7 @@
           "fysikk-1"
         ],
         "beskrivelse": "Fysikk 2 krever Fysikk 1",
-        "feilmelding": "For å velge Fysikk 2 må du ha hatt Fysikk 1"
+        "feilmelding": "For a velge Fysikk 2 ma du ha hatt Fysikk 1"
       },
       {
         "fag": "kjemi-2",
@@ -1420,23 +1329,15 @@
           "kjemi-1"
         ],
         "beskrivelse": "Kjemi 2 krever Kjemi 1",
-        "feilmelding": "For å velge Kjemi 2 må du ha hatt Kjemi 1"
+        "feilmelding": "For a velge Kjemi 2 ma du ha hatt Kjemi 1"
       },
       {
         "fag": "markedsforing-og-ledelse-2",
         "krever": [
           "markedsforing-og-ledelse-1"
         ],
-        "beskrivelse": "Markedsføring og ledelse 2 krever nivå 1",
-        "feilmelding": "For å velge Markedsføring og ledelse 2 må du ha hatt nivå 1"
-      },
-      {
-        "fag": "engelsk-2",
-        "krever": [
-          "engelsk-1"
-        ],
-        "beskrivelse": "Engelsk 2 krever Engelsk 1",
-        "feilmelding": "For å velge Engelsk 2 må du ha hatt Engelsk 1"
+        "beskrivelse": "Markedsforing og ledelse 2 krever niva 1",
+        "feilmelding": "For a velge Markedsforing og ledelse 2 ma du ha hatt niva 1"
       }
     ],
     "eksklusjoner": [
@@ -1448,6 +1349,25 @@
         ],
         "beskrivelse": "Kan ikke kombinere R-matte og 2P-matte",
         "feilmelding": "Du kan ikke kombinere R-matematikk med 2P"
+      },
+      {
+        "gruppe": [
+          "matematikk-s1",
+          "matematikk-s2",
+          "matematikk-2p"
+        ],
+        "beskrivelse": "Kan ikke kombinere S-matte og 2P-matte",
+        "feilmelding": "Du kan ikke kombinere S-matematikk med 2P"
+      },
+      {
+        "gruppe": [
+          "matematikk-r1",
+          "matematikk-r2",
+          "matematikk-s1",
+          "matematikk-s2"
+        ],
+        "beskrivelse": "Kan ikke kombinere R-matte og S-matte",
+        "feilmelding": "Du kan ikke kombinere R-matematikk med S-matematikk"
       }
     ],
     "erstatter": [
@@ -1455,6 +1375,12 @@
         "fag": "matematikk-r1",
         "erstatter": "matematikk-2p",
         "beskrivelse": "Matematikk R1 erstatter 2P",
+        "timer-frigjort": 84
+      },
+      {
+        "fag": "matematikk-s1",
+        "erstatter": "matematikk-2p",
+        "beskrivelse": "Matematikk S1 erstatter 2P",
         "timer-frigjort": 84
       }
     ]

@@ -61,17 +61,19 @@ school:
 
 blokkskjema:
   # Hvilken versjon som er aktiv (brukes i produksjon)
-  activeVersion: "26-27_flex"  # Aktiv versjon - endre for å bytte
+  activeVersion: "26-27_vedtatt"  # Aktiv versjon - endre for å bytte
 
   # Tilgjengelige versjoner og deres filer (i blokkskjema/ mappen)
   versions:
-    26-27_standard: "blokkskjema/26-27_standard.yml"   # Standard 26-27 blokkskjema
-    26-27_flex: "blokkskjema/26-27_flex.yml"           # Fleksibelt 26-27 med trinnfleksibilitet
+    26-27_vedtatt: "blokkskjema/26-27_vedtatt.yml"     # Vedtatt blokkskjema for 2026-27
+    26-27_standard: "blokkskjema/26-27_standard.yml"   # Tidligere standard 26-27
+    26-27_flex: "blokkskjema/26-27_flex.yml"           # Tidligere fleksibelt 26-27
 
   # Versjonsbeskrivelser (for dokumentasjon)
   descriptions:
-    26-27_standard: "Standard blokkskjema for skoleåret 2026-27"
-    26-27_flex: "Fleksibelt blokkskjema 26-27 med Historie i alle blokker og trinnfleksibilitet"
+    26-27_vedtatt: "Vedtatt blokkskjema for skoleåret 2026-27 (basert på Excel fra skolen)"
+    26-27_standard: "Tidligere standard blokkskjema for 2026-27"
+    26-27_flex: "Tidligere fleksibelt blokkskjema 26-27 med Historie i alle blokker"
 
   # Dokumentasjon for versjonsstyring
   documentation: |
