@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T08:20:21.520Z",
+    "generatedAt": "2026-01-08T08:50:41.847Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -231,6 +231,21 @@
                 "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
               },
               {
+                "id": "grafisk-design",
+                "timer": 140,
+                "trinn": "vg3",
+                "tilgjengeligFor": [
+                  "studiespesialisering",
+                  "musikk-dans-drama",
+                  "medier-kommunikasjon"
+                ],
+                "kategori": "kunst",
+                "title": "Grafisk design",
+                "fagkode": "MOK3010",
+                "lareplan": "MOK06-02",
+                "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
+              },
+              {
                 "id": "psykologi-2",
                 "timer": 140,
                 "trinn": "vg3",
@@ -414,6 +429,19 @@
                   "studiespesialisering",
                   "musikk-dans-drama",
                   "medier-kommunikasjon"
+                ],
+                "kategori": "kunst",
+                "title": "Bilde",
+                "fagkode": "MOK3008",
+                "lareplan": "MOK04‑02",
+                "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
+              },
+              {
+                "id": "bilde",
+                "timer": 140,
+                "trinn": "vg3",
+                "tilgjengeligFor": [
+                  "studiespesialisering"
                 ],
                 "kategori": "kunst",
                 "title": "Bilde",
