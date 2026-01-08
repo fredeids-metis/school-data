@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-06T12:59:29.080Z",
+    "generatedAt": "2026-01-08T06:56:26.901Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -65,7 +65,9 @@
                 "medier-kommunikasjon"
               ],
               "vg3": [
-                "studiespesialisering"
+                "studiespesialisering",
+                "musikk-dans-drama",
+                "medier-kommunikasjon"
               ]
             },
             "fag": [
@@ -122,7 +124,9 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering"
+                  "studiespesialisering",
+                  "musikk-dans-drama",
+                  "medier-kommunikasjon"
                 ],
                 "krever": [
                   "matematikk-r1"
@@ -138,7 +142,9 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering"
+                  "studiespesialisering",
+                  "musikk-dans-drama",
+                  "medier-kommunikasjon"
                 ],
                 "krever": [
                   "matematikk-s1"
@@ -148,21 +154,6 @@
                 "fagkode": "REA3062",
                 "lareplan": "MAT04-02",
                 "omFaget": "Hvordan beregner forsikringsselskaper premier? Hvordan analyserer forskere store datasett? I S2 lærer du integrasjon, vekstmodeller og statistiske metoder som brukes til å forstå økonomiske og samfunnsmessige sammenhenger. Faget bygger på S1 og gir deg solid matematikkompetanse for høyere utdanning innen økonomi, administrasjon og samfunnsvitenskap."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
               }
             ]
           },
@@ -408,23 +399,6 @@
                 "title": "Spansk I+II",
                 "lareplan": "FSP6-01",
                 "omFaget": "I spansk I+II lærer du språk fra grunnen av. Faget går over tre år og gir deg kompetanse til å kommunisere muntlig og skriftlig på spansk. Du utforsker også spansktalende kulturer gjennom film, musikk og litteratur. Faget er for deg som ikke hadde fremmedspråk på ungdomstrinnet."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
               }
             ]
           },
@@ -439,6 +413,7 @@
               ],
               "vg3": [
                 "studiespesialisering",
+                "musikk-dans-drama",
                 "medier-kommunikasjon"
               ]
             },
@@ -539,6 +514,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -554,6 +530,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -569,6 +546,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -584,6 +562,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -599,6 +578,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -614,6 +594,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
@@ -629,6 +610,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Bygger ikke pa Biologi 1",
@@ -644,6 +626,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "kategori": "samfunnsfag",
@@ -658,6 +641,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "kategori": "samfunnsfag",
@@ -672,6 +656,7 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
+                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "krever": [
@@ -682,22 +667,6 @@
                 "fagkode": "SAM3046",
                 "lareplan": "MFL01-04",
                 "omFaget": "I Markedsføring og ledelse 2 lærer du å utvikle helhetlige markedsstrategier for virksomheter. Du arbeider med merkevarebygging, prissetting, distribusjonskanaler og kommunikasjonskampanjer. Faget gir deg verktøy for å analysere hvordan bedrifter bør posisjonere seg i markedet, og du lærer å ta strategiske beslutninger som tar hensyn til både lønnsomhet, etikk og bærekraft."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
               }
             ]
           },
@@ -850,23 +819,6 @@
                 "fagkode": "REA3046",
                 "lareplan": "KJE01-02",
                 "omFaget": "Hvorfor løser noen stoffer seg i vann, men ikke andre? Hvordan virker en katalysator? I Kjemi 2 utforsker du likevektsreaksjoner, redoksreaksjoner og organiske reaksjonsmekanismer. Du tilbringer mye tid på laboratoriet, der du planlegger egne forsøk, gjennomfører synteser og analyserer resultater. Faget gir deg solid grunnlag for studier i medisin, farmasi og biokjemi."
-              },
-              {
-                "id": "historie-vg3",
-                "timer": 113,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "obligatorisk": true,
-                "merknad": "OBLIGATORISK for alle VG3",
-                "kategori": "fellesfag",
-                "title": "Historie Vg3",
-                "fagkode": "HIS1010",
-                "lareplan": "HIS01-03",
-                "omFaget": "Historie er et sentralt fag for kultur- og samfunnsforståelse, danning og identitetsutvikling. Faget skal bidra til at elevene forstår seg selv og samfunnet, og at strukturer, verdier og holdninger i samtiden har røtter i fortiden. Gjennom faget skal elevene utvikle innsikt i sentrale historiske hendelser og sammenhenger og menneskers handlingsrom i fortiden. Faget skal videre bidra til at elevene blir aktive medborgere som kan orientere seg, ta stilling og se nåtidige utfordringer i en historisk sammenheng. Erkjennelse av at verden har vært annerledes, og at samtiden og framtiden kan bli en annen, er viktige forutsetninger for aktiv samfunnsdeltakelse. Gjennom faget skal elevene utvikle evne til kritisk tenkning og vitenskapelige tenkemåter som setter dem i stand til å innhente kunnskap og til å forstå hvordan kunnskap blir til, og hvordan framstillinger av fortiden brukes og misbrukes. Dette gir elevene kompetanse som forbereder dem for deltakelse i samfunns- og arbeidsliv."
               }
             ]
           }
@@ -3668,26 +3620,20 @@
         ]
       },
       "vg3": {
-        "beskrivelse": "VG3 Studiespesialisering: Velg 3 programfag + Historie (4 fag totalt)",
+        "beskrivelse": "VG3 Studiespesialisering: Velg 3 valgfrie programfag",
         "tilgjengeligeBlokker": [
           "blokk1",
           "blokk2",
           "blokk3",
           "blokk4"
         ],
-        "minAntallFag": 4,
-        "maxAntallFag": 4,
+        "minAntallFag": 3,
+        "maxAntallFag": 3,
         "krav": [
           {
             "type": "minimum-timer",
             "timer": 420,
             "beskrivelse": "Totalt 420 timer programfag"
-          },
-          {
-            "type": "obligatorisk-fag",
-            "fagId": "historie-vg3",
-            "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du ma velge Historie VG3"
           },
           {
             "type": "fordypning-krav",
@@ -3702,7 +3648,8 @@
           }
         ],
         "infomeldinger": [
-          "Velg 3 programfag + Historie (obligatorisk)",
+          "Velg 3 valgfrie programfag (420 timer)",
+          "Blokk 1 har kun R2/S2 - elever uten disse velger fra blokk 2-4",
           "Du ma ha fordypning: 2 fagomrader med niva 1+2",
           "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
@@ -3754,24 +3701,20 @@
         ]
       },
       "vg3": {
-        "beskrivelse": "VG3 Musikk: Velg 2 programfag (1 valgfritt + Historie)",
+        "beskrivelse": "VG3 Musikk: Velg 1 valgfritt programfag",
         "tilgjengeligeBlokker": [
+          "blokk1",
           "blokk2",
+          "blokk3",
           "blokk4"
         ],
-        "minAntallFag": 2,
-        "maxAntallFag": 2,
+        "minAntallFag": 1,
+        "maxAntallFag": 1,
         "krav": [
           {
             "type": "minimum-timer",
-            "timer": 253,
-            "beskrivelse": "Totalt 253 timer (140t valgfritt + 113t historie)"
-          },
-          {
-            "type": "obligatorisk-fag",
-            "fagId": "historie-vg3",
-            "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du ma velge Historie VG3"
+            "timer": 140,
+            "beskrivelse": "Totalt 140 timer valgfritt programfag"
           },
           {
             "type": "spansk-betinget",
@@ -3780,7 +3723,8 @@
           }
         ],
         "infomeldinger": [
-          "Velg 1 valgfritt programfag + Historie (obligatorisk)",
+          "Velg 1 valgfritt programfag (140 timer)",
+          "Blokk 1 har kun R2/S2",
           "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
@@ -3831,25 +3775,20 @@
         ]
       },
       "vg3": {
-        "beskrivelse": "VG3 Medier: Velg 3 programfag (2 valgfrie + Historie)",
+        "beskrivelse": "VG3 Medier: Velg 2 valgfrie programfag",
         "tilgjengeligeBlokker": [
+          "blokk1",
           "blokk2",
           "blokk3",
           "blokk4"
         ],
-        "minAntallFag": 3,
-        "maxAntallFag": 3,
+        "minAntallFag": 2,
+        "maxAntallFag": 2,
         "krav": [
           {
             "type": "minimum-timer",
-            "timer": 393,
-            "beskrivelse": "Totalt 393 timer (280t valgfrie + 113t historie)"
-          },
-          {
-            "type": "obligatorisk-fag",
-            "fagId": "historie-vg3",
-            "beskrivelse": "Historie VG3 er obligatorisk",
-            "feilmelding": "Du ma velge Historie VG3"
+            "timer": 280,
+            "beskrivelse": "Totalt 280 timer valgfrie programfag"
           },
           {
             "type": "spansk-betinget",
@@ -3858,7 +3797,8 @@
           }
         ],
         "infomeldinger": [
-          "Velg 2 valgfrie programfag + Historie (obligatorisk)",
+          "Velg 2 valgfrie programfag (280 timer)",
+          "Blokk 1 har kun R2/S2",
           "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
