@@ -29,14 +29,14 @@ blokker:
   # =====================================
   # BLOKK 1
   # VG2: Alle (Stud, Musikk, MK)
-  # VG3: Alle - kun R2/S2 tilgjengelig (valgfritt)
+  # VG3: Kun Stud - kun R2/S2 tilgjengelig (valgfritt)
   # =====================================
   blokk1:
     navn: "Blokk 1"
     beskrivelse: "Matematikk"
     tilgjengeligFor:
       vg2: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-      vg3: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+      vg3: ["studiespesialisering"]
 
     fag:
       # ===== VG2 FAG =====
@@ -59,17 +59,17 @@ blokker:
         merknad: "Erstatter Matematikk 2P hvis valgt"
 
       # ===== VG3 FAG =====
-      # Kun R2/S2 - elever uten disse velger fra blokk 2-4
+      # Kun R2/S2 for Studiespesialisering
       - id: matematikk-r2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering"]
         krever: ["matematikk-r1"]
 
       - id: matematikk-s2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering"]
         krever: ["matematikk-s1"]
 
   # =====================================
@@ -150,14 +150,14 @@ blokker:
   # =====================================
   # BLOKK 3
   # VG2: Alle (Stud, Musikk, MK)
-  # VG3: Alle (Stud, Musikk, MK)
+  # VG3: Stud og MK (ikke Musikk)
   # =====================================
   blokk3:
     navn: "Blokk 3"
     beskrivelse: "Realfag, Bedriftsledelse, Samfunnsfag, Musikk, Kunst"
     tilgjengeligFor:
       vg2: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-      vg3: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+      vg3: ["studiespesialisering", "medier-kommunikasjon"]
 
     fag:
       # ===== VG2 FAG =====
@@ -195,37 +195,37 @@ blokker:
       - id: biologi-2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
         merknad: "Bygger ikke pa Biologi 1"
 
       - id: politikk-og-menneskerettigheter
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
 
       - id: sosialkunnskap
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
 
       # ===== VG3 FAG MED FORUTSETNING =====
       - id: markedsforing-og-ledelse-2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
         krever: ["markedsforing-og-ledelse-1"]
 
   # =====================================
   # BLOKK 4
   # VG2: Kun Studiespesialisering
-  # VG3: Alle (Stud, Musikk, MK)
+  # VG3: Kun Studiespesialisering
   # =====================================
   blokk4:
     navn: "Blokk 4"
     beskrivelse: "Realfag, Økonomi, Samfunnsfag"
     tilgjengeligFor:
       vg2: ["studiespesialisering"]
-      vg3: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+      vg3: ["studiespesialisering"]
 
     fag:
       # ===== VG2 FAG =====
@@ -248,19 +248,19 @@ blokker:
       - id: okonomi-og-ledelse
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering"]
 
       - id: rettslaere-2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering"]
         merknad: "Bygger ikke pa Rettslaere 1"
 
       # ===== VG3 FAG MED FORUTSETNING =====
       - id: kjemi-2
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+        tilgjengeligFor: ["studiespesialisering"]
         krever: ["kjemi-1"]
 
 # ========================================
@@ -367,7 +367,7 @@ valgregler:
 
     vg3:
       beskrivelse: "VG3 Musikk: Velg 1 valgfritt programfag"
-      tilgjengeligeBlokker: ["blokk1", "blokk2", "blokk3", "blokk4"]
+      tilgjengeligeBlokker: ["blokk2"]
       minAntallFag: 1
       maxAntallFag: 1
 
@@ -381,8 +381,7 @@ valgregler:
           betingelse: "Elev har ikke hatt fremmedsprak pa ungdomstrinnet"
 
       infomeldinger:
-        - "Velg 1 valgfritt programfag (140 timer)"
-        - "Blokk 1 har kun R2/S2"
+        - "Velg 1 valgfritt programfag (140 timer) fra blokk 2"
         - "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
 
   # =====================================
@@ -422,7 +421,7 @@ valgregler:
 
     vg3:
       beskrivelse: "VG3 Medier: Velg 2 valgfrie programfag"
-      tilgjengeligeBlokker: ["blokk1", "blokk2", "blokk3", "blokk4"]
+      tilgjengeligeBlokker: ["blokk2", "blokk3"]
       minAntallFag: 2
       maxAntallFag: 2
 
@@ -436,8 +435,7 @@ valgregler:
           betingelse: "Elev har ikke hatt fremmedsprak pa ungdomstrinnet"
 
       infomeldinger:
-        - "Velg 2 valgfrie programfag (280 timer)"
-        - "Blokk 1 har kun R2/S2"
+        - "Velg 2 valgfrie programfag (280 timer) fra blokk 2 og 3"
         - "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
 
 # ========================================
@@ -512,10 +510,10 @@ metadata:
     - Fjernet VG3-oppforinger for niva-1 fag (vises kun i VG2)
 
     BLOKKTILGANG:
-    - Blokk 1: VG2 alle (Stud, Musikk, MK), VG3 alle (kun R2/S2)
+    - Blokk 1: VG2 alle (Stud, Musikk, MK), VG3 kun Stud (R2/S2)
     - Blokk 2: VG2 kun Stud, VG3 alle (Stud, Musikk, MK)
-    - Blokk 3: VG2 alle (Stud, Musikk, MK), VG3 alle (Stud, Musikk, MK)
-    - Blokk 4: VG2 kun Stud, VG3 alle (Stud, Musikk, MK)
+    - Blokk 3: VG2 alle (Stud, Musikk, MK), VG3 Stud og MK
+    - Blokk 4: VG2 kun Stud, VG3 kun Stud
 
     VG3-FAG MED FORUTSETNING:
     - Matematikk R2 (krever R1)

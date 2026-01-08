@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T07:26:03.055Z",
+    "generatedAt": "2026-01-08T07:31:42.530Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -65,9 +65,7 @@
                 "medier-kommunikasjon"
               ],
               "vg3": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
+                "studiespesialisering"
               ]
             },
             "fag": [
@@ -124,9 +122,7 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
+                  "studiespesialisering"
                 ],
                 "krever": [
                   "matematikk-r1"
@@ -142,9 +138,7 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
+                  "studiespesialisering"
                 ],
                 "krever": [
                   "matematikk-s1"
@@ -333,7 +327,6 @@
               ],
               "vg3": [
                 "studiespesialisering",
-                "musikk-dans-drama",
                 "medier-kommunikasjon"
               ]
             },
@@ -434,7 +427,6 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
-                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "merknad": "Bygger ikke pa Biologi 1",
@@ -450,7 +442,6 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
-                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "kategori": "samfunnsfag",
@@ -465,7 +456,6 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
-                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "kategori": "samfunnsfag",
@@ -480,7 +470,6 @@
                 "trinn": "vg3",
                 "tilgjengeligFor": [
                   "studiespesialisering",
-                  "musikk-dans-drama",
                   "medier-kommunikasjon"
                 ],
                 "krever": [
@@ -502,9 +491,7 @@
                 "studiespesialisering"
               ],
               "vg3": [
-                "studiespesialisering",
-                "musikk-dans-drama",
-                "medier-kommunikasjon"
+                "studiespesialisering"
               ]
             },
             "fag": [
@@ -552,9 +539,7 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
+                  "studiespesialisering"
                 ],
                 "kategori": "økonomi",
                 "title": "Økonomi og ledelse",
@@ -567,9 +552,7 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
+                  "studiespesialisering"
                 ],
                 "merknad": "Bygger ikke pa Rettslaere 1",
                 "kategori": "samfunnsfag",
@@ -583,9 +566,7 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
+                  "studiespesialisering"
                 ],
                 "krever": [
                   "kjemi-1"
@@ -3479,10 +3460,7 @@
       "vg3": {
         "beskrivelse": "VG3 Musikk: Velg 1 valgfritt programfag",
         "tilgjengeligeBlokker": [
-          "blokk1",
-          "blokk2",
-          "blokk3",
-          "blokk4"
+          "blokk2"
         ],
         "minAntallFag": 1,
         "maxAntallFag": 1,
@@ -3499,8 +3477,7 @@
           }
         ],
         "infomeldinger": [
-          "Velg 1 valgfritt programfag (140 timer)",
-          "Blokk 1 har kun R2/S2",
+          "Velg 1 valgfritt programfag (140 timer) fra blokk 2",
           "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
@@ -3553,10 +3530,8 @@
       "vg3": {
         "beskrivelse": "VG3 Medier: Velg 2 valgfrie programfag",
         "tilgjengeligeBlokker": [
-          "blokk1",
           "blokk2",
-          "blokk3",
-          "blokk4"
+          "blokk3"
         ],
         "minAntallFag": 2,
         "maxAntallFag": 2,
@@ -3573,8 +3548,7 @@
           }
         ],
         "infomeldinger": [
-          "Velg 2 valgfrie programfag (280 timer)",
-          "Blokk 1 har kun R2/S2",
+          "Velg 2 valgfrie programfag (280 timer) fra blokk 2 og 3",
           "Hvis du ikke hadde fremmedsprak pa ungdomsskolen, ma du velge Spansk I+II"
         ]
       }
