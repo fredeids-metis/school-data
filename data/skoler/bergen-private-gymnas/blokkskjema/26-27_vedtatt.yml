@@ -199,7 +199,7 @@ blokker:
       - id: bilde
         timer: 140
         trinn: vg3
-        tilgjengeligFor: ["studiespesialisering"]
+        tilgjengeligFor: ["studiespesialisering", "medier-kommunikasjon"]
 
       # ===== VG3 FAG =====
       - id: biologi-2
