@@ -111,6 +111,11 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
 
+      - id: grafisk-design
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+
       # ===== VG3 FAG =====
       - id: psykologi-2
         timer: 140
@@ -190,6 +195,11 @@ blokker:
         timer: 140
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
+
+      - id: bilde
+        timer: 140
+        trinn: vg3
+        tilgjengeligFor: ["studiespesialisering"]
 
       # ===== VG3 FAG =====
       - id: biologi-2
