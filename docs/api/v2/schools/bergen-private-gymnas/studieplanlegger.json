@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T08:50:41.847Z",
+    "generatedAt": "2026-01-08T10:04:49.287Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -441,7 +441,8 @@
                 "timer": 140,
                 "trinn": "vg3",
                 "tilgjengeligFor": [
-                  "studiespesialisering"
+                  "studiespesialisering",
+                  "medier-kommunikasjon"
                 ],
                 "kategori": "kunst",
                 "title": "Bilde",
