@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T06:56:26.901Z",
+    "generatedAt": "2026-01-08T07:26:03.055Z",
     "school": "bergen-private-gymnas",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -237,86 +237,6 @@
                 "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
               },
               {
-                "id": "kjemi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Kjemi 1",
-                "fagkode": "REA3045",
-                "lareplan": "KJE01-02",
-                "omFaget": "Kjemi 1 gir deg kunnskap du trenger for å forstå hvordan stoffer er bygget opp og reagerer med hverandre. Du lærer om atomstruktur, kjemiske bindinger og periodesystemet som verktøy. På laboratoriet gjennomfører du forsøk som titreringer og spektroskopi. Faget kombinerer teori, beregninger og praktisk arbeid - og er grunnleggende for studier innen medisin, farmasi og ingeniørfag."
-              },
-              {
-                "id": "rettslaere-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Rettslære 1",
-                "fagkode": "SAM3057",
-                "lareplan": "RTL01-05",
-                "omFaget": "Du kjøper en mobil som slutter å virke etter to uker. Hva er rettighetene dine? I rettslære 1 lærer du hvordan lover og regler fungerer i praksis. Faget dekker områder som berører hverdagen: forbrukerkjøp, arbeidskontrakter, arv og familierett. Du utvikler evnen til å analysere juridiske problemstillinger, finne relevant lovgivning og argumentere for ulike standpunkter."
-              },
-              {
-                "id": "okonomistyring",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "økonomi",
-                "title": "Økonomistyring",
-                "fagkode": "SAM3068",
-                "lareplan": "NOK02-03",
-                "omFaget": "Hvordan vet en bedrift om den tjener penger? I økonomistyring lærer du å føre regnskap, analysere økonomiske resultater og utarbeide budsjetter. Du får praktisk kompetanse i å vurdere lønnsomhet, likviditet og finansiering. Faget passer for deg som liker å jobbe systematisk med tall og vil forstå hvordan virksomheter styres økonomisk."
-              },
-              {
-                "id": "samfunnsokonomi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "økonomi",
-                "title": "Samfunnsøkonomi 1",
-                "fagkode": "SAM3060",
-                "lareplan": "SOK01‑03",
-                "omFaget": "Hvorfor stiger prisene? Hva bestemmer hvor mange som får jobb? Samfunnsøkonomi 1 gir deg verktøy til å forstå hvordan økonomien fungerer. Du lærer om markeder, prisdannelse, inflasjon og arbeidsledighet. Faget viser hvordan politiske beslutninger påvirker økonomi, miljø og velferd, og hvordan Norge er koblet til den globale økonomien gjennom handel og valuta."
-              },
-              {
-                "id": "grafisk-design",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "kunst",
-                "title": "Grafisk design",
-                "fagkode": "MOK3010",
-                "lareplan": "MOK06-02",
-                "omFaget": "I Grafisk design lærer du å skape visuelle løsninger som kommuniserer. Du arbeider med logoer, plakater, magasinlayout og webdesign - fra første skisse til ferdig produkt. Gjennom praktiske prosjekter utvikler du ferdigheter i typografi, fargebruk og komposisjon. Du lærer å bruke profesjonelle verktøy og å begrunne designvalgene dine."
-              },
-              {
                 "id": "psykologi-2",
                 "timer": 140,
                 "trinn": "vg3",
@@ -509,102 +429,6 @@
                 "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
               },
               {
-                "id": "fysikk-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Fysikk 1",
-                "fagkode": "REA3038",
-                "lareplan": "FYS01-02",
-                "omFaget": "Fysikk 1 gir deg verktøy til å forstå hvordan verden fungerer, fra krefter og bevegelse til energi og strålingsbalanse. Du lærer å bruke matematikk og modeller til å beskrive fysiske fenomener, og du gjennomfører forsøk der du tester teoriene i praksis. Faget utvikler evnen din til å tenke analytisk og løse problemer systematisk."
-              },
-              {
-                "id": "entreprenorskap-og-bedriftsutvikling-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "bedriftsledelse",
-                "title": "Entreprenørskap og bedriftsutvikling 1",
-                "fagkode": "SAM3063",
-                "lareplan": "ENT01-04",
-                "omFaget": "I dette faget starter du en ungdomsbedrift sammen med medelever. Dere utvikler en forretningside, driver bedriften gjennom skoleåret og avvikler den ved årets slutt. Du lærer om marked, økonomi og ledelse, og du anvender kunnskapen direkte i egen bedrift. Faget gir praktisk erfaring med samarbeid, problemløsning og det å ta ansvar for et prosjekt."
-              },
-              {
-                "id": "psykologi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Psykologi 1",
-                "fagkode": "SAM3072",
-                "lareplan": "PSY01‑04",
-                "omFaget": "I psykologi 1 utforsker du hvorfor mennesker tenker, føler og handler som de gjør. Du lærer om hukommelse, læring, motivasjon og personlighet, og hvordan arv og miljø påvirker utviklingen vår. Faget gir deg et vitenskapelig perspektiv på psykologiske prosesser og hjelper deg å forstå både deg selv og andre bedre. Du får også innblikk i hvordan hjernen og nervesystemet ligger til grunn for tanker og følelser."
-              },
-              {
-                "id": "engelsk-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "språk",
-                "title": "Engelsk 1",
-                "fagkode": "SPR3029",
-                "lareplan": "ENG04‑02",
-                "omFaget": "Engelsk 1 gir deg ferdigheter du trenger for videre studier og arbeidsliv. Du utvikler akademisk skriving, kritisk lesing og muntlig formidling på høyere nivå enn i fellesfaget. Du arbeider med varierte tekster og temaer, og du får øving i å tilpasse språket til ulike situasjoner. Faget gir deg også større innsikt i hvordan engelsk brukes rundt om i verden."
-              },
-              {
-                "id": "musikk-fordypning-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "musikk",
-                "title": "Musikk fordypning 1",
-                "fagkode": "MUS3006",
-                "lareplan": "MUS08‑02",
-                "omFaget": "Musikk fordypning 1 gir deg kunnskap du trenger for å skape egen musikk. Du lærer arrangeringsteknikker og komponering, og får erfaring med å skrive noter digitalt. Gehørtrening er en viktig del av faget, der du øver på å lytte, lese noter fra bladet og skrive ned musikk du hører. Faget forbereder deg på opptaksprøver til høyere musikkutdanning, der teori og gehør ofte testes."
-              },
-              {
-                "id": "bilde",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "kunst",
-                "title": "Bilde",
-                "fagkode": "MOK3008",
-                "lareplan": "MOK04‑02",
-                "omFaget": "I bilde lærer du hvordan bilder kommuniserer og påvirker. Du jobber praktisk med foto, video og bildebehandling, fra ideutvikling til ferdig produkt. Du utvikler ferdigheter i kreativitet, planlegging og produksjon, og du lærer å vurdere egne og andres arbeider kritisk. Faget forbereder deg på studier og jobber der visuell kommunikasjon står sentralt."
-              },
-              {
                 "id": "biologi-2",
                 "timer": 140,
                 "trinn": "vg3",
@@ -717,54 +541,6 @@
                 "tilgjengeligFor": [
                   "studiespesialisering"
                 ],
-                "kategori": "bedriftsledelse",
-                "title": "Markedsføring og ledelse 1",
-                "fagkode": "SAM3045",
-                "lareplan": "MFL01-04",
-                "omFaget": "Hvorfor velger du ett produkt fremfor et annet? Hvordan får bedrifter deg til å legge merke til akkurat deres merkevare? I Markedsføring og ledelse 1 lærer du hvordan virksomheter analyserer markeder, forstår kunders behov og utvikler strategier for å nå ut til riktig målgruppe. Du får innsikt i hvordan pris, produkt, distribusjon og kommunikasjon brukes som konkurransemidler, og hvordan ledelse og markedsføring henger sammen."
-              },
-              {
-                "id": "biologi-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "naturfag",
-                "title": "Biologi 1",
-                "fagkode": "REA3035",
-                "lareplan": "BIO01-02",
-                "omFaget": "Hvordan holder kroppen temperaturen stabil? Hvorfor virker antibiotika mot bakterier, men ikke mot virus? Biologi 1 gir deg svar på slike spørsmål. Du lærer om celler, fysiologi og økosystemer, og du får forstå sammenhengen mellom helse og livsstil. Faget kombinerer teori med praktisk arbeid i laboratoriet og i felt."
-              },
-              {
-                "id": "sosiologi-og-sosialantropologi",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
-                "kategori": "samfunnsfag",
-                "title": "Sosiologi og sosialantropologi",
-                "fagkode": "SAM3054",
-                "lareplan": "POS04-01",
-                "omFaget": "Hvorfor handler folk så ulikt i ulike kulturer? Hvordan påvirker sosiale medier hvem vi blir? I sosiologi og sosialantropologi utforsker du hvordan samfunnet former oss – og hvordan vi former samfunnet. Du lærer å forstå det moderne samfunnet: hvordan globalisering, teknologi og kulturelt mangfold endrer måten vi lever på. Faget gir deg verktøy til å se verden fra ulike perspektiver og forstå mennesker med andre bakgrunner enn din egen. Denne kunnskapen er relevant enten du vil jobbe med mennesker, studere videre innen samfunnsfag, eller rett og slett forstå verden rundt deg bedre."
-              },
-              {
-                "id": "markedsforing-og-ledelse-1",
-                "timer": 140,
-                "trinn": "vg3",
-                "tilgjengeligFor": [
-                  "studiespesialisering",
-                  "musikk-dans-drama",
-                  "medier-kommunikasjon"
-                ],
-                "merknad": "Kan tas i VG3 hvis ikke tatt i VG2",
                 "kategori": "bedriftsledelse",
                 "title": "Markedsføring og ledelse 1",
                 "fagkode": "SAM3045",
@@ -4588,6 +4364,21 @@
         ]
       },
       {
+        "id": "geofag-x",
+        "title": "Geofag X",
+        "shortTitle": null,
+        "fagkode": "REA3044",
+        "lareplan": "GEO01-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Geofag X</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
         "id": "grafisk-design",
         "title": "Grafisk design",
         "shortTitle": null,
@@ -4713,6 +4504,36 @@
             "content": "Kjerneelementet teknologi, individ og samfunn handler om hvordan informasjonsteknologi kan påvirke og endre samfunnet. Videre handler det om hvilke muligheter, utfordringer og konsekvenser bruk av informasjonsteknologi har for det enkelte individ, arbeidslivet og samfunnet. Kjerneelementet handler også om etikk, personvern, universell utforming og informasjonssikkerhet."
           }
         ],
+        "related": []
+      },
+      {
+        "id": "informasjonsteknologi-2",
+        "title": "Informasjonsteknologi 2",
+        "shortTitle": null,
+        "fagkode": "REA3049",
+        "lareplan": "INF01-03",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Informasjonsteknologi 2</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
+        "id": "internasjonal-engelsk",
+        "title": "Internasjonal engelsk",
+        "shortTitle": null,
+        "fagkode": "SPR3030",
+        "lareplan": "ENG04-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Internasjonal engelsk</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
         "related": []
       },
       {
@@ -5349,6 +5170,21 @@
         ]
       },
       {
+        "id": "samfunnsgeografi",
+        "title": "Samfunnsgeografi",
+        "shortTitle": null,
+        "fagkode": "SAM3053",
+        "lareplan": "POS03-01",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Samfunnsgeografi</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
         "id": "samfunnsokonomi-1",
         "title": "Samfunnsøkonomi 1",
         "shortTitle": null,
@@ -5595,6 +5431,21 @@
         "related": [
           "Teknologi og forskningslære 1"
         ]
+      },
+      {
+        "id": "teknologi-og-forskningslare-x",
+        "title": "Teknologi og forskningslære X",
+        "shortTitle": null,
+        "fagkode": "REA3054",
+        "lareplan": "TOF01-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Teknologi og forskningslære X</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
       },
       {
         "id": "okonomi-og-ledelse",

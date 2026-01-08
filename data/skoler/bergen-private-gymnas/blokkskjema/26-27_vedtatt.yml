@@ -111,37 +111,7 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
 
-      # ===== VG3 FAG UTEN FORUTSETNING =====
-      - id: kjemi-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: rettslaere-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: okonomistyring
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: samfunnsokonomi-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: grafisk-design
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
+      # ===== VG3 FAG =====
       - id: psykologi-2
         timer: 140
         trinn: vg3
@@ -221,43 +191,7 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
 
-      # ===== VG3 FAG UTEN FORUTSETNING =====
-      - id: fysikk-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: entreprenorskap-og-bedriftsutvikling-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: psykologi-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: engelsk-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: musikk-fordypning-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: bilde
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
+      # ===== VG3 FAG =====
       - id: biologi-2
         timer: 140
         trinn: vg3
@@ -310,25 +244,7 @@ blokker:
         trinn: vg2
         tilgjengeligFor: ["studiespesialisering"]
 
-      # ===== VG3 FAG UTEN FORUTSETNING =====
-      - id: biologi-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: sosiologi-og-sosialantropologi
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
-      - id: markedsforing-og-ledelse-1
-        timer: 140
-        trinn: vg3
-        tilgjengeligFor: ["studiespesialisering", "musikk-dans-drama", "medier-kommunikasjon"]
-        merknad: "Kan tas i VG3 hvis ikke tatt i VG2"
-
+      # ===== VG3 FAG =====
       - id: okonomi-og-ledelse
         timer: 140
         trinn: vg3
@@ -593,6 +509,7 @@ metadata:
     - Fjernet Historie VG3 fra blokkskjemaet (obligatorisk fellesfag, handteres separat)
     - Alle 4 blokker er na tilgjengelige for VG3 (alle programomrader)
     - Blokk 1 VG3 har kun R2/S2 - elever uten disse velger fra blokk 2-4
+    - Fjernet VG3-oppforinger for niva-1 fag (vises kun i VG2)
 
     BLOKKTILGANG:
     - Blokk 1: VG2 alle (Stud, Musikk, MK), VG3 alle (kun R2/S2)
@@ -600,21 +517,16 @@ metadata:
     - Blokk 3: VG2 alle (Stud, Musikk, MK), VG3 alle (Stud, Musikk, MK)
     - Blokk 4: VG2 kun Stud, VG3 alle (Stud, Musikk, MK)
 
-    FAG MED FORUTSETNING (kun VG3):
+    VG3-FAG MED FORUTSETNING:
     - Matematikk R2 (krever R1)
     - Matematikk S2 (krever S1)
     - Fysikk 2 (krever Fysikk 1)
     - Kjemi 2 (krever Kjemi 1)
     - Markedsforing og ledelse 2 (krever niva 1)
 
-    FAG UTEN FORUTSETNING (kan tas i VG2 eller VG3):
-    - Biologi 1 og 2
-    - Psykologi 1 og 2
-    - Rettslaere 1 og 2
-    - Entreprenorskap 1 og 2
-    - Musikk fordypning 1 og 2
-    - Okonomi og ledelse, Okonomistyring, Samfunnsokonomi 1
-    - Sosialkunnskap, Sosiologi og sosialantropologi
-    - Politikk og menneskerettigheter
-    - Grafisk design, Bilde
-    - Engelsk 1
+    VG3-FAG UTEN FORUTSETNING:
+    - Biologi 2, Psykologi 2, Rettslaere 2
+    - Entreprenorskap og bedriftsutvikling 2, Musikk fordypning 2
+    - Okonomi og ledelse
+    - Sosialkunnskap, Politikk og menneskerettigheter
+    - Spansk I+II (betinget obligatorisk)

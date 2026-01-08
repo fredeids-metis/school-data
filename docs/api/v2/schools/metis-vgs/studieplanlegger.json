@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T06:56:26.908Z",
+    "generatedAt": "2026-01-08T07:26:03.064Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -2943,6 +2943,21 @@
         ]
       },
       {
+        "id": "geofag-x",
+        "title": "Geofag X",
+        "shortTitle": null,
+        "fagkode": "REA3044",
+        "lareplan": "GEO01-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Geofag X</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
         "id": "grafisk-design",
         "title": "Grafisk design",
         "shortTitle": null,
@@ -3068,6 +3083,36 @@
             "content": "Kjerneelementet teknologi, individ og samfunn handler om hvordan informasjonsteknologi kan påvirke og endre samfunnet. Videre handler det om hvilke muligheter, utfordringer og konsekvenser bruk av informasjonsteknologi har for det enkelte individ, arbeidslivet og samfunnet. Kjerneelementet handler også om etikk, personvern, universell utforming og informasjonssikkerhet."
           }
         ],
+        "related": []
+      },
+      {
+        "id": "informasjonsteknologi-2",
+        "title": "Informasjonsteknologi 2",
+        "shortTitle": null,
+        "fagkode": "REA3049",
+        "lareplan": "INF01-03",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Informasjonsteknologi 2</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
+        "id": "internasjonal-engelsk",
+        "title": "Internasjonal engelsk",
+        "shortTitle": null,
+        "fagkode": "SPR3030",
+        "lareplan": "ENG04-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Internasjonal engelsk</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
         "related": []
       },
       {
@@ -3704,6 +3749,21 @@
         ]
       },
       {
+        "id": "samfunnsgeografi",
+        "title": "Samfunnsgeografi",
+        "shortTitle": null,
+        "fagkode": "SAM3053",
+        "lareplan": "POS03-01",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Samfunnsgeografi</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
+      },
+      {
         "id": "samfunnsokonomi-1",
         "title": "Samfunnsøkonomi 1",
         "shortTitle": null,
@@ -3950,6 +4010,21 @@
         "related": [
           "Teknologi og forskningslære 1"
         ]
+      },
+      {
+        "id": "teknologi-og-forskningslare-x",
+        "title": "Teknologi og forskningslære X",
+        "shortTitle": null,
+        "fagkode": "REA3054",
+        "lareplan": "TOF01-02",
+        "bilde": null,
+        "vimeo": null,
+        "omFaget": "",
+        "hvordanArbeiderMan": null,
+        "fagetsRelevans": null,
+        "beskrivelseHTML": "<h1>Teknologi og forskningslære X</h1>\n<p>Om faget kommer fra UDIR.</p>\n",
+        "kjerneelementer": null,
+        "related": []
       },
       {
         "id": "okonomi-og-ledelse",
