@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "v2",
-    "generatedAt": "2026-01-08T07:31:42.538Z",
+    "generatedAt": "2026-01-08T08:20:21.528Z",
     "school": "metis-vgs",
     "description": "Complete data for Studieplanlegger widget",
     "blokkskjemaVersions": [
@@ -2470,8 +2470,8 @@
       "RET": {
         "navn": "Rettslære",
         "fag": [
-          "rettslare-1",
-          "rettslare-2"
+          "rettslaere-1",
+          "rettslaere-2"
         ]
       },
       "HIF": {

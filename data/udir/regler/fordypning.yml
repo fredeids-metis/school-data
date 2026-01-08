@@ -140,8 +140,8 @@ fagomrader:
   RET:
     navn: "Rettslære"
     fag:
-      - rettslare-1
-      - rettslare-2
+      - rettslaere-1
+      - rettslaere-2
 
   HIF:
     navn: "Historie og filosofi"
